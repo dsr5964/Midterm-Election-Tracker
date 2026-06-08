@@ -1,0 +1,570 @@
+{
+  "_meta": {
+    "electionDate": "2026-11-03",
+    "lastUpdated": "2026-06-02",
+    "sources": ["Ballotpedia", "Cook Political Report", "Wikipedia"],
+    "notes": "36 gubernatorial races in 2026. mustWatch=true for Toss Up and Tilt R/D races. California uses a jungle primary system — top two finishers regardless of party advance to general."
+  },
+
+  "states": {
+
+    "AL": {
+      "name": "Alabama",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "R+15",
+        "incumbent": { "name": "Kay Ivey", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "Doug Jones", "party": "D", "status": "nominee", "note": "Former U.S. Senator" },
+          { "name": "Tommy Tuberville", "party": "R", "status": "nominee", "note": "Retiring U.S. Senator running for governor" }
+        ],
+        "note": "Open seat — Ivey term-limited. Deep red state; Tuberville is the heavy favorite."
+      }
+    },
+
+    "AK": {
+      "name": "Alaska",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Lean R",
+        "pvi": "R+6",
+        "incumbent": { "name": "Mike Dunleavy", "party": "R", "firstElected": 2018 },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Candidates not yet determined. Alaska uses ranked-choice voting."
+      }
+    },
+
+    "AZ": {
+      "name": "Arizona",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Lean D",
+        "pvi": "R+2",
+        "incumbent": { "name": "Katie Hobbs", "party": "D", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Katie Hobbs", "party": "D", "status": "incumbent" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Hobbs running for re-election in a purple state. Republican nominee TBD."
+      }
+    },
+
+    "AR": {
+      "name": "Arkansas",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "R+15",
+        "incumbent": { "name": "Sarah Huckabee Sanders", "party": "R", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Frederick Love", "party": "D", "status": "nominee" },
+          { "name": "Sarah Huckabee Sanders", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Sanders running for re-election in a deep red state."
+      }
+    },
+
+    "CA": {
+      "name": "California",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+12",
+        "incumbent": { "name": "Gavin Newsom", "party": "D", "note": "Term-limited" },
+        "candidates": [
+          { "name": "Xavier Becerra", "party": "D", "status": "confirmed-general", "note": "Former U.S. Attorney General; confirmed top-two finisher" },
+          { "name": "Tom Steyer", "party": "D", "status": "primary-runoff", "note": "Billionaire activist; in runoff for second general spot" },
+          { "name": "Steve Hilton", "party": "R", "status": "primary-runoff", "note": "Former Fox News host; in runoff for second general spot" }
+        ],
+        "note": "Open seat — Newsom term-limited. Jungle primary system: Becerra confirmed for general; second spot is a runoff between Democrat Tom Steyer and Republican Steve Hilton. Reliably blue state regardless of matchup."
+      }
+    },
+
+    "CO": {
+      "name": "Colorado",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+6",
+        "incumbent": { "name": "Jared Polis", "party": "D", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Polis term-limited. Blue-leaning state."
+      }
+    },
+
+    "CT": {
+      "name": "Connecticut",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+8",
+        "incumbent": { "name": "Ned Lamont", "party": "D", "note": "Not seeking re-election" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Ryan Fazio", "party": "R", "status": "nominee", "note": "State Senator" }
+        ],
+        "note": "Open seat — Lamont not seeking re-election. Reliably blue state."
+      }
+    },
+
+    "FL": {
+      "name": "Florida",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely R",
+        "pvi": "R+5",
+        "incumbent": { "name": "Ron DeSantis", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — DeSantis term-limited. Republican-leaning state."
+      }
+    },
+
+    "GA": {
+      "name": "Georgia",
+      "governor": {
+        "mustWatch": true,
+        "rating": "Toss up",
+        "pvi": "R+1",
+        "incumbent": { "name": "Brian Kemp", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "Keisha Lance Bottoms", "party": "D", "status": "nominee", "note": "Former Mayor of Atlanta" },
+          { "name": "TBD", "party": "R", "status": "primary-runoff", "note": "Republican primary went to runoff — nominee TBD" }
+        ],
+        "note": "Open seat — Kemp term-limited. True toss-up in a rapidly purple state. Bottoms is a high-profile Democratic nominee."
+      }
+    },
+
+    "HI": {
+      "name": "Hawaii",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+13",
+        "incumbent": { "name": "Josh Green", "party": "D", "firstElected": 2022 },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Reliably Democratic state."
+      }
+    },
+
+    "ID": {
+      "name": "Idaho",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "R+18",
+        "incumbent": { "name": "Brad Little", "party": "R", "firstElected": 2018 },
+        "candidates": [
+          { "name": "Terri Pickens", "party": "D", "status": "nominee" },
+          { "name": "Brad Little", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Deep red state. Little running for re-election."
+      }
+    },
+
+    "IL": {
+      "name": "Illinois",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+6",
+        "incumbent": { "name": "JB Pritzker", "party": "D", "firstElected": 2018 },
+        "candidates": [
+          { "name": "JB Pritzker", "party": "D", "status": "incumbent" },
+          { "name": "Darren Bailey", "party": "R", "status": "nominee", "note": "State Senator; lost 2022 governor race to Pritzker" }
+        ],
+        "note": "Pritzker running for re-election. Bailey is a rematch from 2022."
+      }
+    },
+
+    "IA": {
+      "name": "Iowa",
+      "governor": {
+        "mustWatch": true,
+        "rating": "Toss up",
+        "pvi": "R+6",
+        "incumbent": { "name": "Kim Reynolds", "party": "R", "note": "Not seeking re-election" },
+        "candidates": [
+          { "name": "Rob Sand", "party": "D", "status": "nominee", "note": "State Auditor" },
+          { "name": "Zach Lahn", "party": "R", "status": "nominee" }
+        ],
+        "note": "Open seat — Reynolds not seeking re-election. Toss-up despite R+6 PVI; Sand is a strong Democratic candidate with statewide name recognition."
+      }
+    },
+
+    "KS": {
+      "name": "Kansas",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Lean R",
+        "pvi": "R+8",
+        "incumbent": { "name": "Laura Kelly", "party": "D", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Kelly term-limited. Kansas has a history of electing Democratic governors despite red PVI."
+      }
+    },
+
+    "ME": {
+      "name": "Maine",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely D",
+        "pvi": "D+4",
+        "incumbent": { "name": "Janet Mills", "party": "D", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Mills term-limited. Blue-leaning state. Maine uses ranked-choice voting."
+      }
+    },
+
+    "MD": {
+      "name": "Maryland",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+15",
+        "incumbent": { "name": "Wes Moore", "party": "D", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Wes Moore", "party": "D", "status": "incumbent" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Moore running for re-election in a reliably blue state."
+      }
+    },
+
+    "MA": {
+      "name": "Massachusetts",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+14",
+        "incumbent": { "name": "Maura Healey", "party": "D", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Maura Healey", "party": "D", "status": "incumbent" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Healey running for re-election in a reliably blue state."
+      }
+    },
+
+    "MI": {
+      "name": "Michigan",
+      "governor": {
+        "mustWatch": true,
+        "rating": "Toss up",
+        "pvi": "EVEN",
+        "incumbent": { "name": "Gretchen Whitmer", "party": "D", "note": "Term-limited" },
+        "candidates": [
+          { "name": "Jocelyn Benson", "party": "D", "status": "likely-nominee", "note": "Former Secretary of State; frontrunner in primary" },
+          { "name": "John James", "party": "R", "status": "likely-nominee", "note": "Former U.S. Senate candidate; facing tough primary from Perry Johnson" },
+          { "name": "Perry Johnson", "party": "R", "status": "primary", "note": "Businessman; stronger than expected primary challenge to James" }
+        ],
+        "note": "Open seat — Whitmer term-limited. True battleground in an EVEN PVI state. Likely Benson vs James but primary not yet settled on R side."
+      }
+    },
+
+    "MN": {
+      "name": "Minnesota",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+3",
+        "incumbent": { "name": "Tim Walz", "party": "D", "note": "Did not return after 2024 VP run" },
+        "candidates": [
+          { "name": "Amy Klobuchar", "party": "D", "status": "nominee", "note": "U.S. Senator; will resign Senate seat if elected" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Walz did not return. Klobuchar is running for governor while still serving in the Senate; she would resign her Senate seat upon election."
+      }
+    },
+
+    "NE": {
+      "name": "Nebraska",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely R",
+        "pvi": "R+10",
+        "incumbent": { "name": "Jim Pillen", "party": "R", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Lynne Walz", "party": "D", "status": "nominee", "note": "State Senator" },
+          { "name": "Jim Pillen", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Pillen running for re-election in a Republican-leaning state."
+      }
+    },
+
+    "NV": {
+      "name": "Nevada",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Lean R",
+        "pvi": "R+1",
+        "incumbent": { "name": "Joe Lombardo", "party": "R", "firstElected": 2022 },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Joe Lombardo", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Lombardo running for re-election in a purple state. Democratic nominee TBD."
+      }
+    },
+
+    "NH": {
+      "name": "New Hampshire",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely R",
+        "pvi": "D+2",
+        "incumbent": { "name": "Kelly Ayotte", "party": "R", "firstElected": 2024 },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Kelly Ayotte", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Ayotte running for re-election. Rated Likely R despite D+2 PVI — Ayotte is a popular moderate Republican in a swing state."
+      }
+    },
+
+    "NM": {
+      "name": "New Mexico",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely D",
+        "pvi": "D+4",
+        "incumbent": { "name": "Michelle Lujan Grisham", "party": "D", "note": "Term-limited" },
+        "candidates": [
+          { "name": "Deb Haaland", "party": "D", "status": "nominee", "note": "Former U.S. Secretary of the Interior; first Native American Cabinet secretary" },
+          { "name": "Gregg Hull", "party": "R", "status": "nominee" }
+        ],
+        "note": "Open seat — Lujan Grisham term-limited. Haaland is a high-profile Democratic nominee in a blue-leaning state."
+      }
+    },
+
+    "NY": {
+      "name": "New York",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+8",
+        "incumbent": { "name": "Kathy Hochul", "party": "D", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Kathy Hochul", "party": "D", "status": "incumbent" },
+          { "name": "Bruce Blakeman", "party": "R", "status": "nominee", "note": "Nassau County Executive" }
+        ],
+        "note": "Hochul running for re-election in a reliably blue state."
+      }
+    },
+
+    "OH": {
+      "name": "Ohio",
+      "governor": {
+        "mustWatch": true,
+        "rating": "Tilt R",
+        "pvi": "R+5",
+        "incumbent": { "name": "Mike DeWine", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "Amy Acton", "party": "D", "status": "nominee", "note": "Former Ohio Department of Health director" },
+          { "name": "Vivek Ramaswamy", "party": "R", "status": "nominee", "note": "2024 presidential candidate; more competitive race than expected due to his polarizing profile" }
+        ],
+        "note": "Open seat — DeWine term-limited. Ramaswamy is a high-profile but divisive nominee, making this more competitive than Ohio's R+5 PVI suggests."
+      }
+    },
+
+    "OK": {
+      "name": "Oklahoma",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "R+17",
+        "incumbent": { "name": "Kevin Stitt", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Stitt term-limited. Deep red state."
+      }
+    },
+
+    "OR": {
+      "name": "Oregon",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely D",
+        "pvi": "D+8",
+        "incumbent": { "name": "Tina Kotek", "party": "D", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Tina Kotek", "party": "D", "status": "incumbent" },
+          { "name": "Christine Drazan", "party": "R", "status": "nominee", "note": "Lost to Kotek by ~2pts in 2022; running again" }
+        ],
+        "note": "Kotek vs Drazan rematch from 2022. Kotek won narrowly last time in a three-way race; this is a cleaner matchup."
+      }
+    },
+
+    "PA": {
+      "name": "Pennsylvania",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "R+1",
+        "incumbent": { "name": "Josh Shapiro", "party": "D", "firstElected": 2022 },
+        "candidates": [
+          { "name": "Josh Shapiro", "party": "D", "status": "incumbent", "note": "Won 2022 by 14pts despite R+1 PVI; among most popular governors in the country" },
+          { "name": "Stacy Garrity", "party": "R", "status": "nominee", "note": "Pennsylvania State Treasurer" }
+        ],
+        "note": "Shapiro is a highly popular incumbent; rated Solid D despite R+1 PVI. Garrity is the first statewide Republican nominee to face him."
+      }
+    },
+
+    "RI": {
+      "name": "Rhode Island",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid D",
+        "pvi": "D+8",
+        "incumbent": { "name": "Dan McKee", "party": "D", "note": "Not seeking re-election" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — McKee not seeking re-election. Reliably blue state."
+      }
+    },
+
+    "SC": {
+      "name": "South Carolina",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely R",
+        "pvi": "R+8",
+        "incumbent": { "name": "Henry McMaster", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — McMaster term-limited. Republican-leaning state."
+      }
+    },
+
+    "SD": {
+      "name": "South Dakota",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "R+15",
+        "incumbent": { "name": "Larry Rhoden", "party": "R", "firstElected": 2024 },
+        "candidates": [
+          { "name": "Dan Ahlers", "party": "D", "status": "nominee" },
+          { "name": "Larry Rhoden", "party": "R", "status": "primary-runoff", "note": "Incumbent; in extremely close primary runoff vs Toby Doeden" },
+          { "name": "Toby Doeden", "party": "R", "status": "primary-runoff", "note": "Challenger; near-tied with Rhoden in primary — no clear frontrunner" }
+        ],
+        "note": "Republican primary is in a runoff between incumbent Rhoden and Toby Doeden — too close to call. Deep red state regardless of nominee."
+      }
+    },
+
+    "TN": {
+      "name": "Tennessee",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "R+14",
+        "incumbent": { "name": "Bill Lee", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Lee term-limited. Deep red state."
+      }
+    },
+
+    "TX": {
+      "name": "Texas",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Likely R",
+        "pvi": "R+6",
+        "incumbent": { "name": "Greg Abbott", "party": "R", "firstElected": 2014 },
+        "candidates": [
+          { "name": "Gina Hinojosa", "party": "D", "status": "nominee", "note": "State Representative" },
+          { "name": "Greg Abbott", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Abbott running for a fourth term. Republican-leaning state but Texas has been trending competitive."
+      }
+    },
+
+    "VT": {
+      "name": "Vermont",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "D+17",
+        "incumbent": { "name": "Phil Scott", "party": "R", "firstElected": 2016 },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Phil Scott", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Rated Solid R based on his personal popularity rather than partisan lean."
+      }
+    },
+
+    "WI": {
+      "name": "Wisconsin",
+      "governor": {
+        "mustWatch": true,
+        "rating": "Toss up",
+        "pvi": "EVEN",
+        "incumbent": { "name": "Tony Evers", "party": "D", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Evers term-limited. True battleground in an EVEN PVI state. Candidates TBD."
+      }
+    },
+
+    "WY": {
+      "name": "Wyoming",
+      "governor": {
+        "mustWatch": false,
+        "rating": "Solid R",
+        "pvi": "R+23",
+        "incumbent": { "name": "Mark Gordon", "party": "R", "note": "Term-limited" },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Gordon term-limited. Deep red state."
+      }
+    }
+
+  },
+
+  "summary": {
+    "totalRaces": 36,
+    "mustWatch": 4,
+    "byRating": {
+      "Solid D": 8,
+      "Likely D": 4,
+      "Lean D": 1,
+      "Toss up": 3,
+      "Tilt R": 1,
+      "Lean R": 3,
+      "Likely R": 6,
+      "Solid R": 10
+    }
+  }
+}

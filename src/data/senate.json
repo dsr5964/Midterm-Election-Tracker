@@ -1,0 +1,871 @@
+{
+  "_meta": {
+    "electionDate": "2026-11-03",
+    "lastUpdated": "2026-06-02",
+    "sources": ["Ballotpedia", "Cook Political Report", "Wikipedia"],
+    "ratings": {
+      "description": "Race competitiveness ratings — update these periodically from Ballotpedia or Cook Political Report",
+      "values": [
+        "safe-d",
+        "likely-d",
+        "lean-d",
+        "tossup",
+        "lean-r",
+        "likely-r",
+        "safe-r"
+      ]
+    },
+    "notes": "Senate seats are all Class 2 (last elected 2020), plus FL and OH specials. Governor races to be added separately."
+  },
+
+  "states": {
+    "AL": {
+      "name": "Alabama",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Tommy Tuberville",
+          "party": "R",
+          "retiring": true,
+          "note": "Retiring to run for Governor of Alabama"
+        },
+        "candidates": [
+          {
+            "name": "Dakarai Larriett",
+            "party": "D",
+            "status": "primary-runoff"
+          },
+          { "name": "Everett Weiss", "party": "D", "status": "primary-runoff" },
+          { "name": "Jared Huson", "party": "R", "status": "primary-runoff" },
+          {
+            "name": "Barry Moore",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "Representative from AL-1"
+          }
+        ],
+        "note": "Open seat — Tuberville retiring to run for Governor. Deep red state; safe Republican regardless."
+      }
+    },
+
+    "AK": {
+      "name": "Alaska",
+      "senate": {
+        "mustWatch": true,
+        "rating": "tossup",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Dan Sullivan",
+          "party": "R",
+          "firstElected": 2014
+        },
+        "candidates": [
+          {
+            "name": "Mary Peltola",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former at-large House rep; first Alaska Native in Congress"
+          },
+          { "name": "Dan Sullivan", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Alaska uses ranked-choice voting. Peltola is a strong challenger in a competitive state."
+      }
+    },
+
+    "AR": {
+      "name": "Arkansas",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Tom Cotton",
+          "party": "R",
+          "firstElected": 2014
+        },
+        "candidates": [
+          { "name": "Hallie Shoffner", "party": "D", "status": "nominee" },
+          { "name": "Tom Cotton", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Deep red state. Cotton running for re-election."
+      }
+    },
+
+    "CO": {
+      "name": "Colorado",
+      "senate": {
+        "mustWatch": false,
+        "rating": "likely-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "John Hickenlooper",
+          "party": "D",
+          "firstElected": 2020
+        },
+        "candidates": [
+          { "name": "John Hickenlooper", "party": "D", "status": "incumbent" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Hickenlooper running for re-election in a blue-leaning state."
+      }
+    },
+
+    "DE": {
+      "name": "Delaware",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Chris Coons",
+          "party": "D",
+          "firstElected": 2010
+        },
+        "candidates": [
+          { "name": "Chris Coons", "party": "D", "status": "incumbent" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Reliably Democratic state."
+      }
+    },
+
+    "FL": {
+      "name": "Florida",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 3",
+        "isSpecial": true,
+        "incumbent": {
+          "name": "Ashley Moody",
+          "party": "R",
+          "note": "Appointed after Rubio resigned to serve as Secretary of State"
+        },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Ashley Moody",
+            "party": "R",
+            "status": "incumbent",
+            "note": "Appointed Senator; former Florida AG"
+          }
+        ],
+        "note": "Special election to fill Marco Rubio's vacated seat. Deep red state."
+      }
+    },
+
+    "GA": {
+      "name": "Georgia",
+      "senate": {
+        "mustWatch": true,
+        "rating": "tossup",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Jon Ossoff",
+          "party": "D",
+          "firstElected": 2020
+        },
+        "candidates": [
+          {
+            "name": "Jon Ossoff",
+            "party": "D",
+            "status": "incumbent",
+            "note": "Won 2020 runoff by ~1pt; youngest sitting U.S. Senator"
+          },
+          {
+            "name": "Mike Collins",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "U.S. Representative; leading frontrunner but runoff not yet settled"
+          },
+          {
+            "name": "Derek Dooley",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "Former Tennesee Volunteers football coach"
+          }
+        ],
+        "note": "Key battleground. Ossoff considered vulnerable in a state with a Republican governor and legislature. However the Republicans are in a messy primary with a proxy war between President Trump and incumbent governor Brian Kemp."
+      }
+    },
+
+    "ID": {
+      "name": "Idaho",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Jim Risch",
+          "party": "R",
+          "firstElected": 2008
+        },
+        "candidates": [
+          { "name": "David Roth", "party": "D", "status": "nominee" },
+          { "name": "Jim Risch", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Deep red state. Risch seeking another term."
+      }
+    },
+
+    "IL": {
+      "name": "Illinois",
+      "senate": {
+        "mustWatch": false,
+        "rating": "likely-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": { "name": "Dick Durbin", "party": "D", "retiring": true },
+        "candidates": [
+          {
+            "name": "Juliana Stratton",
+            "party": "D",
+            "status": "nominee",
+            "note": "Current Illinois Lt. Governor"
+          },
+          {
+            "name": "Don Tracy",
+            "party": "R",
+            "status": "nominee",
+            "note": "Former Illinois Republican Party chairman"
+          }
+        ],
+        "note": "Open seat — Durbin retiring after decades. Illinois is reliably blue."
+      }
+    },
+
+    "IA": {
+      "name": "Iowa",
+      "senate": {
+        "mustWatch": true,
+        "rating": "tossup",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": { "name": "Joni Ernst", "party": "R", "retiring": true },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Ashley Hinson",
+            "party": "R",
+            "status": "nominee",
+            "note": "U.S. Representative; Trump-endorsed"
+          }
+        ],
+        "note": "Open seat — Ernst retiring. One of the most competitive races of the cycle in a state Trump carried."
+      }
+    },
+
+    "KS": {
+      "name": "Kansas",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Roger Marshall",
+          "party": "R",
+          "firstElected": 2020
+        },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Roger Marshall", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Deep red state. Marshall running for re-election."
+      }
+    },
+
+    "KY": {
+      "name": "Kentucky",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Mitch McConnell",
+          "party": "R",
+          "retiring": true
+        },
+        "candidates": [
+          { "name": "Charles Booker", "party": "D", "status": "nominee" },
+          {
+            "name": "Andy Barr",
+            "party": "R",
+            "status": "nominee",
+            "note": "U.S. Representative; McConnell's preferred successor"
+          }
+        ],
+        "note": "Open seat — McConnell retiring. Deep red state despite the open seat."
+      }
+    },
+
+    "LA": {
+      "name": "Louisiana",
+      "senate": {
+        "mustWatch": false,
+        "rating": "likely-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Bill Cassidy",
+          "party": "R",
+          "note": "Lost renomination after voting to convict Trump in 2021 impeachment"
+        },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Julia Letlow",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "U.S. Representative; leading frontrunner but runoff not yet settled"
+          },
+          {
+            "name": "John Fleming",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "State treasurer"
+          }
+        ],
+        "note": "Open seat — Cassidy lost renomination. Louisiana jungle primary; Letlow is the R frontrunner but runoff pending."
+      }
+    },
+
+    "ME": {
+      "name": "Maine",
+      "senate": {
+        "mustWatch": true,
+        "rating": "tossup",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Susan Collins",
+          "party": "R",
+          "firstElected": 1996
+        },
+        "candidates": [
+          {
+            "name": "Graham Platner",
+            "party": "D",
+            "status": "nominee",
+            "note": "Marine vet and oyster farmer; defeated Gov. Janet Mills in primary; leads in early polls. Currently plagued by several scandals, with some calling him to drop out."
+          },
+          {
+            "name": "Susan Collins",
+            "party": "R",
+            "status": "incumbent",
+            "note": "Seeking 6th term; Senate Appropriations Committee chair"
+          }
+        ],
+        "note": "Democrats' top Senate target. Platner leads in early polls in this blue-leaning state."
+      }
+    },
+
+    "MA": {
+      "name": "Massachusetts",
+      "senate": {
+        "mustWatch": false,
+        "rating": "likely-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": { "name": "Ed Markey", "party": "D", "retiring": false },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "John Deaton",
+            "party": "R",
+            "status": "nominee",
+            "note": "Cryptocurrency attorney; ran against Warren in 2024"
+          }
+        ],
+        "note": "Incumbent Markey is running in a primary against Representative Seth Moulton . Reliably blue state."
+      }
+    },
+
+    "MI": {
+      "name": "Michigan",
+      "senate": {
+        "mustWatch": true,
+        "rating": "lean-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": { "name": "Gary Peters", "party": "D", "retiring": true },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Mike Rogers",
+            "party": "R",
+            "status": "nominee",
+            "note": "Former U.S. Representative; narrowly lost to Elissa Slotkin in 2024"
+          }
+        ],
+        "note": "Open seat — Peters retiring. Top Republican pickup opportunity in a key Rust Belt state."
+      }
+    },
+
+    "MN": {
+      "name": "Minnesota",
+      "senate": {
+        "mustWatch": false,
+        "rating": "lean-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Tina Smith",
+          "party": "D",
+          "firstElected": 2018
+        },
+        "candidates": [
+          { "name": "Tina Smith", "party": "D", "status": "incumbent" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Smith defending in a competitive national environment."
+      }
+    },
+
+    "MS": {
+      "name": "Mississippi",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Cindy Hyde-Smith",
+          "party": "R",
+          "firstElected": 2018
+        },
+        "candidates": [
+          { "name": "Scott Colom", "party": "D", "status": "nominee" },
+          { "name": "Cindy Hyde-Smith", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Deep red state. Hyde-Smith running for re-election."
+      }
+    },
+
+    "MT": {
+      "name": "Montana",
+      "senate": {
+        "mustWatch": true,
+        "rating": "lean-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Steve Daines",
+          "party": "R",
+          "firstElected": 2014
+        },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Kurt Alme",
+            "party": "R",
+            "status": "nominee",
+            "note": "Former U.S. Attorney for Montana"
+          },
+          {
+            "name": "Seth Bodnar",
+            "party": "I",
+            "status": "nominee",
+            "note": "Former University of Montana president"
+          }
+        ],
+        "note": "Daines is the incumbent. Independent Seth Bodnar could complicate the race in a state with a history of electing independents."
+      }
+    },
+
+    "NE": {
+      "name": "Nebraska",
+      "senate": {
+        "mustWatch": true,
+        "rating": "lean-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Pete Ricketts",
+          "party": "R",
+          "firstElected": 2022
+        },
+        "candidates": [
+          { "name": "Cindy Burbank", "party": "D", "status": "nominee" },
+          { "name": "Pete Ricketts", "party": "R", "status": "incumbent" },
+          {
+            "name": "Dan Osborn",
+            "party": "I",
+            "status": "nominee",
+            "note": "Union worker; came within 3pts of Deb Fischer in 2024; running again"
+          }
+        ],
+        "note": "Osborn's strong 2024 showing makes this more competitive than the R lean suggests."
+      }
+    },
+
+    "NH": {
+      "name": "New Hampshire",
+      "senate": {
+        "mustWatch": true,
+        "rating": "tossup",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Jeanne Shaheen",
+          "party": "D",
+          "retiring": true
+        },
+        "candidates": [
+          {
+            "name": "Chris Pappas",
+            "party": "D",
+            "status": "nominee",
+            "note": "U.S. Representative; leads in early polls"
+          },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Open seat — Shaheen retiring. One of the most competitive open seats in the cycle in a purple state."
+      }
+    },
+
+    "NJ": {
+      "name": "New Jersey",
+      "senate": {
+        "mustWatch": false,
+        "rating": "likely-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Cory Booker",
+          "party": "D",
+          "firstElected": 2013
+        },
+        "candidates": [
+          { "name": "Cory Booker", "party": "D", "status": "incumbent" },
+          { "name": "Justin Murphy", "party": "R", "status": "nominee" }
+        ],
+        "note": "Booker running for re-election in a blue-leaning state."
+      }
+    },
+
+    "NM": {
+      "name": "New Mexico",
+      "senate": {
+        "mustWatch": false,
+        "rating": "likely-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Ben Ray Luján",
+          "party": "D",
+          "firstElected": 2020
+        },
+        "candidates": [
+          { "name": "Ben Ray Luján", "party": "D", "status": "incumbent" },
+          { "name": "Larry Marker", "party": "R", "status": "nominee" }
+        ],
+        "note": "Luján running for re-election in a blue-leaning state."
+      }
+    },
+
+    "NC": {
+      "name": "North Carolina",
+      "senate": {
+        "mustWatch": true,
+        "rating": "tossup",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": { "name": "Thom Tillis", "party": "R", "retiring": true },
+        "candidates": [
+          {
+            "name": "Roy Cooper",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former 2-term Governor; well known statewide"
+          },
+          {
+            "name": "Michael Whatley",
+            "party": "R",
+            "status": "nominee",
+            "note": "Former RNC Chairman; Trump-endorsed"
+          }
+        ],
+        "note": "Open seat — Tillis retiring. Cooper is a strong Democrat in a perennial swing state."
+      }
+    },
+
+    "OH": {
+      "name": "Ohio",
+      "senate": {
+        "mustWatch": true,
+        "rating": "tossup",
+        "seat": "Class 3",
+        "isSpecial": true,
+        "incumbent": {
+          "name": "Jon Husted",
+          "party": "R",
+          "note": "Appointed after JD Vance resigned to serve as Vice President"
+        },
+        "candidates": [
+          {
+            "name": "Sherrod Brown",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former Senator; lost to Bernie Moreno in 2024; running to reclaim seat"
+          },
+          {
+            "name": "Jon Husted",
+            "party": "R",
+            "status": "incumbent",
+            "note": "Appointed Senator; former Lieutenant Governor"
+          }
+        ],
+        "note": "Special election. Brown lost in 2024 and is mounting a comeback in a Republican-trending state where he has won before."
+      }
+    },
+
+    "OK": {
+      "name": "Oklahoma",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Alan Armstrong",
+          "party": "R",
+          "firstElected": 2022
+        },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Deep red state. Armstrong is the incumbent."
+      }
+    },
+
+    "OR": {
+      "name": "Oregon",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Jeff Merkley",
+          "party": "D",
+          "firstElected": 2008
+        },
+        "candidates": [
+          { "name": "Jeff Merkley", "party": "D", "status": "incumbent" },
+          {
+            "name": "David Brock Smith",
+            "party": "R",
+            "status": "nominee",
+            "note": "State Senator"
+          }
+        ],
+        "note": "Merkley running for re-election in a reliably blue state."
+      }
+    },
+
+    "RI": {
+      "name": "Rhode Island",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Jack Reed",
+          "party": "D",
+          "firstElected": 1996
+        },
+        "candidates": [
+          { "name": "Jack Reed", "party": "D", "status": "incumbent" },
+          { "name": "Raymond McKay", "party": "R", "status": "nominee" }
+        ],
+        "note": "Reed is a long-serving incumbent in a reliably blue state."
+      }
+    },
+
+    "SC": {
+      "name": "South Carolina",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Lindsey Graham",
+          "party": "R",
+          "firstElected": 2002
+        },
+        "candidates": [
+          { "name": "Annie Andrews", "party": "D", "status": "nominee" },
+          { "name": "Lindsey Graham", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Deep red state. Graham running for re-election."
+      }
+    },
+
+    "SD": {
+      "name": "South Dakota",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Mike Rounds",
+          "party": "R",
+          "firstElected": 2014
+        },
+        "candidates": [
+          { "name": "Julian Beaudion", "party": "D", "status": "nominee" },
+          { "name": "Mike Rounds", "party": "R", "status": "incumbent" },
+          { "name": "Brian Bengs", "party": "I", "status": "nominee" }
+        ],
+        "note": "Deep red state. Rounds running for re-election."
+      }
+    },
+
+    "TN": {
+      "name": "Tennessee",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Bill Hagerty",
+          "party": "R",
+          "firstElected": 2020
+        },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Bill Hagerty", "party": "R", "status": "incumbent" }
+        ],
+        "note": "Deep red state. Hagerty running for re-election."
+      }
+    },
+
+    "TX": {
+      "name": "Texas",
+      "senate": {
+        "mustWatch": true,
+        "rating": "lean-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "John Cornyn",
+          "party": "R",
+          "firstElected": 2002
+        },
+        "candidates": [
+          {
+            "name": "James Talarico",
+            "party": "D",
+            "status": "nominee",
+            "note": "State Representative; Presbyterian seminarian"
+          },
+          {
+            "name": "Ken Paxton",
+            "party": "R",
+            "status": "nominee",
+            "note": "State AG; won R primary despite ongoing scandals"
+          }
+        ],
+        "note": "Messy Republican primary between incumbent Cornyn and AG Ken Paxton. A weakened nominee could open the door for Democrats."
+      }
+    },
+
+    "VA": {
+      "name": "Virginia",
+      "senate": {
+        "mustWatch": false,
+        "rating": "likely-d",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Mark Warner",
+          "party": "D",
+          "firstElected": 2008
+        },
+        "candidates": [
+          { "name": "Mark Warner", "party": "D", "status": "incumbent" },
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ],
+        "note": "Warner running for re-election in a blue-leaning state."
+      }
+    },
+
+    "WV": {
+      "name": "West Virginia",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Shelley Moore Capito",
+          "party": "R",
+          "firstElected": 2014
+        },
+        "candidates": [
+          {
+            "name": "Rachel Fetty Anderson",
+            "party": "D",
+            "status": "nominee"
+          },
+          {
+            "name": "Shelley Moore Capito",
+            "party": "R",
+            "status": "incumbent"
+          }
+        ],
+        "note": "Deep red state. Capito running for re-election."
+      }
+    },
+
+    "WY": {
+      "name": "Wyoming",
+      "senate": {
+        "mustWatch": false,
+        "rating": "safe-r",
+        "seat": "Class 2",
+        "isSpecial": false,
+        "incumbent": {
+          "name": "Cynthia Lummis",
+          "party": "R",
+          "retiring": true
+        },
+        "candidates": [
+          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Harriet Hageman",
+            "party": "R",
+            "status": "nominee",
+            "note": "U.S. Representative; unseated Liz Cheney in 2022 primary"
+          }
+        ],
+        "note": "Open seat — Lummis did not seek re-election. Deep red state."
+      }
+    }
+  },
+
+  "currentControl": {
+    "senate": { "party": "R", "seats": 53, "opposing": 47 },
+    "house": { "party": "R", "seats": 218, "opposing": 213 },
+    "seatsNeededForFlip": {
+      "senate": 4,
+      "house": 3
+    }
+  }
+}
