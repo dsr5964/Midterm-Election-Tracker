@@ -7,17 +7,30 @@
   },
 
   "states": {
-
     "AL": {
       "name": "Alabama",
       "governor": {
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "R+15",
-        "incumbent": { "name": "Kay Ivey", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Kay Ivey",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
-          { "name": "Doug Jones", "party": "D", "status": "nominee", "note": "Former U.S. Senator" },
-          { "name": "Tommy Tuberville", "party": "R", "status": "nominee", "note": "Retiring U.S. Senator running for governor" }
+          {
+            "name": "Doug Jones",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former U.S. Senator"
+          },
+          {
+            "name": "Tommy Tuberville",
+            "party": "R",
+            "status": "nominee",
+            "note": "Retiring U.S. Senator running for governor"
+          }
         ],
         "note": "Open seat — Ivey term-limited. Deep red state; Tuberville is the heavy favorite."
       }
@@ -29,7 +42,11 @@
         "mustWatch": false,
         "rating": "Lean R",
         "pvi": "R+6",
-        "incumbent": { "name": "Mike Dunleavy", "party": "R", "firstElected": 2018 },
+        "incumbent": {
+          "name": "Mike Dunleavy",
+          "party": "R",
+          "firstElected": 2018
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -44,7 +61,11 @@
         "mustWatch": false,
         "rating": "Lean D",
         "pvi": "R+2",
-        "incumbent": { "name": "Katie Hobbs", "party": "D", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Katie Hobbs",
+          "party": "D",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "Katie Hobbs", "party": "D", "status": "incumbent" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -59,10 +80,18 @@
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "R+15",
-        "incumbent": { "name": "Sarah Huckabee Sanders", "party": "R", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Sarah Huckabee Sanders",
+          "party": "R",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "Frederick Love", "party": "D", "status": "nominee" },
-          { "name": "Sarah Huckabee Sanders", "party": "R", "status": "incumbent" }
+          {
+            "name": "Sarah Huckabee Sanders",
+            "party": "R",
+            "status": "incumbent"
+          }
         ],
         "note": "Sanders running for re-election in a deep red state."
       }
@@ -74,11 +103,24 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+12",
-        "incumbent": { "name": "Gavin Newsom", "party": "D", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Gavin Newsom",
+          "party": "D",
+          "note": "Term-limited"
+        },
         "candidates": [
-          { "name": "Xavier Becerra", "party": "D", "status": "confirmed-general", "note": "Former U.S. Attorney General; confirmed top-two finisher" },
-          { "name": "Tom Steyer", "party": "D", "status": "primary-runoff", "note": "Billionaire activist; in runoff for second general spot" },
-          { "name": "Steve Hilton", "party": "R", "status": "primary-runoff", "note": "Former Fox News host; in runoff for second general spot" }
+          {
+            "name": "Xavier Becerra",
+            "party": "D",
+            "status": "confirmed-general",
+            "note": "Former U.S. Attorney General; confirmed top-two finisher"
+          },
+          {
+            "name": "Steve Hilton",
+            "party": "R",
+            "status": "confirmed-general",
+            "note": "Former Fox News host; in runoff for second general spot"
+          }
         ],
         "note": "Open seat — Newsom term-limited. Jungle primary system: Becerra confirmed for general; second spot is a runoff between Democrat Tom Steyer and Republican Steve Hilton. Reliably blue state regardless of matchup."
       }
@@ -90,7 +132,11 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+6",
-        "incumbent": { "name": "Jared Polis", "party": "D", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Jared Polis",
+          "party": "D",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -105,10 +151,19 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+8",
-        "incumbent": { "name": "Ned Lamont", "party": "D", "note": "Not seeking re-election" },
+        "incumbent": {
+          "name": "Ned Lamont",
+          "party": "D",
+          "note": "Not seeking re-election"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "Ryan Fazio", "party": "R", "status": "nominee", "note": "State Senator" }
+          {
+            "name": "Ryan Fazio",
+            "party": "R",
+            "status": "nominee",
+            "note": "State Senator"
+          }
         ],
         "note": "Open seat — Lamont not seeking re-election. Reliably blue state."
       }
@@ -120,7 +175,11 @@
         "mustWatch": false,
         "rating": "Likely R",
         "pvi": "R+5",
-        "incumbent": { "name": "Ron DeSantis", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Ron DeSantis",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -135,10 +194,24 @@
         "mustWatch": true,
         "rating": "Toss up",
         "pvi": "R+1",
-        "incumbent": { "name": "Brian Kemp", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Brian Kemp",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
-          { "name": "Keisha Lance Bottoms", "party": "D", "status": "nominee", "note": "Former Mayor of Atlanta" },
-          { "name": "TBD", "party": "R", "status": "primary-runoff", "note": "Republican primary went to runoff — nominee TBD" }
+          {
+            "name": "Keisha Lance Bottoms",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former Mayor of Atlanta"
+          },
+          {
+            "name": "TBD",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "Republican primary went to runoff — nominee TBD"
+          }
         ],
         "note": "Open seat — Kemp term-limited. True toss-up in a rapidly purple state. Bottoms is a high-profile Democratic nominee."
       }
@@ -150,7 +223,11 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+13",
-        "incumbent": { "name": "Josh Green", "party": "D", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Josh Green",
+          "party": "D",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -165,7 +242,11 @@
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "R+18",
-        "incumbent": { "name": "Brad Little", "party": "R", "firstElected": 2018 },
+        "incumbent": {
+          "name": "Brad Little",
+          "party": "R",
+          "firstElected": 2018
+        },
         "candidates": [
           { "name": "Terri Pickens", "party": "D", "status": "nominee" },
           { "name": "Brad Little", "party": "R", "status": "incumbent" }
@@ -180,10 +261,19 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+6",
-        "incumbent": { "name": "JB Pritzker", "party": "D", "firstElected": 2018 },
+        "incumbent": {
+          "name": "JB Pritzker",
+          "party": "D",
+          "firstElected": 2018
+        },
         "candidates": [
           { "name": "JB Pritzker", "party": "D", "status": "incumbent" },
-          { "name": "Darren Bailey", "party": "R", "status": "nominee", "note": "State Senator; lost 2022 governor race to Pritzker" }
+          {
+            "name": "Darren Bailey",
+            "party": "R",
+            "status": "nominee",
+            "note": "State Senator; lost 2022 governor race to Pritzker"
+          }
         ],
         "note": "Pritzker running for re-election. Bailey is a rematch from 2022."
       }
@@ -195,9 +285,18 @@
         "mustWatch": true,
         "rating": "Toss up",
         "pvi": "R+6",
-        "incumbent": { "name": "Kim Reynolds", "party": "R", "note": "Not seeking re-election" },
+        "incumbent": {
+          "name": "Kim Reynolds",
+          "party": "R",
+          "note": "Not seeking re-election"
+        },
         "candidates": [
-          { "name": "Rob Sand", "party": "D", "status": "nominee", "note": "State Auditor" },
+          {
+            "name": "Rob Sand",
+            "party": "D",
+            "status": "nominee",
+            "note": "State Auditor"
+          },
           { "name": "Zach Lahn", "party": "R", "status": "nominee" }
         ],
         "note": "Open seat — Reynolds not seeking re-election. Toss-up despite R+6 PVI; Sand is a strong Democratic candidate with statewide name recognition."
@@ -210,7 +309,11 @@
         "mustWatch": false,
         "rating": "Lean R",
         "pvi": "R+8",
-        "incumbent": { "name": "Laura Kelly", "party": "D", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Laura Kelly",
+          "party": "D",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -225,7 +328,11 @@
         "mustWatch": false,
         "rating": "Likely D",
         "pvi": "D+4",
-        "incumbent": { "name": "Janet Mills", "party": "D", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Janet Mills",
+          "party": "D",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -240,7 +347,11 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+15",
-        "incumbent": { "name": "Wes Moore", "party": "D", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Wes Moore",
+          "party": "D",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "Wes Moore", "party": "D", "status": "incumbent" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -255,7 +366,11 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+14",
-        "incumbent": { "name": "Maura Healey", "party": "D", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Maura Healey",
+          "party": "D",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "Maura Healey", "party": "D", "status": "incumbent" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -270,11 +385,30 @@
         "mustWatch": true,
         "rating": "Toss up",
         "pvi": "EVEN",
-        "incumbent": { "name": "Gretchen Whitmer", "party": "D", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Gretchen Whitmer",
+          "party": "D",
+          "note": "Term-limited"
+        },
         "candidates": [
-          { "name": "Jocelyn Benson", "party": "D", "status": "likely-nominee", "note": "Former Secretary of State; frontrunner in primary" },
-          { "name": "John James", "party": "R", "status": "likely-nominee", "note": "Former U.S. Senate candidate; facing tough primary from Perry Johnson" },
-          { "name": "Perry Johnson", "party": "R", "status": "primary", "note": "Businessman; stronger than expected primary challenge to James" }
+          {
+            "name": "Jocelyn Benson",
+            "party": "D",
+            "status": "likely-nominee",
+            "note": "Former Secretary of State; frontrunner in primary"
+          },
+          {
+            "name": "John James",
+            "party": "R",
+            "status": "likely-nominee",
+            "note": "Former U.S. Senate candidate; facing tough primary from Perry Johnson"
+          },
+          {
+            "name": "Perry Johnson",
+            "party": "R",
+            "status": "primary",
+            "note": "Businessman; stronger than expected primary challenge to James"
+          }
         ],
         "note": "Open seat — Whitmer term-limited. True battleground in an EVEN PVI state. Likely Benson vs James but primary not yet settled on R side."
       }
@@ -286,9 +420,18 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+3",
-        "incumbent": { "name": "Tim Walz", "party": "D", "note": "Did not return after 2024 VP run" },
+        "incumbent": {
+          "name": "Tim Walz",
+          "party": "D",
+          "note": "Did not return after 2024 VP run"
+        },
         "candidates": [
-          { "name": "Amy Klobuchar", "party": "D", "status": "nominee", "note": "U.S. Senator; will resign Senate seat if elected" },
+          {
+            "name": "Amy Klobuchar",
+            "party": "D",
+            "status": "nominee",
+            "note": "U.S. Senator; will resign Senate seat if elected"
+          },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Open seat — Walz did not return. Klobuchar is running for governor while still serving in the Senate; she would resign her Senate seat upon election."
@@ -301,9 +444,18 @@
         "mustWatch": false,
         "rating": "Likely R",
         "pvi": "R+10",
-        "incumbent": { "name": "Jim Pillen", "party": "R", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Jim Pillen",
+          "party": "R",
+          "firstElected": 2022
+        },
         "candidates": [
-          { "name": "Lynne Walz", "party": "D", "status": "nominee", "note": "State Senator" },
+          {
+            "name": "Lynne Walz",
+            "party": "D",
+            "status": "nominee",
+            "note": "State Senator"
+          },
           { "name": "Jim Pillen", "party": "R", "status": "incumbent" }
         ],
         "note": "Pillen running for re-election in a Republican-leaning state."
@@ -316,7 +468,11 @@
         "mustWatch": false,
         "rating": "Lean R",
         "pvi": "R+1",
-        "incumbent": { "name": "Joe Lombardo", "party": "R", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Joe Lombardo",
+          "party": "R",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "Joe Lombardo", "party": "R", "status": "incumbent" }
@@ -331,7 +487,11 @@
         "mustWatch": false,
         "rating": "Likely R",
         "pvi": "D+2",
-        "incumbent": { "name": "Kelly Ayotte", "party": "R", "firstElected": 2024 },
+        "incumbent": {
+          "name": "Kelly Ayotte",
+          "party": "R",
+          "firstElected": 2024
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "Kelly Ayotte", "party": "R", "status": "incumbent" }
@@ -346,9 +506,18 @@
         "mustWatch": false,
         "rating": "Likely D",
         "pvi": "D+4",
-        "incumbent": { "name": "Michelle Lujan Grisham", "party": "D", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Michelle Lujan Grisham",
+          "party": "D",
+          "note": "Term-limited"
+        },
         "candidates": [
-          { "name": "Deb Haaland", "party": "D", "status": "nominee", "note": "Former U.S. Secretary of the Interior; first Native American Cabinet secretary" },
+          {
+            "name": "Deb Haaland",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former U.S. Secretary of the Interior; first Native American Cabinet secretary"
+          },
           { "name": "Gregg Hull", "party": "R", "status": "nominee" }
         ],
         "note": "Open seat — Lujan Grisham term-limited. Haaland is a high-profile Democratic nominee in a blue-leaning state."
@@ -361,10 +530,19 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+8",
-        "incumbent": { "name": "Kathy Hochul", "party": "D", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Kathy Hochul",
+          "party": "D",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "Kathy Hochul", "party": "D", "status": "incumbent" },
-          { "name": "Bruce Blakeman", "party": "R", "status": "nominee", "note": "Nassau County Executive" }
+          {
+            "name": "Bruce Blakeman",
+            "party": "R",
+            "status": "nominee",
+            "note": "Nassau County Executive"
+          }
         ],
         "note": "Hochul running for re-election in a reliably blue state."
       }
@@ -376,10 +554,24 @@
         "mustWatch": true,
         "rating": "Tilt R",
         "pvi": "R+5",
-        "incumbent": { "name": "Mike DeWine", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Mike DeWine",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
-          { "name": "Amy Acton", "party": "D", "status": "nominee", "note": "Former Ohio Department of Health director" },
-          { "name": "Vivek Ramaswamy", "party": "R", "status": "nominee", "note": "2024 presidential candidate; more competitive race than expected due to his polarizing profile" }
+          {
+            "name": "Amy Acton",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former Ohio Department of Health director"
+          },
+          {
+            "name": "Vivek Ramaswamy",
+            "party": "R",
+            "status": "nominee",
+            "note": "2024 presidential candidate; more competitive race than expected due to his polarizing profile"
+          }
         ],
         "note": "Open seat — DeWine term-limited. Ramaswamy is a high-profile but divisive nominee, making this more competitive than Ohio's R+5 PVI suggests."
       }
@@ -391,7 +583,11 @@
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "R+17",
-        "incumbent": { "name": "Kevin Stitt", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Kevin Stitt",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -406,10 +602,19 @@
         "mustWatch": false,
         "rating": "Likely D",
         "pvi": "D+8",
-        "incumbent": { "name": "Tina Kotek", "party": "D", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Tina Kotek",
+          "party": "D",
+          "firstElected": 2022
+        },
         "candidates": [
           { "name": "Tina Kotek", "party": "D", "status": "incumbent" },
-          { "name": "Christine Drazan", "party": "R", "status": "nominee", "note": "Lost to Kotek by ~2pts in 2022; running again" }
+          {
+            "name": "Christine Drazan",
+            "party": "R",
+            "status": "nominee",
+            "note": "Lost to Kotek by ~2pts in 2022; running again"
+          }
         ],
         "note": "Kotek vs Drazan rematch from 2022. Kotek won narrowly last time in a three-way race; this is a cleaner matchup."
       }
@@ -421,10 +626,24 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "R+1",
-        "incumbent": { "name": "Josh Shapiro", "party": "D", "firstElected": 2022 },
+        "incumbent": {
+          "name": "Josh Shapiro",
+          "party": "D",
+          "firstElected": 2022
+        },
         "candidates": [
-          { "name": "Josh Shapiro", "party": "D", "status": "incumbent", "note": "Won 2022 by 14pts despite R+1 PVI; among most popular governors in the country" },
-          { "name": "Stacy Garrity", "party": "R", "status": "nominee", "note": "Pennsylvania State Treasurer" }
+          {
+            "name": "Josh Shapiro",
+            "party": "D",
+            "status": "incumbent",
+            "note": "Won 2022 by 14pts despite R+1 PVI; among most popular governors in the country"
+          },
+          {
+            "name": "Stacy Garrity",
+            "party": "R",
+            "status": "nominee",
+            "note": "Pennsylvania State Treasurer"
+          }
         ],
         "note": "Shapiro is a highly popular incumbent; rated Solid D despite R+1 PVI. Garrity is the first statewide Republican nominee to face him."
       }
@@ -436,7 +655,11 @@
         "mustWatch": false,
         "rating": "Solid D",
         "pvi": "D+8",
-        "incumbent": { "name": "Dan McKee", "party": "D", "note": "Not seeking re-election" },
+        "incumbent": {
+          "name": "Dan McKee",
+          "party": "D",
+          "note": "Not seeking re-election"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -451,10 +674,14 @@
         "mustWatch": false,
         "rating": "Likely R",
         "pvi": "R+8",
-        "incumbent": { "name": "Henry McMaster", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Henry McMaster",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Jermaine Johnson", "party": "D", "status": "nominee" },
+          { "name": "TBD", "party": "R", "status": "primary-runoff" }
         ],
         "note": "Open seat — McMaster term-limited. Republican-leaning state."
       }
@@ -466,11 +693,25 @@
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "R+15",
-        "incumbent": { "name": "Larry Rhoden", "party": "R", "firstElected": 2024 },
+        "incumbent": {
+          "name": "Larry Rhoden",
+          "party": "R",
+          "firstElected": 2024
+        },
         "candidates": [
           { "name": "Dan Ahlers", "party": "D", "status": "nominee" },
-          { "name": "Larry Rhoden", "party": "R", "status": "primary-runoff", "note": "Incumbent; in extremely close primary runoff vs Toby Doeden" },
-          { "name": "Toby Doeden", "party": "R", "status": "primary-runoff", "note": "Challenger; near-tied with Rhoden in primary — no clear frontrunner" }
+          {
+            "name": "Larry Rhoden",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "Incumbent; in extremely close primary runoff vs Toby Doeden"
+          },
+          {
+            "name": "Toby Doeden",
+            "party": "R",
+            "status": "primary-runoff",
+            "note": "Challenger; near-tied with Rhoden in primary — no clear frontrunner"
+          }
         ],
         "note": "Republican primary is in a runoff between incumbent Rhoden and Toby Doeden — too close to call. Deep red state regardless of nominee."
       }
@@ -482,7 +723,11 @@
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "R+14",
-        "incumbent": { "name": "Bill Lee", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Bill Lee",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -497,9 +742,18 @@
         "mustWatch": false,
         "rating": "Likely R",
         "pvi": "R+6",
-        "incumbent": { "name": "Greg Abbott", "party": "R", "firstElected": 2014 },
+        "incumbent": {
+          "name": "Greg Abbott",
+          "party": "R",
+          "firstElected": 2014
+        },
         "candidates": [
-          { "name": "Gina Hinojosa", "party": "D", "status": "nominee", "note": "State Representative" },
+          {
+            "name": "Gina Hinojosa",
+            "party": "D",
+            "status": "nominee",
+            "note": "State Representative"
+          },
           { "name": "Greg Abbott", "party": "R", "status": "incumbent" }
         ],
         "note": "Abbott running for a fourth term. Republican-leaning state but Texas has been trending competitive."
@@ -512,7 +766,11 @@
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "D+17",
-        "incumbent": { "name": "Phil Scott", "party": "R", "firstElected": 2016 },
+        "incumbent": {
+          "name": "Phil Scott",
+          "party": "R",
+          "firstElected": 2016
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "Phil Scott", "party": "R", "status": "incumbent" }
@@ -527,7 +785,11 @@
         "mustWatch": true,
         "rating": "Toss up",
         "pvi": "EVEN",
-        "incumbent": { "name": "Tony Evers", "party": "D", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Tony Evers",
+          "party": "D",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -542,7 +804,11 @@
         "mustWatch": false,
         "rating": "Solid R",
         "pvi": "R+23",
-        "incumbent": { "name": "Mark Gordon", "party": "R", "note": "Term-limited" },
+        "incumbent": {
+          "name": "Mark Gordon",
+          "party": "R",
+          "note": "Term-limited"
+        },
         "candidates": [
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
@@ -550,7 +816,6 @@
         "note": "Open seat — Gordon term-limited. Deep red state."
       }
     }
-
   },
 
   "summary": {
