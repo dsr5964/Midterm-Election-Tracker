@@ -33,17 +33,11 @@
           "note": "Retiring to run for Governor of Alabama"
         },
         "candidates": [
-          {
-            "name": "Dakarai Larriett",
-            "party": "D",
-            "status": "primary-runoff"
-          },
-          { "name": "Everett Weiss", "party": "D", "status": "primary-runoff" },
-          { "name": "Jared Huson", "party": "R", "status": "primary-runoff" },
+          { "name": "Everett Weiss", "party": "D", "status": "nominee" },
           {
             "name": "Barry Moore",
             "party": "R",
-            "status": "primary-runoff",
+            "status": "nominee",
             "note": "Representative from AL-1"
           }
         ],
@@ -109,8 +103,23 @@
           "firstElected": 2020
         },
         "candidates": [
-          { "name": "John Hickenlooper", "party": "D", "status": "incumbent" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "John Hickenlooper",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Incumbent senator"
+          },
+          {
+            "name": "Julie Gonzalez",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "State senator"
+          },
+          {
+            "name": "Mark Baisley",
+            "party": "R",
+            "status": "presumptive nominee"
+          }
         ],
         "note": "Hickenlooper running for re-election in a blue-leaning state."
       }
@@ -183,14 +192,8 @@
           {
             "name": "Mike Collins",
             "party": "R",
-            "status": "primary-runoff",
-            "note": "U.S. Representative; leading frontrunner but runoff not yet settled"
-          },
-          {
-            "name": "Derek Dooley",
-            "party": "R",
-            "status": "primary-runoff",
-            "note": "Former Tennesee Volunteers football coach"
+            "status": "nominee",
+            "note": "U.S. Representative"
           }
         ],
         "note": "Key battleground. Ossoff considered vulnerable in a state with a Republican governor and legislature. However the Republicans are in a messy primary with a proxy war between President Trump and incumbent governor Brian Kemp."
@@ -252,7 +255,12 @@
         "isSpecial": false,
         "incumbent": { "name": "Joni Ernst", "party": "R", "retiring": true },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Josh Turek",
+            "party": "D",
+            "status": "nominee",
+            "note": "Paralympian and state representative"
+          },
           {
             "name": "Ashley Hinson",
             "party": "R",
@@ -322,7 +330,8 @@
           "note": "Lost renomination after voting to convict Trump in 2021 impeachment"
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Gary Crockett", "party": "D", "status": "primary-runoff" },
+          { "name": "Jamie Davis", "party": "D", "status": "primary-runoff" },
           {
             "name": "Julia Letlow",
             "party": "R",
@@ -465,7 +474,7 @@
           "firstElected": 2014
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Alani Bankhead", "party": "D", "status": "nominee" },
           {
             "name": "Kurt Alme",
             "party": "R",
@@ -513,7 +522,7 @@
       "name": "New Hampshire",
       "senate": {
         "mustWatch": true,
-        "rating": "tossup",
+        "rating": "lean-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -538,7 +547,7 @@
       "name": "New Jersey",
       "senate": {
         "mustWatch": false,
-        "rating": "likely-d",
+        "rating": "safe-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -578,7 +587,7 @@
       "name": "North Carolina",
       "senate": {
         "mustWatch": true,
-        "rating": "tossup",
+        "rating": "lean-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Thom Tillis", "party": "R", "retiring": true },
@@ -643,8 +652,13 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Jim Priest", "party": "D", "status": "primary-runoff" },
+          {
+            "name": "N'Kiyla Thomas",
+            "party": "D",
+            "status": "primary-runoff"
+          },
+          { "name": "Kevin Hern", "party": "R", "status": "nominee" }
         ],
         "note": "Deep red state. Armstrong is the incumbent."
       }

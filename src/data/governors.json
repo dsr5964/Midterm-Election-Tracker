@@ -207,10 +207,10 @@
             "note": "Former Mayor of Atlanta"
           },
           {
-            "name": "TBD",
+            "name": "Rick Jackson",
             "party": "R",
-            "status": "primary-runoff",
-            "note": "Republican primary went to runoff — nominee TBD"
+            "status": "nominee",
+            "note": "Republican primary went to runoff"
           }
         ],
         "note": "Open seat — Kemp term-limited. True toss-up in a rapidly purple state. Bottoms is a high-profile Democratic nominee."
@@ -334,8 +334,8 @@
           "note": "Term-limited"
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Hannah Pingree", "party": "D", "status": "nominee" },
+          { "name": "Robert Charles", "party": "R", "status": "nominee" }
         ],
         "note": "Open seat — Mills term-limited. Blue-leaning state. Maine uses ranked-choice voting."
       }
@@ -474,7 +474,7 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Aaron Ford", "party": "D", "status": "nominee" },
           { "name": "Joe Lombardo", "party": "R", "status": "incumbent" }
         ],
         "note": "Lombardo running for re-election in a purple state. Democratic nominee TBD."
@@ -589,7 +589,7 @@
           "note": "Term-limited"
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Cyndi Munson", "party": "D", "status": "nominee" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Open seat — Stitt term-limited. Deep red state."

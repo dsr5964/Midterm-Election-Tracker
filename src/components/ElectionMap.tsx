@@ -5,8 +5,8 @@ import {
   Marker,
   Annotation,
 } from "@vnedyalk0v/react19-simple-maps";
-// import allStates from "../data/allstates.json";
-import geoData from "../../public/states-10m.json";
+import allStateAbbrevs from "../data/stateabbrevs.json";
+import geoData from "../data/states-10m.json";
 
 const markers = [
   { markerOffset: -20, name: "Chicago", coordinates: [-87.6298, 41.8781] },
@@ -24,10 +24,13 @@ const markers = [
 
 export default function ElectionMap() {
   return (
-    <div style={{ width: "100%", maxWidth: "960px", margin: "0 auto" }}>
+    <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
       <ComposableMap
         projection="geoAlbersUsa"
+        width={800}
+        height={500}
         style={{ width: "100%", height: "auto" }}
+        projectionConfig={{ scale: 1000 }}
       >
         <Geographies geography={geoData}>
           {({ geographies }) =>

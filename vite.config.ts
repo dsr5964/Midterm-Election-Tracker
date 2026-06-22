@@ -10,6 +10,7 @@ export default defineConfig({
     include: ["react-simple-maps", "topojson-client"],
   },
   build: {
+    sourcemap: true,
     commonjsOptions: {
       include: [/react-simple-maps/, /topojson-client/, /node_modules/],
     },

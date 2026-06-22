@@ -20,13 +20,13 @@
   "districts": {
     "AL-1": {
       "dem": "Clyde Jones Jr.",
-      "rep": "Barry Moore",
+      "rep": "TBD",
       "ind": null,
       "incumbent": "Barry Moore",
       "party": "R",
-      "rating": null,
+      "rating": "Solid R",
       "mustWatch": false,
-      "note": "District boundaries under redistricting review — candidates may change."
+      "note": "Incumbent is running for U.S. senate. Primary elections were moved to August 11 due to redistricting."
     },
     "AL-2": {
       "dem": "Shomari Figures",
@@ -34,9 +34,9 @@
       "ind": null,
       "incumbent": "Shomari Figures",
       "party": "D",
-      "rating": "Solid D",
+      "rating": "Likely R",
       "mustWatch": false,
-      "note": "District boundaries under redistricting review — candidates may change."
+      "note": "Primary elections were moved to August 11 due to redistricting."
     },
     "AL-3": {
       "dem": "Lee McInnis",
@@ -44,9 +44,9 @@
       "ind": null,
       "incumbent": "Mike Rogers",
       "party": "R",
-      "rating": null,
+      "rating": "Solid R",
       "mustWatch": false,
-      "note": "District boundaries under redistricting review — candidates may change."
+      "note": ""
     },
     "AL-4": {
       "dem": "Amanda Pusczek",
@@ -54,19 +54,19 @@
       "ind": null,
       "incumbent": "Robert Aderholt",
       "party": "R",
-      "rating": null,
+      "rating": "Solid R",
       "mustWatch": false,
-      "note": "District boundaries under redistricting review — candidates may change."
+      "note": ""
     },
     "AL-5": {
-      "dem": "TBD (runoff)",
+      "dem": "Andrew Sneed",
       "rep": "Dale Strong",
       "ind": null,
       "incumbent": "Dale Strong",
       "party": "R",
-      "rating": null,
+      "rating": "Solid R",
       "mustWatch": false,
-      "note": "District boundaries under redistricting review. Democratic candidate pending runoff."
+      "note": ""
     },
     "AL-6": {
       "dem": "TBD",
@@ -74,9 +74,9 @@
       "ind": null,
       "incumbent": "Gary Palmer",
       "party": "R",
-      "rating": null,
+      "rating": "Solid R",
       "mustWatch": false,
-      "note": "District boundaries under redistricting review — no candidates determined yet."
+      "note": "Primary elections were moved to August 11 due to redistricting."
     },
     "AL-7": {
       "dem": "Terri Sewell",
@@ -84,9 +84,9 @@
       "ind": null,
       "incumbent": "Terri Sewell",
       "party": "D",
-      "rating": null,
+      "rating": "Solid D",
       "mustWatch": false,
-      "note": "District boundaries under redistricting review — candidates may change."
+      "note": "Primary elections were moved to August 11 due to redistricting."
     },
 
     "AK-AL": {
@@ -2914,7 +2914,7 @@
     },
 
     "OK-1": {
-      "dem": "TBD",
+      "dem": "John Croisant",
       "rep": "TBD",
       "ind": null,
       "incumbent": "Kevin Hern",
@@ -2923,8 +2923,8 @@
       "mustWatch": false
     },
     "OK-2": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Brandon Wade",
+      "rep": "Josh Brecheen",
       "ind": null,
       "incumbent": "Josh Brecheen",
       "party": "R",
@@ -2932,8 +2932,8 @@
       "mustWatch": false
     },
     "OK-3": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Suzie Byrd",
+      "rep": "Frank Lucas",
       "ind": null,
       "incumbent": "Frank Lucas",
       "party": "R",
@@ -2942,7 +2942,7 @@
     },
     "OK-4": {
       "dem": "TBD",
-      "rep": "TBD",
+      "rep": "Tom Cole",
       "ind": null,
       "incumbent": "Tom Cole",
       "party": "R",
@@ -2951,7 +2951,7 @@
     },
     "OK-5": {
       "dem": "TBD",
-      "rep": "TBD",
+      "rep": "Stephanie Bice",
       "ind": null,
       "incumbent": "Stephanie Bice",
       "party": "R",
