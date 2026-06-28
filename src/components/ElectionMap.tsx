@@ -7,6 +7,7 @@ import {
 } from "@vnedyalk0v/react19-simple-maps";
 import allStateAbbrevs from "../data/stateabbrevs.json";
 import geoData from "../data/states-10m.json";
+import { useState } from "react";
 
 import senateData from "../data/senate.json" with { type: "json" };
 import houseData from "../data/house.json" with { type: "json" };
@@ -80,10 +81,12 @@ type StateAbbr =
 
 type State = {
   id: string;
-  abbrev: string;
+  abbrev: StateAbbr;
   name: string;
   rating: string;
 };
+
+const NO_RACE_COLOR = "#E5E5E0";
 
 const partyColor = {
   dem: {
@@ -102,23 +105,25 @@ const partyColor = {
 };
 
 function getState(stateId: string): State | undefined {
-  const stateObj = allStateAbbrevs.find((state) => state.val === stateId);
-  if (stateObj) {
-    const stateKey = stateObj.id as keyof typeof senateData.states;
+  const individualState = allStateAbbrevs.find(
+    (state) => state.val === stateId,
+  );
+
+  if (individualState) {
+    const stateKey = individualState.id as keyof typeof senateData.states;
 
     if (stateKey in senateData.states) {
-      console.log(`State abbreviation: ${stateObj.id}`);
       const state = {
         id: stateId,
-        abbrev: stateObj.id,
+        abbrev: individualState.id as StateAbbr,
         name: senateData.states[stateKey].name,
         rating: senateData.states[stateKey].senate.rating,
       };
-      // console.log(`Rating: ${state.rating}`);
       return state;
     }
   }
 }
+
 function getRatingColor(rating: string): string {
   switch (rating) {
     case "safe-r":
@@ -155,40 +160,67 @@ function getRatingColor(rating: string): string {
 
 export default function ElectionMap() {
   return (
-    <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
-      <ComposableMap
-        projection="geoAlbersUsa"
-        width={800}
-        height={500}
-        style={{ width: "100%", height: "auto" }}
-        projectionConfig={{ scale: 1000 }}
-      >
-        <Geographies geography={geoData}>
-          {({ geographies }) =>
-            geographies.map((geo) => {
-              let stateColor;
-              const state = getState(geo.id);
-              if (state) {
-                stateColor = getRatingColor(state!.rating);
-              }
-              return (
-                <Geography
-                  key={geo.rsmKey}
-                  geography={geo}
-                  style={{
-                    default: { fill: stateColor, outline: "none" },
-                    hover: { fill: "#F53", outline: "none" },
-                    pressed: {
-                      fill: "#E42",
-                      outline: "none",
-                    },
-                  }}
-                />
-              );
-            })
-          }
-        </Geographies>
-      </ComposableMap>
+    <div>
+      <h1>Senate Map 2026</h1>
+      <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
+        <ComposableMap
+          projection="geoAlbersUsa"
+          width={800}
+          height={500}
+          style={{ width: "100%", height: "auto" }}
+          projectionConfig={{ scale: 1000 }}
+        >
+          <Geographies geography={geoData}>
+            {({ geographies }) => {
+              return geographies.map((geo) => {
+                const state = getState(geo.id);
+
+                if (!state) {
+                  return (
+                    <Geography
+                      key={geo.rsmKey}
+                      geography={geo}
+                      style={{
+                        default: {
+                          fill: NO_RACE_COLOR,
+                          outline: "none",
+                          cursor: "default",
+                          pointerEvents: "none",
+                        },
+                        hover: {
+                          fill: NO_RACE_COLOR,
+                          outline: "none",
+                        },
+                        pressed: {
+                          fill: NO_RACE_COLOR,
+                          outline: "none",
+                        },
+                      }}
+                    ></Geography>
+                  );
+                }
+
+                const stateColor = getRatingColor(state!.rating);
+
+                return (
+                  <Geography
+                    key={geo.rsmKey}
+                    geography={geo}
+                    style={{
+                      default: { fill: stateColor, outline: "none" },
+                      hover: { fill: "#F53", outline: "none" },
+                      pressed: {
+                        fill: "#E42",
+                        outline: "none",
+                      },
+                    }}
+                  />
+                );
+              });
+            }}
+          </Geographies>
+        </ComposableMap>
+      </div>
     </div>
   );
 }
