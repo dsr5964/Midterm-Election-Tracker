@@ -85,18 +85,36 @@ type State = {
   rating: string;
 };
 
+const partyColor = {
+  dem: {
+    "safe-d": "",
+    "likely-d": "",
+    "lean-d": "",
+    "tilt-d": "",
+  },
+  rep: {
+    "safe-r": "",
+    "likely-r": "",
+    "lean-r": "",
+    "tilt-r": "",
+  },
+  tossup: "C9C09B",
+};
+
 function getState(stateId: string): State | undefined {
   const stateObj = allStateAbbrevs.find((state) => state.val === stateId);
   if (stateObj) {
     const stateKey = stateObj.id as keyof typeof senateData.states;
 
     if (stateKey in senateData.states) {
+      console.log(`State abbreviation: ${stateObj.id}`);
       const state = {
         id: stateId,
         abbrev: stateObj.id,
         name: senateData.states[stateKey].name,
         rating: senateData.states[stateKey].senate.rating,
       };
+      // console.log(`Rating: ${state.rating}`);
       return state;
     }
   }
@@ -104,12 +122,34 @@ function getState(stateId: string): State | undefined {
 function getRatingColor(rating: string): string {
   switch (rating) {
     case "safe-r":
-      return "FF0000";
+      return "#D22532";
+
     case "safe-d":
-      return "0000FF";
+      return "#244999";
+
+    case "likely-r":
+      return "#FF5865";
+
+    case "likely-d":
+      return "#577CCC";
+
+    case "lean-r":
+      return "#FF8B98";
+
+    case "lean-d":
+      return "#8AAFFF";
+
+    case "tilt-r":
+      return "#CF8980";
+
+    case "tilt-d":
+      return "#949BB3";
+
+    case "tossup":
+      return "#C9C09B";
 
     default:
-      return "D2B48C";
+      return "#000000";
   }
 }
 
@@ -124,26 +164,29 @@ export default function ElectionMap() {
         projectionConfig={{ scale: 1000 }}
       >
         <Geographies geography={geoData}>
-          {({ geographies }) => {
-            geographies.map((geo) => (
-              // const state = getState(geo.id);
-              // console.log(state);
-              // // const stateColor = getRatingColor(state!.rating);
-              <Geography
-                key={geo.rsmKey}
-                geography={geo}
-                onClick={() => console.log(getState(geo.id))}
-                style={{
-                  default: { fill: "#D6D6DA", outline: "none" },
-                  hover: { fill: "#F53", outline: "none" },
-                  pressed: {
-                    fill: "#E42",
-                    outline: "none",
-                  },
-                }}
-              />
-            ));
-          }}
+          {({ geographies }) =>
+            geographies.map((geo) => {
+              let stateColor;
+              const state = getState(geo.id);
+              if (state) {
+                stateColor = getRatingColor(state!.rating);
+              }
+              return (
+                <Geography
+                  key={geo.rsmKey}
+                  geography={geo}
+                  style={{
+                    default: { fill: stateColor, outline: "none" },
+                    hover: { fill: "#F53", outline: "none" },
+                    pressed: {
+                      fill: "#E42",
+                      outline: "none",
+                    },
+                  }}
+                />
+              );
+            })
+          }
         </Geographies>
       </ComposableMap>
     </div>

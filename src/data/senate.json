@@ -94,7 +94,7 @@
       "name": "Colorado",
       "senate": {
         "mustWatch": false,
-        "rating": "likely-d",
+        "rating": "safe-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -107,18 +107,18 @@
             "name": "John Hickenlooper",
             "party": "D",
             "status": "primary-tbd",
-            "note": "Incumbent senator"
+            "note": "Incumbent senator."
           },
           {
             "name": "Julie Gonzalez",
             "party": "D",
             "status": "primary-tbd",
-            "note": "State senator"
+            "note": "State senator. Progressive challenger."
           },
           {
             "name": "Mark Baisley",
             "party": "R",
-            "status": "presumptive nominee"
+            "status": "nominee"
           }
         ],
         "note": "Hickenlooper running for re-election in a blue-leaning state."
@@ -149,7 +149,7 @@
       "name": "Florida",
       "senate": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "rating": "likely-r",
         "seat": "Class 3",
         "isSpecial": true,
         "incumbent": {
@@ -174,7 +174,7 @@
       "name": "Georgia",
       "senate": {
         "mustWatch": true,
-        "rating": "tossup",
+        "rating": "lean-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -224,7 +224,7 @@
       "name": "Illinois",
       "senate": {
         "mustWatch": false,
-        "rating": "likely-d",
+        "rating": "safe-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Dick Durbin", "party": "D", "retiring": true },
@@ -250,7 +250,7 @@
       "name": "Iowa",
       "senate": {
         "mustWatch": true,
-        "rating": "tossup",
+        "rating": "lean-r",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Joni Ernst", "party": "R", "retiring": true },
@@ -321,7 +321,7 @@
       "name": "Louisiana",
       "senate": {
         "mustWatch": false,
-        "rating": "likely-r",
+        "rating": "safe-r",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -330,22 +330,15 @@
           "note": "Lost renomination after voting to convict Trump in 2021 impeachment"
         },
         "candidates": [
-          { "name": "Gary Crockett", "party": "D", "status": "primary-runoff" },
-          { "name": "Jamie Davis", "party": "D", "status": "primary-runoff" },
+          { "name": "Jamie Davis", "party": "D", "status": "nominee" },
           {
             "name": "Julia Letlow",
             "party": "R",
-            "status": "primary-runoff",
-            "note": "U.S. Representative; leading frontrunner but runoff not yet settled"
-          },
-          {
-            "name": "John Fleming",
-            "party": "R",
-            "status": "primary-runoff",
-            "note": "State treasurer"
+            "status": "nominee",
+            "note": "U.S. Representative"
           }
         ],
-        "note": "Open seat — Cassidy lost renomination. Louisiana jungle primary; Letlow is the R frontrunner but runoff pending."
+        "note": "Open seat — Incumbent Senator Cassidy lost renomination."
       }
     },
 
@@ -383,7 +376,7 @@
       "name": "Massachusetts",
       "senate": {
         "mustWatch": false,
-        "rating": "likely-d",
+        "rating": "safe-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Ed Markey", "party": "D", "retiring": false },
@@ -404,7 +397,7 @@
       "name": "Michigan",
       "senate": {
         "mustWatch": true,
-        "rating": "lean-r",
+        "rating": "tossup",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Gary Peters", "party": "D", "retiring": true },
@@ -425,7 +418,7 @@
       "name": "Minnesota",
       "senate": {
         "mustWatch": false,
-        "rating": "lean-d",
+        "rating": "likely-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -465,7 +458,7 @@
       "name": "Montana",
       "senate": {
         "mustWatch": true,
-        "rating": "lean-r",
+        "rating": "likely-r",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -496,7 +489,7 @@
       "name": "Nebraska",
       "senate": {
         "mustWatch": true,
-        "rating": "lean-r",
+        "rating": "likely-r",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -534,10 +527,27 @@
           {
             "name": "Chris Pappas",
             "party": "D",
-            "status": "nominee",
+            "status": "primary-tbd",
             "note": "U.S. Representative; leads in early polls"
           },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Karishma Manzur",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Member of New Hampshire Democratic Party Rules Committee. Progressive challenger."
+          },
+          {
+            "name": "Scott Brown",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Former U.S. Senator of Massachusetts. Former U.S. Ambassador to New Zealand and Samoa."
+          },
+          {
+            "name": "John Sununu",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Former U.S. Senator for this seat and brother of former Governor Chris Sununu. Trump endorsed."
+          }
         ],
         "note": "Open seat — Shaheen retiring. One of the most competitive open seats in the cycle in a purple state."
       }
@@ -567,7 +577,7 @@
       "name": "New Mexico",
       "senate": {
         "mustWatch": false,
-        "rating": "likely-d",
+        "rating": "safe-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -804,7 +814,7 @@
       "name": "Virginia",
       "senate": {
         "mustWatch": false,
-        "rating": "likely-d",
+        "rating": "safe-d",
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {

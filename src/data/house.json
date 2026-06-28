@@ -1707,7 +1707,7 @@
 
     "MD-1": {
       "dem": "TBD",
-      "rep": "TBD",
+      "rep": "Andy Harris",
       "ind": null,
       "incumbent": "Andy Harris",
       "party": "R",
@@ -1715,8 +1715,8 @@
       "mustWatch": false
     },
     "MD-2": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Johnny Olszewski",
+      "rep": "Dave Wallace",
       "ind": null,
       "incumbent": "Johnny Olszewski",
       "party": "D",
@@ -1724,8 +1724,8 @@
       "mustWatch": false
     },
     "MD-3": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Sarah Elfreth",
+      "rep": "Berney Flowers",
       "ind": null,
       "incumbent": "Sarah Elfreth",
       "party": "D",
@@ -1733,8 +1733,8 @@
       "mustWatch": false
     },
     "MD-4": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Glenn Ivey",
+      "rep": "George McDermott",
       "ind": null,
       "incumbent": "Glenn Ivey",
       "party": "D",
@@ -1742,8 +1742,8 @@
       "mustWatch": false
     },
     "MD-5": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Adrian Boafo",
+      "rep": "Chris Chaffee",
       "ind": null,
       "incumbent": "Steny Hoyer",
       "party": "D",
@@ -1760,8 +1760,8 @@
       "mustWatch": false
     },
     "MD-7": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Kweisi Mfume",
+      "rep": "Scott Collier",
       "ind": null,
       "incumbent": "Kweisi Mfume",
       "party": "D",
@@ -1769,7 +1769,7 @@
       "mustWatch": false
     },
     "MD-8": {
-      "dem": "TBD",
+      "dem": "Jamie Raskin",
       "rep": "TBD",
       "ind": null,
       "incumbent": "Jamie Raskin",
@@ -2406,7 +2406,7 @@
     },
 
     "NY-1": {
-      "dem": "TBD",
+      "dem": "Christopher Gallant",
       "rep": "Nick LaLota",
       "ind": null,
       "incumbent": "Nick LaLota",
@@ -2415,8 +2415,8 @@
       "mustWatch": false
     },
     "NY-2": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Patrick Halpin",
+      "rep": "Andrew Garbarino",
       "ind": null,
       "incumbent": "Andrew Garbarino",
       "party": "R",
@@ -2424,8 +2424,8 @@
       "mustWatch": false
     },
     "NY-3": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Tom Suozzi",
+      "rep": "Mike LiPetri",
       "ind": null,
       "incumbent": "Tom Suozzi",
       "party": "D",
@@ -2433,8 +2433,8 @@
       "mustWatch": false
     },
     "NY-4": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Laura Gillen",
+      "rep": "Jeanine Driscoll",
       "ind": null,
       "incumbent": "Laura Gillen",
       "party": "D",
@@ -2442,8 +2442,8 @@
       "mustWatch": false
     },
     "NY-5": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Gregory Meeks",
+      "rep": "George Marsh",
       "ind": null,
       "incumbent": "Gregory Meeks",
       "party": "D",
@@ -2451,8 +2451,8 @@
       "mustWatch": false
     },
     "NY-6": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Grace Meng",
+      "rep": "Joseph Chou",
       "ind": null,
       "incumbent": "Grace Meng",
       "party": "D",
@@ -2460,8 +2460,8 @@
       "mustWatch": false
     },
     "NY-7": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Claire Valdez",
+      "rep": "Melvin Rivera",
       "ind": null,
       "incumbent": "Nydia Velazquez",
       "party": "D",
@@ -2469,8 +2469,8 @@
       "mustWatch": false
     },
     "NY-8": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Hakeem Jeffries",
+      "rep": "Lewis Mizrahi",
       "ind": null,
       "incumbent": "Hakeem Jeffries",
       "party": "D",
@@ -2478,8 +2478,8 @@
       "mustWatch": false
     },
     "NY-9": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Yvette Clarke",
+      "rep": "Joel Azumah",
       "ind": null,
       "incumbent": "Yvette Clarke",
       "party": "D",
@@ -2487,17 +2487,18 @@
       "mustWatch": false
     },
     "NY-10": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Brad Lander",
+      "rep": "Jennifer Moore",
       "ind": null,
       "incumbent": "Dan Goldman",
       "party": "D",
       "rating": "Solid D",
-      "mustWatch": false
+      "mustWatch": false,
+      "note": "Rep. Dan Goldman lost renomination."
     },
     "NY-11": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Mike DeCillis",
+      "rep": "Nicole Malliotakis",
       "ind": null,
       "incumbent": "Nicole Malliotakis",
       "party": "R",
@@ -2505,8 +2506,8 @@
       "mustWatch": false
     },
     "NY-12": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Micah Lasher",
+      "rep": "Caroline Shinkle",
       "ind": null,
       "incumbent": "Jerry Nadler",
       "party": "D",
@@ -2514,17 +2515,18 @@
       "mustWatch": false
     },
     "NY-13": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Darializa Avila Chevalier",
+      "rep": "Jomo Williams",
       "ind": null,
       "incumbent": "Adriano Espaillat",
       "party": "D",
       "rating": "Solid D",
-      "mustWatch": false
+      "mustWatch": false,
+      "note": "Rep. Adriano Espaillat lost renomination"
     },
     "NY-14": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Alexandria Ocasio-Cortez",
+      "rep": "Diamant Hysenaj",
       "ind": null,
       "incumbent": "Alexandria Ocasio-Cortez",
       "party": "D",
@@ -2532,8 +2534,8 @@
       "mustWatch": false
     },
     "NY-15": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Ritchie Torres",
+      "rep": "Stylo Sapaskis",
       "ind": null,
       "incumbent": "Ritchie Torres",
       "party": "D",
@@ -2541,8 +2543,8 @@
       "mustWatch": false
     },
     "NY-16": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "George Latimer",
+      "rep": "Joseph Cinquemani",
       "ind": null,
       "incumbent": "George Latimer",
       "party": "D",
@@ -2550,8 +2552,8 @@
       "mustWatch": false
     },
     "NY-17": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Cait Conley",
+      "rep": "Mike Lawler",
       "ind": null,
       "incumbent": "Mike Lawler",
       "party": "R",
@@ -2559,8 +2561,8 @@
       "mustWatch": true
     },
     "NY-18": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Pat Ryan",
+      "rep": "Jackie Auringer",
       "ind": null,
       "incumbent": "Pat Ryan",
       "party": "D",
@@ -2568,7 +2570,7 @@
       "mustWatch": false
     },
     "NY-19": {
-      "dem": "TBD",
+      "dem": "Josh Riley",
       "rep": "TBD",
       "ind": null,
       "incumbent": "Josh Riley",
@@ -2577,8 +2579,8 @@
       "mustWatch": false
     },
     "NY-20": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Paul Tonko",
+      "rep": "Ralph Ambrosio",
       "ind": null,
       "incumbent": "Paul Tonko",
       "party": "D",
@@ -2586,7 +2588,7 @@
       "mustWatch": false
     },
     "NY-21": {
-      "dem": "TBD",
+      "dem": "Blake Gendebien",
       "rep": "TBD",
       "ind": null,
       "incumbent": "Elise Stefanik",
@@ -2595,8 +2597,8 @@
       "mustWatch": false
     },
     "NY-22": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "John Mannion",
+      "rep": "Kailee Buller",
       "ind": null,
       "incumbent": "John Mannion",
       "party": "D",
@@ -2604,8 +2606,8 @@
       "mustWatch": false
     },
     "NY-23": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Aaron Gies",
+      "rep": "Nick Langworthy",
       "ind": null,
       "incumbent": "Nick Langworthy",
       "party": "R",
@@ -2613,8 +2615,8 @@
       "mustWatch": false
     },
     "NY-24": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Alissa Ellman",
+      "rep": "Claudia Tenney",
       "ind": null,
       "incumbent": "Claudia Tenney",
       "party": "R",
@@ -2622,8 +2624,8 @@
       "mustWatch": false
     },
     "NY-25": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Joseph Morelle",
+      "rep": "Virginia McIntyre",
       "ind": null,
       "incumbent": "Joseph Morelle",
       "party": "D",
@@ -2631,8 +2633,8 @@
       "mustWatch": false
     },
     "NY-26": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Tim Kennedy",
+      "rep": "Dennis Hannon",
       "ind": null,
       "incumbent": "Tim Kennedy",
       "party": "D",
@@ -3189,8 +3191,8 @@
     },
 
     "SC-1": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Nancy Lacore",
+      "rep": "Jenny Costa Honeycutt",
       "ind": null,
       "incumbent": "Nancy Mace",
       "party": "R",
@@ -3198,8 +3200,8 @@
       "mustWatch": false
     },
     "SC-2": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Zyon Khalifa",
+      "rep": "Joe Wilson",
       "ind": null,
       "incumbent": "Joe Wilson",
       "party": "R",
@@ -3207,8 +3209,8 @@
       "mustWatch": false
     },
     "SC-3": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Eunice Lehmacher",
+      "rep": "Sheri Biggs",
       "ind": null,
       "incumbent": "Sheri Biggs",
       "party": "R",
@@ -3216,8 +3218,8 @@
       "mustWatch": false
     },
     "SC-4": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Courtney McClain",
+      "rep": "William Timmons",
       "ind": null,
       "incumbent": "William Timmons",
       "party": "R",
@@ -3225,8 +3227,8 @@
       "mustWatch": false
     },
     "SC-5": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Mallory Dittmer",
+      "rep": "Wes Climer",
       "ind": null,
       "incumbent": "Ralph Norman",
       "party": "R",
@@ -3234,8 +3236,8 @@
       "mustWatch": false
     },
     "SC-6": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Jim Clyburn",
+      "rep": "John Peterson",
       "ind": null,
       "incumbent": "Jim Clyburn",
       "party": "D",
@@ -3243,8 +3245,8 @@
       "mustWatch": false
     },
     "SC-7": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "John Vincent",
+      "rep": "Russell Fry",
       "ind": null,
       "incumbent": "Russell Fry",
       "party": "R",
@@ -3703,8 +3705,8 @@
     },
 
     "UT-1": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Ben McAdams",
+      "rep": "Riley Owen",
       "ind": null,
       "incumbent": "Blake Moore",
       "party": "R",
@@ -3713,31 +3715,34 @@
       "note": "Redrawn district now centered around Salt Lake City, creating a heavily Democratic-leaning seat despite Blake Moore being the current R incumbent."
     },
     "UT-2": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Peter Crosby",
+      "rep": "Blake Moore",
       "ind": null,
       "incumbent": "Celeste Maloy",
       "party": "R",
       "rating": "Solid R",
-      "mustWatch": false
+      "mustWatch": false,
+      "note": "New district Rep. Blake Moore from UT-1 was redistricted to UT-2."
     },
     "UT-3": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Kent Udell",
+      "rep": "Celeste Maloy",
       "ind": null,
       "incumbent": "Mike Kennedy",
       "party": "R",
       "rating": "Solid R",
-      "mustWatch": false
+      "mustWatch": false,
+      "note": "New district Rep. Celeste Maloy from UT-2 was redistricted to UT-3."
     },
     "UT-4": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Jonny Larsen",
+      "rep": "Mike Kennedy",
       "ind": null,
       "incumbent": "Burgess Owens",
       "party": "R",
       "rating": "Solid R",
-      "mustWatch": false
+      "mustWatch": false,
+      "note": "New district Congressman Mike Kennedy from UT-3 was redistricted to UT-4."
     },
 
     "VT-AL": {

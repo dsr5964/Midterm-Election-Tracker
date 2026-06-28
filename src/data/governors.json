@@ -11,7 +11,7 @@
       "name": "Alabama",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "R+15",
         "incumbent": {
           "name": "Kay Ivey",
@@ -78,7 +78,7 @@
       "name": "Arkansas",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "R+15",
         "incumbent": {
           "name": "Sarah Huckabee Sanders",
@@ -101,7 +101,7 @@
       "name": "California",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+12",
         "incumbent": {
           "name": "Gavin Newsom",
@@ -130,7 +130,7 @@
       "name": "Colorado",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+6",
         "incumbent": {
           "name": "Jared Polis",
@@ -149,7 +149,7 @@
       "name": "Connecticut",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+8",
         "incumbent": {
           "name": "Ned Lamont",
@@ -192,7 +192,7 @@
       "name": "Georgia",
       "governor": {
         "mustWatch": true,
-        "rating": "Toss up",
+        "rating": "tossup",
         "pvi": "R+1",
         "incumbent": {
           "name": "Brian Kemp",
@@ -221,7 +221,7 @@
       "name": "Hawaii",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+13",
         "incumbent": {
           "name": "Josh Green",
@@ -240,7 +240,7 @@
       "name": "Idaho",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "R+18",
         "incumbent": {
           "name": "Brad Little",
@@ -259,7 +259,7 @@
       "name": "Illinois",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+6",
         "incumbent": {
           "name": "JB Pritzker",
@@ -283,7 +283,7 @@
       "name": "Iowa",
       "governor": {
         "mustWatch": true,
-        "rating": "Toss up",
+        "rating": "tossup",
         "pvi": "R+6",
         "incumbent": {
           "name": "Kim Reynolds",
@@ -345,7 +345,7 @@
       "name": "Maryland",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+15",
         "incumbent": {
           "name": "Wes Moore",
@@ -354,9 +354,9 @@
         },
         "candidates": [
           { "name": "Wes Moore", "party": "D", "status": "incumbent" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Dan Cox", "party": "R", "status": "nominee" }
         ],
-        "note": "Moore running for re-election in a reliably blue state."
+        "note": "Moore running for re-election in a reliably blue state. This is a rematch from 2022."
       }
     },
 
@@ -364,7 +364,7 @@
       "name": "Massachusetts",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+14",
         "incumbent": {
           "name": "Maura Healey",
@@ -383,7 +383,7 @@
       "name": "Michigan",
       "governor": {
         "mustWatch": true,
-        "rating": "Toss up",
+        "rating": "tossup",
         "pvi": "EVEN",
         "incumbent": {
           "name": "Gretchen Whitmer",
@@ -418,7 +418,7 @@
       "name": "Minnesota",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+3",
         "incumbent": {
           "name": "Tim Walz",
@@ -528,7 +528,7 @@
       "name": "New York",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+8",
         "incumbent": {
           "name": "Kathy Hochul",
@@ -581,7 +581,7 @@
       "name": "Oklahoma",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "R+17",
         "incumbent": {
           "name": "Kevin Stitt",
@@ -624,7 +624,7 @@
       "name": "Pennsylvania",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "R+1",
         "incumbent": {
           "name": "Josh Shapiro",
@@ -645,7 +645,7 @@
             "note": "Pennsylvania State Treasurer"
           }
         ],
-        "note": "Shapiro is a highly popular incumbent; rated Solid D despite R+1 PVI. Garrity is the first statewide Republican nominee to face him."
+        "note": "Shapiro is a highly popular incumbent; rated Safe D despite R+1 PVI. Garrity is the first statewide Republican nominee to face him."
       }
     },
 
@@ -653,7 +653,7 @@
       "name": "Rhode Island",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid D",
+        "rating": "Safe D",
         "pvi": "D+8",
         "incumbent": {
           "name": "Dan McKee",
@@ -672,7 +672,7 @@
       "name": "South Carolina",
       "governor": {
         "mustWatch": false,
-        "rating": "Likely R",
+        "rating": "Safe R",
         "pvi": "R+8",
         "incumbent": {
           "name": "Henry McMaster",
@@ -681,7 +681,12 @@
         },
         "candidates": [
           { "name": "Jermaine Johnson", "party": "D", "status": "nominee" },
-          { "name": "TBD", "party": "R", "status": "primary-runoff" }
+          {
+            "name": "Alan Wilson",
+            "party": "R",
+            "status": "nominee",
+            "note": "Attorney general of the state"
+          }
         ],
         "note": "Open seat — McMaster term-limited. Republican-leaning state."
       }
@@ -691,7 +696,7 @@
       "name": "South Dakota",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "R+15",
         "incumbent": {
           "name": "Larry Rhoden",
@@ -721,7 +726,7 @@
       "name": "Tennessee",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "R+14",
         "incumbent": {
           "name": "Bill Lee",
@@ -764,7 +769,7 @@
       "name": "Vermont",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "D+17",
         "incumbent": {
           "name": "Phil Scott",
@@ -775,7 +780,7 @@
           { "name": "TBD", "party": "D", "status": "primary-tbd" },
           { "name": "Phil Scott", "party": "R", "status": "incumbent" }
         ],
-        "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Rated Solid R based on his personal popularity rather than partisan lean."
+        "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Rated Safe R based on his personal popularity rather than partisan lean."
       }
     },
 
@@ -783,7 +788,7 @@
       "name": "Wisconsin",
       "governor": {
         "mustWatch": true,
-        "rating": "Toss up",
+        "rating": "tossup",
         "pvi": "EVEN",
         "incumbent": {
           "name": "Tony Evers",
@@ -802,7 +807,7 @@
       "name": "Wyoming",
       "governor": {
         "mustWatch": false,
-        "rating": "Solid R",
+        "rating": "Safe R",
         "pvi": "R+23",
         "incumbent": {
           "name": "Mark Gordon",
@@ -822,14 +827,14 @@
     "totalRaces": 36,
     "mustWatch": 4,
     "byRating": {
-      "Solid D": 8,
+      "Safe D": 8,
       "Likely D": 4,
       "Lean D": 1,
       "Toss up": 3,
       "Tilt R": 1,
       "Lean R": 3,
       "Likely R": 6,
-      "Solid R": 10
+      "Safe R": 10
     }
   }
 }
