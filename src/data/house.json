@@ -701,17 +701,18 @@
     },
 
     "CO-1": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem2": "Melat Kiros",
+      "rep": "Christy Peterson",
       "ind": null,
       "incumbent": "Diana DeGette",
       "party": "D",
       "rating": "Solid D",
-      "mustWatch": false
+      "mustWatch": false,
+      "notes": "Incumbent Representative Diana DeGette lost renomination."
     },
     "CO-2": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Joe Neguse",
+      "rep2": "Kelley Dennison",
       "ind": null,
       "incumbent": "Joe Neguse",
       "party": "D",
@@ -719,8 +720,8 @@
       "mustWatch": false
     },
     "CO-3": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem2": "Dwayne Romero",
+      "rep": "Jeff Hurd",
       "ind": null,
       "incumbent": "Jeff Hurd",
       "party": "R",
@@ -728,8 +729,8 @@
       "mustWatch": false
     },
     "CO-4": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Eileen Laubacher",
+      "rep": "Lauren Boebert",
       "ind": null,
       "incumbent": "Lauren Boebert",
       "party": "R",
@@ -737,8 +738,8 @@
       "mustWatch": false
     },
     "CO-5": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Jessica Killin",
+      "rep": "Jeff Crank",
       "ind": null,
       "incumbent": "Jeff Crank",
       "party": "R",
@@ -746,8 +747,8 @@
       "mustWatch": false
     },
     "CO-6": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Jason Crow",
+      "rep": null,
       "ind": null,
       "incumbent": "Jason Crow",
       "party": "D",
@@ -755,8 +756,8 @@
       "mustWatch": false
     },
     "CO-7": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Brittany Pettersen",
+      "rep": "Tim Bennett",
       "ind": null,
       "incumbent": "Brittany Pettersen",
       "party": "D",
@@ -764,8 +765,8 @@
       "mustWatch": false
     },
     "CO-8": {
-      "dem": "TBD",
-      "rep": "TBD",
+      "dem": "Manny Rutinel",
+      "rep": "Gabe Evans",
       "ind": null,
       "incumbent": "Gabe Evans",
       "party": "R",

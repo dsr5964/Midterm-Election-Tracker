@@ -138,10 +138,17 @@
           "note": "Term-limited"
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Phil Weiser",
+            "party": "D",
+            "status": "nominee",
+            "note": "Incumbent Colorado Attorney General"
+          },
+          { "name": "Victor Marx", "party": "R", "status": "primary-tbd" },
+          { "name": "Scott Bottoms", "party": "R", "status": "primary-tbd" },
+          { "name": "Barb Kirkmeyer", "party": "R", "status": "primary-tbd" }
         ],
-        "note": "Open seat — Polis term-limited. Blue-leaning state."
+        "note": "Open seat — Polis term-limited. Senator Michael Bennett lost the primary to Colorado AG Phil Weiser."
       }
     },
 

@@ -106,14 +106,8 @@
           {
             "name": "John Hickenlooper",
             "party": "D",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Incumbent senator."
-          },
-          {
-            "name": "Julie Gonzalez",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "State senator. Progressive challenger."
           },
           {
             "name": "Mark Baisley",
@@ -121,7 +115,7 @@
             "status": "nominee"
           }
         ],
-        "note": "Hickenlooper running for re-election in a blue-leaning state."
+        "note": "Hickenlooper running for re-election in a blue-leaning state. He won the nomination fighting off a challenger to his left from State Senator Julie Gonzalez."
       }
     },
 

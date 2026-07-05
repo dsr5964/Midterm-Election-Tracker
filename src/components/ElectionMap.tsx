@@ -9,10 +9,6 @@ import allStateAbbrevs from "../data/stateabbrevs.json";
 import geoData from "../data/states-10m.json";
 import { useState } from "react";
 
-import senateData from "../data/senate.json" with { type: "json" };
-import houseData from "../data/house.json" with { type: "json" };
-import governorData from "../data/governors.json" with { type: "json" };
-
 const markers = [
   { markerOffset: -20, name: "Chicago", coordinates: [-87.6298, 41.8781] },
   { markerOffset: -20, name: "Boston", coordinates: [-71.0589, 42.3601] },
@@ -90,34 +86,34 @@ const NO_RACE_COLOR = "#E5E5E0";
 
 const partyColor = {
   dem: {
-    "safe-d": "",
-    "likely-d": "",
-    "lean-d": "",
-    "tilt-d": "",
+    "safe-d": "#244999",
+    "likely-d": "#577CCC",
+    "lean-d": "#8AAFFF",
+    "tilt-d": "#949BB3",
   },
   rep: {
-    "safe-r": "",
-    "likely-r": "",
-    "lean-r": "",
-    "tilt-r": "",
+    "safe-r": "#D22532",
+    "likely-r": "#FF5865",
+    "lean-r": "#FF8B98",
+    "tilt-r": "#CF8980",
   },
   tossup: "C9C09B",
 };
 
-function getState(stateId: string): State | undefined {
+function getState(data, stateId: string): State | undefined {
   const individualState = allStateAbbrevs.find(
     (state) => state.val === stateId,
   );
 
   if (individualState) {
-    const stateKey = individualState.id as keyof typeof senateData.states;
+    const stateKey = individualState.id as keyof typeof data.states;
 
-    if (stateKey in senateData.states) {
+    if (stateKey in data.states) {
       const state = {
         id: stateId,
         abbrev: individualState.id as StateAbbr,
-        name: senateData.states[stateKey].name,
-        rating: senateData.states[stateKey].senate.rating,
+        name: data.states[stateKey].name,
+        rating: data.states[stateKey].senate.rating,
       };
       return state;
     }
@@ -158,7 +154,7 @@ function getRatingColor(rating: string): string {
   }
 }
 
-export default function ElectionMap() {
+export default function ElectionMap({ data }) {
   return (
     <div>
       <h1>Senate Map 2026</h1>
@@ -169,11 +165,12 @@ export default function ElectionMap() {
           height={500}
           style={{ width: "100%", height: "auto" }}
           projectionConfig={{ scale: 1000 }}
+          onMouseDown={(e) => e.preventDefault()}
         >
           <Geographies geography={geoData}>
             {({ geographies }) => {
               return geographies.map((geo) => {
-                const state = getState(geo.id);
+                const state = getState(data, geo.id);
 
                 if (!state) {
                   return (
@@ -184,8 +181,8 @@ export default function ElectionMap() {
                         default: {
                           fill: NO_RACE_COLOR,
                           outline: "none",
-                          cursor: "default",
                           pointerEvents: "none",
+                          boxShadow: "10px 10px",
                         },
                         hover: {
                           fill: NO_RACE_COLOR,
@@ -200,18 +197,30 @@ export default function ElectionMap() {
                   );
                 }
 
-                const stateColor = getRatingColor(state!.rating);
+                const stateColor: string = getRatingColor(state!.rating);
 
                 return (
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
+                    fill={stateColor}
+                    stroke="white"
+                    strokeWidth={1}
                     style={{
-                      default: { fill: stateColor, outline: "none" },
-                      hover: { fill: "#F53", outline: "none" },
-                      pressed: {
-                        fill: "#E42",
+                      default: {
+                        fill: stateColor,
+                        outline: "black",
+                        cursor: "pointer",
+                      },
+                      hover: {
+                        fill: stateColor,
                         outline: "none",
+                        cursor: "pointer",
+                      },
+                      pressed: {
+                        fill: stateColor,
+                        outline: "none",
+                        cursor: "pointer",
                       },
                     }}
                   />
