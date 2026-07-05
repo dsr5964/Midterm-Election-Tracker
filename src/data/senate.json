@@ -35,6 +35,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 19, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "June 16, 2026",
         "incumbent": {
           "name": "Tommy Tuberville",
           "party": "R",
@@ -42,7 +45,12 @@
           "note": "Retiring to run for Governor of Alabama"
         },
         "candidates": [
-          { "name": "Everett Weiss", "party": "D", "status": "nominee" },
+          {
+            "name": "Everett Weiss",
+            "party": "D",
+            "status": "nominee",
+            "note": "Attorney and perennial candidate"
+          },
           {
             "name": "Barry Moore",
             "party": "R",
@@ -50,7 +58,7 @@
             "note": "Representative from AL-1"
           }
         ],
-        "note": "Open seat — Tuberville retiring to run for Governor. Deep red state; safe Republican regardless."
+        "note": "Open seat — Tuberville retiring to run for Governor."
       }
     },
 
@@ -61,8 +69,9 @@
         "ratings": ["tossup", "lean-r", "tossup", "tossup", "lean-r", "tossup"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "August 18, 2026",
         "incumbent": {
-          "name": "Dan Sullivan",
+          "name": "Dan S. Sullivan",
           "party": "R",
           "firstElected": 2014
         },
@@ -70,12 +79,78 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "status": "nominee",
-            "note": "Former at-large House rep; first Alaska Native in Congress"
+            "status": "blanket-primary-tbd",
+            "note": "Former at-large House rep; first Alaska Native in Congress. Presumptive democrat nominee."
           },
-          { "name": "Dan Sullivan", "party": "R", "status": "incumbent" }
+          { "name": "Dan S. Sullivan", "party": "R", "status": "incumbent" },
+          {
+            "name": "Dan J. Sullivan",
+            "party": "R",
+            "status": "blanket-primary-tbd",
+            "note": "Another Dan Sullivan that isn't the incumbent senator is running as the Republican nominee despite legal challenges."
+          },
+          {
+            "name": "Fred C, Grauberger",
+            "party": "R",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Richard Grayson",
+            "party": "G",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Carol Hafner",
+            "party": "D",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Gerald L.  Heikes",
+            "party": "R",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Sid Hill",
+            "party": "I",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Scott Kohlhaas",
+            "party": "L",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "David Leslie",
+            "party": "D",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Richard Benedict Mayers",
+            "party": "R",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Heather McElwain",
+            "party": "R",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Reece Roberts",
+            "party": "I",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Shirley Saucerman",
+            "party": "I",
+            "status": "blanket-primary-tbd"
+          },
+          {
+            "name": "Early D. 'Skip' Southworth",
+            "party": "Alaskan Party",
+            "status": "blanket-primary-tbd"
+          }
         ],
-        "note": "Alaska uses ranked-choice voting. Peltola is a strong challenger in a competitive state."
+        "note": "Alaska uses ranked-choice voting. Peltola is a strong challenger in a competitive state. Mary Peltola and Dan S. Sullivan are the expected nominees."
       }
     },
 
@@ -86,6 +161,7 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "March 3, 2026",
         "incumbent": {
           "name": "Tom Cotton",
           "party": "R",
@@ -113,6 +189,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 30, 2026",
         "incumbent": {
           "name": "John Hickenlooper",
           "party": "D",
@@ -131,7 +208,7 @@
             "status": "nominee"
           }
         ],
-        "note": "Hickenlooper running for re-election in a blue-leaning state. He won the nomination fighting off a challenger to his left from State Senator Julie Gonzalez."
+        "note": "Hickenlooper running for re-election in a blue-leaning state. He won fought off a challenger to his left from State Senator Julie Gonzalez."
       }
     },
 
@@ -142,6 +219,7 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "September 15, 2026",
         "incumbent": {
           "name": "Chris Coons",
           "party": "D",
@@ -149,7 +227,14 @@
         },
         "candidates": [
           { "name": "Chris Coons", "party": "D", "status": "incumbent" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Christopher Beardsley",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          { "name": "Travis Stevens", "party": "D", "status": "primary-tbd" },
+          { "name": "Michael Katz", "party": "R", "status": "primary-tbd" },
+          { "name": "John Shulli", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Reliably Democratic state."
       }
@@ -169,18 +254,45 @@
         ],
         "seat": "Class 3",
         "isSpecial": true,
+        "primaryDate": "August 18, 2026",
         "incumbent": {
           "name": "Ashley Moody",
           "party": "R",
           "note": "Appointed after Rubio resigned to serve as Secretary of State"
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Alex Vindman",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Whistleblower in 2019 Trump-Ukraine scandal and borhter of U.S. representative Eugene Vindman"
+          },
+          {
+            "name": "Angie Nixon",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "State representative"
+          },
           {
             "name": "Ashley Moody",
             "party": "R",
             "status": "incumbent",
             "note": "Appointed Senator; former Florida AG"
+          },
+          {
+            "name": "Chris Gleason",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Neelam Taneja Perry",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Ernest 'Ernie' Rivera",
+            "party": "R",
+            "status": "primary-tbd"
           }
         ],
         "note": "Special election to fill Marco Rubio's vacated seat. Deep red state."
@@ -201,6 +313,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 19, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "June 16, 2026",
         "incumbent": {
           "name": "Jon Ossoff",
           "party": "D",
@@ -231,6 +346,7 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 19, 2026",
         "incumbent": {
           "name": "Jim Risch",
           "party": "R",
@@ -238,7 +354,9 @@
         },
         "candidates": [
           { "name": "David Roth", "party": "D", "status": "nominee" },
-          { "name": "Jim Risch", "party": "R", "status": "incumbent" }
+          { "name": "Jim Risch", "party": "R", "status": "incumbent" },
+          { "name": "Todd Achilles", "party": "I", "status": "nominee" },
+          { "name": "Natalie Fleming", "party": "I", "status": "nominee" }
         ],
         "note": "Deep red state. Risch seeking another term."
       }
@@ -258,7 +376,13 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "incumbent": { "name": "Dick Durbin", "party": "D", "retiring": true },
+        "primaryDate": "March 17, 2026",
+        "incumbent": {
+          "name": "Dick Durbin",
+          "party": "D",
+          "retiring": true,
+          "firstElected": 1996
+        },
         "candidates": [
           {
             "name": "Juliana Stratton",
@@ -284,7 +408,13 @@
         "ratings": ["lean-r", "lean-r", "lean-r", "lean-r", "tossup", "tossup"],
         "seat": "Class 2",
         "isSpecial": false,
-        "incumbent": { "name": "Joni Ernst", "party": "R", "retiring": true },
+        "primaryDate": "June 2, 2026",
+        "incumbent": {
+          "name": "Joni Ernst",
+          "party": "R",
+          "retiring": true,
+          "firstElected": 2014
+        },
         "candidates": [
           {
             "name": "Josh Turek",
@@ -317,14 +447,22 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "August 4, 2026",
         "incumbent": {
           "name": "Roger Marshall",
           "party": "R",
           "firstElected": 2020
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "Roger Marshall", "party": "R", "status": "incumbent" }
+          { "name": "Adam Hamilton", "party": "D", "status": "primary-tbd" },
+          { "name": "Christy Davis", "party": "D", "status": "primary-tbd" },
+          { "name": "Patrick Schmidt", "party": "D", "status": "primary-tbd" },
+          { "name": "Damon Anderson", "party": "D", "status": "primary-tbd" },
+          { "name": "Jason Hart", "party": "D", "status": "primary-tbd" },
+          { "name": "Kevin Latz", "party": "D", "status": "primary-tbd" },
+          { "name": "Anne Parelkar", "party": "D", "status": "primary-tbd" },
+          { "name": "Roger Marshall", "party": "R", "status": "incumbent" },
+          { "name": "Pond Naramore", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Deep red state. Marshall running for re-election."
       }
@@ -344,6 +482,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 19, 2026",
         "incumbent": {
           "name": "Mitch McConnell",
           "party": "R",
@@ -376,6 +515,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 16, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "June 27, 2026",
         "incumbent": {
           "name": "Bill Cassidy",
           "party": "R",
@@ -401,6 +543,7 @@
         "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-r"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Susan Collins",
           "party": "R",
@@ -431,9 +574,16 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "September 1, 2026",
         "incumbent": { "name": "Ed Markey", "party": "D", "retiring": false },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Ed Markey", "party": "D", "status": "incumbent" },
+          {
+            "name": "Seth Moulton",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "U.S. representative for MA-6"
+          },
           {
             "name": "John Deaton",
             "party": "R",
@@ -441,7 +591,7 @@
             "note": "Cryptocurrency attorney; ran against Warren in 2024"
           }
         ],
-        "note": "Incumbent Markey is running in a primary against Representative Seth Moulton . Reliably blue state."
+        "note": "Incumbent Markey is running in a primary against Representative Seth Moulton. Reliably blue state."
       }
     },
 
@@ -452,9 +602,22 @@
         "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-d"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "August 4, 2026",
         "incumbent": { "name": "Gary Peters", "party": "D", "retiring": true },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Abdul El-Sayed",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Wayne County health director and candidate for governor in 2018"
+          },
+          {
+            "name": "Haley Stevens",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "U.S. representative for MI-11"
+          },
+          { "name": "Mallory McMorrow", "party": "D", "status": "withdrew" },
           {
             "name": "Mike Rogers",
             "party": "R",
@@ -480,14 +643,38 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "August 11, 2026",
         "incumbent": {
           "name": "Tina Smith",
-          "party": "D",
-          "firstElected": 2018
+          "party": "DFL",
+          "firstElected": 2018,
+          "retiring": true
         },
         "candidates": [
-          { "name": "Tina Smith", "party": "D", "status": "incumbent" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Angie Craig",
+            "party": "DFL",
+            "status": "primary-tbd",
+            "note": "U.S. representative from MN-2"
+          },
+          {
+            "name": "Penny Flanagan",
+            "party": "DFL",
+            "status": "primary-tbd",
+            "note": "Lt. governor of MN and former state representative"
+          },
+          {
+            "name": "Michele Tafoya",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Reporter and retired sports broadcaster"
+          },
+          {
+            "name": "Royce White",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Former NBA player and nominee for U.S. Senate in 2024"
+          }
         ],
         "note": "Smith defending in a competitive national environment."
       }
@@ -507,6 +694,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "March 10, 2026",
         "incumbent": {
           "name": "Cindy Hyde-Smith",
           "party": "R",
@@ -534,10 +722,12 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Steve Daines",
           "party": "R",
-          "firstElected": 2014
+          "firstElected": 2014,
+          "retiring": true
         },
         "candidates": [
           { "name": "Alani Bankhead", "party": "D", "status": "nominee" },
@@ -572,6 +762,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 12, 2026",
         "incumbent": {
           "name": "Pete Ricketts",
           "party": "R",
@@ -605,8 +796,10 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "September 8, 2026",
         "incumbent": {
           "name": "Jeanne Shaheen",
+          "firstElected": 2008,
           "party": "D",
           "retiring": true
         },
@@ -654,6 +847,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Cory Booker",
           "party": "D",
@@ -681,6 +875,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Ben Ray Luján",
           "party": "D",
@@ -708,7 +903,13 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "incumbent": { "name": "Thom Tillis", "party": "R", "retiring": true },
+        "primaryDate": "March 3, 2026",
+        "incumbent": {
+          "name": "Thom Tillis",
+          "party": "R",
+          "retiring": true,
+          "firstElected": 2014
+        },
         "candidates": [
           {
             "name": "Roy Cooper",
@@ -734,6 +935,7 @@
         "ratings": ["tossup", "tossup", "tossup", "tossup", "tilt-r", "tilt-d"],
         "seat": "Class 3",
         "isSpecial": true,
+        "primaryDate": "May 5, 2026",
         "incumbent": {
           "name": "Jon Husted",
           "party": "R",
@@ -764,10 +966,14 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 16, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "August, 25, 2026",
         "incumbent": {
           "name": "Alan Armstrong",
           "party": "R",
-          "firstElected": 2022
+          "retiring": true,
+          "note": "Appointed to replace former senator Markwayne Mullin who resigned to become DHS secretary"
         },
         "candidates": [
           { "name": "Jim Priest", "party": "D", "status": "primary-runoff" },
@@ -789,6 +995,7 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 19, 2026",
         "incumbent": {
           "name": "Jeff Merkley",
           "party": "D",
@@ -814,6 +1021,7 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "September 9, 2026",
         "incumbent": {
           "name": "Jack Reed",
           "party": "D",
@@ -821,7 +1029,13 @@
         },
         "candidates": [
           { "name": "Jack Reed", "party": "D", "status": "incumbent" },
-          { "name": "Raymond McKay", "party": "R", "status": "nominee" }
+          { "name": "Connor Burbridge", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Luis Daniel Munoz",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          { "name": "Raymond McKay", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Reed is a long-serving incumbent in a reliably blue state."
       }
@@ -841,6 +1055,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 9, 2026",
         "incumbent": {
           "name": "Lindsey Graham",
           "party": "R",
@@ -868,6 +1083,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Mike Rounds",
           "party": "R",
@@ -896,13 +1112,38 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "August 6, 2026",
         "incumbent": {
           "name": "Bill Hagerty",
           "party": "R",
           "firstElected": 2020
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Marquita Bradshaw",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Maria Brewer",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Kevin Lee McCants",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Civil Miller-Watkins",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Diana Onyejiaka",
+            "party": "D",
+            "status": "primary-tbd"
+          },
           { "name": "Bill Hagerty", "party": "R", "status": "incumbent" }
         ],
         "note": "Deep red state. Hagerty running for re-election."
@@ -923,6 +1164,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "March 3, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "May 26, 2026",
         "incumbent": {
           "name": "John Cornyn",
           "party": "R",
@@ -960,6 +1204,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "August 4, 2026",
         "incumbent": {
           "name": "Mark Warner",
           "party": "D",
@@ -967,7 +1212,9 @@
         },
         "candidates": [
           { "name": "Mark Warner", "party": "D", "status": "incumbent" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Kim Farington", "party": "R", "status": "primary-tbd" },
+          { "name": "Bert Mizusawa", "party": "R", "status": "primary-tbd" }
+          { "name": "David Williams", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Warner running for re-election in a blue-leaning state."
       }
@@ -980,6 +1227,7 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "May 12, 2026",
         "incumbent": {
           "name": "Shelley Moore Capito",
           "party": "R",
@@ -1008,18 +1256,40 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
+        "primaryDate": "August 18, 2026",
         "incumbent": {
           "name": "Cynthia Lummis",
           "party": "R",
           "retiring": true
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "James Byrd", "party": "D", "status": "primary-tbd" },
+          { "name": "Billy Benavidez", "party": "D", "status": "primary-tbd" },
           {
             "name": "Harriet Hageman",
             "party": "R",
-            "status": "nominee",
+            "status": "primary-tbd",
             "note": "U.S. Representative; unseated Liz Cheney in 2022 primary"
+          },
+          {
+            "name": "Jill Edwards",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Sam Mead",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "John Holtz",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Jimmy Skovgard",
+            "party": "R",
+            "status": "primary-tbd"
           }
         ],
         "note": "Open seat — Lummis did not seek re-election. Deep red state."

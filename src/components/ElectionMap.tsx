@@ -122,12 +122,8 @@ function getState(data, stateId: string): State | undefined {
 
     if (stateKey in data.states) {
       const stateName = data.states[stateKey].name;
-      console.log(stateName);
       const ratings: string[] = data.states[stateKey].race.ratings;
-      const ratingValue = calculateAverageRating(ratings);
-      console.log(ratingValue);
-      const rating = getRating(ratingValue);
-      console.log(rating);
+      const rating = getRating(ratings);
       const state = {
         id: stateId,
         abbrev: individualState.id as StateAbbr,
@@ -147,7 +143,8 @@ function calculateAverageRating(ratings: string[]): number {
   return ratingValue / ratings.length;
 }
 
-function getRating(ratingValue: number): string {
+function getRating(ratings: string[]): string {
+  const ratingValue = calculateAverageRating(ratings);
   switch (true) {
     case ratingValue >= 2.5:
       return "safe-d";
