@@ -3,15 +3,29 @@
     "electionDate": "2026-11-03",
     "lastUpdated": "2026-06-02",
     "sources": ["Ballotpedia", "Cook Political Report", "Wikipedia"],
+    "ratings": {
+      "description": "Race competitiveness ratings — update these periodically from Ballotpedia or Cook Political Report",
+      "values": [
+        "safe-d",
+        "likely-d",
+        "lean-d",
+        "tossup",
+        "lean-r",
+        "likely-r",
+        "safe-r",
+        "tilt-r",
+        "tilt-d"
+      ]
+    },
     "notes": "36 gubernatorial races in 2026. mustWatch=true for Toss Up and Tilt R/D races. California uses a jungle primary system — top two finishers regardless of party advance to general."
   },
 
   "states": {
     "AL": {
       "name": "Alabama",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+15",
         "incumbent": {
           "name": "Kay Ivey",
@@ -38,9 +52,9 @@
 
     "AK": {
       "name": "Alaska",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Lean R",
+        "ratings": ["likely-r", "likely-r", "likely-r", "tossup", "tossup"],
         "pvi": "R+6",
         "incumbent": {
           "name": "Mike Dunleavy",
@@ -57,16 +71,16 @@
 
     "AZ": {
       "name": "Arizona",
-      "governor": {
-        "mustWatch": false,
-        "rating": "Lean D",
+      "race": {
+        "mustWatch": true,
+        "ratings": ["tossup", "tossup", "lean-d", "lean-d", "tossup"],
         "pvi": "R+2",
         "incumbent": {
           "name": "Katie Hobbs",
           "party": "D",
           "firstElected": 2022
         },
-        "candidates": [
+        "candidatess": [
           { "name": "Katie Hobbs", "party": "D", "status": "incumbent" },
           { "name": "TBD", "party": "R", "status": "primary-tbd" }
         ],
@@ -76,9 +90,9 @@
 
     "AR": {
       "name": "Arkansas",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+15",
         "incumbent": {
           "name": "Sarah Huckabee Sanders",
@@ -99,9 +113,9 @@
 
     "CA": {
       "name": "California",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+12",
         "incumbent": {
           "name": "Gavin Newsom",
@@ -128,9 +142,9 @@
 
     "CO": {
       "name": "Colorado",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+6",
         "incumbent": {
           "name": "Jared Polis",
@@ -154,9 +168,9 @@
 
     "CT": {
       "name": "Connecticut",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+8",
         "incumbent": {
           "name": "Ned Lamont",
@@ -178,9 +192,9 @@
 
     "FL": {
       "name": "Florida",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Likely R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "likely-r"],
         "pvi": "R+5",
         "incumbent": {
           "name": "Ron DeSantis",
@@ -197,9 +211,9 @@
 
     "GA": {
       "name": "Georgia",
-      "governor": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
         "pvi": "R+1",
         "incumbent": {
           "name": "Brian Kemp",
@@ -226,9 +240,9 @@
 
     "HI": {
       "name": "Hawaii",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+13",
         "incumbent": {
           "name": "Josh Green",
@@ -245,9 +259,9 @@
 
     "ID": {
       "name": "Idaho",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+18",
         "incumbent": {
           "name": "Brad Little",
@@ -264,9 +278,9 @@
 
     "IL": {
       "name": "Illinois",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+6",
         "incumbent": {
           "name": "JB Pritzker",
@@ -288,9 +302,9 @@
 
     "IA": {
       "name": "Iowa",
-      "governor": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["tossup", "tossup", "tossup", "lean-d", "tossup"],
         "pvi": "R+6",
         "incumbent": {
           "name": "Kim Reynolds",
@@ -312,9 +326,9 @@
 
     "KS": {
       "name": "Kansas",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Lean R",
+        "ratings": ["lean-r", "tossup", "lean-r", "tilt-r", "lean-r"],
         "pvi": "R+8",
         "incumbent": {
           "name": "Laura Kelly",
@@ -331,9 +345,9 @@
 
     "ME": {
       "name": "Maine",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Likely D",
+        "ratings": ["likely-d", "likely-d", "lean-d", "tilt-d", "lean-d"],
         "pvi": "D+4",
         "incumbent": {
           "name": "Janet Mills",
@@ -350,9 +364,9 @@
 
     "MD": {
       "name": "Maryland",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+15",
         "incumbent": {
           "name": "Wes Moore",
@@ -369,9 +383,9 @@
 
     "MA": {
       "name": "Massachusetts",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+14",
         "incumbent": {
           "name": "Maura Healey",
@@ -388,9 +402,9 @@
 
     "MI": {
       "name": "Michigan",
-      "governor": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["lean-d", "tilt-d", "tossup", "lean-d", "tossup"],
         "pvi": "EVEN",
         "incumbent": {
           "name": "Gretchen Whitmer",
@@ -423,9 +437,9 @@
 
     "MN": {
       "name": "Minnesota",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+3",
         "incumbent": {
           "name": "Tim Walz",
@@ -447,9 +461,9 @@
 
     "NE": {
       "name": "Nebraska",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Likely R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+10",
         "incumbent": {
           "name": "Jim Pillen",
@@ -471,9 +485,9 @@
 
     "NV": {
       "name": "Nevada",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Lean R",
+        "ratings": ["tossup", "tilt-r", "lean-r", "tilt-r", "tossup"],
         "pvi": "R+1",
         "incumbent": {
           "name": "Joe Lombardo",
@@ -490,9 +504,9 @@
 
     "NH": {
       "name": "New Hampshire",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Likely R",
+        "ratings": ["likely-r", "safe-r", "likely-r", "lean-r", "lean-r"],
         "pvi": "D+2",
         "incumbent": {
           "name": "Kelly Ayotte",
@@ -509,9 +523,9 @@
 
     "NM": {
       "name": "New Mexico",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Likely D",
+        "ratings": ["likely-d", "likely-d", "likely-d", "likely-d", "likely-d"],
         "pvi": "D+4",
         "incumbent": {
           "name": "Michelle Lujan Grisham",
@@ -533,9 +547,9 @@
 
     "NY": {
       "name": "New York",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+8",
         "incumbent": {
           "name": "Kathy Hochul",
@@ -557,9 +571,9 @@
 
     "OH": {
       "name": "Ohio",
-      "governor": {
+      "race": {
         "mustWatch": true,
-        "rating": "Tilt R",
+        "ratings": ["lean-r", "lean-r", "lean-r", "tilt-r", "tossup"],
         "pvi": "R+5",
         "incumbent": {
           "name": "Mike DeWine",
@@ -586,9 +600,9 @@
 
     "OK": {
       "name": "Oklahoma",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+17",
         "incumbent": {
           "name": "Kevin Stitt",
@@ -605,9 +619,9 @@
 
     "OR": {
       "name": "Oregon",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Likely D",
+        "ratings": ["safe-d", "lean-d", "likely-d", "likely-d", "safe-d"],
         "pvi": "D+8",
         "incumbent": {
           "name": "Tina Kotek",
@@ -629,9 +643,9 @@
 
     "PA": {
       "name": "Pennsylvania",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "likely-d", "safe-d", "safe-d"],
         "pvi": "R+1",
         "incumbent": {
           "name": "Josh Shapiro",
@@ -658,9 +672,9 @@
 
     "RI": {
       "name": "Rhode Island",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe D",
+        "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+8",
         "incumbent": {
           "name": "Dan McKee",
@@ -677,9 +691,9 @@
 
     "SC": {
       "name": "South Carolina",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "likely-r"],
         "pvi": "R+8",
         "incumbent": {
           "name": "Henry McMaster",
@@ -701,9 +715,9 @@
 
     "SD": {
       "name": "South Dakota",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
         "pvi": "R+15",
         "incumbent": {
           "name": "Larry Rhoden",
@@ -731,9 +745,9 @@
 
     "TN": {
       "name": "Tennessee",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+14",
         "incumbent": {
           "name": "Bill Lee",
@@ -750,9 +764,9 @@
 
     "TX": {
       "name": "Texas",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Likely R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
         "pvi": "R+6",
         "incumbent": {
           "name": "Greg Abbott",
@@ -774,9 +788,9 @@
 
     "VT": {
       "name": "Vermont",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "D+17",
         "incumbent": {
           "name": "Phil Scott",
@@ -793,9 +807,9 @@
 
     "WI": {
       "name": "Wisconsin",
-      "governor": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
         "pvi": "EVEN",
         "incumbent": {
           "name": "Tony Evers",
@@ -812,9 +826,9 @@
 
     "WY": {
       "name": "Wyoming",
-      "governor": {
+      "race": {
         "mustWatch": false,
-        "rating": "Safe R",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+23",
         "incumbent": {
           "name": "Mark Gordon",

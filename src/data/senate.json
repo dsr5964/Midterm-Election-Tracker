@@ -7,12 +7,14 @@
       "description": "Race competitiveness ratings — update these periodically from Ballotpedia or Cook Political Report",
       "values": [
         "safe-d",
+        "safe-r",
         "likely-d",
-        "lean-d",
-        "tossup",
-        "lean-r",
         "likely-r",
-        "safe-r"
+        "lean-d",
+        "lean-r",
+        "tilt-d",
+        "tilt-r",
+        "tossup"
       ]
     },
     "notes": "Senate seats are all Class 2 (last elected 2020), plus FL and OH specials. Governor races to be added separately."
@@ -21,9 +23,16 @@
   "states": {
     "AL": {
       "name": "Alabama",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -47,9 +56,9 @@
 
     "AK": {
       "name": "Alaska",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["tossup", "lean-r", "tossup", "tossup", "lean-r", "tossup"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -72,9 +81,9 @@
 
     "AR": {
       "name": "Arkansas",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -92,9 +101,16 @@
 
     "CO": {
       "name": "Colorado",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -121,9 +137,9 @@
 
     "DE": {
       "name": "Delaware",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -141,9 +157,16 @@
 
     "FL": {
       "name": "Florida",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "likely-r",
+        "ratings": [
+          "likely-r",
+          "likely-r",
+          "safe-r",
+          "safe-r",
+          "lean-r",
+          "lean-r"
+        ],
         "seat": "Class 3",
         "isSpecial": true,
         "incumbent": {
@@ -166,9 +189,16 @@
 
     "GA": {
       "name": "Georgia",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "lean-d",
+        "ratings": [
+          "lean-d",
+          "lean-d",
+          "lean-d",
+          "likely-d",
+          "tossup",
+          "tossup"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -196,9 +226,9 @@
 
     "ID": {
       "name": "Idaho",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -216,9 +246,16 @@
 
     "IL": {
       "name": "Illinois",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Dick Durbin", "party": "D", "retiring": true },
@@ -242,9 +279,9 @@
 
     "IA": {
       "name": "Iowa",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "lean-r",
+        "ratings": ["lean-r", "lean-r", "lean-r", "lean-r", "tossup", "tossup"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Joni Ernst", "party": "R", "retiring": true },
@@ -268,9 +305,16 @@
 
     "KS": {
       "name": "Kansas",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r",
+          "lean-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -288,9 +332,16 @@
 
     "KY": {
       "name": "Kentucky",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -313,9 +364,16 @@
 
     "LA": {
       "name": "Louisiana",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r",
+          "likely-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -338,9 +396,9 @@
 
     "ME": {
       "name": "Maine",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -368,9 +426,9 @@
 
     "MA": {
       "name": "Massachusetts",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Ed Markey", "party": "D", "retiring": false },
@@ -389,9 +447,9 @@
 
     "MI": {
       "name": "Michigan",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-d"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Gary Peters", "party": "D", "retiring": true },
@@ -410,9 +468,16 @@
 
     "MN": {
       "name": "Minnesota",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "likely-d",
+        "ratings": [
+          "likely-d",
+          "likely-d",
+          "likely-d",
+          "likely-d",
+          "likely-d",
+          "likely-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -430,9 +495,16 @@
 
     "MS": {
       "name": "Mississippi",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -450,9 +522,16 @@
 
     "MT": {
       "name": "Montana",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "likely-r",
+        "ratings": [
+          "likely-r",
+          "likely-r",
+          "safe-r",
+          "safe-r",
+          "lean-r",
+          "lean-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -481,9 +560,16 @@
 
     "NE": {
       "name": "Nebraska",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "likely-r",
+        "ratings": [
+          "likely-r",
+          "likely-r",
+          "likely-r",
+          "likely-r",
+          "lean-r",
+          "lean-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -507,9 +593,16 @@
 
     "NH": {
       "name": "New Hampshire",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "lean-d",
+        "ratings": [
+          "lean-d",
+          "lean-d",
+          "lean-d",
+          "tilt-d",
+          "likely-d",
+          "tossup"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -549,9 +642,16 @@
 
     "NJ": {
       "name": "New Jersey",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -569,9 +669,16 @@
 
     "NM": {
       "name": "New Mexico",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -589,9 +696,16 @@
 
     "NC": {
       "name": "North Carolina",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "lean-d",
+        "ratings": [
+          "lean-d",
+          "lean-d",
+          "lean-d",
+          "likely-d",
+          "likely-d",
+          "tossup"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": { "name": "Thom Tillis", "party": "R", "retiring": true },
@@ -615,9 +729,9 @@
 
     "OH": {
       "name": "Ohio",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "tossup",
+        "ratings": ["tossup", "tossup", "tossup", "tossup", "tilt-r", "tilt-d"],
         "seat": "Class 3",
         "isSpecial": true,
         "incumbent": {
@@ -645,9 +759,9 @@
 
     "OK": {
       "name": "Oklahoma",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -670,9 +784,9 @@
 
     "OR": {
       "name": "Oregon",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -695,9 +809,9 @@
 
     "RI": {
       "name": "Rhode Island",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -715,9 +829,16 @@
 
     "SC": {
       "name": "South Carolina",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r",
+          "likely-r",
+          "lean-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -735,9 +856,16 @@
 
     "SD": {
       "name": "South Dakota",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -756,9 +884,16 @@
 
     "TN": {
       "name": "Tennessee",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -776,9 +911,16 @@
 
     "TX": {
       "name": "Texas",
-      "senate": {
+      "race": {
         "mustWatch": true,
-        "rating": "lean-r",
+        "ratings": [
+          "lean-r",
+          "likely-r",
+          "lean-r",
+          "tossup",
+          "tossup",
+          "tossup"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -806,9 +948,16 @@
 
     "VA": {
       "name": "Virginia",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-d",
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -826,9 +975,9 @@
 
     "WV": {
       "name": "West Virginia",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {
@@ -854,9 +1003,9 @@
 
     "WY": {
       "name": "Wyoming",
-      "senate": {
+      "race": {
         "mustWatch": false,
-        "rating": "safe-r",
+        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "incumbent": {

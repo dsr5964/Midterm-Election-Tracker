@@ -84,20 +84,32 @@ type State = {
 
 const NO_RACE_COLOR = "#E5E5E0";
 
-const partyColor = {
-  dem: {
-    "safe-d": "#244999",
-    "likely-d": "#577CCC",
-    "lean-d": "#8AAFFF",
-    "tilt-d": "#949BB3",
-  },
-  rep: {
-    "safe-r": "#D22532",
-    "likely-r": "#FF5865",
-    "lean-r": "#FF8B98",
-    "tilt-r": "#CF8980",
-  },
-  tossup: "C9C09B",
+// const partyColor = {
+//   dem: {
+//     "safe-d": "#244999",
+//     "likely-d": "#577CCC",
+//     "lean-d": "#8AAFFF",
+//     "tilt-d": "#949BB3",
+//   },
+//   rep: {
+//     "safe-r": "#D22532",
+//     "likely-r": "#FF5865",
+//     "lean-r": "#FF8B98",
+//     "tilt-r": "#CF8980",
+//   },
+//   tossup: "C9C09B",
+// };
+
+const ratingToValueMap: Record<string, number> = {
+  "safe-d": 3,
+  "safe-r": -3,
+  "likely-d": 2,
+  "likely-r": -2,
+  "lean-d": 1,
+  "lean-r": -1,
+  "tilt-d": 0.5,
+  "tilt-r": -0.5,
+  tossup: 0,
 };
 
 function getState(data, stateId: string): State | undefined {
@@ -109,14 +121,52 @@ function getState(data, stateId: string): State | undefined {
     const stateKey = individualState.id as keyof typeof data.states;
 
     if (stateKey in data.states) {
+      const stateName = data.states[stateKey].name;
+      console.log(stateName);
+      const ratings: string[] = data.states[stateKey].race.ratings;
+      const ratingValue = calculateAverageRating(ratings);
+      console.log(ratingValue);
+      const rating = getRating(ratingValue);
+      console.log(rating);
       const state = {
         id: stateId,
         abbrev: individualState.id as StateAbbr,
-        name: data.states[stateKey].name,
-        rating: data.states[stateKey].senate.rating,
+        name: stateName,
+        rating: rating,
       };
       return state;
     }
+  }
+}
+
+function calculateAverageRating(ratings: string[]): number {
+  const ratingValue = ratings.reduce((accumulator, currentRating) => {
+    const ratingValue = ratingToValueMap[currentRating];
+    return accumulator + ratingValue;
+  }, 0);
+  return ratingValue / ratings.length;
+}
+
+function getRating(ratingValue: number): string {
+  switch (true) {
+    case ratingValue >= 2.5:
+      return "safe-d";
+    case ratingValue <= -2.5:
+      return "safe-r";
+    case ratingValue >= 1.5:
+      return "likely-d";
+    case ratingValue <= -1.5:
+      return "likely-r";
+    case ratingValue >= 0.75:
+      return "lean-d";
+    case ratingValue <= -0.75:
+      return "lean-r";
+    case ratingValue >= 0.25:
+      return "tilt-d";
+    case ratingValue <= -0.25:
+      return "tilt-r";
+    default:
+      return "tossup";
   }
 }
 
@@ -154,10 +204,10 @@ function getRatingColor(rating: string): string {
   }
 }
 
-export default function ElectionMap({ data }) {
+export default function ElectionMap({ data, title }) {
   return (
     <div>
-      <h1>Senate Map 2026</h1>
+      <h1>{title} Map 2026</h1>
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
           projection="geoAlbersUsa"
