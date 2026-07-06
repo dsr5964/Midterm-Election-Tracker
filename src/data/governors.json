@@ -27,10 +27,12 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+15",
+        "primaryDate": "May 19, 2026",
         "incumbent": {
           "name": "Kay Ivey",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           {
@@ -56,16 +58,76 @@
         "mustWatch": false,
         "ratings": ["likely-r", "likely-r", "likely-r", "tossup", "tossup"],
         "pvi": "R+6",
+        "primaryDate": "August 18, 2026",
         "incumbent": {
           "name": "Mike Dunleavy",
           "party": "R",
           "firstElected": 2018
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Tom Begich", "party": "D", "status": "blanket-primary" },
+          {
+            "name": "Bernadette Wilson",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Johnathan Kreiss-Tomkins",
+            "party": "D",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Dave Bronson",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Click Bishop",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Adam Crum",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Edna DeVries",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "MAtt Heilala",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Shelley Highes",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Henry 'Hank' Kroll",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Lesil McGuire",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "James W. 'JP4' Parkin",
+            "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Treg Taylor",
+            "party": "R",
+            "status": "blanket-primary"
+          }
         ],
-        "note": "Candidates not yet determined. Alaska uses ranked-choice voting."
+        "note": "Candidates not yet determined. Alaska uses ranked-choice voting. Top 4 will advance to general."
       }
     },
 
@@ -75,6 +137,7 @@
         "mustWatch": true,
         "ratings": ["tossup", "tossup", "lean-d", "lean-d", "tossup"],
         "pvi": "R+2",
+        "primaryDate": "July 21, 2026",
         "incumbent": {
           "name": "Katie Hobbs",
           "party": "D",
@@ -82,7 +145,18 @@
         },
         "candidatess": [
           { "name": "Katie Hobbs", "party": "D", "status": "incumbent" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Andy Biggs",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Incumbent US Representative from AZ-5"
+          },
+          {
+            "name": "Dave Schweikert",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Incumbent US Representative from AZ-1"
+          }
         ],
         "note": "Hobbs running for re-election in a purple state. Republican nominee TBD."
       }
@@ -94,6 +168,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+15",
+        "primaryDate": "March 3, 2026",
         "incumbent": {
           "name": "Sarah Huckabee Sanders",
           "party": "R",
@@ -117,10 +192,12 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+12",
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Gavin Newsom",
           "party": "D",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           {
@@ -136,7 +213,7 @@
             "note": "Former Fox News host; in runoff for second general spot"
           }
         ],
-        "note": "Open seat — Newsom term-limited. Jungle primary system: Becerra confirmed for general; second spot is a runoff between Democrat Tom Steyer and Republican Steve Hilton. Reliably blue state regardless of matchup."
+        "note": "Open seat — Newsom term-limited. Reliably blue state regardless of matchup."
       }
     },
 
@@ -146,6 +223,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+6",
+        "primaryDate": "June 30, 2026",
         "incumbent": {
           "name": "Jared Polis",
           "party": "D",
@@ -159,7 +237,6 @@
             "note": "Incumbent Colorado Attorney General"
           },
           { "name": "Victor Marx", "party": "R", "status": "primary-tbd" },
-          { "name": "Scott Bottoms", "party": "R", "status": "primary-tbd" },
           { "name": "Barb Kirkmeyer", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Open seat — Polis term-limited. Senator Michael Bennett lost the primary to Colorado AG Phil Weiser."
@@ -172,13 +249,20 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+8",
+        "primaryDate": "August 11, 2026",
         "incumbent": {
           "name": "Ned Lamont",
           "party": "D",
           "note": "Not seeking re-election"
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Ned Lamont", "party": "D", "status": "incumbent" },
+          {
+            "name": "Josh Elliott",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "State Representative"
+          },
           {
             "name": "Ryan Fazio",
             "party": "R",
@@ -186,7 +270,7 @@
             "note": "State Senator"
           }
         ],
-        "note": "Open seat — Lamont not seeking re-election. Reliably blue state."
+        "note": "Open seat — Lamont is in a tough primary against State representative Josh Elliott. Reliably blue state."
       }
     },
 
@@ -196,14 +280,43 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "likely-r"],
         "pvi": "R+5",
+        "primaryDate": "August 18, 2026",
         "incumbent": {
           "name": "Ron DeSantis",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "David Jolly",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Former Republican US Representative from FL-13"
+          },
+          {
+            "name": "Byron Donalds",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Current US Representative from FL-19"
+          },
+          {
+            "name": "Jay Collins",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Lt. governor of Florida"
+          },
+          {
+            "name": "Paul Renner",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Speaker of Florida House of Representatives"
+          },
+          {
+            "name": "James Fishback",
+            "party": "R",
+            "status": "primary-tbd"
+          }
         ],
         "note": "Open seat — DeSantis term-limited. Republican-leaning state."
       }
@@ -215,10 +328,14 @@
         "mustWatch": true,
         "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
         "pvi": "R+1",
+        "primaryDate": "May 19, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "June 16, 2026",
         "incumbent": {
           "name": "Brian Kemp",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           {
@@ -244,14 +361,16 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+13",
+        "primaryDate": "August 8, 2026",
         "incumbent": {
           "name": "Josh Green",
           "party": "D",
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Josh Green", "party": "D", "status": "incumbent" },
+          { "name": "Gary Coredery", "party": "R", "status": "primary-tbd" },
+          { "name": "Ken Fujiyama", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Reliably Democratic state."
       }
@@ -263,6 +382,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+18",
+        "primaryDate": "May 19, 2026",
         "incumbent": {
           "name": "Brad Little",
           "party": "R",
@@ -282,6 +402,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+6",
+        "primaryDate": "March 17, 2026",
         "incumbent": {
           "name": "JB Pritzker",
           "party": "D",
@@ -306,10 +427,12 @@
         "mustWatch": true,
         "ratings": ["tossup", "tossup", "tossup", "lean-d", "tossup"],
         "pvi": "R+6",
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Kim Reynolds",
           "party": "R",
-          "note": "Not seeking re-election"
+          "note": "Not seeking re-election",
+          "firstElected": 2018
         },
         "candidates": [
           {
@@ -327,17 +450,56 @@
     "KS": {
       "name": "Kansas",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": ["lean-r", "tossup", "lean-r", "tilt-r", "lean-r"],
         "pvi": "R+8",
+        "primaryDate": "August 4, 2026",
         "incumbent": {
           "name": "Laura Kelly",
           "party": "D",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Ethan Corson",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "State senator"
+          },
+          {
+            "name": "Cindy Holscher",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "State senator"
+          },
+          {
+            "name": "Curt Skoog",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Ty Masterson",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "President of Kansas Senate"
+          },
+          {
+            "name": "Scott Schwab",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Kansas Secretary of State"
+          },
+          {
+            "name": "Vicki Schmidt",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Charlotte O'Hara",
+            "party": "R",
+            "status": "primary-tbd"
+          }
         ],
         "note": "Open seat — Kelly term-limited. Kansas has a history of electing Democratic governors despite red PVI."
       }
@@ -349,14 +511,22 @@
         "mustWatch": false,
         "ratings": ["likely-d", "likely-d", "lean-d", "tilt-d", "lean-d"],
         "pvi": "D+4",
+        "primaryDate": "June 9, 2026",
         "incumbent": {
           "name": "Janet Mills",
           "party": "D",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
-          { "name": "Hannah Pingree", "party": "D", "status": "nominee" },
-          { "name": "Robert Charles", "party": "R", "status": "nominee" }
+          {
+            "name": "Hannah Pingree",
+            "party": "D",
+            "status": "nominee",
+            "note": "Former Speaker of Maine House of Representatives and daughter of US Representative Chellie Pingree"
+          },
+          { "name": "Robert Charles", "party": "R", "status": "nominee" },
+          { "name": "Rick Bennett", "party": "I", "status": "nominee" }
         ],
         "note": "Open seat — Mills term-limited. Blue-leaning state. Maine uses ranked-choice voting."
       }
@@ -368,6 +538,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+15",
+        "primaryDate": "June 23, 2026",
         "incumbent": {
           "name": "Wes Moore",
           "party": "D",
@@ -387,6 +558,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+14",
+        "primaryDate": "September 1, 2026",
         "incumbent": {
           "name": "Maura Healey",
           "party": "D",
@@ -394,7 +566,8 @@
         },
         "candidates": [
           { "name": "Maura Healey", "party": "D", "status": "incumbent" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Michael Minogue", "party": "R", "status": "primary-tbd" },
+          { "name": "Brian Shortsleeve", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Healey running for re-election in a reliably blue state."
       }
@@ -406,28 +579,30 @@
         "mustWatch": true,
         "ratings": ["lean-d", "tilt-d", "tossup", "lean-d", "tossup"],
         "pvi": "EVEN",
+        "primaryDate": "August 4, 2026",
         "incumbent": {
           "name": "Gretchen Whitmer",
           "party": "D",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           {
             "name": "Jocelyn Benson",
             "party": "D",
-            "status": "likely-nominee",
+            "status": "primary-tbd",
             "note": "Former Secretary of State; frontrunner in primary"
           },
           {
             "name": "John James",
             "party": "R",
-            "status": "likely-nominee",
+            "status": "primary-tbd",
             "note": "Former U.S. Senate candidate; facing tough primary from Perry Johnson"
           },
           {
             "name": "Perry Johnson",
             "party": "R",
-            "status": "primary",
+            "status": "primary-runoff",
             "note": "Businessman; stronger than expected primary challenge to James"
           }
         ],
@@ -441,21 +616,39 @@
         "mustWatch": false,
         "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+3",
+        "primaryDate": "August 11, 2026",
         "incumbent": {
           "name": "Tim Walz",
-          "party": "D",
-          "note": "Did not return after 2024 VP run"
+          "party": "DFL",
+          "note": "Dropped re-election 2026 campaign",
+          "firstElected": 2018
         },
         "candidates": [
           {
             "name": "Amy Klobuchar",
-            "party": "D",
+            "party": "DFL",
             "status": "nominee",
             "note": "U.S. Senator; will resign Senate seat if elected"
           },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Lisa Demuth",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "Speaker of Minnesota House of Representatives"
+          },
+          {
+            "name": "Mike Lindell",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "CEO of My Pillow"
+          },
+          {
+            "name": "Kendall Qualls",
+            "party": "R",
+            "status": "primary-tbd"
+          }
         ],
-        "note": "Open seat — Walz did not return. Klobuchar is running for governor while still serving in the Senate; she would resign her Senate seat upon election."
+        "note": "Open seat — Walz dropped his re-election campaign. Klobuchar is running for governor while still serving in the Senate; she would resign her Senate seat upon election."
       }
     },
 
@@ -465,6 +658,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+10",
+        "primaryDate": "May 12, 2026",
         "incumbent": {
           "name": "Jim Pillen",
           "party": "R",
@@ -489,6 +683,7 @@
         "mustWatch": false,
         "ratings": ["tossup", "tilt-r", "lean-r", "tilt-r", "tossup"],
         "pvi": "R+1",
+        "primaryDate": "June 9, 2026",
         "incumbent": {
           "name": "Joe Lombardo",
           "party": "R",
@@ -508,16 +703,23 @@
         "mustWatch": false,
         "ratings": ["likely-r", "safe-r", "likely-r", "lean-r", "lean-r"],
         "pvi": "D+2",
+        "primaryDate": "September 8, 2026",
         "incumbent": {
           "name": "Kelly Ayotte",
           "party": "R",
           "firstElected": 2024
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "Kelly Ayotte", "party": "R", "status": "incumbent" }
+          {
+            "name": "Cinde Warmington",
+            "party": "D",
+            "status": "presumptive-nominee"
+          },
+          { "name": "Kelly Ayotte", "party": "R", "status": "incumbent" },
+          { "name": "Shaun Fife", "party": "R", "status": "primary-tbd" },
+          { "name": "Bob Wayne McClory", "party": "R", "status": "primary-tbd" }
         ],
-        "note": "Ayotte running for re-election. Rated Likely R despite D+2 PVI — Ayotte is a popular moderate Republican in a swing state."
+        "note": "Ayotte running for re-election. Rated Likely R despite D+2 PVI — Ayotte is a popular moderate Republican in a swing state. NH Governor elections are every two years."
       }
     },
 
@@ -527,10 +729,12 @@
         "mustWatch": false,
         "ratings": ["likely-d", "likely-d", "likely-d", "likely-d", "likely-d"],
         "pvi": "D+4",
+        "primaryDate": "June 2, 2026",
         "incumbent": {
           "name": "Michelle Lujan Grisham",
           "party": "D",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           {
@@ -551,10 +755,12 @@
         "mustWatch": false,
         "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+8",
+        "primaryDate": "June 23, 2026",
         "incumbent": {
           "name": "Kathy Hochul",
           "party": "D",
-          "firstElected": 2022
+          "firstElected": 2022,
+          "note": "First became governor in 2021 after Andrew Cuomo resigned due to sexual assault allegations."
         },
         "candidates": [
           { "name": "Kathy Hochul", "party": "D", "status": "incumbent" },
@@ -575,10 +781,12 @@
         "mustWatch": true,
         "ratings": ["lean-r", "lean-r", "lean-r", "tilt-r", "tossup"],
         "pvi": "R+5",
+        "primaryDate": "May 5, 2026",
         "incumbent": {
           "name": "Mike DeWine",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           {
@@ -604,14 +812,23 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+17",
+        "primaryDate": "June 16, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "August 25, 2026",
         "incumbent": {
           "name": "Kevin Stitt",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           { "name": "Cyndi Munson", "party": "D", "status": "nominee" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Gentner Drummond",
+            "party": "R",
+            "status": "primary-runoff"
+          },
+          { "name": "Mike Mazzei", "party": "R", "status": "primary-runoff" }
         ],
         "note": "Open seat — Stitt term-limited. Deep red state."
       }
@@ -623,6 +840,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "lean-d", "likely-d", "likely-d", "safe-d"],
         "pvi": "D+8",
+        "primaryDate": "May 19, 2026",
         "incumbent": {
           "name": "Tina Kotek",
           "party": "D",
@@ -647,6 +865,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "likely-d", "safe-d", "safe-d"],
         "pvi": "R+1",
+        "primaryDate": "May 19, 2026",
         "incumbent": {
           "name": "Josh Shapiro",
           "party": "D",
@@ -676,14 +895,24 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+8",
+        "primaryDate": "September 9, 2026",
         "incumbent": {
           "name": "Dan McKee",
           "party": "D",
-          "note": "Not seeking re-election"
+          "note": "Receiving a primary challenge; very unpopular. Became governor after Gina Raimondo resigned to become Secretary of Commerce in 2021.",
+          "firstElected": 2022
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Dan McKee", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Helena Foulkes",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Former CVS executive"
+          },
+          { "name": "Robert Raimondo", "party": "R", "status": "primary-tbd" },
+          { "name": "Elaine Pelino", "party": "R", "status": "primary-tbd" },
+          { "name": "Aaron Guckian", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Open seat — McKee not seeking re-election. Reliably blue state."
       }
@@ -695,10 +924,14 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "likely-r"],
         "pvi": "R+8",
+        "primaryDate": "June 9, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "June 23, 2026",
         "incumbent": {
           "name": "Henry McMaster",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
           { "name": "Jermaine Johnson", "party": "D", "status": "nominee" },
@@ -719,10 +952,13 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
         "pvi": "R+15",
+        "primaryDate": "June 2, 2026",
+        "isRunoff": true,
+        "runoffPrimary": "July 28, 2026",
         "incumbent": {
           "name": "Larry Rhoden",
           "party": "R",
-          "firstElected": 2024
+          "note": "Became governor in 2025 after Kristi Noem resigned to become secretary of homeland security"
         },
         "candidates": [
           { "name": "Dan Ahlers", "party": "D", "status": "nominee" },
@@ -749,14 +985,40 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+14",
+        "primaryDate": "August 6, 2026",
         "incumbent": {
           "name": "Bill Lee",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Marsha Blackburn",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "US Senator"
+          },
+          {
+            "name": "John Rose",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "US Representative from TN-7"
+          },
+          {
+            "name": "Monty Fritts",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          { "name": "Jerri Green", "party": "D", "status": "primary-tbd" },
+          { "name": "Carnita Atwater", "party": "D", "status": "primary-tbd" },
+          { "name": "Tim Cyr", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Adam 'Ditch' Kurtz",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          { "name": "Kevin Lee McCants", "party": "D", "status": "primary-tbd" }
         ],
         "note": "Open seat — Lee term-limited. Deep red state."
       }
@@ -768,6 +1030,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
         "pvi": "R+6",
+        "primaryDate": "March 3, 2026",
         "incumbent": {
           "name": "Greg Abbott",
           "party": "R",
@@ -792,16 +1055,18 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "D+17",
+        "primaryDate": "August 11, 2026",
         "incumbent": {
           "name": "Phil Scott",
           "party": "R",
           "firstElected": 2016
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
+          { "name": "Amanda Janoo", "party": "D", "status": "primary-tbd" },
+          { "name": "Aly Richards", "party": "D", "status": "primary-tbd" },
           { "name": "Phil Scott", "party": "R", "status": "incumbent" }
         ],
-        "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Rated Safe R based on his personal popularity rather than partisan lean."
+        "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Rated Safe R based on his personal popularity rather than partisan lean. Vermont governor elections are every two years."
       }
     },
 
@@ -811,14 +1076,39 @@
         "mustWatch": true,
         "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
         "pvi": "EVEN",
+        "primaryDate": "August 11, 2026",
         "incumbent": {
           "name": "Tony Evers",
           "party": "D",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Mandela Barnes",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Former Lt. governor and nominee for US Senate in 2022."
+          },
+          {
+            "name": "Francesca Hong",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "State representative, progressive"
+          },
+          {
+            "name": "Sara Rodriguez",
+            "party": "D",
+            "status": "primary-tbd",
+            "note": "Incumbent lt. governor"
+          },
+          { "name": "David Crowley", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Tom Tiffany",
+            "party": "R",
+            "status": "primary-tbd",
+            "note": "US Representative from WI-7."
+          }
         ],
         "note": "Open seat — Evers term-limited. True battleground in an EVEN PVI state. Candidates TBD."
       }
@@ -830,14 +1120,22 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+23",
+        "primaryDate": "August 18, 2026",
         "incumbent": {
           "name": "Mark Gordon",
           "party": "R",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "firstElected": 2018
         },
         "candidates": [
-          { "name": "TBD", "party": "D", "status": "primary-tbd" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Ken Casner", "party": "D", "status": "primary-tbd" },
+          {
+            "name": "Megan Degenfelder",
+            "party": "R",
+            "status": "primary-tbd"
+          },
+          { "name": "Eric Barlow", "party": "R", "status": "primary-tbd" },
+          { "name": "Brent Bien", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Open seat — Gordon term-limited. Deep red state."
       }
