@@ -551,10 +551,10 @@
         },
         "candidates": [
           {
-            "name": "Graham Platner",
+            "name": "TBD",
             "party": "D",
-            "status": "nominee",
-            "note": "Marine vet and oyster farmer; defeated Gov. Janet Mills in primary; leads in early polls. Currently plagued by several scandals, with some calling him to drop out."
+            "status": "primary-tbd",
+            "note": "Graham Platner after winning the nomination dropped out due to serious allegations."
           },
           {
             "name": "Susan Collins",
@@ -1213,7 +1213,7 @@
         "candidates": [
           { "name": "Mark Warner", "party": "D", "status": "incumbent" },
           { "name": "Kim Farington", "party": "R", "status": "primary-tbd" },
-          { "name": "Bert Mizusawa", "party": "R", "status": "primary-tbd" }
+          { "name": "Bert Mizusawa", "party": "R", "status": "primary-tbd" },
           { "name": "David Williams", "party": "R", "status": "primary-tbd" }
         ],
         "note": "Warner running for re-election in a blue-leaning state."

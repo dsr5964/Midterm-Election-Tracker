@@ -8,6 +8,8 @@ import {
 import allStateAbbrevs from "../data/stateabbrevs.json";
 import geoData from "../data/states-10m.json";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Card from "./Card";
 
 const markers = [
   { markerOffset: -20, name: "Chicago", coordinates: [-87.6298, 41.8781] },
@@ -80,6 +82,17 @@ type State = {
   abbrev: StateAbbr;
   name: string;
   rating: string;
+  candidates: Candidate[];
+};
+
+type PoliticalParty = "D" | "R" | "I";
+
+type Candidate = {
+  name: string;
+  politicalParty: PoliticalParty;
+  status: string;
+  isIncumbent: boolean;
+  // note: string | undefined;
 };
 
 const NO_RACE_COLOR = "#E5E5E0";
@@ -124,15 +137,33 @@ function getState(data, stateId: string): State | undefined {
       const stateName = data.states[stateKey].name;
       const ratings: string[] = data.states[stateKey].race.ratings;
       const rating = getRating(ratings);
+      const candidates: Candidate[] = getCandidates(
+        data.states[stateKey].race.candidates,
+      );
+
       const state = {
         id: stateId,
         abbrev: individualState.id as StateAbbr,
         name: stateName,
         rating: rating,
+        candidates: candidates,
       };
+      console.log(state.candidates);
       return state;
     }
   }
+}
+
+function getCandidates(candidateData): Candidate[] {
+  const candidates: Candidate[] = candidateData.map((candidate) => {
+    return {
+      name: candidate.name,
+      politicalParty: candidate.party,
+      status: candidate.status,
+      isIncumbent: false,
+    };
+  });
+  return candidates;
 }
 
 function calculateAverageRating(ratings: string[]): number {
@@ -201,9 +232,27 @@ function getRatingColor(rating: string): string {
   }
 }
 
+const buttonNames: string[] = ["senate", "governor", "house"];
+const initState: State = {
+  id: "",
+  name: "",
+  rating: "",
+  abbrev: undefined,
+  candidates: [],
+};
+
 export default function ElectionMap({ data, title }) {
+  const navigate = useNavigate();
+  const [stateData, setStateData] = useState<State>(initState);
+  const lowerTitle = title.toLowerCase();
   return (
     <div>
+      <button onClick={() => navigate("/")}>Back</button>
+      {buttonNames.map((name) => {
+        if (name !== lowerTitle) {
+          return <button onClick={() => navigate(`/${name}`)}>{name}</button>;
+        }
+      })}
       <h1>{title} Map 2026</h1>
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
@@ -218,7 +267,6 @@ export default function ElectionMap({ data, title }) {
             {({ geographies }) => {
               return geographies.map((geo) => {
                 const state = getState(data, geo.id);
-
                 if (!state) {
                   return (
                     <Geography
@@ -270,6 +318,7 @@ export default function ElectionMap({ data, title }) {
                         cursor: "pointer",
                       },
                     }}
+                    onClick={() => setStateData(state)}
                   />
                 );
               });
@@ -277,6 +326,7 @@ export default function ElectionMap({ data, title }) {
           </Geographies>
         </ComposableMap>
       </div>
+      <Card stateData={stateData} />
     </div>
   );
 }
