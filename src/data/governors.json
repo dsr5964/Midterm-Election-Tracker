@@ -135,7 +135,7 @@
       "name": "Arizona",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tossup", "lean-d", "lean-d", "tossup"],
+        "ratings": ["lean-d", "tossup", "lean-d", "lean-d", "tossup"],
         "pvi": "R+2",
         "primaryDate": "July 21, 2026",
         "incumbent": {
@@ -143,7 +143,7 @@
           "party": "D",
           "firstElected": 2022
         },
-        "candidatess": [
+        "candidates": [
           { "name": "Katie Hobbs", "party": "D", "status": "incumbent" },
           {
             "name": "Andy Biggs",
@@ -236,8 +236,7 @@
             "status": "nominee",
             "note": "Incumbent Colorado Attorney General"
           },
-          { "name": "Victor Marx", "party": "R", "status": "primary-tbd" },
-          { "name": "Barb Kirkmeyer", "party": "R", "status": "primary-tbd" }
+          { "name": "Victor Marx", "party": "R", "status": "nominee" }
         ],
         "note": "Open seat — Polis term-limited. Senator Michael Bennett lost the primary to Colorado AG Phil Weiser."
       }
@@ -525,7 +524,7 @@
             "status": "nominee",
             "note": "Former Speaker of Maine House of Representatives and daughter of US Representative Chellie Pingree"
           },
-          { "name": "Robert Charles", "party": "R", "status": "nominee" },
+          { "name": "Bobby Charles", "party": "R", "status": "nominee" },
           { "name": "Rick Bennett", "party": "I", "status": "nominee" }
         ],
         "note": "Open seat — Mills term-limited. Blue-leaning state. Maine uses ranked-choice voting."

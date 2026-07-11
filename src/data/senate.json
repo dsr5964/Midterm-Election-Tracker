@@ -184,8 +184,8 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d",
-          "likely-d"
+          "likely-d",
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -245,12 +245,12 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "likely-r",
-          "likely-r",
           "safe-r",
           "safe-r",
+          "likely-r",
           "lean-r",
-          "lean-r"
+          "lean-r",
+          "likely-r"
         ],
         "seat": "Class 3",
         "isSpecial": true,
@@ -305,10 +305,10 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "lean-d",
+          "tossup",
           "lean-d",
           "likely-d",
-          "tossup",
+          "lean-d",
           "tossup"
         ],
         "seat": "Class 2",
@@ -617,7 +617,6 @@
             "status": "primary-tbd",
             "note": "U.S. representative for MI-11"
           },
-          { "name": "Mallory McMorrow", "party": "D", "status": "withdrew" },
           {
             "name": "Mike Rogers",
             "party": "R",

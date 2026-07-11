@@ -137,6 +137,7 @@ function getState(data, stateId: string): State | undefined {
       const stateName = data.states[stateKey].name;
       const ratings: string[] = data.states[stateKey].race.ratings;
       const rating = getRating(ratings);
+
       const candidates: Candidate[] = getCandidates(
         data.states[stateKey].race.candidates,
       );
@@ -148,7 +149,6 @@ function getState(data, stateId: string): State | undefined {
         rating: rating,
         candidates: candidates,
       };
-      console.log(state.candidates);
       return state;
     }
   }
