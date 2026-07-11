@@ -551,10 +551,24 @@
         },
         "candidates": [
           {
-            "name": "TBD",
+            "name": "Troy Jackson",
             "party": "D",
-            "status": "primary-tbd",
-            "note": "Graham Platner after winning the nomination dropped out due to serious allegations."
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Nirav Shah",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Shenna Bellows",
+            "party": "D",
+            "status": "primary-tbd"
+          },
+          {
+            "name": "Jordan Wood",
+            "party": "D",
+            "status": "primary-tbd"
           },
           {
             "name": "Susan Collins",
@@ -563,7 +577,7 @@
             "note": "Seeking 6th term; Senate Appropriations Committee chair"
           }
         ],
-        "note": "Democrats' top Senate target. Platner leads in early polls in this blue-leaning state."
+        "note": "Graham Platner after winning the nomination dropped out due to serious allegations. The Maine Democratic Party will have a state convention where 600 delegates vote for the new nominee."
       }
     },
 
