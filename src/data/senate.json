@@ -42,7 +42,8 @@
           "name": "Tommy Tuberville",
           "party": "R",
           "retiring": true,
-          "note": "Retiring to run for Governor of Alabama"
+          "firstElected": 2020,
+          "note": "Retiring to run for governor."
         },
         "candidates": [
           {
@@ -57,8 +58,7 @@
             "status": "nominee",
             "note": "Representative from AL-1"
           }
-        ],
-        "note": "Open seat — Tuberville retiring to run for Governor."
+        ]
       }
     },
 
@@ -258,7 +258,8 @@
         "incumbent": {
           "name": "Ashley Moody",
           "party": "R",
-          "note": "Appointed after Rubio resigned to serve as Secretary of State"
+          "note": "Appointed after Rubio resigned to serve as Secretary of State",
+          "firstElected": 2025
         },
         "candidates": [
           {
@@ -396,8 +397,7 @@
             "status": "nominee",
             "note": "Former Illinois Republican Party chairman"
           }
-        ],
-        "note": "Open seat — Durbin retiring after decades. Illinois is reliably blue."
+        ]
       }
     },
 
@@ -428,8 +428,7 @@
             "status": "nominee",
             "note": "U.S. Representative; Trump-endorsed"
           }
-        ],
-        "note": "Open seat — Ernst retiring. One of the most competitive races of the cycle in a state Trump carried."
+        ]
       }
     },
 
@@ -486,7 +485,8 @@
         "incumbent": {
           "name": "Mitch McConnell",
           "party": "R",
-          "retiring": true
+          "retiring": true,
+          "firstElected": 1984
         },
         "candidates": [
           { "name": "Charles Booker", "party": "D", "status": "nominee" },
@@ -496,8 +496,7 @@
             "status": "nominee",
             "note": "U.S. Representative; McConnell's preferred successor"
           }
-        ],
-        "note": "Open seat — McConnell retiring. Deep red state despite the open seat."
+        ]
       }
     },
 
@@ -521,7 +520,9 @@
         "incumbent": {
           "name": "Bill Cassidy",
           "party": "R",
-          "note": "Lost renomination after voting to convict Trump in 2021 impeachment"
+          "retiring": true,
+          "note": "Lost renomination.",
+          "firstElected": 2014
         },
         "candidates": [
           { "name": "Jamie Davis", "party": "D", "status": "nominee" },
@@ -589,7 +590,11 @@
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "September 1, 2026",
-        "incumbent": { "name": "Ed Markey", "party": "D", "retiring": false },
+        "incumbent": {
+          "name": "Ed Markey",
+          "party": "D",
+          "firstElected": 2013
+        },
         "candidates": [
           { "name": "Ed Markey", "party": "D", "status": "incumbent" },
           {
@@ -617,7 +622,12 @@
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "August 4, 2026",
-        "incumbent": { "name": "Gary Peters", "party": "D", "retiring": true },
+        "incumbent": {
+          "name": "Gary Peters",
+          "party": "D",
+          "retiring": true,
+          "firstElected": 2014
+        },
         "candidates": [
           {
             "name": "Abdul El-Sayed",
@@ -659,20 +669,20 @@
         "primaryDate": "August 11, 2026",
         "incumbent": {
           "name": "Tina Smith",
-          "party": "DFL",
+          "party": "D",
           "firstElected": 2018,
           "retiring": true
         },
         "candidates": [
           {
             "name": "Angie Craig",
-            "party": "DFL",
+            "party": "D",
             "status": "primary-tbd",
             "note": "U.S. representative from MN-2"
           },
           {
             "name": "Penny Flanagan",
-            "party": "DFL",
+            "party": "D",
             "status": "primary-tbd",
             "note": "Lt. governor of MN and former state representative"
           },
@@ -779,7 +789,8 @@
         "incumbent": {
           "name": "Pete Ricketts",
           "party": "R",
-          "firstElected": 2022
+          "firstElected": 2022,
+          "note": "Elected in a special election after being appointed to fill the vacant seat left after Ben Sasse's resignation."
         },
         "candidates": [
           { "name": "Cindy Burbank", "party": "D", "status": "nominee" },
@@ -841,8 +852,7 @@
             "status": "primary-tbd",
             "note": "Former U.S. Senator for this seat and brother of former Governor Chris Sununu. Trump endorsed."
           }
-        ],
-        "note": "Open seat — Shaheen retiring. One of the most competitive open seats in the cycle in a purple state."
+        ]
       }
     },
 
@@ -936,8 +946,7 @@
             "status": "nominee",
             "note": "Former RNC Chairman; Trump-endorsed"
           }
-        ],
-        "note": "Open seat — Tillis retiring. Cooper is a strong Democrat in a perennial swing state."
+        ]
       }
     },
 
@@ -952,7 +961,8 @@
         "incumbent": {
           "name": "Jon Husted",
           "party": "R",
-          "note": "Appointed after JD Vance resigned to serve as Vice President"
+          "note": "Appointed after JD Vance resigned to serve as Vice President",
+          "firstElected": 2025
         },
         "candidates": [
           {
@@ -986,7 +996,8 @@
           "name": "Alan Armstrong",
           "party": "R",
           "retiring": true,
-          "note": "Appointed to replace former senator Markwayne Mullin who resigned to become DHS secretary"
+          "firstElected": 2026,
+          "note": "Appointed to replace former senator Markwayne Mullin who resigned to become DHS secretary. Ineligible to run for reelection."
         },
         "candidates": [
           { "name": "Jim Priest", "party": "D", "status": "primary-runoff" },
@@ -1049,8 +1060,7 @@
             "status": "primary-tbd"
           },
           { "name": "Raymond McKay", "party": "R", "status": "primary-tbd" }
-        ],
-        "note": "Reed is a long-serving incumbent in a reliably blue state."
+        ]
       }
     },
 
@@ -1183,7 +1193,9 @@
         "incumbent": {
           "name": "John Cornyn",
           "party": "R",
-          "firstElected": 2002
+          "firstElected": 2002,
+          "retiring": true,
+          "note": "Lost renomination."
         },
         "candidates": [
           {
@@ -1198,8 +1210,7 @@
             "status": "nominee",
             "note": "State AG; won R primary despite ongoing scandals"
           }
-        ],
-        "note": "Messy Republican primary between incumbent Cornyn and AG Ken Paxton. A weakened nominee could open the door for Democrats."
+        ]
       }
     },
 
@@ -1273,7 +1284,8 @@
         "incumbent": {
           "name": "Cynthia Lummis",
           "party": "R",
-          "retiring": true
+          "retiring": true,
+          "firstElected": 2020
         },
         "candidates": [
           { "name": "James Byrd", "party": "D", "status": "primary-tbd" },

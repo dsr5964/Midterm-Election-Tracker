@@ -2006,7 +2006,7 @@
                 "name": "Douglas Chico",
                 "party": "R",
                 "status": "primary-tbd"
-              }
+              },
               {
                 "name": "John Frankman",
                 "party": "R",
@@ -2354,8 +2354,7 @@
             "incumbent": {
               "name": "Vern Buchanan",
               "party": "R",
-              "firstElected": 2006,
-
+              "firstElected": 2006
             },
             "rating": "likely-r",
             "mustWatch": false,
@@ -8636,7 +8635,7 @@
               "name": "Chip Roy",
               "party": "R",
               "firstElected": 2018,
-              "reitring": true,
+              "retiring": true,
               "note": "Retiring to run for Texas attorney general."
             },
             "rating": "safe-r",

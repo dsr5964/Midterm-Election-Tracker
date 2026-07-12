@@ -62,7 +62,8 @@
         "incumbent": {
           "name": "Mike Dunleavy",
           "party": "R",
-          "firstElected": 2018
+          "firstElected": 2018,
+          "note": "Term-limited"
         },
         "candidates": [
           { "name": "Tom Begich", "party": "D", "status": "blanket-primary" },
@@ -97,7 +98,7 @@
             "status": "blanket-primary"
           },
           {
-            "name": "MAtt Heilala",
+            "name": "Matt Heilala",
             "party": "R",
             "status": "blanket-primary"
           },
@@ -227,7 +228,8 @@
         "incumbent": {
           "name": "Jared Polis",
           "party": "D",
-          "note": "Term-limited"
+          "note": "Term-limited",
+          "retiring": true
         },
         "candidates": [
           {
@@ -252,7 +254,7 @@
         "incumbent": {
           "name": "Ned Lamont",
           "party": "D",
-          "note": "Not seeking re-election"
+          "firstElected": 2018
         },
         "candidates": [
           { "name": "Ned Lamont", "party": "D", "status": "incumbent" },
@@ -430,8 +432,8 @@
         "incumbent": {
           "name": "Kim Reynolds",
           "party": "R",
-          "note": "Not seeking re-election",
-          "firstElected": 2018
+          "firstElected": 2018,
+          "retiring": true
         },
         "candidates": [
           {
@@ -618,14 +620,15 @@
         "primaryDate": "August 11, 2026",
         "incumbent": {
           "name": "Tim Walz",
-          "party": "DFL",
+          "party": "D",
           "note": "Dropped re-election 2026 campaign",
-          "firstElected": 2018
+          "firstElected": 2018,
+          "retiring": true
         },
         "candidates": [
           {
             "name": "Amy Klobuchar",
-            "party": "DFL",
+            "party": "D",
             "status": "nominee",
             "note": "U.S. Senator; will resign Senate seat if elected"
           },
@@ -957,6 +960,7 @@
         "incumbent": {
           "name": "Larry Rhoden",
           "party": "R",
+          "firstElected": 2025,
           "note": "Became governor in 2025 after Kristi Noem resigned to become secretary of homeland security"
         },
         "candidates": [
@@ -1079,7 +1083,7 @@
         "incumbent": {
           "name": "Tony Evers",
           "party": "D",
-          "note": "Term-limited",
+          "retiring": true,
           "firstElected": 2018
         },
         "candidates": [

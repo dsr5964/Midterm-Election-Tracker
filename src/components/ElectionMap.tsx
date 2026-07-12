@@ -83,6 +83,7 @@ type State = {
   name: string;
   rating: string;
   candidates: Candidate[];
+  incumbent: Incumbent;
 };
 
 type PoliticalParty = "D" | "R" | "I";
@@ -92,26 +93,17 @@ type Candidate = {
   politicalParty: PoliticalParty;
   status: string;
   isIncumbent: boolean;
-  // note: string | undefined;
+};
+
+type Incumbent = {
+  name: string;
+  politicalParty: PoliticalParty;
+  retiring: boolean;
+  firstElected: string;
+  note: string;
 };
 
 const NO_RACE_COLOR = "#E5E5E0";
-
-// const partyColor = {
-//   dem: {
-//     "safe-d": "#244999",
-//     "likely-d": "#577CCC",
-//     "lean-d": "#8AAFFF",
-//     "tilt-d": "#949BB3",
-//   },
-//   rep: {
-//     "safe-r": "#D22532",
-//     "likely-r": "#FF5865",
-//     "lean-r": "#FF8B98",
-//     "tilt-r": "#CF8980",
-//   },
-//   tossup: "C9C09B",
-// };
 
 const ratingToValueMap: Record<string, number> = {
   "safe-d": 3,
@@ -141,6 +133,9 @@ function getState(data, stateId: string): State | undefined {
       const candidates: Candidate[] = getCandidates(
         data.states[stateKey].race.candidates,
       );
+      const incumbent: Incumbent = getIncumbent(
+        data.states[stateKey].race.incumbent,
+      );
 
       const state = {
         id: stateId,
@@ -148,6 +143,7 @@ function getState(data, stateId: string): State | undefined {
         name: stateName,
         rating: rating,
         candidates: candidates,
+        incumbent: incumbent,
       };
       return state;
     }
@@ -164,6 +160,16 @@ function getCandidates(candidateData): Candidate[] {
     };
   });
   return candidates;
+}
+
+function getIncumbent(incumbentData): Incumbent {
+  return {
+    name: incumbentData.name,
+    politicalParty: incumbentData.party,
+    retiring: incumbentData.retiring ? true : false,
+    firstElected: incumbentData.firstElected,
+    note: incumbentData.note,
+  } as Incumbent;
 }
 
 function calculateAverageRating(ratings: string[]): number {
@@ -232,6 +238,27 @@ function getRatingColor(rating: string): string {
   }
 }
 
+function getStateColorFromIncumbent(incumbent: Incumbent): string {
+  const termLimited = incumbent.note === "Term-limited";
+  switch (incumbent.politicalParty) {
+    case "D":
+      if (incumbent.retiring || termLimited) {
+        return "#0671B0";
+      } else {
+        return "#92C5DE";
+      }
+
+    case "R":
+      if (incumbent.retiring || termLimited) {
+        return "#CA0020";
+      } else {
+        return "#F48882";
+      }
+    case "I":
+      return "#C9C09B";
+  }
+}
+
 const buttonNames: string[] = ["senate", "governor", "house"];
 const initState: State = {
   id: "",
@@ -239,11 +266,14 @@ const initState: State = {
   rating: "",
   abbrev: undefined,
   candidates: [],
+  incumbent: undefined,
 };
 
 export default function ElectionMap({ data, title }) {
   const navigate = useNavigate();
   const [stateData, setStateData] = useState<State>(initState);
+  const [isRatingMap, setIsRatingMap] = useState<boolean>(false);
+
   const lowerTitle = title.toLowerCase();
   return (
     <div>
@@ -254,6 +284,9 @@ export default function ElectionMap({ data, title }) {
         }
       })}
       <h1>{title} Map 2026</h1>
+      <button onClick={() => setIsRatingMap(!isRatingMap)}>
+        Rating Projection
+      </button>
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
           projection="geoAlbersUsa"
@@ -292,8 +325,9 @@ export default function ElectionMap({ data, title }) {
                   );
                 }
 
-                const stateColor: string = getRatingColor(state!.rating);
-
+                const stateColor: string = isRatingMap
+                  ? getRatingColor(state!.rating)
+                  : getStateColorFromIncumbent(state.incumbent);
                 return (
                   <Geography
                     key={geo.rsmKey}
