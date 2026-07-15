@@ -90,7 +90,7 @@
             "note": "Another Dan Sullivan that isn't the incumbent senator is running as the Republican nominee despite legal challenges."
           },
           {
-            "name": "Fred C, Grauberger",
+            "name": "Fred C. Grauberger",
             "party": "R",
             "status": "blanket-primary-tbd"
           },
@@ -1080,15 +1080,16 @@
         "isSpecial": false,
         "primaryDate": "June 9, 2026",
         "incumbent": {
-          "name": "Lindsey Graham",
+          "name": "Darline Graham Nordone",
           "party": "R",
-          "firstElected": 2002
+          "firstElected": 2026,
+          "retiring": true,
+          "note": "After winning the primary Lindsay Graham unexpectedly passed away. The governor appointed his sister to finish his term."
         },
         "candidates": [
           { "name": "Annie Andrews", "party": "D", "status": "nominee" },
-          { "name": "Lindsey Graham", "party": "R", "status": "incumbent" }
-        ],
-        "note": "Deep red state. Graham running for re-election."
+          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+        ]
       }
     },
 

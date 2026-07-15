@@ -2,106 +2,13 @@ import {
   ComposableMap,
   Geographies,
   Geography,
-  Marker,
-  Annotation,
 } from "@vnedyalk0v/react19-simple-maps";
 import allStateAbbrevs from "../data/stateabbrevs.json";
 import geoData from "../data/states-10m.json";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "./Card";
-
-const markers = [
-  { markerOffset: -20, name: "Chicago", coordinates: [-87.6298, 41.8781] },
-  { markerOffset: -20, name: "Boston", coordinates: [-71.0589, 42.3601] },
-  { markerOffset: -20, name: "Tulsa", coordinates: [-95.9928, 36.154] },
-  { markerOffset: -20, name: "Baltimore", coordinates: [-76.6122, 39.2904] },
-  { markerOffset: -20, name: "Miami", coordinates: [-80.1918, 25.7617] },
-  {
-    markerOffset: 30,
-    name: "Washington, D.C.",
-    coordinates: [-77.0369, 38.9072],
-  },
-  { markerOffset: -20, name: "Los Angeles", coordinates: [-118.2426, 34.0549] },
-];
-
-type StateAbbr =
-  | "AL"
-  | "AK"
-  | "AZ"
-  | "AR"
-  | "CA"
-  | "CO"
-  | "CT"
-  | "DE"
-  | "FL"
-  | "GA"
-  | "HI"
-  | "ID"
-  | "IL"
-  | "IN"
-  | "IA"
-  | "KS"
-  | "KY"
-  | "LA"
-  | "ME"
-  | "MD"
-  | "MA"
-  | "MI"
-  | "MN"
-  | "MS"
-  | "MO"
-  | "MT"
-  | "NE"
-  | "NV"
-  | "NH"
-  | "NJ"
-  | "NM"
-  | "NY"
-  | "NC"
-  | "ND"
-  | "OH"
-  | "OK"
-  | "OR"
-  | "PA"
-  | "RI"
-  | "SC"
-  | "SD"
-  | "TN"
-  | "TX"
-  | "UT"
-  | "VT"
-  | "VA"
-  | "WA"
-  | "WV"
-  | "WI"
-  | "WY";
-
-type State = {
-  id: string;
-  abbrev: StateAbbr;
-  name: string;
-  rating: string;
-  candidates: Candidate[];
-  incumbent: Incumbent;
-};
-
-type PoliticalParty = "D" | "R" | "I";
-
-type Candidate = {
-  name: string;
-  politicalParty: PoliticalParty;
-  status: string;
-  isIncumbent: boolean;
-};
-
-type Incumbent = {
-  name: string;
-  politicalParty: PoliticalParty;
-  retiring: boolean;
-  firstElected: string;
-  note: string;
-};
+import type { Candidate, Incumbent, State, StateAbbr } from "../types/types";
 
 const NO_RACE_COLOR = "#E5E5E0";
 
@@ -169,6 +76,7 @@ function getIncumbent(incumbentData): Incumbent {
     retiring: incumbentData.retiring ? true : false,
     firstElected: incumbentData.firstElected,
     note: incumbentData.note,
+    vacant: incumbentData.vacant ? true : false,
   } as Incumbent;
 }
 
@@ -251,15 +159,20 @@ function getStateColorFromIncumbent(incumbent: Incumbent): string {
     case "R":
       if (incumbent.retiring || termLimited) {
         return "#CA0020";
+      } else if (incumbent.vacant) {
+        return "#808080";
       } else {
         return "#F48882";
       }
     case "I":
-      return "#C9C09B";
+      if (incumbent.retiring || termLimited) {
+        return "#666966";
+      } else {
+        return "#999699";
+      }
   }
 }
 
-const buttonNames: string[] = ["senate", "governor", "house"];
 const initState: State = {
   id: "",
   name: "",
@@ -268,11 +181,12 @@ const initState: State = {
   candidates: [],
   incumbent: undefined,
 };
+const buttonNames: string[] = ["senate", "governor", "house"];
 
 export default function ElectionMap({ data, title }) {
   const navigate = useNavigate();
   const [stateData, setStateData] = useState<State>(initState);
-  const [isRatingMap, setIsRatingMap] = useState<boolean>(false);
+  const [toggleRatings, setToggleRatings] = useState<boolean>(false);
 
   const lowerTitle = title.toLowerCase();
   return (
@@ -284,8 +198,8 @@ export default function ElectionMap({ data, title }) {
         }
       })}
       <h1>{title} Map 2026</h1>
-      <button onClick={() => setIsRatingMap(!isRatingMap)}>
-        Rating Projection
+      <button onClick={() => setToggleRatings(!toggleRatings)}>
+        {toggleRatings ? `Map of Incumbents` : `Consensus Ratings`}
       </button>
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
@@ -325,7 +239,7 @@ export default function ElectionMap({ data, title }) {
                   );
                 }
 
-                const stateColor: string = isRatingMap
+                const stateColor: string = toggleRatings
                   ? getRatingColor(state!.rating)
                   : getStateColorFromIncumbent(state.incumbent);
                 return (

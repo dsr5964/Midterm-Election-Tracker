@@ -18,11 +18,20 @@ function Card({ stateData }) {
         >
           <CCardBody>
             <CCardTitle>{stateData.name}</CCardTitle>
-            {stateData.candidates.map((candidate) => (
-              <CCardText>
-                {candidate.name} ({candidate.politicalParty})
-              </CCardText>
-            ))}
+            {stateData.candidates.map((candidate) => {
+              const isIncumbent: boolean =
+                stateData.incumbent.name === candidate.name ? true : false;
+              return (
+                <>
+                  <CCardText
+                    style={{ fontWeight: isIncumbent ? "bold" : "normal" }}
+                  >
+                    {candidate.name} ({candidate.politicalParty}){" "}
+                    {isIncumbent ? "Incumbent" : ""}
+                  </CCardText>
+                </>
+              );
+            })}
           </CCardBody>
         </CCard>
       ))}

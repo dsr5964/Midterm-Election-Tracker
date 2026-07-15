@@ -5,6 +5,7 @@ import houseData from "./data/house.json" with { type: "json" };
 import governorData from "./data/governors.json" with { type: "json" };
 import HomePage from "./components/HomePage";
 import Card from "./components/Card";
+import UnimplementedPage from "./components/UnimplementedPage";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             />
             <Route
               path="/house"
-              element={<ElectionMap data={houseData} title="House" />}
+              element={<UnimplementedPage data={houseData} title="House" />}
             />
           </Routes>
         </Router>
