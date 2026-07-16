@@ -1,0 +1,10 @@
+export const SAFE_R = "safe-r";
+export const SAFE_D = "safe-d";
+export const LIKELY_R = "likely-r";
+export const LIKELY_D = "likely-d";
+export const LEAN_R = "lean-r";
+export const LEAN_D = "lean-d";
+export const TILT_R = "tilt-r";
+export const TILT_D = "tilt-d";
+export const TOSSUP = "tossup";
+export const NO_RACE_COLOR = "#E5E5E0";

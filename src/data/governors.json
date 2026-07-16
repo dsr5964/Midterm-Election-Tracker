@@ -452,7 +452,7 @@
       "name": "Kansas",
       "race": {
         "mustWatch": true,
-        "ratings": ["lean-r", "tossup", "lean-r", "tilt-r", "lean-r"],
+        "ratings": ["tossup", "tilt-r", "lean-r", "lean-r", "lean-r"],
         "pvi": "R+8",
         "primaryDate": "August 4, 2026",
         "incumbent": {
@@ -510,7 +510,7 @@
       "name": "Maine",
       "race": {
         "mustWatch": false,
-        "ratings": ["likely-d", "likely-d", "lean-d", "tilt-d", "lean-d"],
+        "ratings": ["safe-d", "likely-d", "likely-d", "lean-d", "lean-d"],
         "pvi": "D+4",
         "primaryDate": "June 9, 2026",
         "incumbent": {
@@ -781,7 +781,7 @@
       "name": "Ohio",
       "race": {
         "mustWatch": true,
-        "ratings": ["lean-r", "lean-r", "lean-r", "tilt-r", "tossup"],
+        "ratings": ["lean-r", "tossup", "tossup", "lean-r", "tossup"],
         "pvi": "R+5",
         "primaryDate": "May 5, 2026",
         "incumbent": {

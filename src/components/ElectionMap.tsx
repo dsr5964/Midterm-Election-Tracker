@@ -8,20 +8,31 @@ import geoData from "../data/states-10m.json";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "./Card";
+import { BackButton } from "./BackButton";
 import type { Candidate, Incumbent, State, StateAbbr } from "../types/types";
-
-const NO_RACE_COLOR = "#E5E5E0";
+import {
+  NO_RACE_COLOR,
+  SAFE_R,
+  LIKELY_R,
+  LEAN_R,
+  TILT_R,
+  SAFE_D,
+  LIKELY_D,
+  LEAN_D,
+  TILT_D,
+  TOSSUP,
+} from "../constants";
 
 const ratingToValueMap: Record<string, number> = {
-  "safe-d": 3,
-  "safe-r": -3,
-  "likely-d": 2,
-  "likely-r": -2,
-  "lean-d": 1,
-  "lean-r": -1,
-  "tilt-d": 0.5,
-  "tilt-r": -0.5,
-  tossup: 0,
+  SAFE_D: 3,
+  SAFE_R: -3,
+  LIKELY_D: 2,
+  LIKELY_R: -2,
+  LEAN_D: 1,
+  LEAN_R: -1,
+  TILT_D: 0.5,
+  TILT_R: -0.5,
+  TOSSUP: 0,
 };
 
 function getState(data, stateId: string): State | undefined {
@@ -92,53 +103,53 @@ function getRating(ratings: string[]): string {
   const ratingValue = calculateAverageRating(ratings);
   switch (true) {
     case ratingValue >= 2.5:
-      return "safe-d";
+      return SAFE_D;
     case ratingValue <= -2.5:
-      return "safe-r";
+      return SAFE_R;
     case ratingValue >= 1.5:
-      return "likely-d";
+      return LIKELY_D;
     case ratingValue <= -1.5:
-      return "likely-r";
+      return LIKELY_R;
     case ratingValue >= 0.75:
-      return "lean-d";
+      return LEAN_D;
     case ratingValue <= -0.75:
-      return "lean-r";
+      return LEAN_R;
     case ratingValue >= 0.25:
-      return "tilt-d";
+      return TILT_D;
     case ratingValue <= -0.25:
-      return "tilt-r";
+      return TILT_R;
     default:
-      return "tossup";
+      return TOSSUP;
   }
 }
 
 function getRatingColor(rating: string): string {
   switch (rating) {
-    case "safe-r":
+    case SAFE_R:
       return "#D22532";
 
-    case "safe-d":
+    case SAFE_D:
       return "#244999";
 
-    case "likely-r":
+    case LIKELY_R:
       return "#FF5865";
 
-    case "likely-d":
+    case LIKELY_D:
       return "#577CCC";
 
-    case "lean-r":
+    case LEAN_R:
       return "#FF8B98";
 
-    case "lean-d":
+    case LEAN_D:
       return "#8AAFFF";
 
-    case "tilt-r":
+    case TILT_R:
       return "#CF8980";
 
-    case "tilt-d":
+    case TILT_D:
       return "#949BB3";
 
-    case "tossup":
+    case TOSSUP:
       return "#C9C09B";
 
     default:
@@ -152,6 +163,8 @@ function getStateColorFromIncumbent(incumbent: Incumbent): string {
     case "D":
       if (incumbent.retiring || termLimited) {
         return "#0671B0";
+      } else if (incumbent.vacant) {
+        return "#808080";
       } else {
         return "#92C5DE";
       }
@@ -167,6 +180,8 @@ function getStateColorFromIncumbent(incumbent: Incumbent): string {
     case "I":
       if (incumbent.retiring || termLimited) {
         return "#666966";
+      } else if (incumbent.vacant) {
+        return "#808080";
       } else {
         return "#999699";
       }
@@ -191,12 +206,14 @@ export default function ElectionMap({ data, title }) {
   const lowerTitle = title.toLowerCase();
   return (
     <div>
-      <button onClick={() => navigate("/")}>Back</button>
-      {buttonNames.map((name) => {
-        if (name !== lowerTitle) {
-          return <button onClick={() => navigate(`/${name}`)}>{name}</button>;
-        }
-      })}
+      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+        {buttonNames.map((name) => {
+          if (name !== lowerTitle) {
+            return <button onClick={() => navigate(`/${name}`)}>{name}</button>;
+          }
+        })}
+        <BackButton />
+      </div>
       <h1>{title} Map 2026</h1>
       <button onClick={() => setToggleRatings(!toggleRatings)}>
         {toggleRatings ? `Map of Incumbents` : `Consensus Ratings`}
