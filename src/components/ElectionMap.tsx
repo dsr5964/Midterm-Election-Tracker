@@ -24,15 +24,15 @@ import {
 } from "../constants";
 
 const ratingToValueMap: Record<string, number> = {
-  SAFE_D: 3,
-  SAFE_R: -3,
-  LIKELY_D: 2,
-  LIKELY_R: -2,
-  LEAN_D: 1,
-  LEAN_R: -1,
-  TILT_D: 0.5,
-  TILT_R: -0.5,
-  TOSSUP: 0,
+  [SAFE_D]: 3,
+  [SAFE_R]: -3,
+  [LIKELY_D]: 2,
+  [LIKELY_R]: -2,
+  [LEAN_D]: 1,
+  [LEAN_R]: -1,
+  [TILT_D]: 0.5,
+  [TILT_R]: -0.5,
+  [TOSSUP]: 0,
 };
 
 function getState(data, stateId: string): State | undefined {

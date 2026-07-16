@@ -452,7 +452,7 @@
       "name": "Kansas",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tilt-r", "lean-r", "lean-r", "lean-r"],
+        "ratings": ["lean-r", "tossup", "lean-r", "tilt-r", "lean-r"],
         "pvi": "R+8",
         "primaryDate": "August 4, 2026",
         "incumbent": {
