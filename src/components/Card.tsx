@@ -1,6 +1,29 @@
 import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
+import type { ReactNode } from "react";
 
-function Card({ stateData }) {
+function displayCandidateData(candidateData): ReactNode {
+  console.log(candidateData);
+  return candidateData.map((candidate) => (
+    <>
+      <CCardText>
+        {candidate.name} ({candidate.politicalParty})
+      </CCardText>
+    </>
+  ));
+}
+
+function displayIncumbentData(incumbentData): ReactNode {
+  return (
+    <>
+      <CCardText>Incumbent: {incumbentData.name}</CCardText>
+      <CCardText>Political Party: {incumbentData.politicalParty}</CCardText>
+      <CCardText>First elected: {incumbentData.firstElected}</CCardText>
+      {/* {incumbentData.note ? <CCardText>{incumbentData.note}</CCardText> : ""} */}
+    </>
+  );
+}
+
+function Card({ stateData, toggleRatings }) {
   const colors = [{ color: "light" }];
   return (
     <CRow>
@@ -18,20 +41,9 @@ function Card({ stateData }) {
         >
           <CCardBody>
             <CCardTitle>{stateData.name}</CCardTitle>
-            {stateData.candidates.map((candidate) => {
-              const isIncumbent: boolean =
-                stateData.incumbent.name === candidate.name ? true : false;
-              return (
-                <>
-                  <CCardText
-                    style={{ fontWeight: isIncumbent ? "bold" : "normal" }}
-                  >
-                    {candidate.name} ({candidate.politicalParty}){" "}
-                    {isIncumbent ? "Incumbent" : ""}
-                  </CCardText>
-                </>
-              );
-            })}
+            {toggleRatings
+              ? displayCandidateData(stateData.candidates)
+              : displayIncumbentData(stateData.incumbent)}
           </CCardBody>
         </CCard>
       ))}

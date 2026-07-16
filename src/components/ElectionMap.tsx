@@ -216,7 +216,7 @@ export default function ElectionMap({ data, title }) {
       </div>
       <h1>{title} Map 2026</h1>
       <button onClick={() => setToggleRatings(!toggleRatings)}>
-        {toggleRatings ? `Map of Incumbents` : `Consensus Ratings`}
+        {toggleRatings ? `Incumbents` : `Midterm Election Matchups`}
       </button>
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
@@ -291,7 +291,7 @@ export default function ElectionMap({ data, title }) {
           </Geographies>
         </ComposableMap>
       </div>
-      <Card stateData={stateData} />
+      <Card stateData={stateData} toggleRatings={toggleRatings} />
     </div>
   );
 }
