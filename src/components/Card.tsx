@@ -2,7 +2,6 @@ import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
 import type { ReactNode } from "react";
 
 function displayCandidateData(candidateData): ReactNode {
-  console.log(candidateData);
   return candidateData.map((candidate) => (
     <>
       <CCardText>
@@ -16,37 +15,34 @@ function displayIncumbentData(incumbentData): ReactNode {
   return (
     <>
       <CCardText>Incumbent: {incumbentData.name}</CCardText>
-      <CCardText>Political Party: {incumbentData.politicalParty}</CCardText>
+      <CCardText>Political Party: {incumbentData.party}</CCardText>
       <CCardText>First elected: {incumbentData.firstElected}</CCardText>
-      {/* {incumbentData.note ? <CCardText>{incumbentData.note}</CCardText> : ""} */}
     </>
   );
 }
 
-function Card({ stateData, toggleRatings }) {
-  const colors = [{ color: "light" }];
+// TODO: Add interface for component props
+function Card({ stateData, toggleIncumbents }) {
+  console.log(JSON.stringify(stateData));
   return (
     <CRow>
-      {colors.map((item, index) => (
-        <CCard
-          key={index}
-          style={{
-            width: "48rem",
-            backgroundColor: "#ffffff",
-            color: "black",
-            borderRadius: "10px",
-            justifyContent: "center",
-            display: "flex",
-          }}
-        >
-          <CCardBody>
-            <CCardTitle>{stateData.name}</CCardTitle>
-            {toggleRatings
-              ? displayCandidateData(stateData.candidates)
-              : displayIncumbentData(stateData.incumbent)}
-          </CCardBody>
-        </CCard>
-      ))}
+      <CCard
+        style={{
+          width: "48rem",
+          backgroundColor: "#ffffff",
+          color: "black",
+          borderRadius: "10px",
+          justifyContent: "center",
+          display: "flex",
+        }}
+      >
+        <CCardBody>
+          <CCardTitle>{stateData.name}</CCardTitle>
+          {toggleIncumbents
+            ? displayIncumbentData(stateData.incumbent)
+            : displayCandidateData(stateData.candidates)}
+        </CCardBody>
+      </CCard>
     </CRow>
   );
 }

@@ -52,25 +52,25 @@ export type StateAbbr =
 
 export type State = {
   id: string;
-  abbrev: StateAbbr;
+  abbrev: StateAbbr | undefined;
   name: string;
   rating: string;
   candidates: Candidate[];
-  incumbent: Incumbent;
+  incumbent: Incumbent | undefined;
 };
 
 export type PoliticalParty = "D" | "R" | "I";
 
 export type Candidate = {
   name: string;
-  politicalParty: PoliticalParty;
+  party: PoliticalParty;
   status: string;
   isIncumbent: boolean;
 };
 
 export type Incumbent = {
   name: string;
-  politicalParty: PoliticalParty;
+  party: PoliticalParty;
   retiring: boolean;
   firstElected: string;
   note: string;

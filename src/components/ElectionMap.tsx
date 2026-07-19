@@ -69,7 +69,7 @@ function getState(data, stateId: string): State | undefined {
 }
 
 function getCandidates(candidateData): Candidate[] {
-  const candidates: Candidate[] = candidateData.map((candidate) => {
+  const candidates: Candidate[] = candidateData.map((candidate: Candidate) => {
     return {
       name: candidate.name,
       politicalParty: candidate.party,
@@ -80,10 +80,10 @@ function getCandidates(candidateData): Candidate[] {
   return candidates;
 }
 
-function getIncumbent(incumbentData): Incumbent {
+function getIncumbent(incumbentData: Incumbent): Incumbent {
   return {
     name: incumbentData.name,
-    politicalParty: incumbentData.party,
+    party: incumbentData.party,
     retiring: incumbentData.retiring ? true : false,
     firstElected: incumbentData.firstElected,
     note: incumbentData.note,
@@ -159,7 +159,7 @@ function getRatingColor(rating: string): string {
 
 function getStateColorFromIncumbent(incumbent: Incumbent): string {
   const termLimited = incumbent.note === "Term-limited";
-  switch (incumbent.politicalParty) {
+  switch (incumbent.party) {
     case "D":
       if (incumbent.retiring || termLimited) {
         return "#0671B0";
@@ -201,7 +201,7 @@ const buttonNames: string[] = ["senate", "governor", "house"];
 export default function ElectionMap({ data, title }) {
   const navigate = useNavigate();
   const [stateData, setStateData] = useState<State>(initState);
-  const [toggleRatings, setToggleRatings] = useState<boolean>(false);
+  const [toggleIncumbents, setToggleIncumbents] = useState<boolean>(false);
 
   const lowerTitle = title.toLowerCase();
   return (
@@ -215,8 +215,8 @@ export default function ElectionMap({ data, title }) {
         <BackButton />
       </div>
       <h1>{title} Map 2026</h1>
-      <button onClick={() => setToggleRatings(!toggleRatings)}>
-        {toggleRatings ? `Incumbents` : `Midterm Election Matchups`}
+      <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
+        {toggleIncumbents ? `Midterm Election Matchups` : `Incumbents`}
       </button>
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
@@ -256,9 +256,9 @@ export default function ElectionMap({ data, title }) {
                   );
                 }
 
-                const stateColor: string = toggleRatings
-                  ? getRatingColor(state!.rating)
-                  : getStateColorFromIncumbent(state.incumbent);
+                const stateColor: string = toggleIncumbents
+                  ? getStateColorFromIncumbent(state.incumbent!)
+                  : getRatingColor(state!.rating);
                 return (
                   <Geography
                     key={geo.rsmKey}
@@ -291,7 +291,7 @@ export default function ElectionMap({ data, title }) {
           </Geographies>
         </ComposableMap>
       </div>
-      <Card stateData={stateData} toggleRatings={toggleRatings} />
+      <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
     </div>
   );
 }
