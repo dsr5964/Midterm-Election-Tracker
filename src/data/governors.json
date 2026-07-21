@@ -27,7 +27,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+15",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "incumbent": {
           "name": "Kay Ivey",
           "party": "R",
@@ -58,7 +58,7 @@
         "mustWatch": false,
         "ratings": ["likely-r", "likely-r", "likely-r", "tossup", "tossup"],
         "pvi": "R+6",
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "incumbent": {
           "name": "Mike Dunleavy",
           "party": "R",
@@ -138,7 +138,7 @@
         "mustWatch": true,
         "ratings": ["lean-d", "tossup", "lean-d", "lean-d", "tossup"],
         "pvi": "R+2",
-        "primaryDate": "July 21, 2026",
+        "primaryDate": "2026-07-21",
         "incumbent": {
           "name": "Katie Hobbs",
           "party": "D",
@@ -169,7 +169,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+15",
-        "primaryDate": "March 3, 2026",
+        "primaryDate": "2026-03-03",
         "incumbent": {
           "name": "Sarah Huckabee Sanders",
           "party": "R",
@@ -193,7 +193,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+12",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Gavin Newsom",
           "party": "D",
@@ -224,7 +224,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+6",
-        "primaryDate": "June 30, 2026",
+        "primaryDate": "2026-06-30",
         "incumbent": {
           "name": "Jared Polis",
           "party": "D",
@@ -250,7 +250,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+8",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "incumbent": {
           "name": "Ned Lamont",
           "party": "D",
@@ -281,7 +281,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "likely-r"],
         "pvi": "R+5",
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "incumbent": {
           "name": "Ron DeSantis",
           "party": "R",
@@ -329,9 +329,9 @@
         "mustWatch": true,
         "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
         "pvi": "R+1",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "isRunoff": true,
-        "runoffPrimary": "June 16, 2026",
+        "runoffPrimary": "2026-06-16",
         "incumbent": {
           "name": "Brian Kemp",
           "party": "R",
@@ -362,7 +362,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+13",
-        "primaryDate": "August 8, 2026",
+        "primaryDate": "2026-08-08",
         "incumbent": {
           "name": "Josh Green",
           "party": "D",
@@ -383,7 +383,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+18",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "incumbent": {
           "name": "Brad Little",
           "party": "R",
@@ -403,7 +403,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+6",
-        "primaryDate": "March 17, 2026",
+        "primaryDate": "2026-03-17",
         "incumbent": {
           "name": "JB Pritzker",
           "party": "D",
@@ -428,7 +428,7 @@
         "mustWatch": true,
         "ratings": ["tossup", "tossup", "tossup", "lean-d", "tossup"],
         "pvi": "R+6",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Kim Reynolds",
           "party": "R",
@@ -454,7 +454,7 @@
         "mustWatch": true,
         "ratings": ["lean-r", "tossup", "lean-r", "tilt-r", "lean-r"],
         "pvi": "R+8",
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "incumbent": {
           "name": "Laura Kelly",
           "party": "D",
@@ -512,7 +512,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "likely-d", "likely-d", "lean-d", "lean-d"],
         "pvi": "D+4",
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "incumbent": {
           "name": "Janet Mills",
           "party": "D",
@@ -539,7 +539,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+15",
-        "primaryDate": "June 23, 2026",
+        "primaryDate": "2026-06-23",
         "incumbent": {
           "name": "Wes Moore",
           "party": "D",
@@ -559,7 +559,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+14",
-        "primaryDate": "September 1, 2026",
+        "primaryDate": "2026-09-01",
         "incumbent": {
           "name": "Maura Healey",
           "party": "D",
@@ -580,7 +580,7 @@
         "mustWatch": true,
         "ratings": ["lean-d", "tilt-d", "tossup", "lean-d", "tossup"],
         "pvi": "EVEN",
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "incumbent": {
           "name": "Gretchen Whitmer",
           "party": "D",
@@ -617,7 +617,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+3",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "incumbent": {
           "name": "Tim Walz",
           "party": "D",
@@ -660,7 +660,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+10",
-        "primaryDate": "May 12, 2026",
+        "primaryDate": "2026-05-12",
         "incumbent": {
           "name": "Jim Pillen",
           "party": "R",
@@ -685,7 +685,7 @@
         "mustWatch": false,
         "ratings": ["tossup", "tilt-r", "lean-r", "tilt-r", "tossup"],
         "pvi": "R+1",
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "incumbent": {
           "name": "Joe Lombardo",
           "party": "R",
@@ -705,7 +705,7 @@
         "mustWatch": false,
         "ratings": ["likely-r", "safe-r", "likely-r", "lean-r", "lean-r"],
         "pvi": "D+2",
-        "primaryDate": "September 8, 2026",
+        "primaryDate": "2026-09-08",
         "incumbent": {
           "name": "Kelly Ayotte",
           "party": "R",
@@ -731,7 +731,7 @@
         "mustWatch": false,
         "ratings": ["likely-d", "likely-d", "likely-d", "likely-d", "likely-d"],
         "pvi": "D+4",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Michelle Lujan Grisham",
           "party": "D",
@@ -757,7 +757,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
         "pvi": "D+8",
-        "primaryDate": "June 23, 2026",
+        "primaryDate": "2026-06-23",
         "incumbent": {
           "name": "Kathy Hochul",
           "party": "D",
@@ -783,7 +783,7 @@
         "mustWatch": true,
         "ratings": ["lean-r", "tossup", "tossup", "lean-r", "tossup"],
         "pvi": "R+5",
-        "primaryDate": "May 5, 2026",
+        "primaryDate": "2026-05-05",
         "incumbent": {
           "name": "Mike DeWine",
           "party": "R",
@@ -814,9 +814,9 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
         "pvi": "R+17",
-        "primaryDate": "June 16, 2026",
+        "primaryDate": "2026-06-16",
         "isRunoff": true,
-        "runoffPrimary": "August 25, 2026",
+        "runoffPrimary": "2026-8-25",
         "incumbent": {
           "name": "Kevin Stitt",
           "party": "R",
@@ -842,7 +842,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "lean-d", "likely-d", "likely-d", "safe-d"],
         "pvi": "D+8",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "incumbent": {
           "name": "Tina Kotek",
           "party": "D",
@@ -867,7 +867,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "likely-d", "safe-d", "safe-d"],
         "pvi": "R+1",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "incumbent": {
           "name": "Josh Shapiro",
           "party": "D",
@@ -897,7 +897,7 @@
         "mustWatch": false,
         "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
         "pvi": "D+8",
-        "primaryDate": "September 9, 2026",
+        "primaryDate": "2026-09-09",
         "incumbent": {
           "name": "Dan McKee",
           "party": "D",
@@ -926,9 +926,9 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "likely-r"],
         "pvi": "R+8",
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "isRunoff": true,
-        "runoffPrimary": "June 23, 2026",
+        "runoffPrimary": "2026-06-23",
         "incumbent": {
           "name": "Henry McMaster",
           "party": "R",
@@ -954,9 +954,9 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
         "pvi": "R+15",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "isRunoff": true,
-        "runoffPrimary": "July 28, 2026",
+        "runoffPrimary": "2026-07-28",
         "incumbent": {
           "name": "Larry Rhoden",
           "party": "R",
@@ -988,7 +988,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+14",
-        "primaryDate": "August 6, 2026",
+        "primaryDate": "2026-08-06",
         "incumbent": {
           "name": "Bill Lee",
           "party": "R",
@@ -1033,7 +1033,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
         "pvi": "R+6",
-        "primaryDate": "March 3, 2026",
+        "primaryDate": "2026-03-03",
         "incumbent": {
           "name": "Greg Abbott",
           "party": "R",
@@ -1058,7 +1058,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "D+17",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "incumbent": {
           "name": "Phil Scott",
           "party": "R",
@@ -1079,7 +1079,7 @@
         "mustWatch": true,
         "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
         "pvi": "EVEN",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "incumbent": {
           "name": "Tony Evers",
           "party": "D",
@@ -1123,7 +1123,7 @@
         "mustWatch": false,
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "pvi": "R+23",
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "incumbent": {
           "name": "Mark Gordon",
           "party": "R",

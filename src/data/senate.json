@@ -35,9 +35,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "isRunoff": true,
-        "runoffPrimary": "June 16, 2026",
+        "runoffPrimary": "2026-06-16",
         "incumbent": {
           "name": "Tommy Tuberville",
           "party": "R",
@@ -69,7 +69,7 @@
         "ratings": ["tossup", "lean-r", "tossup", "tossup", "lean-r", "tossup"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "incumbent": {
           "name": "Dan S. Sullivan",
           "party": "R",
@@ -161,7 +161,7 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "March 3, 2026",
+        "primaryDate": "2026-03-03",
         "incumbent": {
           "name": "Tom Cotton",
           "party": "R",
@@ -189,7 +189,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 30, 2026",
+        "primaryDate": "2026-06-30",
         "incumbent": {
           "name": "John Hickenlooper",
           "party": "D",
@@ -219,7 +219,7 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "September 15, 2026",
+        "primaryDate": "2026-09-15",
         "incumbent": {
           "name": "Chris Coons",
           "party": "D",
@@ -254,7 +254,7 @@
         ],
         "seat": "Class 3",
         "isSpecial": true,
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "incumbent": {
           "name": "Ashley Moody",
           "party": "R",
@@ -314,9 +314,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "isRunoff": true,
-        "runoffPrimary": "June 16, 2026",
+        "runoffPrimary": "2026-06-16",
         "incumbent": {
           "name": "Jon Ossoff",
           "party": "D",
@@ -347,7 +347,7 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "incumbent": {
           "name": "Jim Risch",
           "party": "R",
@@ -377,7 +377,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "March 17, 2026",
+        "primaryDate": "2026-03-17",
         "incumbent": {
           "name": "Dick Durbin",
           "party": "D",
@@ -408,7 +408,7 @@
         "ratings": ["lean-r", "lean-r", "lean-r", "lean-r", "tossup", "tossup"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Joni Ernst",
           "party": "R",
@@ -446,7 +446,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "incumbent": {
           "name": "Roger Marshall",
           "party": "R",
@@ -481,7 +481,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "incumbent": {
           "name": "Mitch McConnell",
           "party": "R",
@@ -514,9 +514,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 16, 2026",
+        "primaryDate": "2026-05-16",
         "isRunoff": true,
-        "runoffPrimary": "June 27, 2026",
+        "runoffPrimary": "2026-06-27",
         "incumbent": {
           "name": "Bill Cassidy",
           "party": "R",
@@ -544,7 +544,7 @@
         "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-r"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "incumbent": {
           "name": "Susan Collins",
           "party": "R",
@@ -554,12 +554,7 @@
           {
             "name": "Troy Jackson",
             "party": "D",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Nirav Shah",
-            "party": "D",
-            "status": "primary-tbd"
+            "status": "presumptive-nominee"
           },
           {
             "name": "Susan Collins",
@@ -579,7 +574,7 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "September 1, 2026",
+        "primaryDate": "2026-09-01",
         "incumbent": {
           "name": "Ed Markey",
           "party": "D",
@@ -611,7 +606,7 @@
         "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-d"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "incumbent": {
           "name": "Gary Peters",
           "party": "D",
@@ -656,7 +651,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "incumbent": {
           "name": "Tina Smith",
           "party": "D",
@@ -707,7 +702,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "March 10, 2026",
+        "primaryDate": "2026-03-10",
         "incumbent": {
           "name": "Cindy Hyde-Smith",
           "party": "R",
@@ -735,7 +730,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Steve Daines",
           "party": "R",
@@ -775,7 +770,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 12, 2026",
+        "primaryDate": "2026-05-12",
         "incumbent": {
           "name": "Pete Ricketts",
           "party": "R",
@@ -810,7 +805,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "September 8, 2026",
+        "primaryDate": "2026-09-08",
         "incumbent": {
           "name": "Jeanne Shaheen",
           "firstElected": 2008,
@@ -860,7 +855,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Cory Booker",
           "party": "D",
@@ -888,7 +883,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Ben Ray Luján",
           "party": "D",
@@ -916,7 +911,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "March 3, 2026",
+        "primaryDate": "2026-03-03",
         "incumbent": {
           "name": "Thom Tillis",
           "party": "R",
@@ -947,7 +942,7 @@
         "ratings": ["tossup", "tossup", "tossup", "tossup", "tilt-r", "tilt-d"],
         "seat": "Class 3",
         "isSpecial": true,
-        "primaryDate": "May 5, 2026",
+        "primaryDate": "2026-05-05",
         "incumbent": {
           "name": "Jon Husted",
           "party": "R",
@@ -979,9 +974,9 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 16, 2026",
+        "primaryDate": "2026-06-16",
         "isRunoff": true,
-        "runoffPrimary": "August, 25, 2026",
+        "runoffPrimary": "2026-08-25",
         "incumbent": {
           "name": "Alan Armstrong",
           "party": "R",
@@ -1009,7 +1004,7 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "incumbent": {
           "name": "Jeff Merkley",
           "party": "D",
@@ -1035,7 +1030,7 @@
         "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "September 9, 2026",
+        "primaryDate": "2026-09-09",
         "incumbent": {
           "name": "Jack Reed",
           "party": "D",
@@ -1068,9 +1063,10 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
+        "specialPrimaryDate": "2026-08-11",
         "incumbent": {
-          "name": "Darline Graham Nordone",
+          "name": "Darline Graham",
           "party": "R",
           "firstElected": 2026,
           "retiring": true,
@@ -1078,7 +1074,10 @@
         },
         "candidates": [
           { "name": "Annie Andrews", "party": "D", "status": "nominee" },
-          { "name": "TBD", "party": "R", "status": "primary-tbd" }
+          { "name": "Darline Graham", "party": "R", "status": "incumbent" },
+          { "name": "Russell Fry", "party": "R", "status": "primary-tbd" },
+          { "name": "Ralph Norman", "party": "R", "status": "primary-tbd" },
+          { "name": "Mark Lynch", "party": "R", "status": "primary-tbd" }
         ]
       }
     },
@@ -1097,7 +1096,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "incumbent": {
           "name": "Mike Rounds",
           "party": "R",
@@ -1126,7 +1125,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "August 6, 2026",
+        "primaryDate": "2026-08-06",
         "incumbent": {
           "name": "Bill Hagerty",
           "party": "R",
@@ -1178,9 +1177,9 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "March 3, 2026",
+        "primaryDate": "2026-03-03",
         "isRunoff": true,
-        "runoffPrimary": "May 26, 2026",
+        "runoffPrimary": "2026-05-26",
         "incumbent": {
           "name": "John Cornyn",
           "party": "R",
@@ -1219,7 +1218,7 @@
         ],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "incumbent": {
           "name": "Mark Warner",
           "party": "D",
@@ -1242,7 +1241,7 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "May 12, 2026",
+        "primaryDate": "2026-05-12",
         "incumbent": {
           "name": "Shelley Moore Capito",
           "party": "R",
@@ -1271,7 +1270,7 @@
         "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "incumbent": {
           "name": "Cynthia Lummis",
           "party": "R",

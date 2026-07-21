@@ -22,7 +22,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-r",
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "districts": {
           "AK-AL": {
             "incumbent": {
@@ -53,7 +53,8 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-r",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-05-19",
+        "specialPrimaryDate": "2026-08-11",
         "districts": {
           "AL-1": {
             "incumbent": {
@@ -216,7 +217,8 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "March 3, 2026",
+        "primaryDate": "2026-03-03",
+        "runoffPrimary": "2026-03-31",
         "districts": {
           "AR-1": {
             "incumbent": {
@@ -310,7 +312,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "July 21, 2026",
+        "primaryDate": "2026-07-21",
         "districts": {
           "AZ-1": {
             "incumbent": {
@@ -324,13 +326,33 @@
             "mustWatch": true,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Jay Feely",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Joseph Chaplik",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "John Trobough",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Amish Shah",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Marlene Galan-Woods",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Rick McCartney",
+                "party": "D",
                 "status": "primary-tbd"
               }
             ]
@@ -352,7 +374,7 @@
               {
                 "name": "Eli Crane",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -371,9 +393,9 @@
                 "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Nicholas Glenn",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "write-in"
               }
             ]
           },
@@ -389,10 +411,15 @@
               {
                 "name": "Greg Stanton",
                 "party": "D",
+                "status": "incumbent"
+              },
+              {
+                "name": "Kai Newkirk",
+                "party": "D",
                 "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Zuhdi Jasser",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -410,12 +437,27 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Brian Hualde",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Chris James",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Elizabeth Lee",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Mark Lamb",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Daniel Keenan",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -438,7 +480,7 @@
               {
                 "name": "Juan Ciscomani",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -454,12 +496,12 @@
               {
                 "name": "Adelita Grijalva",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
-                "name": "TBD",
+                "name": "Daniel Butierez Sr.",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -473,14 +515,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Bernadette Greene-Placentia",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Raymond Keeler",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
                 "name": "Abraham Hamadeh",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -494,14 +541,14 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Dani Sterbinsky",
+                "name": "Danielle Sterbinsky",
                 "party": "D",
                 "status": "nominee"
               },
               {
                 "name": "Paul Gosar",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -513,7 +560,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "districts": {
           "CA-1": {
             "incumbent": null,
@@ -1621,7 +1668,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "June 23, 2026",
+        "primaryDate": "2026-06-30",
         "districts": {
           "CO-1": {
             "incumbent": {
@@ -1800,7 +1847,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-d",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "districts": {
           "CT-1": {
             "incumbent": {
@@ -1945,7 +1992,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-d",
-        "primaryDate": "September 15, 2026",
+        "primaryDate": "2026-09-15",
         "districts": {
           "DE-AL": {
             "incumbent": {
@@ -1981,7 +2028,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "districts": {
           "FL-1": {
             "incumbent": {
@@ -2655,7 +2702,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-r",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "districts": {
           "GA-1": {
             "incumbent": {
@@ -2962,7 +3009,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-d",
-        "primaryDate": "August 8, 2026",
+        "primaryDate": "2026-08-08",
         "districts": {
           "HI-1": {
             "incumbent": {
@@ -3014,7 +3061,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "districts": {
           "IA-1": {
             "incumbent": {
@@ -3114,7 +3161,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "districts": {
           "ID-1": {
             "incumbent": {
@@ -3166,7 +3213,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "March 17, 2026",
+        "primaryDate": "2026-03-17",
         "districts": {
           "IL-1": {
             "incumbent": {
@@ -3544,7 +3591,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-d",
-        "primaryDate": "May 5, 2026",
+        "primaryDate": "2026-05-05",
         "districts": {
           "IN-1": {
             "incumbent": {
@@ -3743,7 +3790,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-d",
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "districts": {
           "KS-1": {
             "incumbent": {
@@ -3837,7 +3884,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-r",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "districts": {
           "KY-1": {
             "incumbent": {
@@ -3977,7 +4024,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "November 3, 2026",
+        "primaryDate": "2026-05-16",
         "districts": {
           "LA-1": {
             "incumbent": {
@@ -4121,7 +4168,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-d",
-        "primaryDate": "September 15, 2026",
+        "primaryDate": "2026-09-01",
         "districts": {
           "MA-1": {
             "incumbent": {
@@ -4322,7 +4369,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-06-23",
         "districts": {
           "MD-1": {
             "incumbent": {
@@ -4500,7 +4547,7 @@
       "name": "Maine",
       "race": {
         "mustWatch": false,
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "districts": {
           "ME-1": {
             "incumbent": {
@@ -4553,7 +4600,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "districts": {
           "MI-1": {
             "incumbent": {
@@ -4839,7 +4886,7 @@
       "name": "Minnesota",
       "race": {
         "mustWatch": false,
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "districts": {
           "MN-1": {
             "incumbent": {
@@ -5019,7 +5066,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "districts": {
           "MO-1": {
             "incumbent": {
@@ -5198,7 +5245,8 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-03-10",
+        "runoffPrimary": "2026-04-07",
         "districts": {
           "MS-1": {
             "incumbent": {
@@ -5292,7 +5340,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-r",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "districts": {
           "MT-1": {
             "incumbent": {
@@ -5346,7 +5394,8 @@
       "race": {
         "mustWatch": false,
         "rating": "lean-r",
-        "primaryDate": "March 17, 2026",
+        "primaryDate": "2026-03-03",
+        "runoffPrimary": "2026-05-12",
         "districts": {
           "NC-1": {
             "incumbent": {
@@ -5650,7 +5699,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "districts": {
           "ND-AL": {
             "incumbent": {
@@ -5681,7 +5730,7 @@
       "race": {
         "mustWatch": false,
         "rating": "lean-d",
-        "primaryDate": "May 12, 2026",
+        "primaryDate": "2026-05-12",
         "districts": {
           "NE-1": {
             "incumbent": {
@@ -5755,7 +5804,7 @@
       "race": {
         "mustWatch": false,
         "rating": "lean-d",
-        "primaryDate": "September 8, 2026",
+        "primaryDate": "2026-09-08",
         "districts": {
           "NH-1": {
             "incumbent": {
@@ -5810,7 +5859,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "districts": {
           "NJ-1": {
             "incumbent": {
@@ -6079,7 +6128,7 @@
       "race": {
         "mustWatch": false,
         "rating": "lean-d",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "districts": {
           "NM-1": {
             "incumbent": {
@@ -6152,7 +6201,7 @@
       "race": {
         "mustWatch": false,
         "rating": "lean-d",
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "districts": {
           "NV-1": {
             "incumbent": {
@@ -6249,7 +6298,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tilt-r",
-        "primaryDate": "June 23, 2026",
+        "primaryDate": "2026-06-23",
         "districts": {
           "NY-1": {
             "incumbent": {
@@ -6811,7 +6860,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "May 5, 2026",
+        "primaryDate": "2026-05-05",
         "districts": {
           "OH-1": {
             "incumbent": {
@@ -7136,7 +7185,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "June 16, 2026",
+        "primaryDate": "2026-06-16",
         "districts": {
           "OK-1": {
             "incumbent": {
@@ -7253,7 +7302,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-d",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "districts": {
           "OR-1": {
             "incumbent": {
@@ -7389,7 +7438,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "May 19, 2026",
+        "primaryDate": "2026-05-19",
         "districts": {
           "PA-1": {
             "incumbent": {
@@ -7753,7 +7802,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-d",
-        "primaryDate": "September 15, 2026",
+        "primaryDate": "2026-09-09",
         "districts": {
           "RI-1": {
             "incumbent": {
@@ -7805,7 +7854,7 @@
       "race": {
         "mustWatch": false,
         "rating": "likely-r",
-        "primaryDate": "June 9, 2026",
+        "primaryDate": "2026-06-09",
         "districts": {
           "SC-1": {
             "incumbent": {
@@ -7966,7 +8015,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "June 2, 2026",
+        "primaryDate": "2026-06-02",
         "districts": {
           "SD-AL": {
             "incumbent": {
@@ -8000,7 +8049,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "August 6, 2026",
+        "primaryDate": "2026-08-06",
         "districts": {
           "TN-1": {
             "incumbent": {
@@ -8203,7 +8252,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "March 3, 2026",
+        "primaryDate": "2026-03-03",
         "districts": {
           "TX-1": {
             "incumbent": {
@@ -9029,7 +9078,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "June 23, 2026",
+        "primaryDate": "2026-06-23",
         "districts": {
           "UT-1": {
             "incumbent": {
@@ -9128,7 +9177,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "June 16, 2026",
+        "primaryDate": "2026-08-04",
         "districts": {
           "VA-1": {
             "incumbent": {
@@ -9369,7 +9418,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-d",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "districts": {
           "VT-AL": {
             "incumbent": {
@@ -9400,7 +9449,7 @@
       "race": {
         "mustWatch": false,
         "rating": "lean-d",
-        "primaryDate": "August 4, 2026",
+        "primaryDate": "2026-08-04",
         "districts": {
           "WA-1": {
             "incumbent": {
@@ -9621,7 +9670,7 @@
       "race": {
         "mustWatch": true,
         "rating": "tossup",
-        "primaryDate": "August 11, 2026",
+        "primaryDate": "2026-08-11",
         "districts": {
           "WI-1": {
             "incumbent": {
@@ -9801,7 +9850,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "May 12, 2026",
+        "primaryDate": "2026-05-12",
         "districts": {
           "WV-1": {
             "incumbent": {
@@ -9853,7 +9902,7 @@
       "race": {
         "mustWatch": false,
         "rating": "safe-r",
-        "primaryDate": "August 18, 2026",
+        "primaryDate": "2026-08-18",
         "districts": {
           "WY-AL": {
             "incumbent": {
