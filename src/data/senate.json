@@ -30,8 +30,9 @@
           "safe-r",
           "safe-r",
           "safe-r",
+          "likely-r",
           "safe-r",
-          "likely-r"
+          "safe-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -66,7 +67,15 @@
       "name": "Alaska",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "lean-r", "tossup", "tossup", "lean-r", "tossup"],
+        "ratings": [
+          "tossup",
+          "lean-r",
+          "tossup",
+          "tossup",
+          "lean-r",
+          "tossup",
+          "tossup"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-08-18",
@@ -158,7 +167,15 @@
       "name": "Arkansas",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-03-03",
@@ -185,6 +202,7 @@
           "safe-d",
           "safe-d",
           "likely-d",
+          "safe-d",
           "safe-d"
         ],
         "seat": "Class 2",
@@ -216,7 +234,15 @@
       "name": "Delaware",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-09-15",
@@ -250,6 +276,7 @@
           "likely-r",
           "lean-r",
           "lean-r",
+          "likely-r",
           "likely-r"
         ],
         "seat": "Class 3",
@@ -310,7 +337,8 @@
           "lean-d",
           "likely-d",
           "lean-d",
-          "tossup"
+          "tossup",
+          "likely-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -344,7 +372,15 @@
       "name": "Idaho",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-05-19",
@@ -372,8 +408,9 @@
           "safe-d",
           "safe-d",
           "safe-d",
+          "likely-d",
           "safe-d",
-          "likely-d"
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -405,7 +442,15 @@
       "name": "Iowa",
       "race": {
         "mustWatch": true,
-        "ratings": ["lean-r", "lean-r", "lean-r", "lean-r", "tossup", "tossup"],
+        "ratings": [
+          "lean-r",
+          "lean-r",
+          "lean-r",
+          "tossup",
+          "lean-r",
+          "tossup",
+          "lean-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-06-02",
@@ -440,9 +485,10 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
           "likely-r",
-          "lean-r"
+          "lean-r",
+          "safe-r",
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -476,8 +522,9 @@
           "safe-r",
           "safe-r",
           "safe-r",
+          "likely-r",
           "safe-r",
-          "likely-r"
+          "safe-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -508,8 +555,9 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
           "likely-r",
+          "likely-r",
+          "safe-r",
           "likely-r"
         ],
         "seat": "Class 2",
@@ -541,7 +589,15 @@
       "name": "Maine",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-r"],
+        "ratings": [
+          "tossup",
+          "tilt-r",
+          "tossup",
+          "lean-d",
+          "lean-d",
+          "tossup",
+          "tossup"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-06-09",
@@ -571,7 +627,15 @@
       "name": "Massachusetts",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-09-01",
@@ -603,7 +667,15 @@
       "name": "Michigan",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tossup", "tossup", "tossup", "lean-d", "tilt-d"],
+        "ratings": [
+          "tossup",
+          "tossup",
+          "tossup",
+          "tilt-d",
+          "lean-d",
+          "tossup",
+          "lean-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-08-04",
@@ -645,6 +717,7 @@
           "likely-d",
           "likely-d",
           "likely-d",
+          "safe-d",
           "likely-d",
           "likely-d",
           "likely-d"
@@ -697,6 +770,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
+          "likely-r",
           "safe-r",
           "likely-r"
         ],
@@ -721,12 +795,13 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "likely-r",
-          "likely-r",
           "safe-r",
           "safe-r",
+          "likely-r",
+          "likely-r",
           "lean-r",
-          "lean-r"
+          "lean-r",
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -764,9 +839,10 @@
           "likely-r",
           "likely-r",
           "likely-r",
+          "lean-r",
           "likely-r",
           "lean-r",
-          "lean-r"
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -797,11 +873,12 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "lean-d",
-          "lean-d",
           "tilt-d",
+          "lean-d",
+          "lean-d",
           "likely-d",
-          "tossup"
+          "tossup",
+          "likely-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -850,8 +927,9 @@
           "safe-d",
           "safe-d",
           "safe-d",
+          "likely-d",
           "safe-d",
-          "likely-d"
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -878,8 +956,9 @@
           "safe-d",
           "safe-d",
           "safe-d",
+          "likely-d",
           "safe-d",
-          "likely-d"
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -903,11 +982,12 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "lean-d",
+          "tossup",
           "lean-d",
           "likely-d",
           "likely-d",
-          "tossup"
+          "lean-d",
+          "lean-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -939,7 +1019,15 @@
       "name": "Ohio",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tossup", "tossup", "tossup", "tilt-r", "tilt-d"],
+        "ratings": [
+          "tossup",
+          "tilt-r",
+          "tossup",
+          "tilt-d",
+          "tossup",
+          "tossup",
+          "tossup"
+        ],
         "seat": "Class 3",
         "isSpecial": true,
         "primaryDate": "2026-05-05",
@@ -971,7 +1059,15 @@
       "name": "Oklahoma",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-06-16",
@@ -1001,7 +1097,15 @@
       "name": "Oregon",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-05-19",
@@ -1027,7 +1131,15 @@
       "name": "Rhode Island",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-09-09",
@@ -1055,11 +1167,12 @@
         "mustWatch": false,
         "ratings": [
           "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "likely-r",
+          "lean-r",
           "likely-r",
-          "lean-r"
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -1092,7 +1205,8 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "likely-r"
+          "safe-r",
+          "safe-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -1120,8 +1234,9 @@
           "safe-r",
           "safe-r",
           "safe-r",
+          "likely-r",
           "safe-r",
-          "likely-r"
+          "safe-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -1173,6 +1288,7 @@
           "lean-r",
           "tossup",
           "tossup",
+          "tossup",
           "tossup"
         ],
         "seat": "Class 2",
@@ -1213,8 +1329,9 @@
           "safe-d",
           "safe-d",
           "safe-d",
+          "likely-d",
           "safe-d",
-          "likely-d"
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -1238,7 +1355,15 @@
       "name": "West Virginia",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-05-12",
@@ -1267,7 +1392,15 @@
       "name": "Wyoming",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-08-18",

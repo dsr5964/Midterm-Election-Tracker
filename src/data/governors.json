@@ -149,14 +149,8 @@
           {
             "name": "Andy Biggs",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Incumbent US Representative from AZ-5"
-          },
-          {
-            "name": "Dave Schweikert",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "Incumbent US Representative from AZ-1"
           }
         ],
         "note": "Hobbs running for re-election in a purple state. Republican nominee TBD."
@@ -510,7 +504,7 @@
       "name": "Maine",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "likely-d", "likely-d", "lean-d", "lean-d"],
+        "ratings": ["safe-d", "likely-d", "likely-d", "likely-d", "lean-d"],
         "pvi": "D+4",
         "primaryDate": "2026-06-09",
         "incumbent": {

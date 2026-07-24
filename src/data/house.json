@@ -328,32 +328,12 @@
               {
                 "name": "Jay Feely",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Joseph Chaplik",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "John Trobough",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Amish Shah",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Marlene Galan-Woods",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Rick McCartney",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -414,14 +394,9 @@
                 "status": "incumbent"
               },
               {
-                "name": "Kai Newkirk",
-                "party": "D",
-                "status": "nominee"
-              },
-              {
                 "name": "Zuhdi Jasser",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -437,29 +412,14 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Brian Hualde",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Chris James",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Elizabeth Lee",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Mark Lamb",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Daniel Keenan",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -473,7 +433,7 @@
             "mustWatch": true,
             "candidates": [
               {
-                "name": "JoAnn Mendoza",
+                "name": "JoAnna Mendoza",
                 "party": "D",
                 "status": "nominee"
               },
@@ -517,12 +477,7 @@
               {
                 "name": "Bernadette Greene-Placentia",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Raymond Keeler",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Abraham Hamadeh",

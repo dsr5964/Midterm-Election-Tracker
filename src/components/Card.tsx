@@ -2,9 +2,12 @@ import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
 import type { ReactNode } from "react";
 
 function displayCandidateData(candidateData): ReactNode {
-  return candidateData.map((candidate) => (
+  if (!candidateData || candidateData.length === 0) {
+    return <CCardText>No candidates yet</CCardText>;
+  }
+  return candidateData.map((candidate, index) => (
     <>
-      <CCardText>
+      <CCardText key={index}>
         {candidate.name} ({candidate.politicalParty})
       </CCardText>
     </>
@@ -12,6 +15,9 @@ function displayCandidateData(candidateData): ReactNode {
 }
 
 function displayIncumbentData(incumbentData): ReactNode {
+  if (!incumbentData) {
+    return <CCardText>Vacant seat - no incumbent</CCardText>;
+  }
   return (
     <>
       <CCardText>Incumbent: {incumbentData.name}</CCardText>
@@ -23,7 +29,6 @@ function displayIncumbentData(incumbentData): ReactNode {
 
 // TODO: Add interface for component props
 function Card({ stateData, toggleIncumbents }) {
-  console.log(JSON.stringify(stateData));
   return (
     <CRow>
       <CCard

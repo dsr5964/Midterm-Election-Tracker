@@ -87,7 +87,7 @@ function getIncumbent(incumbentData: Incumbent): Incumbent {
     retiring: incumbentData.retiring ? true : false,
     firstElected: incumbentData.firstElected,
     note: incumbentData.note,
-    vacant: incumbentData.vacant ? true : false,
+    vacant: !incumbentData ? true : false,
   } as Incumbent;
 }
 
@@ -158,7 +158,7 @@ function getRatingColor(rating: string): string {
 }
 
 function getStateColorFromIncumbent(incumbent: Incumbent): string {
-  const termLimited = incumbent.note === "Term-limited";
+  const termLimited = incumbent.note === "Term-limited"; // This is for gubernatorial races
   switch (incumbent.party) {
     case "D":
       if (incumbent.retiring || termLimited) {
