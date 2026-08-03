@@ -70,11 +70,14 @@ function getState(data, stateId: string): State | undefined {
 
 function getCandidates(candidateData): Candidate[] {
   const candidates: Candidate[] = candidateData.map((candidate: Candidate) => {
+    console.log(candidate.name);
+    console.log(candidate.party);
+    console.log(candidate.status);
     return {
       name: candidate.name,
-      politicalParty: candidate.party,
+      party: candidate.party,
       status: candidate.status,
-      isIncumbent: false,
+      isIncumbent: false, // TODO: Check if candidate is incumbent
     };
   });
   return candidates;
