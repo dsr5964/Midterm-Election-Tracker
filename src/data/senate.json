@@ -76,6 +76,7 @@
           "tossup",
           "tossup",
           "tossup",
+          "tossup",
           "tossup"
         ],
         "seat": "Class 2",
@@ -350,6 +351,7 @@
           "tossup",
           "likely-d",
           "lean-d",
+          "likely-d",
           "likely-d"
         ],
         "seat": "Class 2",
@@ -467,7 +469,8 @@
           "tossup",
           "tossup",
           "tossup",
-          "lean-r"
+          "lean-r",
+          "tossup"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -500,7 +503,7 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "likely-r",
@@ -508,6 +511,7 @@
           "safe-r",
           "likely-r",
           "safe-r",
+          "likely-r",
           "likely-r"
         ],
         "seat": "Class 2",
@@ -615,7 +619,8 @@
           "tossup",
           "tossup",
           "tossup",
-          "tilt-d"
+          "tilt-d",
+          "lean-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -697,7 +702,8 @@
           "tossup",
           "lean-d",
           "lean-d",
-          "tilt-d"
+          "tilt-d",
+          "lean-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -739,6 +745,7 @@
           "likely-d",
           "likely-d",
           "likely-d",
+          "safe-d",
           "safe-d"
         ],
         "seat": "Class 2",
@@ -879,7 +886,6 @@
           "note": "Elected in a special election after being appointed to fill the vacant seat left after Ben Sasse's resignation."
         },
         "candidates": [
-          { "name": "Cindy Burbank", "party": "D", "status": "nominee" },
           { "name": "Pete Ricketts", "party": "R", "status": "incumbent" },
           {
             "name": "Dan Osborn",
@@ -1016,6 +1022,7 @@
           "lean-d",
           "lean-d",
           "lean-d",
+          "likely-d",
           "likely-d"
         ],
         "seat": "Class 2",
@@ -1333,6 +1340,7 @@
           "tossup",
           "tossup",
           "lean-r",
+          "tossup",
           "tossup"
         ],
         "seat": "Class 2",

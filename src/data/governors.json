@@ -136,7 +136,15 @@
       "name": "Arizona",
       "race": {
         "mustWatch": true,
-        "ratings": ["lean-d", "tossup", "lean-d", "lean-d", "tossup"],
+        "ratings": [
+          "lean-d",
+          "tossup",
+          "lean-d",
+          "lean-d",
+          "tossup",
+          "lean-d",
+          "likely-d"
+        ],
         "pvi": "R+2",
         "primaryDate": "2026-07-21",
         "incumbent": {
@@ -420,7 +428,15 @@
       "name": "Iowa",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tossup", "tossup", "lean-d", "tossup"],
+        "ratings": [
+          "tossup",
+          "tossup",
+          "tossup",
+          "lean-d",
+          "tossup",
+          "lean-d",
+          "tilt-d"
+        ],
         "pvi": "R+6",
         "primaryDate": "2026-06-02",
         "incumbent": {
@@ -446,7 +462,15 @@
       "name": "Kansas",
       "race": {
         "mustWatch": true,
-        "ratings": ["lean-r", "tossup", "lean-r", "tilt-r", "lean-r"],
+        "ratings": [
+          "lean-r",
+          "tossup",
+          "lean-r",
+          "tilt-r",
+          "lean-r",
+          "lean-r",
+          "lean-r"
+        ],
         "pvi": "R+8",
         "primaryDate": "2026-08-04",
         "incumbent": {
@@ -545,7 +569,15 @@
       "name": "Michigan",
       "race": {
         "mustWatch": true,
-        "ratings": ["lean-d", "tilt-d", "tossup", "lean-d", "tossup"],
+        "ratings": [
+          "lean-d",
+          "tilt-d",
+          "lean-d",
+          "lean-d",
+          "tossup",
+          "lean-d",
+          "lean-d"
+        ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-04",
         "incumbent": {
@@ -564,14 +596,8 @@
           {
             "name": "John James",
             "party": "R",
-            "status": "primary-tbd",
-            "note": "Former U.S. Senate candidate; facing tough primary from Perry Johnson"
-          },
-          {
-            "name": "Perry Johnson",
-            "party": "R",
-            "status": "primary-runoff",
-            "note": "Businessman; stronger than expected primary challenge to James"
+            "status": "nominee",
+            "note": "U.S. Representative from MI-10 and former Senate candidate."
           }
         ],
         "note": "Open seat — Whitmer term-limited. True battleground in an EVEN PVI state. Likely Benson vs James but primary not yet settled on R side."
@@ -1044,7 +1070,15 @@
       "name": "Wisconsin",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
+        "ratings": [
+          "tossup",
+          "tossup",
+          "tossup",
+          "tilt-r",
+          "tossup",
+          "tossup",
+          "lean-d"
+        ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-11",
         "incumbent": {
