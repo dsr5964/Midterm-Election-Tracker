@@ -457,43 +457,16 @@
         },
         "candidates": [
           {
-            "name": "Ethan Corson",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "State senator"
-          },
-          {
             "name": "Cindy Holscher",
             "party": "D",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "State senator"
-          },
-          {
-            "name": "Curt Skoog",
-            "party": "D",
-            "status": "primary-tbd"
           },
           {
             "name": "Ty Masterson",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "President of Kansas Senate"
-          },
-          {
-            "name": "Scott Schwab",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "Kansas Secretary of State"
-          },
-          {
-            "name": "Vicki Schmidt",
-            "party": "R",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Charlotte O'Hara",
-            "party": "R",
-            "status": "primary-tbd"
           }
         ],
         "note": "Open seat — Kelly term-limited. Kansas has a history of electing Democratic governors despite red PVI."
@@ -585,8 +558,8 @@
           {
             "name": "Jocelyn Benson",
             "party": "D",
-            "status": "primary-tbd",
-            "note": "Former Secretary of State; frontrunner in primary"
+            "status": "nominee",
+            "note": "Former Secretary of State"
           },
           {
             "name": "John James",

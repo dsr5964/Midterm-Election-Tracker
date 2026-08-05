@@ -519,15 +519,8 @@
           "firstElected": 2020
         },
         "candidates": [
-          { "name": "Adam Hamilton", "party": "D", "status": "primary-tbd" },
-          { "name": "Christy Davis", "party": "D", "status": "primary-tbd" },
-          { "name": "Patrick Schmidt", "party": "D", "status": "primary-tbd" },
-          { "name": "Damon Anderson", "party": "D", "status": "primary-tbd" },
-          { "name": "Jason Hart", "party": "D", "status": "primary-tbd" },
-          { "name": "Kevin Latz", "party": "D", "status": "primary-tbd" },
-          { "name": "Anne Parelkar", "party": "D", "status": "primary-tbd" },
-          { "name": "Roger Marshall", "party": "R", "status": "incumbent" },
-          { "name": "Pond Naramore", "party": "R", "status": "primary-tbd" }
+          { "name": "Adam Hamilton", "party": "D", "status": "nominee" },
+          { "name": "Roger Marshall", "party": "R", "status": "incumbent" }
         ],
         "note": "Deep red state. Marshall running for re-election."
       }
@@ -719,14 +712,8 @@
           {
             "name": "Abdul El-Sayed",
             "party": "D",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Wayne County health director and candidate for governor in 2018"
-          },
-          {
-            "name": "Haley Stevens",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "U.S. representative for MI-11"
           },
           {
             "name": "Mike Rogers",
@@ -1271,11 +1258,10 @@
           "firstElected": 2014
         },
         "candidates": [
-          { "name": "Julian Beaudion", "party": "D", "status": "nominee" },
           { "name": "Mike Rounds", "party": "R", "status": "incumbent" },
           { "name": "Brian Bengs", "party": "I", "status": "nominee" }
         ],
-        "note": "Deep red state. Rounds running for re-election."
+        "note": "Deep red state. Rounds running for re-election. The Democrat nominee dropped out."
       }
     },
 
@@ -1403,9 +1389,7 @@
         },
         "candidates": [
           { "name": "Mark Warner", "party": "D", "status": "incumbent" },
-          { "name": "Kim Farington", "party": "R", "status": "primary-tbd" },
-          { "name": "Bert Mizusawa", "party": "R", "status": "primary-tbd" },
-          { "name": "David Williams", "party": "R", "status": "primary-tbd" }
+          { "name": "Bert Mizusawa", "party": "R", "status": "nominee" }
         ],
         "note": "Warner running for re-election in a blue-leaning state."
       }
