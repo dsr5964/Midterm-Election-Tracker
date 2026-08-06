@@ -71,7 +71,9 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
+          "tossup",
           "lean-r",
+          "tossup",
           "tossup",
           "tossup",
           "tossup",
@@ -352,6 +354,7 @@
           "likely-d",
           "lean-d",
           "likely-d",
+          "likely-d",
           "likely-d"
         ],
         "seat": "Class 2",
@@ -470,7 +473,8 @@
           "tossup",
           "tossup",
           "lean-r",
-          "tossup"
+          "tossup",
+          "lean-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -505,14 +509,15 @@
         "ratings": [
           "likely-r",
           "safe-r",
-          "safe-r",
           "likely-r",
+          "lean-r",
           "lean-r",
           "safe-r",
           "likely-r",
           "safe-r",
           "likely-r",
-          "likely-r"
+          "likely-r",
+          "safe-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -620,6 +625,7 @@
           "tossup",
           "tossup",
           "tilt-d",
+          "lean-d",
           "lean-d"
         ],
         "seat": "Class 2",
@@ -697,12 +703,13 @@
           "tossup",
           "tossup",
           "tossup",
-          "tilt-d",
-          "lean-d",
+          "tossup",
+          "tossup",
+          "tossup",
           "tossup",
           "lean-d",
-          "lean-d",
           "tilt-d",
+          "lean-d",
           "lean-d"
         ],
         "seat": "Class 2",
@@ -746,7 +753,8 @@
           "likely-d",
           "likely-d",
           "safe-d",
-          "safe-d"
+          "safe-d",
+          "likely-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -831,7 +839,9 @@
           "lean-r",
           "likely-r",
           "safe-r",
-          "likely-r"
+          "likely-r",
+          "likely-r",
+          "safe-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -874,7 +884,9 @@
           "lean-r",
           "likely-r",
           "likely-r",
-          "lean-r"
+          "lean-r",
+          "likely-r",
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -911,6 +923,8 @@
           "tossup",
           "likely-d",
           "lean-d",
+          "likely-d",
+          "likely-d",
           "likely-d"
         ],
         "seat": "Class 2",
@@ -1020,8 +1034,9 @@
           "likely-d",
           "likely-d",
           "lean-d",
+          "likely-d",
           "lean-d",
-          "lean-d",
+          "likely-d",
           "likely-d",
           "likely-d"
         ],
@@ -1064,7 +1079,9 @@
           "tossup",
           "tossup",
           "tossup",
-          "tossup"
+          "tossup",
+          "tossup",
+          "lean-d"
         ],
         "seat": "Class 3",
         "isSpecial": true,
@@ -1340,6 +1357,7 @@
           "tossup",
           "tossup",
           "lean-r",
+          "tossup",
           "tossup",
           "tossup"
         ],
