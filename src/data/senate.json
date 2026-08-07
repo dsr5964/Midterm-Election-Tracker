@@ -1316,27 +1316,7 @@
           {
             "name": "Marquita Bradshaw",
             "party": "D",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Maria Brewer",
-            "party": "D",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Kevin Lee McCants",
-            "party": "D",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Civil Miller-Watkins",
-            "party": "D",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Diana Onyejiaka",
-            "party": "D",
-            "status": "primary-tbd"
+            "status": "nominee"
           },
           { "name": "Bill Hagerty", "party": "R", "status": "incumbent" }
         ],

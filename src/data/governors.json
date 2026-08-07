@@ -992,24 +992,10 @@
           {
             "name": "Marsha Blackburn",
             "party": "R",
-            "status": "primary-tbd",
-            "note": "US Senator"
+            "status": "nominee",
+            "note": "Incumbent US Senator"
           },
-          {
-            "name": "John Rose",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "US Representative from TN-7"
-          },
-          { "name": "Jerri Green", "party": "D", "status": "primary-tbd" },
-          { "name": "Carnita Atwater", "party": "D", "status": "primary-tbd" },
-          { "name": "Tim Cyr", "party": "D", "status": "primary-tbd" },
-          {
-            "name": "Adam 'Ditch' Kurtz",
-            "party": "D",
-            "status": "primary-tbd"
-          },
-          { "name": "Kevin Lee McCants", "party": "D", "status": "primary-tbd" }
+          { "name": "Jerri Green", "party": "D", "status": "nominee" }
         ],
         "note": "Open seat — Lee term-limited. Deep red state."
       }
