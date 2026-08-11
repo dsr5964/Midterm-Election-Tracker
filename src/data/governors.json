@@ -25,7 +25,14 @@
       "name": "Alabama",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r",
+          "safe-r",
+          "likely-r"
+        ],
         "pvi": "R+15",
         "primaryDate": "2026-05-19",
         "incumbent": {
@@ -56,7 +63,15 @@
       "name": "Alaska",
       "race": {
         "mustWatch": false,
-        "ratings": ["likely-r", "likely-r", "likely-r", "tossup", "tossup"],
+        "ratings": [
+          "likely-r",
+          "likely-r",
+          "likely-r",
+          "tossup",
+          "tossup",
+          "likely-r",
+          "tossup"
+        ],
         "pvi": "R+6",
         "primaryDate": "2026-08-18",
         "incumbent": {
@@ -169,7 +184,15 @@
       "name": "Arkansas",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "pvi": "R+15",
         "primaryDate": "2026-03-03",
         "incumbent": {
@@ -193,7 +216,15 @@
       "name": "California",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+12",
         "primaryDate": "2026-06-02",
         "incumbent": {
@@ -224,7 +255,15 @@
       "name": "Colorado",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+6",
         "primaryDate": "2026-06-30",
         "incumbent": {
@@ -250,7 +289,15 @@
       "name": "Connecticut",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+8",
         "primaryDate": "2026-08-11",
         "incumbent": {
@@ -281,7 +328,15 @@
       "name": "Florida",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "likely-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "likely-r",
+          "lean-r",
+          "likely-r",
+          "safe-r",
+          "tilt-r"
+        ],
         "pvi": "R+5",
         "primaryDate": "2026-08-18",
         "incumbent": {
@@ -329,7 +384,15 @@
       "name": "Georgia",
       "race": {
         "mustWatch": true,
-        "ratings": ["tossup", "tossup", "tossup", "tossup", "tossup"],
+        "ratings": [
+          "tossup",
+          "tossup",
+          "tossup",
+          "tossup",
+          "tossup",
+          "tossup",
+          "tilt-d"
+        ],
         "pvi": "R+1",
         "primaryDate": "2026-05-19",
         "isRunoff": true,
@@ -362,7 +425,15 @@
       "name": "Hawaii",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+13",
         "primaryDate": "2026-08-08",
         "incumbent": {
@@ -372,8 +443,7 @@
         },
         "candidates": [
           { "name": "Josh Green", "party": "D", "status": "incumbent" },
-          { "name": "Gary Coredery", "party": "R", "status": "primary-tbd" },
-          { "name": "Ken Fujiyama", "party": "R", "status": "primary-tbd" }
+          { "name": "Gary Coredery", "party": "R", "status": "nominee" }
         ],
         "note": "Reliably Democratic state."
       }
@@ -383,7 +453,15 @@
       "name": "Idaho",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "pvi": "R+18",
         "primaryDate": "2026-05-19",
         "incumbent": {
@@ -403,7 +481,15 @@
       "name": "Illinois",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+6",
         "primaryDate": "2026-03-17",
         "incumbent": {
@@ -430,7 +516,7 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "tossup",
+          "tilt-d",
           "tossup",
           "lean-d",
           "tossup",
@@ -464,7 +550,7 @@
         "mustWatch": true,
         "ratings": [
           "lean-r",
-          "tossup",
+          "tilt-r",
           "lean-r",
           "tilt-r",
           "lean-r",
@@ -501,7 +587,15 @@
       "name": "Maine",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "likely-d", "likely-d", "likely-d", "lean-d"],
+        "ratings": [
+          "safe-d",
+          "likely-d",
+          "likely-d",
+          "likely-d",
+          "lean-d",
+          "safe-d",
+          "likely-d"
+        ],
         "pvi": "D+4",
         "primaryDate": "2026-06-09",
         "incumbent": {
@@ -528,7 +622,15 @@
       "name": "Maryland",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+15",
         "primaryDate": "2026-06-23",
         "incumbent": {
@@ -548,7 +650,15 @@
       "name": "Massachusetts",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+14",
         "primaryDate": "2026-09-01",
         "incumbent": {
@@ -608,7 +718,15 @@
       "name": "Minnesota",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "likely-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d"
+        ],
         "pvi": "D+3",
         "primaryDate": "2026-08-11",
         "incumbent": {
@@ -651,7 +769,15 @@
       "name": "Nebraska",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r"
+        ],
         "pvi": "R+10",
         "primaryDate": "2026-05-12",
         "incumbent": {
@@ -676,7 +802,15 @@
       "name": "Nevada",
       "race": {
         "mustWatch": false,
-        "ratings": ["tossup", "tilt-r", "lean-r", "tilt-r", "tossup"],
+        "ratings": [
+          "tossup",
+          "tilt-r",
+          "lean-r",
+          "lean-r",
+          "tossup",
+          "tossup",
+          "tilt-r"
+        ],
         "pvi": "R+1",
         "primaryDate": "2026-06-09",
         "incumbent": {
@@ -696,7 +830,15 @@
       "name": "New Hampshire",
       "race": {
         "mustWatch": false,
-        "ratings": ["likely-r", "safe-r", "likely-r", "lean-r", "lean-r"],
+        "ratings": [
+          "likely-r",
+          "safe-r",
+          "likely-r",
+          "lean-r",
+          "lean-r",
+          "likely-r",
+          "likely-r"
+        ],
         "pvi": "D+2",
         "primaryDate": "2026-09-08",
         "incumbent": {
@@ -722,7 +864,15 @@
       "name": "New Mexico",
       "race": {
         "mustWatch": false,
-        "ratings": ["likely-d", "likely-d", "likely-d", "likely-d", "likely-d"],
+        "ratings": [
+          "safe-d",
+          "likely-d",
+          "safe-d",
+          "likely-d",
+          "likely-d",
+          "safe-d",
+          "likely-d"
+        ],
         "pvi": "D+4",
         "primaryDate": "2026-06-02",
         "incumbent": {
@@ -748,7 +898,15 @@
       "name": "New York",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "likely-d", "safe-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "likely-d",
+          "safe-d",
+          "likely-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+8",
         "primaryDate": "2026-06-23",
         "incumbent": {
@@ -774,7 +932,15 @@
       "name": "Ohio",
       "race": {
         "mustWatch": true,
-        "ratings": ["lean-r", "tossup", "tossup", "lean-r", "tossup"],
+        "ratings": [
+          "tossup",
+          "lean-r",
+          "lean-r",
+          "tossup",
+          "tossup",
+          "tossup",
+          "tossup"
+        ],
         "pvi": "R+5",
         "primaryDate": "2026-05-05",
         "incumbent": {
@@ -805,7 +971,15 @@
       "name": "Oklahoma",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "pvi": "R+17",
         "primaryDate": "2026-06-16",
         "isRunoff": true,
@@ -833,7 +1007,15 @@
       "name": "Oregon",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "lean-d", "likely-d", "likely-d", "safe-d"],
+        "ratings": [
+          "likely-d",
+          "lean-d",
+          "likely-d",
+          "tilt-d",
+          "safe-d",
+          "likely-d",
+          "likely-d"
+        ],
         "pvi": "D+8",
         "primaryDate": "2026-05-19",
         "incumbent": {
@@ -858,7 +1040,15 @@
       "name": "Pennsylvania",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "likely-d", "safe-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "likely-d",
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d"
+        ],
         "pvi": "R+1",
         "primaryDate": "2026-05-19",
         "incumbent": {
@@ -888,7 +1078,15 @@
       "name": "Rhode Island",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
+        "ratings": [
+          "safe-d",
+          "safe-d",
+          "safe-d",
+          "likely-d",
+          "safe-d",
+          "safe-d",
+          "safe-d"
+        ],
         "pvi": "D+8",
         "primaryDate": "2026-09-09",
         "incumbent": {
@@ -917,7 +1115,15 @@
       "name": "South Carolina",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "likely-r", "likely-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r",
+          "likely-r",
+          "safe-r",
+          "likely-r"
+        ],
         "pvi": "R+8",
         "primaryDate": "2026-06-09",
         "isRunoff": true,
@@ -945,7 +1151,15 @@
       "name": "South Dakota",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r",
+          "likely-r",
+          "safe-r",
+          "likely-r"
+        ],
         "pvi": "R+15",
         "primaryDate": "2026-06-02",
         "isRunoff": true,
@@ -961,14 +1175,7 @@
           {
             "name": "Larry Rhoden",
             "party": "R",
-            "status": "primary-runoff",
-            "note": "Incumbent; in extremely close primary runoff vs Toby Doeden"
-          },
-          {
-            "name": "Toby Doeden",
-            "party": "R",
-            "status": "primary-runoff",
-            "note": "Challenger; near-tied with Rhoden in primary — no clear frontrunner"
+            "status": "incumbent"
           }
         ],
         "note": "Republican primary is in a runoff between incumbent Rhoden and Toby Doeden — too close to call. Deep red state regardless of nominee."
@@ -979,7 +1186,15 @@
       "name": "Tennessee",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "pvi": "R+14",
         "primaryDate": "2026-08-06",
         "incumbent": {
@@ -996,8 +1211,7 @@
             "note": "Incumbent US Senator"
           },
           { "name": "Jerri Green", "party": "D", "status": "nominee" }
-        ],
-        "note": "Open seat — Lee term-limited. Deep red state."
+        ]
       }
     },
 
@@ -1005,7 +1219,15 @@
       "name": "Texas",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "lean-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "likely-r",
+          "safe-r",
+          "lean-r",
+          "safe-r",
+          "safe-r",
+          "lean-r"
+        ],
         "pvi": "R+6",
         "primaryDate": "2026-03-03",
         "incumbent": {
@@ -1030,7 +1252,15 @@
       "name": "Vermont",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "pvi": "D+17",
         "primaryDate": "2026-08-11",
         "incumbent": {
@@ -1070,32 +1300,20 @@
         },
         "candidates": [
           {
-            "name": "Mandela Barnes",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "Former Lt. governor and nominee for US Senate in 2022."
-          },
-          {
             "name": "Francesca Hong",
             "party": "D",
             "status": "primary-tbd",
             "note": "State representative, progressive"
           },
-          {
-            "name": "Sara Rodriguez",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "Incumbent lt. governor"
-          },
           { "name": "David Crowley", "party": "D", "status": "primary-tbd" },
           {
             "name": "Tom Tiffany",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "US Representative from WI-7."
           }
         ],
-        "note": "Open seat — Evers term-limited. True battleground in an EVEN PVI state. Candidates TBD."
+        "note": "Open seat — Evers term-limited. True battleground in an EVEN PVI state. Divided Democratic primary which can lead to a Republican pickup."
       }
     },
 
@@ -1103,7 +1321,15 @@
       "name": "Wyoming",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+        "ratings": [
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "pvi": "R+23",
         "primaryDate": "2026-08-18",
         "incumbent": {
@@ -1130,15 +1356,6 @@
   "summary": {
     "totalRaces": 36,
     "mustWatch": 4,
-    "byRating": {
-      "Safe D": 8,
-      "Likely D": 4,
-      "Lean D": 1,
-      "Toss up": 3,
-      "Tilt R": 1,
-      "Lean R": 3,
-      "Likely R": 6,
-      "Safe R": 10
-    }
+    "byRating": {}
   }
 }

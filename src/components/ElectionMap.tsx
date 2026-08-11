@@ -9,7 +9,13 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "./Card";
 import { BackButton } from "./BackButton";
-import type { Candidate, Incumbent, State, StateAbbr } from "../types/types";
+import type {
+  Candidate,
+  Incumbent,
+  PoliticalParty,
+  State,
+  StateAbbr,
+} from "../types/types";
 import {
   NO_RACE_COLOR,
   SAFE_R,
@@ -22,6 +28,7 @@ import {
   TILT_D,
   TOSSUP,
 } from "../constants";
+import "../App.css";
 
 const ratingToValueMap: Record<string, number> = {
   [SAFE_D]: 3,
@@ -45,6 +52,7 @@ function getState(data, stateId: string): State | undefined {
 
     if (stateKey in data.states) {
       const stateName = data.states[stateKey].name;
+      console.log(stateName);
       const ratings: string[] = data.states[stateKey].race.ratings;
       const rating = getRating(ratings);
 
@@ -55,6 +63,9 @@ function getState(data, stateId: string): State | undefined {
         data.states[stateKey].race.incumbent,
       );
 
+      const isFlip = checkIsFlip(incumbent.party, rating);
+      console.log(isFlip);
+
       const state = {
         id: stateId,
         abbrev: individualState.id as StateAbbr,
@@ -62,17 +73,15 @@ function getState(data, stateId: string): State | undefined {
         rating: rating,
         candidates: candidates,
         incumbent: incumbent,
+        flip: isFlip,
       };
       return state;
     }
   }
 }
 
-function getCandidates(candidateData): Candidate[] {
+function getCandidates(candidateData: Candidate[]): Candidate[] {
   const candidates: Candidate[] = candidateData.map((candidate: Candidate) => {
-    console.log(candidate.name);
-    console.log(candidate.party);
-    console.log(candidate.status);
     return {
       name: candidate.name,
       party: candidate.party,
@@ -198,6 +207,7 @@ const initState: State = {
   abbrev: undefined,
   candidates: [],
   incumbent: undefined,
+  flip: false,
 };
 const buttonNames: string[] = ["senate", "governor", "house"];
 
@@ -262,6 +272,8 @@ export default function ElectionMap({ data, title }) {
                 const stateColor: string = toggleIncumbents
                   ? getStateColorFromIncumbent(state.incumbent!)
                   : getRatingColor(state!.rating);
+                // const renderDiagonalStripes = state.flip ? ;
+                // console.log(renderDiagonalStripes);
                 return (
                   <Geography
                     key={geo.rsmKey}
@@ -271,17 +283,17 @@ export default function ElectionMap({ data, title }) {
                     strokeWidth={1}
                     style={{
                       default: {
-                        fill: stateColor,
+                        // fill: stateColor,
                         outline: "black",
                         cursor: "pointer",
                       },
                       hover: {
-                        fill: stateColor,
+                        // fill: stateColor,
                         outline: "none",
                         cursor: "pointer",
                       },
                       pressed: {
-                        fill: stateColor,
+                        // fill: stateColor,
                         outline: "none",
                         cursor: "pointer",
                       },
@@ -297,4 +309,31 @@ export default function ElectionMap({ data, title }) {
       <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
     </div>
   );
+}
+function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
+  switch (incumbentParty) {
+    case "R": {
+      if (rating.includes("d")) {
+        return true;
+      }
+      break;
+    }
+    case "D": {
+      if (rating.includes("r")) {
+        return true;
+      }
+      break;
+    }
+    case "I": {
+      if (rating.includes("r") || rating.includes("d")) {
+        return true;
+      }
+      break;
+    }
+    default:
+      return false;
+  }
+  console.log(`Incumbent party ${incumbentParty}`);
+  console.log(`Rating ${rating}`);
+  return false;
 }

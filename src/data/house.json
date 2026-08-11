@@ -74,7 +74,22 @@
                 "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Lucas Burger",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Jerry Carl",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Austin Sidwell",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Jphn Mills",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -93,10 +108,35 @@
               {
                 "name": "Shomari Figures",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
-                "name": "TBD",
+                "name": "Hampton Harris",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Christian Horn",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Rhett Marques",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "David Matthews",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Joshua McKee",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "James Richardon",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -176,14 +216,29 @@
             "note": "Primary elections were moved to August 11 due to redistricting.",
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Jacob Bouma-Sims",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Ashtyn Kennedy",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Maurice Mercer",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Keith Pilkington",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Gary Palmer",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           },
@@ -1819,24 +1874,14 @@
                 "status": "primary-tbd"
               },
               {
-                "name": "Jillian Gilchrest",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Luke Bronin",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Ruth Fortune",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
                 "name": "Amy Chai",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -1852,12 +1897,12 @@
               {
                 "name": "Joe Courtney",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
                 "name": "George Austin",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -1873,17 +1918,12 @@
               {
                 "name": "Rosa DeLauro",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Raphael Irizarry",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
                 "name": "Chris Lancia",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -1899,7 +1939,7 @@
               {
                 "name": "Jim Himes",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
                 "name": "Michael Goldstein",
@@ -1925,7 +1965,7 @@
               {
                 "name": "Jahana Hayes",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
                 "name": "Chris Shea",
@@ -2978,12 +3018,12 @@
               {
                 "name": "Ed Case",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
-                "name": "TBD",
+                "name": "Adriel Lam",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -2999,12 +3039,12 @@
               {
                 "name": "Jill Tokuda",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
-                "name": "TBD",
+                "name": "Brenton Awa",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           }
@@ -4854,14 +4894,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Alex Eaton",
                 "party": "DFL",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Jake Johnson",
+                "party": "DFL",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Brad Finstad",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           },
@@ -4877,14 +4922,39 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Abdi Abdulle",
                 "party": "DFL",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Kaela Berg",
+                "party": "DFL",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Matt Klein",
+                "party": "DFL",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Matt Little",
+                "party": "DFL",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Hugh McTavish",
+                "party": "DFL",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Christopher Mosel",
+                "party": "DFL",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Eric Pratt",
+                "party": "R",
+                "status": "nominee"
               }
             ]
           },
@@ -4900,10 +4970,15 @@
               {
                 "name": "Kelly Morrison",
                 "party": "DFL",
+                "status": "incumbent"
+              },
+              {
+                "name": "Tyler Bass",
+                "party": "R",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Quentin Wittrock",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -4921,10 +4996,20 @@
               {
                 "name": "Betty McCollum",
                 "party": "DFL",
+                "status": "incumbent"
+              },
+              {
+                "name": "Gene Rechtzigel",
+                "party": "R",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Paul Wikstrom",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Paul Xiong",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -4942,10 +5027,25 @@
               {
                 "name": "Ilhan Omar",
                 "party": "DFL",
+                "status": "incumbent"
+              },
+              {
+                "name": "Dalia Al-Aqidi",
+                "party": "R",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "John Nagel",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Angie Windhauser",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Abbey Zieska",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -4961,14 +5061,14 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Doug Chapin",
                 "party": "DFL",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Tom Emmer",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               }
             ]
           },
@@ -4982,14 +5082,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Steve Carlson",
                 "party": "DFL",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Erik Osberg",
+                "party": "DFL",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Michelle Fischbach",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           },
@@ -5003,14 +5108,24 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Luke Gulbranson",
                 "party": "DFL",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "John Munter",
+                "party": "DFL",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Trina Swanson",
+                "party": "DFL",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Pete Stauber",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           }
@@ -8105,12 +8220,7 @@
               {
                 "name": "Chaz Molder",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Yolanda Cooper-Sutton",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Charlie Hatcher",
@@ -9398,9 +9508,15 @@
                 "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Mark Coester",
                 "party": "R",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Gerald Malloy",
+                "party": "R",
+                "status": "primary-tbd",
+                "note": "Nominee for U.S. Senate in 2022 and 2024"
               }
             ]
           }
@@ -9645,14 +9761,24 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Miguel Aranda",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Mitchell Berman",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Lorenzo Santos",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Bryan Steil",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           },
@@ -9669,17 +9795,12 @@
                 "name": "Mark Pocan",
                 "party": "D",
                 "status": "nominee"
-              },
-              {
-                "name": "Erik Olsen",
-                "party": "R",
-                "status": "nominee"
               }
             ]
           },
           "WI-3": {
             "incumbent": {
-              "name": "Derrick VanOrden",
+              "name": "Derrick Van Orden",
               "party": "R",
               "firstElected": 2022
             },
@@ -9687,14 +9808,19 @@
             "mustWatch": true,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Rebecca Cooke",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Emily Berge",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Derrick Van Orden",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           },
@@ -9708,12 +9834,17 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Gwen Moore",
                 "party": "D",
+                "status": "incumbent"
+              },
+              {
+                "name": "Purnima Nath",
+                "party": "R",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Tim Rogers",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -9729,14 +9860,14 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Andrew Beck",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Scott Fitzgerald",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               }
             ]
           },
@@ -9750,14 +9881,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Amanda Bell",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Bradley Smith",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Glenn Grothman",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           },
@@ -9773,12 +9909,42 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Chris Armstrong",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Fred Clark",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Ginger Murray",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Michael Alfonso",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Niina Baum",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Jessi Ebben",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Kevin Hermening",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Don Raihala",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -9794,14 +9960,24 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Rick Crosson",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Mark Scheffler",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Katrina deVille",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Tony Wied",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           }

@@ -346,7 +346,7 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "tossup",
+          "tilt-d",
           "likely-d",
           "likely-d",
           "lean-d",
@@ -409,12 +409,10 @@
           "firstElected": 2008
         },
         "candidates": [
-          { "name": "David Roth", "party": "D", "status": "nominee" },
           { "name": "Jim Risch", "party": "R", "status": "incumbent" },
-          { "name": "Todd Achilles", "party": "I", "status": "nominee" },
-          { "name": "Natalie Fleming", "party": "I", "status": "nominee" }
+          { "name": "Todd Achilles", "party": "I", "status": "nominee" }
         ],
-        "note": "Deep red state. Risch seeking another term."
+        "note": "Deep red state. Risch seeking another term. Democrat Dave Roth dropped out."
       }
     },
 
@@ -1029,7 +1027,7 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "tossup",
+          "tilt-d",
           "lean-d",
           "likely-d",
           "likely-d",
@@ -1330,7 +1328,7 @@
         "mustWatch": true,
         "ratings": [
           "lean-r",
-          "likely-r",
+          "lean-r",
           "lean-r",
           "tilt-d",
           "tossup",

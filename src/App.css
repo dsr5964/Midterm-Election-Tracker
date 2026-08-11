@@ -182,3 +182,14 @@
     border-right-color: var(--border);
   }
 } */
+
+.diagonal-stripes {
+  width: 100%;
+  height: 200px;
+  background: repeating-linear-gradient(
+    45deg,
+    #e17055 0 15px,
+    /* Red stripe from 0px to 15px */ #fab1a0 15px 30px
+      /* Pink stripe from 15px to 30px */
+  );
+}

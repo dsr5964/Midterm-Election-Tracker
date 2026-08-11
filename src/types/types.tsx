@@ -57,6 +57,7 @@ export type State = {
   rating: string;
   candidates: Candidate[];
   incumbent: Incumbent | undefined;
+  flip: boolean;
 };
 
 export type PoliticalParty = "D" | "R" | "I";

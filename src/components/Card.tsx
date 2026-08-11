@@ -33,7 +33,6 @@ interface CardProps {
   toggleIncumbents: boolean;
 }
 
-// TODO: Add interface for component props
 function Card({ stateData, toggleIncumbents }: CardProps) {
   return (
     <CRow>
