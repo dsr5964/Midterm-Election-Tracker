@@ -765,15 +765,9 @@
         },
         "candidates": [
           {
-            "name": "Angie Craig",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "U.S. representative from MN-2"
-          },
-          {
             "name": "Penny Flanagan",
             "party": "D",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Lt. governor of MN and former state representative"
           },
           {

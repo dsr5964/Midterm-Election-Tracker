@@ -1278,10 +1278,10 @@
           "tossup",
           "tossup",
           "tossup",
-          "tilt-r",
           "tossup",
           "tossup",
-          "lean-d"
+          "lean-d",
+          "tossup"
         ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-11",
@@ -1292,13 +1292,7 @@
           "firstElected": 2018
         },
         "candidates": [
-          {
-            "name": "Francesca Hong",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "State representative, progressive"
-          },
-          { "name": "David Crowley", "party": "D", "status": "primary-tbd" },
+          { "name": "David Crowley", "party": "D", "status": "nominee" },
           {
             "name": "Tom Tiffany",
             "party": "R",

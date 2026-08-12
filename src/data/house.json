@@ -176,14 +176,9 @@
             "note": "Primary elections were moved to August 11 due to redistricting.",
             "candidates": [
               {
-                "name": "Ashtyn Kennedy",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Maurice Mercer",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Gary Palmer",
@@ -4830,14 +4825,9 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Alex Eaton",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Jake Johnson",
                 "party": "DFL",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Brad Finstad",
@@ -4886,12 +4876,7 @@
               {
                 "name": "Tyler Bass",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Quentin Wittrock",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -4910,19 +4895,9 @@
                 "status": "incumbent"
               },
               {
-                "name": "Gene Rechtzigel",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Paul Wikstrom",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Paul Xiong",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -4941,24 +4916,9 @@
                 "status": "incumbent"
               },
               {
-                "name": "Dalia Al-Aqidi",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "John Nagel",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Angie Windhauser",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Abbey Zieska",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -4993,14 +4953,9 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Steve Carlson",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Erik Osberg",
                 "party": "DFL",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Michelle Fischbach",
@@ -5019,19 +4974,9 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Luke Gulbranson",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "John Munter",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Trina Swanson",
                 "party": "DFL",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Pete Stauber",
