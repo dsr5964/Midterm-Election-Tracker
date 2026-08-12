@@ -74,24 +74,9 @@
                 "status": "nominee"
               },
               {
-                "name": "Lucas Burger",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Jerry Carl",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Austin Sidwell",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jphn Mills",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -103,7 +88,7 @@
             },
             "rating": "likely-r",
             "mustWatch": false,
-            "note": "Primary elections were moved to August 11 due to redistricting.",
+            "note": "Primary elections were moved to August 11 due to redistricting. Likely flip for Republicans.",
             "candidates": [
               {
                 "name": "Shomari Figures",
@@ -111,34 +96,9 @@
                 "status": "incumbent"
               },
               {
-                "name": "Hampton Harris",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Christian Horn",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Rhett Marques",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "David Matthews",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Joshua McKee",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "James Richardon",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -216,22 +176,12 @@
             "note": "Primary elections were moved to August 11 due to redistricting.",
             "candidates": [
               {
-                "name": "Jacob Bouma-Sims",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Ashtyn Kennedy",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
                 "name": "Maurice Mercer",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Keith Pilkington",
                 "party": "D",
                 "status": "primary-tbd"
               },
@@ -258,9 +208,9 @@
                 "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Ammie Akin",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           }
@@ -1863,20 +1813,16 @@
             "incumbent": {
               "name": "John Larson",
               "party": "D",
-              "firstElected": 1998
+              "firstElected": 1998,
+              "note": "Incumbent lost renomination."
             },
             "rating": "safe-d",
             "mustWatch": false,
             "candidates": [
               {
-                "name": "John Larson",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Luke Bronin",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Amy Chai",
@@ -1944,12 +1890,7 @@
               {
                 "name": "Michael Goldstein",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Dan Miressi",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -1970,12 +1911,7 @@
               {
                 "name": "Chris Shea",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jonathan De Barros",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           }
@@ -4922,34 +4858,9 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Abdi Abdulle",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Kaela Berg",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Matt Klein",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Matt Little",
                 "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Hugh McTavish",
-                "party": "DFL",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Christopher Mosel",
-                "party": "DFL",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Eric Pratt",
@@ -9508,14 +9419,9 @@
                 "status": "nominee"
               },
               {
-                "name": "Mark Coester",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Gerald Malloy",
                 "party": "R",
-                "status": "primary-tbd",
+                "status": "nominee",
                 "note": "Nominee for U.S. Senate in 2022 and 2024"
               }
             ]
@@ -9761,17 +9667,7 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Miguel Aranda",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Mitchell Berman",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Lorenzo Santos",
                 "party": "D",
                 "status": "primary-tbd"
               },
@@ -9810,12 +9706,8 @@
               {
                 "name": "Rebecca Cooke",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Emily Berge",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee",
+                "note": "Nominee for this district in 2024"
               },
               {
                 "name": "Derrick Van Orden",
@@ -9839,14 +9731,9 @@
                 "status": "incumbent"
               },
               {
-                "name": "Purnima Nath",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Tim Rogers",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -9926,27 +9813,7 @@
               {
                 "name": "Michael Alfonso",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Niina Baum",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jessi Ebben",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Kevin Hermening",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Don Raihala",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },

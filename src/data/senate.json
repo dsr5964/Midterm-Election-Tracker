@@ -779,14 +779,8 @@
           {
             "name": "Michele Tafoya",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Reporter and retired sports broadcaster"
-          },
-          {
-            "name": "Royce White",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "Former NBA player and nominee for U.S. Senate in 2024"
           }
         ],
         "note": "Smith defending in a competitive national environment."
@@ -1248,10 +1242,12 @@
         },
         "candidates": [
           { "name": "Annie Andrews", "party": "D", "status": "nominee" },
-          { "name": "Darline Graham", "party": "R", "status": "incumbent" },
-          { "name": "Russell Fry", "party": "R", "status": "primary-tbd" },
-          { "name": "Ralph Norman", "party": "R", "status": "primary-tbd" },
-          { "name": "Mark Lynch", "party": "R", "status": "primary-tbd" }
+          {
+            "name": "Darline Graham",
+            "party": "R",
+            "status": "primary-runoff"
+          },
+          { "name": "Ralph Norman", "party": "R", "status": "primary-runoff" }
         ]
       }
     },

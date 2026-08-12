@@ -308,19 +308,12 @@
         "candidates": [
           { "name": "Ned Lamont", "party": "D", "status": "incumbent" },
           {
-            "name": "Josh Elliott",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "State Representative"
-          },
-          {
             "name": "Ryan Fazio",
             "party": "R",
             "status": "nominee",
             "note": "State Senator"
           }
-        ],
-        "note": "Open seat — Lamont is in a tough primary against State representative Josh Elliott. Reliably blue state."
+        ]
       }
     },
 
