@@ -518,7 +518,11 @@
         "primaryDate": "2026-06-02",
         "districts": {
           "CA-1": {
-            "incumbent": null,
+            "incumbent": {
+              "name": "James Gallagher",
+              "party": "R",
+              "firstElected": 2026
+            },
             "rating": "safe-d",
             "mustWatch": false,
             "note": "Vacant seat \u2014 open race in redrawn district.",
@@ -531,7 +535,7 @@
               {
                 "name": "James Gallagher",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -547,7 +551,7 @@
               {
                 "name": "Jared Huffman",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Robin Littau",
@@ -569,7 +573,7 @@
               {
                 "name": "Ami Bera",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Robb Tucker",
@@ -590,7 +594,7 @@
               {
                 "name": "Mike Thompson",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Eric Jones",
@@ -616,7 +620,7 @@
               {
                 "name": "Tom McClintock",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -638,7 +642,7 @@
               {
                 "name": "Kevin Kiley",
                 "party": "I",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -655,7 +659,7 @@
               {
                 "name": "Doris Matsui",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Mai Veng",
@@ -676,7 +680,7 @@
               {
                 "name": "John Garamendi",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Rudy Recile",
@@ -697,7 +701,7 @@
               {
                 "name": "Josh Harder",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "John McBride",
@@ -718,7 +722,7 @@
               {
                 "name": "Mark DeSaulnier",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jeff Frese",
@@ -763,7 +767,7 @@
               {
                 "name": "Lateefah Simon",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jamie Joyce",
@@ -784,7 +788,7 @@
               {
                 "name": "Adam Gray",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Kevin Lincoln",
@@ -823,7 +827,7 @@
               {
                 "name": "Kevin Mullin",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Charles Hoelter",
@@ -844,7 +848,7 @@
               {
                 "name": "Sam Liccardo",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Peter Sundin Soule",
@@ -865,7 +869,7 @@
               {
                 "name": "Ro Khanna",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Ritesh Tandon",
@@ -886,7 +890,7 @@
               {
                 "name": "Zoe Lofgren",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Shane Lewis",
@@ -907,7 +911,7 @@
               {
                 "name": "Jimmy Panetta",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Peter Verbica",
@@ -933,7 +937,7 @@
               {
                 "name": "Vince Fong",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -949,7 +953,7 @@
               {
                 "name": "Jim Costa",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Kyle Kirkland",
@@ -976,7 +980,7 @@
               {
                 "name": "David Valadao",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -997,7 +1001,7 @@
               {
                 "name": "Jay Obernolte",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -1013,7 +1017,7 @@
               {
                 "name": "Salud Carbajal",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Bob Smith",
@@ -1034,7 +1038,7 @@
               {
                 "name": "Raul Ruiz",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Joe Males",
@@ -1078,7 +1082,7 @@
               {
                 "name": "George Whitesides",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jason Gibbs",
@@ -1099,7 +1103,7 @@
               {
                 "name": "Judy Chu",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "April Verlato",
@@ -1120,7 +1124,7 @@
               {
                 "name": "Luz Rivas",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Angelica Maria Duenas",
@@ -1141,7 +1145,7 @@
               {
                 "name": "Laura Friedman",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Scott Meyers",
@@ -1163,7 +1167,7 @@
               {
                 "name": "Gil Cisneros",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Eric Ching",
@@ -1184,7 +1188,7 @@
               {
                 "name": "Brad Sherman",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Larry Thompson",
@@ -1205,7 +1209,7 @@
               {
                 "name": "Pete Aguilar",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Stephanie Vargas",
@@ -1227,7 +1231,7 @@
               {
                 "name": "Jimmy Gomez",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Angela Gonzalez-Torres",
@@ -1248,7 +1252,7 @@
               {
                 "name": "Norma Torres",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Mike Cargile",
@@ -1269,7 +1273,7 @@
               {
                 "name": "Ted Lieu",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Houston Brignano",
@@ -1290,7 +1294,7 @@
               {
                 "name": "Sydney Kamlager-Dove",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Samantha Mota",
@@ -1333,7 +1337,7 @@
               {
                 "name": "Mark Takano",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Steve Manos",
@@ -1350,12 +1354,17 @@
             },
             "rating": "safe-r",
             "mustWatch": false,
-            "note": "Young Kim is current incumbent in redrawn district.",
+            "note": "Young Kim is current incumbent in redrawn district. She faces Representative Ken Calvert who was redistricted from the 41st district.",
             "candidates": [
               {
-                "name": "TBD",
-                "party": "D",
-                "status": "primary-tbd"
+                "name": "Young Kim",
+                "party": "R",
+                "status": "incumbent"
+              },
+              {
+                "name": "Ken Calvert",
+                "party": "R",
+                "status": "incumbent"
               }
             ]
           },
@@ -1372,7 +1381,7 @@
               {
                 "name": "Linda Sanchez",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Mitch Clemmons",
@@ -1393,7 +1402,7 @@
               {
                 "name": "Robert Garcia",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Brian Burley",
@@ -1414,7 +1423,7 @@
               {
                 "name": "Maxine Waters",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Cristian Morales",
@@ -1435,7 +1444,7 @@
               {
                 "name": "Nanette Barragan",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Genevieve Angel",
@@ -1456,7 +1465,7 @@
               {
                 "name": "Derek Tran",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Chuong Vo",
@@ -1477,7 +1486,7 @@
               {
                 "name": "Lou Correa",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "David Pan",
@@ -1498,7 +1507,7 @@
               {
                 "name": "Dave Min",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jenny Le Roux",
@@ -1543,7 +1552,7 @@
               {
                 "name": "Mike Levin",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Armen Kurdian",
@@ -1564,7 +1573,7 @@
               {
                 "name": "Scott Peters",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Steve Cohen",
@@ -1585,7 +1594,7 @@
               {
                 "name": "Sara Jacobs",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Ricardo Cabrera",
@@ -1606,7 +1615,7 @@
               {
                 "name": "Juan Vargas",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jeff Belle",
@@ -1659,7 +1668,7 @@
               {
                 "name": "Joe Neguse",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Kelley Dennison",
@@ -1685,7 +1694,7 @@
               {
                 "name": "Jeff Hurd",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -1706,7 +1715,7 @@
               {
                 "name": "Lauren Boebert",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -1727,7 +1736,7 @@
               {
                 "name": "Jeff Crank",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -1743,7 +1752,7 @@
               {
                 "name": "Jason Crow",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jason Clark",
@@ -1764,7 +1773,7 @@
               {
                 "name": "Brittany Pettersen",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Tim Bennett",
@@ -1790,7 +1799,7 @@
               {
                 "name": "Gabe Evans",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -1863,7 +1872,6 @@
               },
               {
                 "name": "Chris Lancia",
-                "party": "R",
                 "status": "nominee"
               }
             ]
@@ -2665,7 +2673,7 @@
               {
                 "name": "Sanford Bishop",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Matt Day",
@@ -2691,7 +2699,7 @@
               {
                 "name": "Brian Jack",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -2707,7 +2715,7 @@
               {
                 "name": "Hank Johnson",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "James Duffe",
@@ -2728,7 +2736,7 @@
               {
                 "name": "Nikema Williams",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "John Oscar Salvesen",
@@ -2749,7 +2757,7 @@
               {
                 "name": "Lucy McBath",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Kevin Martin",
@@ -2775,7 +2783,7 @@
               {
                 "name": "Rich McCormick",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -2796,7 +2804,7 @@
               {
                 "name": "Austin Scott",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -2817,7 +2825,7 @@
               {
                 "name": "Andrew Clyde",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -2879,12 +2887,12 @@
               {
                 "name": "Ceretta Smith",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Rick Allen",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -2923,7 +2931,7 @@
               {
                 "name": "Clay Fuller",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -3006,7 +3014,7 @@
               {
                 "name": "Mariannette Miller-Meeks",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3051,7 +3059,7 @@
               {
                 "name": "Zach Nunn",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3106,7 +3114,7 @@
               {
                 "name": "Russ Fulcher",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3127,7 +3135,7 @@
               {
                 "name": "Mike Simpson",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -3153,7 +3161,7 @@
               {
                 "name": "Johnathan Jackson",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Christian Maxwell",
@@ -3197,7 +3205,7 @@
               {
                 "name": "Delia Ramirez",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Angel Oakley",
@@ -3241,7 +3249,7 @@
               {
                 "name": "Mike Quigley",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Tommy Hanson",
@@ -3262,7 +3270,7 @@
               {
                 "name": "Sean Casten",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Niki Conforti",
@@ -3353,7 +3361,7 @@
               {
                 "name": "Brad Schneider",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Carl Lambrecht",
@@ -3374,7 +3382,7 @@
               {
                 "name": "Bill Foster",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jeff Walter",
@@ -3400,7 +3408,7 @@
               {
                 "name": "Mike Bost",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3416,7 +3424,7 @@
               {
                 "name": "Nikki Budzinski",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jeff Wilson",
@@ -3437,7 +3445,7 @@
               {
                 "name": "Lauren Underwood",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "James Marter",
@@ -3463,7 +3471,7 @@
               {
                 "name": "Mary Miller",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3484,7 +3492,7 @@
               {
                 "name": "Darin LaHood",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3500,7 +3508,7 @@
               {
                 "name": "Eric Sorensen",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Dillan Vancil",
@@ -3531,7 +3539,7 @@
               {
                 "name": "Frank Mrvan",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Barb Regnitz",
@@ -3557,7 +3565,7 @@
               {
                 "name": "Rudy Yakym",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3578,7 +3586,7 @@
               {
                 "name": "Marlin Stutzman",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3599,7 +3607,7 @@
               {
                 "name": "Jim Baird",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3620,7 +3628,7 @@
               {
                 "name": "Victoria Spartz",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3641,7 +3649,7 @@
               {
                 "name": "Jefferson Shreve",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3657,7 +3665,7 @@
               {
                 "name": "Andre Carson",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Patrick McAuley",
@@ -3683,7 +3691,7 @@
               {
                 "name": "Mark Messmer",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3704,7 +3712,7 @@
               {
                 "name": "Erin Houchin",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -3829,7 +3837,7 @@
               {
                 "name": "James Comer",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3850,7 +3858,7 @@
               {
                 "name": "Brett Guthrie",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3866,7 +3874,7 @@
               {
                 "name": "Morgan McGarvey",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Maria Rodriguez",
@@ -3914,7 +3922,7 @@
               {
                 "name": "Hal Rogers",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -3970,7 +3978,7 @@
               {
                 "name": "Steve Scalise",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               }
             ]
           },
@@ -3987,11 +3995,16 @@
               {
                 "name": "Troy Carter",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
                 "name": "Renada Collins",
                 "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Peter Williams",
+                "party": "R",
                 "status": "primary-tbd"
               }
             ]
@@ -4014,7 +4027,7 @@
               {
                 "name": "Clay Higgins",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               }
             ]
           },
@@ -4036,7 +4049,7 @@
               {
                 "name": "Mike Johnson",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               }
             ]
           },
@@ -4314,7 +4327,7 @@
               {
                 "name": "Andy Harris",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -4330,7 +4343,7 @@
               {
                 "name": "Johnny Olszewski",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Dave Wallace",
@@ -4351,7 +4364,7 @@
               {
                 "name": "Sarah Elfreth",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Berney Flowers",
@@ -4372,7 +4385,7 @@
               {
                 "name": "Glenn Ivey",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "George McDermott",
@@ -4415,7 +4428,7 @@
               {
                 "name": "April McClain Delaney",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Robin Ficker",
@@ -4436,7 +4449,7 @@
               {
                 "name": "Kweisi Mfume",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Scott Collier",
@@ -4457,7 +4470,7 @@
               {
                 "name": "Jamie Raskin",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Cheryl Riley",
@@ -4487,7 +4500,7 @@
               {
                 "name": "Chellie Pingree",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Ronald Russell",
@@ -4587,7 +4600,7 @@
               {
                 "name": "Terri DeBoer",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               }
             ]
           },
@@ -5192,7 +5205,7 @@
               {
                 "name": "Trent Kelly",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5208,7 +5221,7 @@
               {
                 "name": "Bennie Thompson",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Ron Eller",
@@ -5234,7 +5247,7 @@
               {
                 "name": "Michael Guest",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5255,7 +5268,7 @@
               {
                 "name": "Mike Ezell",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -5309,7 +5322,7 @@
               {
                 "name": "Troy Downing",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -5336,7 +5349,7 @@
               {
                 "name": "Don Davis",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Laurie Buckhout",
@@ -5357,7 +5370,7 @@
               {
                 "name": "Deborah Ross",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Eugene Douglass",
@@ -5383,7 +5396,7 @@
               {
                 "name": "Greg Murphy",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5399,7 +5412,7 @@
               {
                 "name": "Valerie Foushee",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Max Ganorkar",
@@ -5425,7 +5438,7 @@
               {
                 "name": "Virginia Foxx",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5446,7 +5459,7 @@
               {
                 "name": "Addison McDowell",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5467,7 +5480,7 @@
               {
                 "name": "David Rouzer",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5488,7 +5501,7 @@
               {
                 "name": "Mark Harris",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5509,7 +5522,7 @@
               {
                 "name": "Richard Hudson",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5530,7 +5543,7 @@
               {
                 "name": "Pat Harrigan",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5551,7 +5564,7 @@
               {
                 "name": "Chuck Edwards",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5567,7 +5580,7 @@
               {
                 "name": "Alma Adams",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jack Codiga",
@@ -5593,7 +5606,7 @@
               {
                 "name": "Brad Knott",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5614,7 +5627,7 @@
               {
                 "name": "Tim Moore",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -5643,9 +5656,9 @@
                 "status": "nominee"
               },
               {
-                "name": "Julie Perry",
+                "name": "Julie Fedorchak",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -5676,7 +5689,7 @@
               {
                 "name": "Mike Flood",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5719,7 +5732,7 @@
               {
                 "name": "Adrian Smith",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -5800,7 +5813,7 @@
               {
                 "name": "Donald Norcross",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Damon Galdo",
@@ -5826,7 +5839,7 @@
               {
                 "name": "Jeff VanDrew",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5842,7 +5855,7 @@
               {
                 "name": "Herb Conaway",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Michael McGuire",
@@ -5868,7 +5881,7 @@
               {
                 "name": "Chris Smith",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5884,7 +5897,7 @@
               {
                 "name": "Josh Gottheimer",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Sean Kirrane",
@@ -5905,7 +5918,7 @@
               {
                 "name": "Frank Pallone",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Hillary Herzig",
@@ -5931,7 +5944,7 @@
               {
                 "name": "Thomas Kean",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -5947,12 +5960,7 @@
               {
                 "name": "Rob Menendez",
                 "party": "D",
-                "status": "nominee"
-              },
-              {
-                "name": "TBD",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "incumbent"
               },
               {
                 "name": "Aristotle Eliopoulos",
@@ -5973,7 +5981,7 @@
               {
                 "name": "Nellie Pou",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Rosie Pino",
@@ -5994,7 +6002,7 @@
               {
                 "name": "LaMonica McIver",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Carmen Bucco",
@@ -6015,7 +6023,7 @@
               {
                 "name": "Analilia Mejia",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Joe Hathaway",
@@ -6069,7 +6077,7 @@
               {
                 "name": "Melanie Stansbury",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Ndidiamaka Okpareke",
@@ -6090,7 +6098,7 @@
               {
                 "name": "Gabe Vasquez",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Greg Cunningham",
@@ -6111,7 +6119,7 @@
               {
                 "name": "Teresa Leger Fernandez",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Martin Zamora",
@@ -6143,7 +6151,7 @@
               {
                 "name": "Dina Titus",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Carrie Buck",
@@ -6186,7 +6194,7 @@
               {
                 "name": "Susie Lee",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Marty O'Donnell",
@@ -6208,7 +6216,7 @@
               {
                 "name": "Steven Horsford",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Cody Whipple",
@@ -6244,7 +6252,7 @@
               {
                 "name": "Nick LaLota",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -6265,7 +6273,7 @@
               {
                 "name": "Andrew Garbarino",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -6281,7 +6289,7 @@
               {
                 "name": "Tom Suozzi",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Mike LiPetri",
@@ -6302,7 +6310,7 @@
               {
                 "name": "Laura Gillen",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jeanine Driscoll",
@@ -6323,7 +6331,7 @@
               {
                 "name": "Gregory Meeks",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "George Marsh",
@@ -6344,7 +6352,7 @@
               {
                 "name": "Grace Meng",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Joseph Chou",
@@ -6387,7 +6395,7 @@
               {
                 "name": "Hakeem Jeffries",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Lewis Mizrahi",
@@ -6408,7 +6416,7 @@
               {
                 "name": "Yvette Clarke",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Joel Azumah",
@@ -6456,7 +6464,7 @@
               {
                 "name": "Nicole Malliotakis",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -6516,7 +6524,7 @@
               {
                 "name": "Alexandria Ocasio-Cortez",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Diamant Hysenaj",
@@ -6537,7 +6545,7 @@
               {
                 "name": "Ritchie Torres",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Stylo Sapaskis",
@@ -6558,7 +6566,7 @@
               {
                 "name": "George Latimer",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Joseph Cinquemani",
@@ -6584,7 +6592,7 @@
               {
                 "name": "Mike Lawler",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -6600,7 +6608,7 @@
               {
                 "name": "Pat Ryan",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jackie Auringer",
@@ -6621,7 +6629,7 @@
               {
                 "name": "Josh Riley",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Peter Oberacker",
@@ -6642,7 +6650,7 @@
               {
                 "name": "Paul Tonko",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Ralph Ambrosio",
@@ -6685,7 +6693,7 @@
               {
                 "name": "John Mannion",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Kailee Buller",
@@ -6711,7 +6719,7 @@
               {
                 "name": "Nick Langworthy",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -6733,7 +6741,7 @@
               {
                 "name": "Claudia Tenney",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -6749,7 +6757,7 @@
               {
                 "name": "Joseph Morelle",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Virginia McIntyre",
@@ -6770,7 +6778,7 @@
               {
                 "name": "Tim Kennedy",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Dennis Hannon",
@@ -7385,7 +7393,7 @@
               {
                 "name": "Brian Fitzpatrick",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7401,7 +7409,7 @@
               {
                 "name": "Brendan Boyle",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Jessica Arriaga",
@@ -7440,7 +7448,7 @@
               {
                 "name": "Madeleine Dean",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Aurora Stuski",
@@ -7461,7 +7469,7 @@
               {
                 "name": "Mary Gay Scanlon",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Nicholas Manganaro",
@@ -7482,7 +7490,7 @@
               {
                 "name": "Chrissy Houlahan",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Marty Young",
@@ -7508,7 +7516,7 @@
               {
                 "name": "Ryan Mackenzie",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7529,7 +7537,7 @@
               {
                 "name": "Rob Bresnahan",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7550,7 +7558,7 @@
               {
                 "name": "Dan Meuser",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7571,7 +7579,7 @@
               {
                 "name": "Scott Perry",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7592,7 +7600,7 @@
               {
                 "name": "Lloyd Smucker",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7608,7 +7616,7 @@
               {
                 "name": "Summer Lee",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "James Hayes",
@@ -7634,7 +7642,7 @@
               {
                 "name": "John Joyce",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7655,7 +7663,7 @@
               {
                 "name": "Guy Reschenthaler",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7676,7 +7684,7 @@
               {
                 "name": "Glenn Thompson",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7697,7 +7705,7 @@
               {
                 "name": "Mike Kelly",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7713,7 +7721,7 @@
               {
                 "name": "Chris Deluzio",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Tony Guy",
@@ -7824,7 +7832,7 @@
               {
                 "name": "Joe Wilson",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7845,7 +7853,7 @@
               {
                 "name": "Sheri Biggs",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7866,7 +7874,7 @@
               {
                 "name": "William Timmons",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -7905,7 +7913,7 @@
               {
                 "name": "Jim Clyburn",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "John Peterson",
@@ -7931,7 +7939,7 @@
               {
                 "name": "Russell Fry",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -8200,7 +8208,7 @@
               {
                 "name": "Nathaniel Moran",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8243,7 +8251,7 @@
               {
                 "name": "Keith Self",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8264,7 +8272,7 @@
               {
                 "name": "Pat Fallon",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8285,7 +8293,7 @@
               {
                 "name": "Lance Gooden",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8306,7 +8314,7 @@
               {
                 "name": "Jake Ellzey",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8322,7 +8330,7 @@
               {
                 "name": "Lizzie Fletcher",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Alexander Hale",
@@ -8412,7 +8420,7 @@
               {
                 "name": "August Pfluger",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8433,7 +8441,7 @@
               {
                 "name": "Craig Goldman",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8454,7 +8462,7 @@
               {
                 "name": "Ronny Jackson",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8475,7 +8483,7 @@
               {
                 "name": "Randy Weber",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8496,7 +8504,7 @@
               {
                 "name": "Monica De La Cruz",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8512,7 +8520,7 @@
               {
                 "name": "Veronica Escobar",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Adam Bauman",
@@ -8538,7 +8546,7 @@
               {
                 "name": "Pete Sessions",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8555,7 +8563,7 @@
               {
                 "name": "Christian Menefee",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Ronald Whitfield",
@@ -8599,7 +8607,7 @@
               {
                 "name": "Joaquin Castro",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Edgardo Rafael Baez",
@@ -8688,7 +8696,7 @@
               {
                 "name": "Beth VanDuyne",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8710,7 +8718,7 @@
               {
                 "name": "Roger Williams",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8731,7 +8739,7 @@
               {
                 "name": "Brandon Gill",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8752,7 +8760,7 @@
               {
                 "name": "Michael Cloud",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8768,7 +8776,7 @@
               {
                 "name": "Henry Cuellar",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Tano Tijerina",
@@ -8789,7 +8797,7 @@
               {
                 "name": "Sylvia Garcia",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Martha Fierro",
@@ -8839,7 +8847,7 @@
               {
                 "name": "John Carter",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8900,7 +8908,7 @@
               {
                 "name": "Vicente Gonzalez",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Eric Flores",
@@ -8948,7 +8956,7 @@
               {
                 "name": "Brian Babin",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -8966,7 +8974,7 @@
               {
                 "name": "Greg Casar",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Lauren Pena",
@@ -9049,7 +9057,7 @@
               {
                 "name": "Blake Moore",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -9071,7 +9079,7 @@
               {
                 "name": "Celeste Maloy",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -9094,7 +9102,7 @@
               {
                 "name": "Mike Kennedy",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -9361,7 +9369,7 @@
               {
                 "name": "Becca Balint",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Gerald Malloy",
@@ -9476,9 +9484,9 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Carmela Conroy",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Michael Baumgartner",
@@ -9541,12 +9549,12 @@
               {
                 "name": "Kim Schrier",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
-                "name": "TBD",
+                "name": "Spencer Meline",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -9614,7 +9622,7 @@
               {
                 "name": "Mitchell Berman",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Bryan Steil",
@@ -9741,19 +9749,9 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Chris Armstrong",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
                 "name": "Fred Clark",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Ginger Murray",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Michael Alfonso",
@@ -9774,17 +9772,7 @@
               {
                 "name": "Rick Crosson",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Mark Scheffler",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Katrina deVille",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Tony Wied",
@@ -9820,7 +9808,7 @@
               {
                 "name": "Carol Miller",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           },
@@ -9841,7 +9829,7 @@
               {
                 "name": "Riley Moore",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
