@@ -1227,6 +1227,7 @@
         "isSpecial": false,
         "primaryDate": "2026-06-09",
         "specialPrimaryDate": "2026-08-11",
+        "specialPrimaryRunoffDate": "2026-08-25",
         "incumbent": {
           "name": "Darline Graham",
           "party": "R",

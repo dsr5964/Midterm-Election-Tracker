@@ -739,19 +739,8 @@
           {
             "name": "Lisa Demuth",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Speaker of Minnesota House of Representatives"
-          },
-          {
-            "name": "Mike Lindell",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "CEO of My Pillow"
-          },
-          {
-            "name": "Kendall Qualls",
-            "party": "R",
-            "status": "primary-tbd"
           }
         ],
         "note": "Open seat — Walz dropped his re-election campaign. Klobuchar is running for governor while still serving in the Senate; she would resign her Senate seat upon election."
@@ -1262,8 +1251,7 @@
           "firstElected": 2016
         },
         "candidates": [
-          { "name": "Amanda Janoo", "party": "D", "status": "primary-tbd" },
-          { "name": "Aly Richards", "party": "D", "status": "primary-tbd" },
+          { "name": "Amanda Janoo", "party": "D", "status": "nominee" },
           { "name": "Phil Scott", "party": "R", "status": "incumbent" }
         ],
         "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Rated Safe R based on his personal popularity rather than partisan lean. Vermont governor elections are every two years."
