@@ -41,7 +41,7 @@
               {
                 "name": "Nick Begich",
                 "party": "R",
-                "status": "nominee"
+                "status": "incumbent"
               }
             ]
           }
@@ -373,9 +373,14 @@
                 "status": "nominee"
               },
               {
-                "name": "Nicholas Glenn",
-                "party": "R",
-                "status": "write-in"
+                "name": "Alan Aversa",
+                "party": "NL",
+                "status": "nominee"
+              },
+              {
+                "name": "David Redkey",
+                "party": "G",
+                "status": "nominee"
               }
             ]
           },
@@ -3998,7 +4003,7 @@
                 "status": "incumbent"
               },
               {
-                "name": "Renada Collins",
+                "name": "Renada Cfollins",
                 "party": "D",
                 "status": "primary-tbd"
               },
@@ -5551,10 +5556,11 @@
             "incumbent": {
               "name": "Chuck Edwards",
               "party": "R",
-              "firstElected": 2022
+              "firstElected": 2022,
+              "note": "Chuck Edwards dropped his reelection campaign due to scandal."
             },
             "rating": "lean-r",
-            "mustWatch": false,
+            "mustWatch": true,
             "candidates": [
               {
                 "name": "Jamie Ager",
@@ -5562,9 +5568,10 @@
                 "status": "nominee"
               },
               {
-                "name": "Chuck Edwards",
+                "name": "Jennifer Balkcom",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee",
+                "note": "Replacing incumbent Chuck Edwards"
               }
             ]
           },
