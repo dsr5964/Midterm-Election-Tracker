@@ -320,37 +320,16 @@
         },
         "candidates": [
           {
-            "name": "Alex Vindman",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "Whistleblower in 2019 Trump-Ukraine scandal and borhter of U.S. representative Eugene Vindman"
-          },
-          {
             "name": "Angie Nixon",
             "party": "D",
             "status": "primary-tbd",
-            "note": "State representative"
+            "note": "State representative. DSA aligned candidate won in an upset primary against Alex Vindman."
           },
           {
             "name": "Ashley Moody",
             "party": "R",
             "status": "incumbent",
             "note": "Appointed Senator; former Florida AG"
-          },
-          {
-            "name": "Chris Gleason",
-            "party": "R",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Neelam Taneja Perry",
-            "party": "R",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Ernest 'Ernie' Rivera",
-            "party": "R",
-            "status": "primary-tbd"
           }
         ],
         "note": "Special election to fill Marco Rubio's vacated seat. Deep red state."
@@ -1300,7 +1279,6 @@
           "name": "Darline Graham",
           "party": "R",
           "firstElected": 2026,
-          "retiring": true,
           "note": "After winning the primary Lindsay Graham unexpectedly passed away. The governor appointed his sister to finish his term."
         },
         "candidates": [

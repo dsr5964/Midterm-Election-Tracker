@@ -31,6 +31,7 @@
           "safe-r",
           "likely-r",
           "safe-r",
+          "safe-r",
           "likely-r"
         ],
         "pvi": "R+15",
@@ -95,6 +96,11 @@
           {
             "name": "Dave Bronson",
             "party": "R",
+            "status": "blanket-primary"
+          },
+          {
+            "name": "Bill Walker",
+            "party": "I",
             "status": "blanket-primary"
           },
           {
@@ -328,7 +334,7 @@
           "lean-r",
           "likely-r",
           "safe-r",
-          "tilt-r"
+          "lean-r"
         ],
         "pvi": "R+5",
         "primaryDate": "2026-08-18",
@@ -342,31 +348,14 @@
           {
             "name": "David Jolly",
             "party": "D",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Former Republican US Representative from FL-13"
           },
           {
             "name": "Byron Donalds",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Current US Representative from FL-19"
-          },
-          {
-            "name": "Jay Collins",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "Lt. governor of Florida"
-          },
-          {
-            "name": "Paul Renner",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "Speaker of Florida House of Representatives"
-          },
-          {
-            "name": "James Fishback",
-            "party": "R",
-            "status": "primary-tbd"
           }
         ],
         "note": "Open seat — DeSantis term-limited. Republican-leaning state."
@@ -585,7 +574,7 @@
           "likely-d",
           "likely-d",
           "likely-d",
-          "lean-d",
+          "likely-d",
           "safe-d",
           "likely-d"
         ],
@@ -677,7 +666,7 @@
           "tilt-d",
           "lean-d",
           "lean-d",
-          "tossup",
+          "lean-d",
           "lean-d",
           "lean-d"
         ],
@@ -819,7 +808,7 @@
           "lean-r",
           "lean-r",
           "likely-r",
-          "likely-r"
+          "lean-r"
         ],
         "pvi": "D+2",
         "primaryDate": "2026-09-08",
@@ -1138,9 +1127,9 @@
           "safe-r",
           "safe-r",
           "likely-r",
-          "likely-r",
           "safe-r",
-          "likely-r"
+          "safe-r",
+          "safe-r"
         ],
         "pvi": "R+15",
         "primaryDate": "2026-06-02",
@@ -1206,7 +1195,7 @@
           "likely-r",
           "safe-r",
           "lean-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "lean-r"
         ],
@@ -1265,11 +1254,11 @@
         "ratings": [
           "tossup",
           "tossup",
-          "tossup",
-          "tossup",
-          "tossup",
           "lean-d",
-          "tossup"
+          "tossup",
+          "tossup",
+          "tossup",
+          "tilt-d"
         ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-11",
