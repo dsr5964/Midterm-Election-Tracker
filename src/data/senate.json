@@ -98,30 +98,15 @@
           {
             "name": "Mary Peltola",
             "party": "D",
-            "status": "blanket-primary-tbd",
+            "status": "nominee",
             "note": "Former at-large House rep; first Alaska Native in Congress. Presumptive democrat nominee."
           },
           { "name": "Dan S. Sullivan", "party": "R", "status": "incumbent" },
           {
             "name": "Dan J. Sullivan",
             "party": "R",
-            "status": "blanket-primary-tbd",
+            "status": "nominee",
             "note": "Another Dan Sullivan that isn't the incumbent senator is running as the Republican nominee despite legal challenges."
-          },
-          {
-            "name": "Fred C. Grauberger",
-            "party": "R",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Richard Grayson",
-            "party": "G",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Carol Hafner",
-            "party": "D",
-            "status": "blanket-primary-tbd"
           },
           {
             "name": "Gerald L. Heikes",
@@ -129,43 +114,8 @@
             "status": "blanket-primary-tbd"
           },
           {
-            "name": "Sid Hill",
-            "party": "I",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Scott Kohlhaas",
-            "party": "L",
-            "status": "blanket-primary-tbd"
-          },
-          {
             "name": "David Leslie",
             "party": "D",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Richard Benedict Mayers",
-            "party": "R",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Heather McElwain",
-            "party": "R",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Reece Roberts",
-            "party": "I",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Shirley Saucerman",
-            "party": "I",
-            "status": "blanket-primary-tbd"
-          },
-          {
-            "name": "Early D. 'Skip' Southworth",
-            "party": "AP",
             "status": "blanket-primary-tbd"
           }
         ],
@@ -322,7 +272,7 @@
           {
             "name": "Angie Nixon",
             "party": "D",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "State representative. DSA aligned candidate won in an upset primary against Alex Vindman."
           },
           {
@@ -1516,33 +1466,12 @@
           "firstElected": 2020
         },
         "candidates": [
-          { "name": "James Byrd", "party": "D", "status": "primary-tbd" },
-          { "name": "Billy Benavidez", "party": "D", "status": "primary-tbd" },
+          { "name": "James Byrd", "party": "D", "status": "nominee" },
           {
             "name": "Harriet Hageman",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "U.S. Representative; unseated Liz Cheney in 2022 primary"
-          },
-          {
-            "name": "Jill Edwards",
-            "party": "R",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Sam Mead",
-            "party": "R",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "John Holtz",
-            "party": "R",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "Jimmy Skovgard",
-            "party": "R",
-            "status": "primary-tbd"
           }
         ],
         "note": "Open seat — Lummis did not seek re-election. Deep red state."

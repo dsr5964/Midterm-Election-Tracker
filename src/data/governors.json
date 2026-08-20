@@ -82,69 +82,19 @@
           "note": "Term-limited"
         },
         "candidates": [
-          { "name": "Tom Begich", "party": "D", "status": "blanket-primary" },
+          { "name": "Tom Begich", "party": "D", "status": "nominee" },
           {
             "name": "Bernadette Wilson",
             "party": "R",
-            "status": "blanket-primary"
+            "status": "nominee"
           },
           {
             "name": "Johnathan Kreiss-Tomkins",
             "party": "D",
-            "status": "blanket-primary"
+            "status": "nominee"
           },
           {
             "name": "Dave Bronson",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Bill Walker",
-            "party": "I",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Click Bishop",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Adam Crum",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Edna DeVries",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Matt Heilala",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Shelley Highes",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Henry 'Hank' Kroll",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Lesil McGuire",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "James W. 'JP4' Parkin",
-            "party": "R",
-            "status": "blanket-primary"
-          },
-          {
-            "name": "Treg Taylor",
             "party": "R",
             "status": "blanket-primary"
           }
@@ -1303,14 +1253,8 @@
           "firstElected": 2018
         },
         "candidates": [
-          { "name": "Ken Casner", "party": "D", "status": "primary-tbd" },
-          {
-            "name": "Megan Degenfelder",
-            "party": "R",
-            "status": "primary-tbd"
-          },
-          { "name": "Eric Barlow", "party": "R", "status": "primary-tbd" },
-          { "name": "Brent Bien", "party": "R", "status": "primary-tbd" }
+          { "name": "Ken Casner", "party": "D", "status": "nominee" },
+          { "name": "Eric Barlow", "party": "R", "status": "nominee" }
         ],
         "note": "Open seat — Gordon term-limited. Deep red state."
       }

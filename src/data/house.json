@@ -36,12 +36,12 @@
               {
                 "name": "Matt Schultz",
                 "party": "D",
-                "status": "blanket-primary"
+                "status": "nominee"
               },
               {
                 "name": "Bill Hill",
                 "party": "I",
-                "status": "blanket-primary"
+                "status": "nominee"
               },
               {
                 "name": "Nick Begich",
@@ -49,14 +49,9 @@
                 "status": "incumbent"
               },
               {
-                "name": "John Williams",
+                "name": "Eric Hafner",
                 "party": "D",
-                "status": "blanket-primary"
-              },
-              {
-                "name": "James McDermott",
-                "party": "I",
-                "status": "blanket-primary"
+                "status": "nominee"
               }
             ]
           }
@@ -2170,11 +2165,6 @@
               },
               {
                 "name": "Dan Green",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Thomas Chalifoux",
                 "party": "R",
                 "status": "primary-tbd"
               },
@@ -4436,7 +4426,7 @@
               {
                 "name": "Cheryl Riley",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           }
@@ -6893,7 +6883,7 @@
               "firstElected": 2020,
               "note": "Max Miller is under scrutiny due to personal scandal, with some Republicans calling on him to resign."
             },
-            "rating": "likely-r",
+            "rating": "tossup",
             "mustWatch": false,
             "candidates": [
               {
@@ -9820,37 +9810,12 @@
               {
                 "name": "Lisa Kinney",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Elena Del Real",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Chuck Gray",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Steve Friess",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jillian Balow",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Bo Biteman",
-                "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Reid Rasner",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           }
