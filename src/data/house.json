@@ -2166,12 +2166,7 @@
               {
                 "name": "Dan Green",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Ben Butler",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -2209,12 +2204,7 @@
               {
                 "name": "Joe Strada",
                 "party": "R",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Carey Baker",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -2418,12 +2408,7 @@
               {
                 "name": "James Martin",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Bernard Taylor",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Brian Mast",
