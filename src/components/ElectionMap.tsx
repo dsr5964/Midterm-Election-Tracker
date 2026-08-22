@@ -210,9 +210,15 @@ const initState: State = {
 };
 const buttonNames: string[] = ["senate", "governor", "house"];
 
+// TODO: is it better to use the actual rating for flips or just use either the same red or blue regardless
+// of projected rating
 const stripeConfigs = {
-  democrat: { line: "#335cff", background: "#577CCC" },
-  republican: { line: "#FF5865", background: "#D22532" },
+  [LIKELY_D]: { line: "#335cff", background: "#577CCC" },
+  [LEAN_D]: { line: "#335cff", background: "#8AAFFF" },
+  [TILT_D]: { line: "#335cff", background: "#949BB3" },
+  [LIKELY_R]: { line: "#d60819", background: "#FF5865" },
+  [LEAN_R]: { line: "#d60819", background: "#FF8B98" },
+  [TILT_R]: { line: "#d60819", background: "#CF8980" },
   independent: { line: "#7F00FF", background: "#6C3BAA" },
 };
 
@@ -300,18 +306,7 @@ export default function ElectionMap({ data, title }) {
                   ? getStateColorFromIncumbent(state.incumbent!)
                   : getRatingColor(state!.rating);
 
-                const partyKey = () => {
-                  if (state.rating.includes("d")) {
-                    return "democrat";
-                  }
-                  if (state.rating.includes("r")) {
-                    return "republican";
-                  } else {
-                    return "independent";
-                  }
-                };
-
-                const patternFill = `url(#diagonal-stripe-${partyKey()})`;
+                const patternFill = `url(#diagonal-stripe-${state.rating})`;
                 return (
                   <Geography
                     key={geo.rsmKey}
