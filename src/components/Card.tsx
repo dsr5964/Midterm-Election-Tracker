@@ -34,6 +34,8 @@ interface CardProps {
   toggleIncumbents: boolean;
 }
 
+// TODO: Add a badge for flips
+// TODO: Add a badge for the rating
 function Card({ stateData, toggleIncumbents }: CardProps) {
   return (
     <CRow>
@@ -49,7 +51,6 @@ function Card({ stateData, toggleIncumbents }: CardProps) {
       >
         <CCardBody>
           <CCardTitle>{stateData.name}</CCardTitle>
-          <CCardText>{stateData.flip ? "Likely flip" : ""}</CCardText>
           {toggleIncumbents
             ? displayIncumbentData(stateData.incumbent!)
             : displayCandidateData(stateData.candidates)}
