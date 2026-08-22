@@ -6,6 +6,7 @@ function displayCandidateData(candidateData: Candidate[]): ReactNode {
   if (!candidateData || candidateData.length === 0) {
     return <CCardText>No candidates yet</CCardText>;
   }
+
   return candidateData.map((candidate, index) => (
     <>
       <CCardText key={index}>
@@ -48,6 +49,7 @@ function Card({ stateData, toggleIncumbents }: CardProps) {
       >
         <CCardBody>
           <CCardTitle>{stateData.name}</CCardTitle>
+          <CCardText>{stateData.flip ? "Likely flip" : ""}</CCardText>
           {toggleIncumbents
             ? displayIncumbentData(stateData.incumbent!)
             : displayCandidateData(stateData.candidates)}

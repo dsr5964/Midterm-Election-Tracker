@@ -64,7 +64,6 @@ function getState(data, stateId: string): State | undefined {
       );
 
       const isFlip = checkIsFlip(incumbent.party, rating);
-      console.log(isFlip);
 
       const state = {
         id: stateId,
@@ -211,6 +210,12 @@ const initState: State = {
 };
 const buttonNames: string[] = ["senate", "governor", "house"];
 
+const stripeConfigs = {
+  democrat: { line: "#335cff", background: "#577CCC" },
+  republican: { line: "#FF5865", background: "#D22532" },
+  independent: { line: "#7F00FF", background: "#6C3BAA" },
+};
+
 export default function ElectionMap({ data, title }) {
   const navigate = useNavigate();
   const [stateData, setStateData] = useState<State>(initState);
@@ -240,6 +245,28 @@ export default function ElectionMap({ data, title }) {
           projectionConfig={{ scale: 1000 }}
           onMouseDown={(e) => e.preventDefault()}
         >
+          <defs>
+            {Object.entries(stripeConfigs).map(([partyKey, config]) => (
+              <pattern
+                key={partyKey}
+                id={`diagonal-stripe-${partyKey}`}
+                patternUnits="userSpaceOnUse"
+                width="10"
+                height="10"
+                patternTransform="rotate(-45)"
+              >
+                <rect width="10" height="10" fill={config.background} />
+                <line
+                  x1="0"
+                  y1="0"
+                  x2="0"
+                  y2="10"
+                  stroke={config.line}
+                  strokeWidth="6"
+                />
+              </pattern>
+            ))}
+          </defs>
           <Geographies geography={geoData}>
             {({ geographies }) => {
               return geographies.map((geo) => {
@@ -272,8 +299,19 @@ export default function ElectionMap({ data, title }) {
                 const stateColor: string = toggleIncumbents
                   ? getStateColorFromIncumbent(state.incumbent!)
                   : getRatingColor(state!.rating);
-                // const renderDiagonalStripes = state.flip ? ;
-                // console.log(renderDiagonalStripes);
+
+                const partyKey = () => {
+                  if (state.rating.includes("d")) {
+                    return "democrat";
+                  }
+                  if (state.rating.includes("r")) {
+                    return "republican";
+                  } else {
+                    return "independent";
+                  }
+                };
+
+                const patternFill = `url(#diagonal-stripe-${partyKey()})`;
                 return (
                   <Geography
                     key={geo.rsmKey}
@@ -283,7 +321,10 @@ export default function ElectionMap({ data, title }) {
                     strokeWidth={1}
                     style={{
                       default: {
-                        // fill: stateColor,
+                        fill:
+                          state.flip && !toggleIncumbents
+                            ? patternFill
+                            : stateColor,
                         outline: "black",
                         cursor: "pointer",
                       },
