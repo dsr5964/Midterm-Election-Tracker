@@ -38,19 +38,32 @@ interface CardProps {
 // TODO: Add a badge for the rating
 function Card({ stateData, toggleIncumbents }: CardProps) {
   return (
-    <CRow>
+    <CRow
+      style={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
       <CCard
         style={{
-          width: "48rem",
+          width: "32rem",
           backgroundColor: "#ffffff",
           color: "black",
           borderRadius: "10px",
-          justifyContent: "center",
           display: "flex",
+          justifyContent: "center",
+          padding: "8px",
         }}
       >
         <CCardBody>
-          <CCardTitle>{stateData.name}</CCardTitle>
+          <CCardTitle
+            style={{
+              fontSize: "24px",
+              margin: "10px 0",
+            }}
+          >
+            {stateData.name}
+          </CCardTitle>
           {toggleIncumbents
             ? displayIncumbentData(stateData.incumbent!)
             : displayCandidateData(stateData.candidates)}

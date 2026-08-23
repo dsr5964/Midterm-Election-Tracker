@@ -29,6 +29,7 @@ import {
   TOSSUP,
 } from "../constants";
 import "../App.css";
+import Key from "./Key";
 
 const ratingToValueMap: Record<string, number> = {
   [SAFE_D]: 3,
@@ -199,6 +200,32 @@ function getStateColorFromIncumbent(incumbent: Incumbent): string {
   }
 }
 
+function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
+  switch (incumbentParty) {
+    case "R": {
+      if (rating.includes("d")) {
+        return true;
+      }
+      break;
+    }
+    case "D": {
+      if (rating.includes("r")) {
+        return true;
+      }
+      break;
+    }
+    case "I": {
+      if (rating.includes("r") || rating.includes("d")) {
+        return true;
+      }
+      break;
+    }
+    default:
+      return false;
+  }
+  return false;
+}
+
 const initState: State = {
   id: "",
   name: "",
@@ -343,33 +370,7 @@ export default function ElectionMap({ data, title }) {
         </ComposableMap>
       </div>
       <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
+      <Key />
     </div>
   );
-}
-function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
-  switch (incumbentParty) {
-    case "R": {
-      if (rating.includes("d")) {
-        return true;
-      }
-      break;
-    }
-    case "D": {
-      if (rating.includes("r")) {
-        return true;
-      }
-      break;
-    }
-    case "I": {
-      if (rating.includes("r") || rating.includes("d")) {
-        return true;
-      }
-      break;
-    }
-    default:
-      return false;
-  }
-  console.log(`Incumbent party ${incumbentParty}`);
-  console.log(`Rating ${rating}`);
-  return false;
 }
