@@ -62,11 +62,17 @@ export type State = {
 
 export type PoliticalParty = "D" | "R" | "I";
 
+export type NominationStatus =
+  | "primary-tbd"
+  | "nominee"
+  | "incumbent"
+  | "primary-runoff";
+
 export type Candidate = {
   name: string;
   party: PoliticalParty;
-  status: string;
   isIncumbent: boolean;
+  status: NominationStatus;
 };
 
 export type Incumbent = {

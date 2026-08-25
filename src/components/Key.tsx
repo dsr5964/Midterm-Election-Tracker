@@ -10,10 +10,18 @@ function Key() {
         borderRadius: "10px",
         display: "flex",
         margin: "10px",
+        justifyContent: "center",
       }}
     >
       <CCardBody style={{ padding: "10px" }}>
-        <CCardTitle>Key</CCardTitle>
+        <CCardTitle
+          style={{
+            margin: 0,
+            fontSize: "20px",
+          }}
+        >
+          Key
+        </CCardTitle>
         <CCardBody></CCardBody>
       </CCardBody>
     </CCard>

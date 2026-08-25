@@ -53,7 +53,6 @@ function getState(data, stateId: string): State | undefined {
 
     if (stateKey in data.states) {
       const stateName = data.states[stateKey].name;
-      console.log(stateName);
       const ratings: string[] = data.states[stateKey].race.ratings;
       const rating = getRating(ratings);
 
@@ -85,8 +84,8 @@ function getCandidates(candidateData: Candidate[]): Candidate[] {
     return {
       name: candidate.name,
       party: candidate.party,
+      isIncumbent: candidate.status === "incumbent" ? true : false, // TODO: Check if candidate is incumbent
       status: candidate.status,
-      isIncumbent: false, // TODO: Check if candidate is incumbent
     };
   });
   return candidates;
@@ -369,8 +368,17 @@ export default function ElectionMap({ data, title }) {
           </Geographies>
         </ComposableMap>
       </div>
-      <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
-      <Key />
+      <div
+        style={{
+          display: "flex",
+          flexGrow: 0,
+          justifyContent: "space-around",
+          alignItems: "flex-start",
+        }}
+      >
+        <Key />
+        <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
+      </div>
     </div>
   );
 }

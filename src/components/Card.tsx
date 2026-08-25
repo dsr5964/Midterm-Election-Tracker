@@ -7,13 +7,29 @@ function displayCandidateData(candidateData: Candidate[]): ReactNode {
     return <CCardText>No candidates yet</CCardText>;
   }
 
-  return candidateData.map((candidate, index) => (
-    <>
-      <CCardText key={index}>
-        {candidate.name} ({candidate.party})
-      </CCardText>
-    </>
-  ));
+  return candidateData.map((candidate, index) => {
+    switch (candidate.status) {
+      case "incumbent":
+      case "nominee":
+        return (
+          <>
+            <CCardText key={index}>
+              {candidate.name} ({candidate.party})
+            </CCardText>
+          </>
+        );
+      case "primary-runoff":
+      case "primary-tbd": {
+        return (
+          <>
+            <CCardText key={index}>
+              {candidate.name} ({candidate.party})
+            </CCardText>
+          </>
+        );
+      }
+    }
+  });
 }
 
 function displayIncumbentData(incumbentData: Incumbent): ReactNode {
@@ -41,12 +57,11 @@ function Card({ stateData, toggleIncumbents }: CardProps) {
     <CRow
       style={{
         display: "flex",
-        justifyContent: "center",
       }}
     >
       <CCard
         style={{
-          width: "32rem",
+          width: "20rem",
           backgroundColor: "#ffffff",
           color: "black",
           borderRadius: "10px",

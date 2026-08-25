@@ -813,7 +813,12 @@
             ]
           },
           "CA-14": {
-            "incumbent": null,
+            "incumbent": {
+              "name": "Aisha Wahab",
+              "party": "D",
+              "firstElected": 2026,
+              "note": "Aisha Wahab was elected in a special election to replace disgraced congressman Eric Swalwell who resigned after sexual assault allegations."
+            },
             "rating": "safe-d",
             "mustWatch": false,
             "note": "Vacant seat.",
@@ -821,7 +826,7 @@
               {
                 "name": "Aisha Wahab",
                 "party": "D",
-                "status": "nominee"
+                "status": "incumbent"
               },
               {
                 "name": "Melissa Hernandez",
