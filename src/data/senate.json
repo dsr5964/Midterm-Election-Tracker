@@ -227,7 +227,7 @@
           "firstElected": 2010
         },
         "candidates": [
-          { "name": "Chris Coons", "party": "D", "status": "incumbent" },
+          { "name": "Chris Coons", "party": "D", "status": "primary-tbd" },
           {
             "name": "Christopher Beardsley",
             "party": "D",
@@ -600,7 +600,7 @@
           {
             "name": "Troy Jackson",
             "party": "D",
-            "status": "presumptive-nominee"
+            "status": "nominee"
           },
           {
             "name": "Susan Collins",
@@ -640,7 +640,7 @@
           "firstElected": 2013
         },
         "candidates": [
-          { "name": "Ed Markey", "party": "D", "status": "incumbent" },
+          { "name": "Ed Markey", "party": "D", "status": "primary-tbd" },
           {
             "name": "Seth Moulton",
             "party": "D",
@@ -1112,11 +1112,10 @@
           "note": "Appointed to replace former senator Markwayne Mullin who resigned to become DHS secretary. Ineligible to run for reelection."
         },
         "candidates": [
-          { "name": "Jim Priest", "party": "D", "status": "primary-runoff" },
           {
             "name": "N'Kiyla Thomas",
             "party": "D",
-            "status": "primary-runoff"
+            "status": "nominee"
           },
           { "name": "Kevin Hern", "party": "R", "status": "nominee" }
         ],
@@ -1190,7 +1189,7 @@
           "firstElected": 1996
         },
         "candidates": [
-          { "name": "Jack Reed", "party": "D", "status": "incumbent" },
+          { "name": "Jack Reed", "party": "D", "status": "primary-tbd" },
           { "name": "Connor Burbridge", "party": "D", "status": "primary-tbd" },
           {
             "name": "Luis Daniel Munoz",
@@ -1236,9 +1235,8 @@
           {
             "name": "Darline Graham",
             "party": "R",
-            "status": "primary-runoff"
-          },
-          { "name": "Ralph Norman", "party": "R", "status": "primary-runoff" }
+            "status": "nominee"
+          }
         ]
       }
     },

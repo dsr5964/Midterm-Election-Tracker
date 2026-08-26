@@ -616,7 +616,7 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Maura Healey", "party": "D", "status": "incumbent" },
+          { "name": "Maura Healey", "party": "D", "status": "nominee" },
           { "name": "Michael Minogue", "party": "R", "status": "primary-tbd" },
           { "name": "Brian Shortsleeve", "party": "R", "status": "primary-tbd" }
         ],
@@ -793,9 +793,9 @@
           {
             "name": "Cinde Warmington",
             "party": "D",
-            "status": "presumptive-nominee"
+            "status": "nominee"
           },
-          { "name": "Kelly Ayotte", "party": "R", "status": "incumbent" },
+          { "name": "Kelly Ayotte", "party": "R", "status": "primary-tbd" },
           { "name": "Shaun Fife", "party": "R", "status": "primary-tbd" },
           { "name": "Bob Wayne McClory", "party": "R", "status": "primary-tbd" }
         ],
@@ -939,12 +939,7 @@
         },
         "candidates": [
           { "name": "Cyndi Munson", "party": "D", "status": "nominee" },
-          {
-            "name": "Gentner Drummond",
-            "party": "R",
-            "status": "primary-runoff"
-          },
-          { "name": "Mike Mazzei", "party": "R", "status": "primary-runoff" }
+          { "name": "Mike Mazzei", "party": "R", "status": "nominee" }
         ],
         "note": "Open seat — Stitt term-limited. Deep red state."
       }
@@ -1055,7 +1050,8 @@
           },
           { "name": "Robert Raimondo", "party": "R", "status": "primary-tbd" },
           { "name": "Elaine Pelino", "party": "R", "status": "primary-tbd" },
-          { "name": "Aaron Guckian", "party": "R", "status": "primary-tbd" }
+          { "name": "Aaron Guckian", "party": "R", "status": "primary-tbd" },
+          { "name": "Ken Block", "party": "I", "status": "nominee" }
         ],
         "note": "Open seat — McKee not seeking re-election. Reliably blue state."
       }

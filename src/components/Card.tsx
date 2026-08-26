@@ -1,35 +1,62 @@
 import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
 import type { ReactNode } from "react";
-import type { Candidate, Incumbent, State } from "../types/types";
+import type {
+  Candidate,
+  Incumbent,
+  PoliticalParty,
+  State,
+} from "../types/types";
 
 function displayCandidateData(candidateData: Candidate[]): ReactNode {
   if (!candidateData || candidateData.length === 0) {
     return <CCardText>No candidates yet</CCardText>;
   }
 
+  //const primaryDemocrats = getPrimaryCandidatesByParty(candidateData, "D");
+  //const primaryRepublicans = getPrimaryCandidatesByParty(candidateData, "R");
+
+  // return (
+  //   <>
+  //     <CCardText>
+  //       Democrat primary:
+  //       {primaryDemocrats.map((democratCandidate, index) => (
+  //         <CCardText key={index}>{democratCandidate.name}</CCardText>
+  //       ))}
+  //     </CCardText>
+  //     <CCardText>
+  //       Republican primary:
+  //       {primaryRepublicans.map((republicanCandidate, index) => (
+  //         <CCardText key={index}>{republicanCandidate.name}</CCardText>
+  //       ))}
+  //     </CCardText>
+  //   </>
+  // );
   return candidateData.map((candidate, index) => {
+    return (
+      <>
+        <CCardText key={index}>
+          {candidate.name} ({candidate.party})
+        </CCardText>
+      </>
+    );
+  });
+}
+
+function getPrimaryCandidatesByParty(
+  candidateData: Candidate[],
+  party: PoliticalParty,
+) {
+  const primaryCandidates: Candidate[] = [];
+  candidateData.map((candidate) => {
     switch (candidate.status) {
-      case "incumbent":
-      case "nominee":
-        return (
-          <>
-            <CCardText key={index}>
-              {candidate.name} ({candidate.party})
-            </CCardText>
-          </>
-        );
+      case "primary-tbd":
       case "primary-runoff":
-      case "primary-tbd": {
-        return (
-          <>
-            <CCardText key={index}>
-              {candidate.name} ({candidate.party})
-            </CCardText>
-          </>
-        );
-      }
+        if (candidate.party === party) {
+          primaryCandidates.push(candidate);
+        }
     }
   });
+  return primaryCandidates;
 }
 
 function displayIncumbentData(incumbentData: Incumbent): ReactNode {

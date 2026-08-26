@@ -83,3 +83,9 @@ export type Incumbent = {
   note: string;
   vacant: boolean;
 };
+
+export type partyInitialToPartyName = [
+  { R: "Republican" },
+  { D: "Democrat" },
+  // { I: "Independent" },
+];

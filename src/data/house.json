@@ -1960,7 +1960,7 @@
               {
                 "name": "Sarah McBride",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Earl Cooper",
@@ -1969,6 +1969,11 @@
               },
               {
                 "name": "John Whalen",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Joseph Arminio",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -2431,7 +2436,7 @@
               {
                 "name": "Pia Dandiya",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Casey Askar",
@@ -2614,7 +2619,7 @@
               {
                 "name": "Sanford Bishop",
                 "party": "D",
-                "status": "incumbent"
+                "status": "nominee"
               },
               {
                 "name": "Matt Day",
@@ -2640,7 +2645,7 @@
               {
                 "name": "Brian Jack",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee"
               }
             ]
           },
@@ -2656,7 +2661,7 @@
               {
                 "name": "Hank Johnson",
                 "party": "D",
-                "status": "incumbent"
+                "status": "nominee"
               },
               {
                 "name": "James Duffe",
@@ -2677,7 +2682,7 @@
               {
                 "name": "Nikema Williams",
                 "party": "D",
-                "status": "incumbent"
+                "status": "nominee"
               },
               {
                 "name": "John Oscar Salvesen",
@@ -2698,7 +2703,7 @@
               {
                 "name": "Lucy McBath",
                 "party": "D",
-                "status": "incumbent"
+                "status": "nominee"
               },
               {
                 "name": "Kevin Martin",
@@ -2724,7 +2729,7 @@
               {
                 "name": "Rich McCormick",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee"
               }
             ]
           },
@@ -2745,7 +2750,7 @@
               {
                 "name": "Austin Scott",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee"
               }
             ]
           },
@@ -2766,7 +2771,7 @@
               {
                 "name": "Andrew Clyde",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee"
               }
             ]
           },
@@ -2833,12 +2838,17 @@
               {
                 "name": "Rick Allen",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee"
               }
             ]
           },
           "GA-13": {
-            "incumbent": null,
+            "incumbent": {
+              "name": "Everton Blair",
+              "party": "D",
+              "firstElected": 2026,
+              "note": "Everton Blair was elected in a special primary runoff to fill the term of deceased long-term incumbent David Scott."
+            },
             "rating": "safe-d",
             "mustWatch": false,
             "note": "Vacant seat.",
@@ -3907,9 +3917,8 @@
               "party": "R",
               "firstElected": 2008
             },
-            "rating": null,
+            "rating": "safe-r",
             "mustWatch": false,
-            "note": "Candidates pending \u2014 Louisiana redistricting in progress.",
             "candidates": [
               {
                 "name": "Lauren Jewett",
@@ -3919,7 +3928,12 @@
               {
                 "name": "Steve Scalise",
                 "party": "R",
-                "status": "incumbent"
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Randall Arrington",
+                "party": "R",
+                "status": "primary-tbd"
               }
             ]
           },
@@ -3929,23 +3943,17 @@
               "party": "D",
               "firstElected": 2021
             },
-            "rating": null,
+            "rating": "safe-d",
             "mustWatch": false,
-            "note": "Candidates pending \u2014 Louisiana redistricting in progress.",
             "candidates": [
               {
                 "name": "Troy Carter",
                 "party": "D",
-                "status": "incumbent"
+                "status": "nominee"
               },
               {
                 "name": "Renada Cfollins",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Peter Williams",
-                "party": "R",
                 "status": "primary-tbd"
               }
             ]
@@ -3956,19 +3964,28 @@
               "party": "R",
               "firstElected": 2016
             },
-            "rating": null,
+            "rating": "safe-r",
             "mustWatch": false,
-            "note": "Candidates pending \u2014 Louisiana redistricting in progress.",
             "candidates": [
               {
-                "name": "TBD",
+                "name": "John Day",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Tia LeBrun",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Caleb Walker",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
                 "name": "Clay Higgins",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee"
               }
             ]
           },
@@ -3978,19 +3995,28 @@
               "party": "R",
               "firstElected": 2016
             },
-            "rating": null,
+            "rating": "safe-r",
             "mustWatch": false,
-            "note": "Candidates pending \u2014 Louisiana redistricting in progress.",
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Conrad Cable",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Matt Gromlich",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
                 "name": "Mike Johnson",
                 "party": "R",
-                "status": "incumbent"
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Mike Nichols",
+                "party": "R",
+                "status": "primary-tbd"
               }
             ]
           },
@@ -4002,17 +4028,51 @@
               "retiring": true,
               "note": "Retiring to run for US Senate."
             },
-            "rating": null,
+            "rating": "safe-r",
             "mustWatch": false,
-            "note": "Candidates pending \u2014 Louisiana redistricting in progress.",
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Dan McKay",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Patricia Moore",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Antonio Wilson",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Oscar Dantzler",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Austin Magee",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Gabe Girment",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Michael Echols",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Mitsi Cordell",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Stewart Cathey Jr.",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -4022,19 +4082,49 @@
             "incumbent": {
               "name": "Cleo Fields",
               "party": "D",
-              "firstElected": 2024
+              "firstElected": 2024,
+              "note": "Cleo Fields dropped his reelection campaign due to redistricting"
             },
-            "rating": null,
+            "rating": "safe-r",
             "mustWatch": false,
-            "note": "Candidates pending \u2014 Louisiana redistricting in progress.",
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Pat Forbes",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Lindsay Garcia",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Chauna Banks",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Monique Appeaning",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Larry Davis",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Rich Edmonds",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Michael Mebruer",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Blake Miguez",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -4060,14 +4150,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Richard Neal",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Jeromie Whalen",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Nadie Milleron",
+                "party": "I",
+                "status": "nominee"
               }
             ]
           },
@@ -4081,14 +4176,10 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Jim McGovern",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "TBD",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee",
+                "note": "Running unopposed for reelection"
               }
             ]
           },
@@ -4102,14 +4193,14 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Lori Trahan",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Gary Grossi",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -4123,14 +4214,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Jake Auchincloss",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Jason Poulos",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Tom Stalcup",
+                "party": "R",
+                "status": "nominee"
               }
             ]
           },
@@ -4144,14 +4240,24 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Katherine Clark",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Jonathan Paz",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Tarik Samman",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Derek Fleming",
+                "party": "I",
+                "status": "nominee"
               }
             ]
           },
@@ -4167,14 +4273,29 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Dan Koh",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Tram Nguyen",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Jamie Belsito",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "John Beccia",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Micah Jones",
+                "party": "R",
+                "status": "nominee"
               }
             ]
           },
@@ -4188,14 +4309,9 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Ayanna Pressley",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "TBD",
-                "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -4209,14 +4325,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Stephen Lynch",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Patrick Roath",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Robert Burke",
+                "party": "R",
+                "status": "nominee"
               }
             ]
           },
@@ -4230,14 +4351,19 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Bill Keating",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
-                "party": "R",
+                "name": "Craig Swallow",
+                "party": "D",
                 "status": "primary-tbd"
+              },
+              {
+                "name": "Tyler Macallister",
+                "party": "R",
+                "status": "nominee"
               }
             ]
           }
@@ -5702,12 +5828,42 @@
             "note": "Chris Pappas running for Senate.",
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Maura Sullivan",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Stefany Shaheen",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Christian Urrutia",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Carleigh Beriont",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Lindsey Anderson",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Brian Cole",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Anthony DiLorenzo",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Hollie Noveletsky",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -5723,12 +5879,22 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Maggie Goodlander",
                 "party": "D",
                 "status": "primary-tbd"
               },
               {
-                "name": "TBD",
+                "name": "Paige Beauchemin",
+                "party": "D",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Lily Tang Williams",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Victor Orlando",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -7693,14 +7859,14 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "TBD",
+                "name": "Gabe Amo",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Kellie Keenan",
                 "party": "R",
-                "status": "primary-tbd"
+                "status": "nominee"
               }
             ]
           },
@@ -7719,7 +7885,12 @@
                 "status": "nominee"
               },
               {
-                "name": "TBD",
+                "name": "Victor Mellor",
+                "party": "R",
+                "status": "primary-tbd"
+              },
+              {
+                "name": "Stephen Skoly",
                 "party": "R",
                 "status": "primary-tbd"
               }
@@ -8115,7 +8286,7 @@
               {
                 "name": "Justin Pearson",
                 "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Brent Taylor",
@@ -9664,19 +9835,14 @@
             "mustWatch": false,
             "candidates": [
               {
-                "name": "Amanda Bell",
+                "name": "Brad Smith",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Bradley Smith",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Glenn Grothman",
                 "party": "R",
-                "status": "incumbent"
+                "status": "nominee"
               }
             ]
           },
