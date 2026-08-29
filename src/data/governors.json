@@ -84,7 +84,6 @@
           "note": "Term-limited"
         },
         "candidates": [
-          { "name": "Tom Begich", "party": "D", "status": "nominee" },
           {
             "name": "Bernadette Wilson",
             "party": "R",
@@ -93,15 +92,21 @@
           {
             "name": "Johnathan Kreiss-Tomkins",
             "party": "D",
-            "status": "nominee"
+            "status": "nominee",
+            "note": "Tom Begich dropped out after coming in second in the primary and endorsed JKT."
           },
           {
             "name": "Dave Bronson",
             "party": "R",
-            "status": "blanket-primary"
+            "status": "nominee"
+          },
+          {
+            "name": "Treg Taylor",
+            "party": "R",
+            "status": "nominee"
           }
         ],
-        "note": "Candidates not yet determined. Alaska uses ranked-choice voting. Top 4 will advance to general."
+        "note": "Alaska uses ranked-choice voting. Top 4 will advance to general."
       }
     },
 
