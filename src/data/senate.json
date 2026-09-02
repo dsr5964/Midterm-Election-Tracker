@@ -36,7 +36,6 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
           "safe-r"
         ],
         "seat": "Class 2",
@@ -83,7 +82,6 @@
           "tossup",
           "tossup",
           "tossup",
-          "tossup",
           "tossup"
         ],
         "seat": "Class 2",
@@ -111,12 +109,8 @@
           {
             "name": "Gerald L. Heikes",
             "party": "R",
-            "status": "primary-tbd"
-          },
-          {
-            "name": "David Leslie",
-            "party": "D",
-            "status": "primary-tbd"
+            "status": "nominee",
+            "note": "Democrat David Leslie was initially the fourth place candidate but dropped out to consolidate the Democrat vote"
           }
         ],
         "note": "Alaska uses ranked-choice voting. Peltola is a strong challenger in a competitive state. Mary Peltola and Dan S. Sullivan are the expected nominees."
@@ -131,7 +125,6 @@
           "safe-r",
           "safe-r",
           "likely-r",
-          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -162,7 +155,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-d",
           "safe-d",
           "safe-d",
           "safe-d",
@@ -215,7 +207,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d",
           "safe-d"
         ],
         "seat": "Class 2",
@@ -248,13 +239,12 @@
         "ratings": [
           "safe-r",
           "safe-r",
+          "safe-r",
           "likely-r",
-          "lean-r",
-          "lean-r",
+          "likely-r",
           "likely-r",
           "likely-r",
           "safe-r",
-          "lean-r",
           "likely-r",
           "likely-r",
           "likely-r"
@@ -295,11 +285,10 @@
           "tilt-d",
           "likely-d",
           "likely-d",
-          "lean-d",
-          "lean-d",
           "likely-d",
           "lean-d",
           "likely-d",
+          "lean-d",
           "likely-d",
           "likely-d",
           "likely-d"
@@ -347,7 +336,6 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
           "safe-r"
         ],
         "seat": "Class 2",
@@ -371,7 +359,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-d",
           "safe-d",
           "safe-d",
           "safe-d",
@@ -415,7 +402,7 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "lean-r",
+          "tossup",
           "tilt-r",
           "lean-r",
           "tossup",
@@ -423,7 +410,6 @@
           "tossup",
           "tossup",
           "tossup",
-          "lean-r",
           "tossup",
           "lean-r",
           "tossup"
@@ -466,10 +452,9 @@
           "lean-r",
           "likely-r",
           "likely-r",
-          "safe-r",
           "likely-r",
           "likely-r",
-          "safe-r",
+          "likely-r",
           "likely-r"
         ],
         "seat": "Class 2",
@@ -493,7 +478,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -540,8 +524,7 @@
           "safe-r",
           "likely-r",
           "safe-r",
-          "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r"
         ],
@@ -583,7 +566,6 @@
           "tossup",
           "tossup",
           "tossup",
-          "tilt-d",
           "lean-d",
           "lean-d",
           "lean-d"
@@ -640,12 +622,11 @@
           "firstElected": 2013
         },
         "candidates": [
-          { "name": "Ed Markey", "party": "D", "status": "primary-tbd" },
           {
-            "name": "Seth Moulton",
+            "name": "Ed Markey",
             "party": "D",
-            "status": "primary-tbd",
-            "note": "U.S. representative for MA-6"
+            "status": "nominee",
+            "note": "Ed Markey defeated challenger representative Seth Moulton from MA-6"
           },
           {
             "name": "John Deaton",
@@ -669,9 +650,8 @@
           "tilt-d",
           "tossup",
           "tossup",
+          "lean-d",
           "tossup",
-          "tossup",
-          "tilt-d",
           "lean-d",
           "lean-d",
           "lean-d"
@@ -716,8 +696,7 @@
           "lean-d",
           "likely-d",
           "likely-d",
-          "safe-d",
-          "safe-d",
+          "likely-d",
           "likely-d",
           "likely-d"
         ],
@@ -762,8 +741,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r"
         ],
         "seat": "Class 2",
@@ -795,7 +773,6 @@
           "lean-r",
           "likely-r",
           "safe-r",
-          "likely-r",
           "likely-r",
           "safe-r",
           "safe-r"
@@ -841,7 +818,6 @@
           "lean-r",
           "likely-r",
           "likely-r",
-          "lean-r",
           "likely-r",
           "likely-r",
           "likely-r"
@@ -876,14 +852,13 @@
           "lean-d",
           "tilt-d",
           "lean-d",
-          "lean-d",
+          "tilt-d",
+          "likely-d",
+          "tossup",
           "likely-d",
           "lean-d",
           "likely-d",
-          "lean-d",
           "likely-d",
-          "likely-d",
-          "safe-d",
           "likely-d"
         ],
         "seat": "Class 2",
@@ -939,7 +914,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d",
           "safe-d"
         ],
         "seat": "Class 2",
@@ -967,7 +941,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "likely-d",
           "safe-d",
           "safe-d",
           "safe-d",
@@ -1005,7 +978,6 @@
           "lean-d",
           "likely-d",
           "lean-d",
-          "likely-d",
           "likely-d",
           "likely-d",
           "likely-d"
@@ -1050,9 +1022,8 @@
           "tossup",
           "tossup",
           "tossup",
-          "tossup",
           "lean-d",
-          "tossup"
+          "lean-d"
         ],
         "seat": "Class 3",
         "isSpecial": true,
@@ -1086,7 +1057,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -1138,7 +1108,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d",
           "safe-d"
         ],
         "seat": "Class 2",
@@ -1167,7 +1136,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-d",
           "safe-d",
           "safe-d",
           "safe-d",
@@ -1209,12 +1177,11 @@
           "safe-r",
           "likely-r",
           "safe-r",
-          "lean-r",
-          "lean-r",
+          "likely-r",
+          "likely-r",
           "likely-r",
           "likely-r",
           "safe-r",
-          "likely-r",
           "likely-r",
           "likely-r",
           "likely-r"
@@ -1249,13 +1216,12 @@
           "safe-r",
           "safe-r",
           "safe-r",
+          "likely-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r"
         ],
@@ -1280,7 +1246,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -1318,17 +1283,16 @@
       "race": {
         "mustWatch": true,
         "ratings": [
+          "tossup",
           "lean-r",
-          "lean-r",
-          "lean-r",
+          "tossup",
           "tilt-d",
           "tossup",
           "tossup",
           "tossup",
-          "lean-r",
           "tossup",
           "tossup",
-          "tossup",
+          "lean-d",
           "lean-d"
         ],
         "seat": "Class 2",
@@ -1375,7 +1339,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d",
           "safe-d"
         ],
         "seat": "Class 2",
@@ -1399,7 +1362,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -1441,7 +1403,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",

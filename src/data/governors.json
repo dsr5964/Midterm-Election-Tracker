@@ -72,8 +72,8 @@
           "tossup",
           "tossup",
           "lean-r",
-          "tossup",
-          "lean-d"
+          "lean-d",
+          "lean-r"
         ],
         "pvi": "R+6",
         "primaryDate": "2026-08-18",
@@ -85,15 +85,15 @@
         },
         "candidates": [
           {
-            "name": "Bernadette Wilson",
-            "party": "R",
-            "status": "nominee"
-          },
-          {
             "name": "Johnathan Kreiss-Tomkins",
             "party": "D",
             "status": "nominee",
             "note": "Tom Begich dropped out after coming in second in the primary and endorsed JKT."
+          },
+          {
+            "name": "Bernadette Wilson",
+            "party": "R",
+            "status": "nominee"
           },
           {
             "name": "Dave Bronson",
@@ -119,10 +119,10 @@
           "tossup",
           "lean-d",
           "lean-d",
-          "tossup",
+          "lean-d",
           "lean-d",
           "likely-d",
-          "likely-d"
+          "lean-d"
         ],
         "pvi": "R+2",
         "primaryDate": "2026-07-21",
@@ -229,7 +229,7 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d"
+          "likely-d"
         ],
         "pvi": "D+6",
         "primaryDate": "2026-06-30",
@@ -264,7 +264,7 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d"
+          "likely-d"
         ],
         "pvi": "D+8",
         "primaryDate": "2026-08-11",
@@ -290,7 +290,7 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
+          "likely-r",
           "safe-r",
           "likely-r",
           "lean-r",
@@ -336,7 +336,7 @@
           "tossup",
           "tossup",
           "tossup",
-          "tilt-d",
+          "lean-d",
           "lean-d"
         ],
         "pvi": "R+1",
@@ -437,7 +437,7 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d"
+          "likely-d"
         ],
         "pvi": "D+6",
         "primaryDate": "2026-03-17",
@@ -470,8 +470,8 @@
           "lean-d",
           "tossup",
           "lean-d",
-          "tilt-d",
-          "likely-d"
+          "likely-d",
+          "tossup"
         ],
         "pvi": "R+6",
         "primaryDate": "2026-06-02",
@@ -505,8 +505,8 @@
           "tilt-r",
           "lean-r",
           "lean-r",
-          "lean-r",
-          "tossup"
+          "tossup",
+          "lean-r"
         ],
         "pvi": "R+8",
         "primaryDate": "2026-08-04",
@@ -545,8 +545,8 @@
           "likely-d",
           "likely-d",
           "safe-d",
-          "likely-d",
-          "safe-d"
+          "safe-d",
+          "likely-d"
         ],
         "pvi": "D+4",
         "primaryDate": "2026-06-09",
@@ -622,8 +622,7 @@
         },
         "candidates": [
           { "name": "Maura Healey", "party": "D", "status": "nominee" },
-          { "name": "Michael Minogue", "party": "R", "status": "primary-tbd" },
-          { "name": "Brian Shortsleeve", "party": "R", "status": "primary-tbd" }
+          { "name": "Michael Minogue", "party": "R", "status": "nominee" }
         ],
         "note": "Healey running for re-election in a reliably blue state."
       }
@@ -640,8 +639,8 @@
           "likely-d",
           "lean-d",
           "lean-d",
-          "lean-d",
-          "likely-d"
+          "likely-d",
+          "lean-d"
         ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-04",
@@ -680,8 +679,8 @@
           "safe-d",
           "safe-d",
           "likely-d",
-          "likely-d",
-          "safe-d"
+          "safe-d",
+          "likely-d"
         ],
         "pvi": "D+3",
         "primaryDate": "2026-08-11",
@@ -755,8 +754,8 @@
           "lean-r",
           "tossup",
           "tossup",
-          "tilt-r",
-          "lean-r"
+          "lean-r",
+          "tossup"
         ],
         "pvi": "R+1",
         "primaryDate": "2026-06-09",
@@ -784,8 +783,8 @@
           "likely-r",
           "lean-r",
           "likely-r",
-          "lean-r",
-          "likely-r"
+          "likely-r",
+          "lean-r"
         ],
         "pvi": "D+2",
         "primaryDate": "2026-09-08",
@@ -855,7 +854,7 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d"
+          "likely-d"
         ],
         "pvi": "D+8",
         "primaryDate": "2026-06-23",
@@ -1176,11 +1175,11 @@
         "ratings": [
           "likely-r",
           "likely-r",
-          "safe-r",
+          "likely-r",
           "lean-r",
           "likely-r",
           "likely-r",
-          "lean-r",
+          "likely-r",
           "likely-r"
         ],
         "pvi": "R+6",
@@ -1243,8 +1242,8 @@
           "tossup",
           "tossup",
           "tossup",
-          "tilt-d",
-          "tossup"
+          "tossup",
+          "lean-d"
         ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-11",

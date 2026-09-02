@@ -59,9 +59,9 @@
                 "note": "Perennial candidate and federal prisoner."
               },
               {
-                "name": "John Williams",
-                "party": "D",
-                "status": "primary-tbd"
+                "name": "James C. McDermott",
+                "party": "L",
+                "status": "nominee"
               }
             ]
           }
@@ -662,11 +662,11 @@
             "incumbent": {
               "name": "Ami Bera",
               "party": "D",
-              "firstElected": 2012
+              "firstElected": 2012,
+              "note": "Kevin Kiley (former CA-3 incumbent) now running in redrawn CA-6. Now Ami Bera is running for this seat after being redistricted from the 6th district."
             },
             "ratings": ["safe-d"],
             "mustWatch": false,
-            "note": "Kevin Kiley (former CA-3 incumbent) now running in redrawn CA-6.",
             "candidates": [
               {
                 "name": "Ami Bera",
@@ -724,9 +724,10 @@
           },
           "CA-6": {
             "incumbent": {
-              "name": "Ami Bera",
-              "party": "D",
-              "firstElected": 2012
+              "name": "Kevin Kiley",
+              "party": "I",
+              "firstElected": 2022,
+              "note": "Kevin Kiley is now running in the 6th district after being redistricted from the 3rd district."
             },
             "ratings": [
               "safe-d",
@@ -1444,11 +1445,7 @@
             ]
           },
           "CA-38": {
-            "incumbent": {
-              "name": "Linda Sanchez",
-              "party": "D",
-              "firstElected": 2002
-            },
+            "incumbent": null,
             "ratings": ["safe-d"],
             "mustWatch": false,
             "note": "Linda Sanchez is current incumbent running in redrawn CA-41.",
@@ -2653,7 +2650,7 @@
             "incumbent": null,
             "ratings": ["safe-d"],
             "mustWatch": false,
-            "note": "Vacant seat. This is Debbie Wasserman Schultz seat after being redistricted from the 25th district.",
+            "note": "Vacant seat. Debbie Wasserman Schultz is running for reelection in the 25th district.",
             "candidates": [
               {
                 "name": "Debbie Wasserman Schultz",
@@ -2696,8 +2693,12 @@
             ]
           },
           "FL-22": {
-            "incumbent": null,
-            "note": "New seat due to redistricting.",
+            "incumbent": {
+              "name": "Lois Frankel",
+              "party": "D",
+              "firstElected": "2012",
+              "note": "Lois Frankel is running for reelection in the 23rd district."
+            },
             "ratings": [
               "lean-r",
               "lean-r",
@@ -2722,10 +2723,10 @@
           },
           "FL-23": {
             "incumbent": {
-              "name": "Lois Frankel",
-              "party": "R",
-              "firstElected": 2012,
-              "note": "Lois Frankel was redistricted from the 22nd district."
+              "name": "Jared Moskowitz",
+              "party": "D",
+              "firstElected": 2022,
+              "note": "Moskowitz was running for reelection in the 25th district."
             },
             "ratings": ["safe-d"],
             "mustWatch": false,
@@ -2766,10 +2767,10 @@
           },
           "FL-25": {
             "incumbent": {
-              "name": "Jared Moskowitz",
+              "name": "Debbie Wasserman Schultz",
               "party": "D",
-              "firstElected": 2022,
-              "note": "Jared Moskowitz was redistricted from the 23rd district."
+              "firstElected": 2018,
+              "note": "Debbie Waserman Schultz was redistricted from the 25th district."
             },
             "ratings": [
               "tossup",
@@ -4507,12 +4508,7 @@
               {
                 "name": "Richard Neal",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jeromie Whalen",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Nadie Milleron",
@@ -4571,12 +4567,7 @@
               {
                 "name": "Jake Auchincloss",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jason Poulos",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Tom Stalcup",
@@ -4597,17 +4588,7 @@
               {
                 "name": "Katherine Clark",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jonathan Paz",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Tarik Samman",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Derek Fleming",
@@ -4630,22 +4611,7 @@
               {
                 "name": "Dan Koh",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Tram Nguyen",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Jamie Belsito",
-                "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "John Beccia",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Micah Jones",
@@ -4682,12 +4648,7 @@
               {
                 "name": "Stephen Lynch",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Patrick Roath",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Robert Burke",
@@ -4708,12 +4669,7 @@
               {
                 "name": "Bill Keating",
                 "party": "D",
-                "status": "primary-tbd"
-              },
-              {
-                "name": "Craig Swallow",
-                "party": "D",
-                "status": "primary-tbd"
+                "status": "nominee"
               },
               {
                 "name": "Tyler Macallister",
@@ -9043,7 +8999,12 @@
             ]
           },
           "TX-9": {
-            "incumbent": null,
+            "incumbent": {
+              "name": "Al Green",
+              "party": "D",
+              "firstElected": 2004,
+              "note": "Al Green was redistricted from the 9th district and lost renomination."
+            },
             "ratings": [
               "likely-r",
               "safe-r",
@@ -9387,7 +9348,7 @@
               "tossup"
             ],
             "mustWatch": true,
-            "note": "Vacant seat.",
+            "note": "Vacant seat. Tony Gonzalez resigned his seat after personal scandal.",
             "candidates": [
               {
                 "name": "Katy Padilla Stout",
