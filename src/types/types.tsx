@@ -75,6 +75,12 @@ export type Candidate = {
   status: NominationStatus;
 };
 
+export type PartyGroup = {
+  party: string;
+  candidates: Candidate[];
+  isPrimary: boolean;
+};
+
 export type Incumbent = {
   name: string;
   party: PoliticalParty;
@@ -87,5 +93,5 @@ export type Incumbent = {
 export type partyInitialToPartyName = [
   { R: "Republican" },
   { D: "Democrat" },
-  // { I: "Independent" },
+  { I: "Independent" },
 ];

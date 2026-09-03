@@ -11,26 +11,6 @@ function displayCandidateData(candidateData: Candidate[]): ReactNode {
   if (!candidateData || candidateData.length === 0) {
     return <CCardText>No candidates yet</CCardText>;
   }
-
-  //const primaryDemocrats = getPrimaryCandidatesByParty(candidateData, "D");
-  //const primaryRepublicans = getPrimaryCandidatesByParty(candidateData, "R");
-
-  // return (
-  //   <>
-  //     <CCardText>
-  //       Democrat primary:
-  //       {primaryDemocrats.map((democratCandidate, index) => (
-  //         <CCardText key={index}>{democratCandidate.name}</CCardText>
-  //       ))}
-  //     </CCardText>
-  //     <CCardText>
-  //       Republican primary:
-  //       {primaryRepublicans.map((republicanCandidate, index) => (
-  //         <CCardText key={index}>{republicanCandidate.name}</CCardText>
-  //       ))}
-  //     </CCardText>
-  //   </>
-  // );
   return candidateData.map((candidate, index) => {
     return (
       <>
@@ -40,23 +20,6 @@ function displayCandidateData(candidateData: Candidate[]): ReactNode {
       </>
     );
   });
-}
-
-function getPrimaryCandidatesByParty(
-  candidateData: Candidate[],
-  party: PoliticalParty,
-) {
-  const primaryCandidates: Candidate[] = [];
-  candidateData.map((candidate) => {
-    switch (candidate.status) {
-      case "primary-tbd":
-      case "primary-runoff":
-        if (candidate.party === party) {
-          primaryCandidates.push(candidate);
-        }
-    }
-  });
-  return primaryCandidates;
 }
 
 function displayIncumbentData(incumbentData: Incumbent): ReactNode {

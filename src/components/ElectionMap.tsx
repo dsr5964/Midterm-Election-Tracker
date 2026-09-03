@@ -239,13 +239,15 @@ const buttonNames: string[] = ["senate", "governor", "house"];
 // TODO: is it better to use the actual rating for flips or just use either the same red or blue regardless
 // of projected rating
 const stripeConfigs = {
-  [LIKELY_D]: { line: "#335cff", background: "#577CCC" },
-  [LEAN_D]: { line: "#335cff", background: "#8AAFFF" },
-  [TILT_D]: { line: "#335cff", background: "#949BB3" },
+  [SAFE_D]: { line: "#052fd6", background: "#244999" },
+  [LIKELY_D]: { line: "#052fd6", background: "#577CCC" },
+  [LEAN_D]: { line: "#052fd6", background: "#8AAFFF" },
+  [TILT_D]: { line: "#052fd6", background: "#949BB3" },
+  [SAFE_R]: { line: "#d60819", background: "#D22532" },
   [LIKELY_R]: { line: "#d60819", background: "#FF5865" },
   [LEAN_R]: { line: "#d60819", background: "#FF8B98" },
   [TILT_R]: { line: "#d60819", background: "#CF8980" },
-  independent: { line: "#7F00FF", background: "#6C3BAA" },
+  independent: { line: "#a95ff4", background: "#6C3BAA" },
 };
 
 export default function ElectionMap({ data, title }) {

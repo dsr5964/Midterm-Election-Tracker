@@ -1507,9 +1507,9 @@
           },
           "CA-41": {
             "incumbent": {
-              "name": "Ken Calvert",
-              "party": "R",
-              "firstElected": 1992
+              "name": "Linda Sanchez",
+              "party": "D",
+              "firstElected": 2002
             },
             "ratings": ["safe-d"],
             "mustWatch": false,
@@ -2647,10 +2647,14 @@
             ]
           },
           "FL-20": {
-            "incumbent": null,
+            "incumbent": {
+              "name": "Sheila Cherfilus-McCormick",
+              "party": "D",
+              "firstElected": 2022,
+              "note": "The incumbent resigned due to a financial corruption scandal but US representative Debbie Wasserman Schultz from the 25th distirct won the primary in the 20th."
+            },
             "ratings": ["safe-d"],
             "mustWatch": false,
-            "note": "Vacant seat. Debbie Wasserman Schultz is running for reelection in the 25th district.",
             "candidates": [
               {
                 "name": "Debbie Wasserman Schultz",
@@ -2769,7 +2773,7 @@
             "incumbent": {
               "name": "Debbie Wasserman Schultz",
               "party": "D",
-              "firstElected": 2018,
+              "firstElected": 2004,
               "note": "Debbie Waserman Schultz was redistricted from the 25th district."
             },
             "ratings": [
@@ -9338,7 +9342,12 @@
             ]
           },
           "TX-23": {
-            "incumbent": null,
+            "incumbent": {
+              "name": "Tony Gonzalez",
+              "party": "R",
+              "firstElected": 2020,
+              "note": "Vacant seat. Tony Gonzalez resigned his seat after personal scandal."
+            },
             "ratings": [
               "likely-r",
               "likely-r",
@@ -9348,7 +9357,6 @@
               "tossup"
             ],
             "mustWatch": true,
-            "note": "Vacant seat. Tony Gonzalez resigned his seat after personal scandal.",
             "candidates": [
               {
                 "name": "Katy Padilla Stout",
@@ -9508,12 +9516,10 @@
               "name": "Jasmine Crockett",
               "party": "D",
               "firstElected": 2022,
-              "retiring": true,
-              "note": "Running for U.S. Senate in Texas."
+              "retiring": true
             },
             "ratings": ["safe-d"],
             "mustWatch": false,
-            "note": "Jasmine Crockett is current incumbent running for Senate.",
             "candidates": [
               {
                 "name": "Frederick Haynes III",
