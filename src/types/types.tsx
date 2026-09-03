@@ -90,8 +90,8 @@ export type Incumbent = {
   vacant: boolean;
 };
 
-export type partyInitialToPartyName = [
-  { R: "Republican" },
-  { D: "Democrat" },
-  { I: "Independent" },
-];
+export const PARTY_LABELS: Record<string, string> = {
+  D: "Democrat",
+  R: "Republican",
+  I: "Indepndent",
+};
