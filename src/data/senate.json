@@ -52,7 +52,7 @@
         },
         "candidates": [
           {
-            "name": "Everett Weiss",
+            "name": "Everett Wess",
             "party": "D",
             "status": "nominee",
             "note": "Attorney and perennial candidate"
@@ -73,7 +73,7 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "lean-r",
+          "tilt-r",
           "tossup",
           "tossup",
           "tossup",
@@ -101,7 +101,7 @@
           },
           { "name": "Dan S. Sullivan", "party": "R", "status": "incumbent" },
           {
-            "name": "Dan J. Sullivan",
+            "name": "Dan J. Sullivan Jr.",
             "party": "R",
             "status": "nominee",
             "note": "Another Dan Sullivan that isn't the incumbent senator is running as the Republican nominee despite legal challenges."
@@ -647,7 +647,7 @@
           "tossup",
           "tossup",
           "tossup",
-          "lean-d",
+          "tilt-d",
           "lean-d",
           "tossup",
           "lean-d",
@@ -738,7 +738,7 @@
           "safe-r",
           "likely-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "likely-r",
@@ -814,7 +814,7 @@
           "likely-r",
           "likely-r",
           "lean-r",
-          "lean-r",
+          "likely-r",
           "lean-r",
           "likely-r",
           "likely-r",
@@ -850,7 +850,7 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "tilt-d",
+          "tossup",
           "lean-d",
           "tilt-d",
           "likely-d",
@@ -1014,14 +1014,14 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "tilt-r",
+          "tossup",
+          "tossup",
+          "tilt-d",
+          "lean-d",
+          "tossup",
+          "tossup",
           "tossup",
           "lean-d",
-          "lean-d",
-          "tossup",
-          "tossup",
-          "tossup",
-          "tossup",
           "lean-d",
           "lean-d"
         ],

@@ -296,8 +296,8 @@
           "lean-r",
           "likely-r",
           "safe-r",
-          "lean-r",
-          "likely-r"
+          "likely-r",
+          "lean-r"
         ],
         "pvi": "R+5",
         "primaryDate": "2026-08-18",
@@ -466,7 +466,7 @@
         "ratings": [
           "lean-d",
           "tilt-d",
-          "tossup",
+          "lean-d",
           "lean-d",
           "tossup",
           "lean-d",
@@ -990,12 +990,12 @@
         "ratings": [
           "safe-d",
           "safe-d",
-          "likely-d",
           "safe-d",
           "safe-d",
           "safe-d",
-          "likely-d",
-          "safe-d"
+          "safe-d",
+          "safe-d",
+          "likely-d"
         ],
         "pvi": "R+1",
         "primaryDate": "2026-05-19",
@@ -1072,8 +1072,8 @@
           "safe-r",
           "likely-r",
           "safe-r",
-          "likely-r",
-          "safe-r"
+          "safe-r",
+          "likely-r"
         ],
         "pvi": "R+8",
         "primaryDate": "2026-06-09",
@@ -1213,8 +1213,8 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
-          "likely-r"
+          "likely-r",
+          "safe-r"
         ],
         "pvi": "D+17",
         "primaryDate": "2026-08-11",
