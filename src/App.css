@@ -183,13 +183,14 @@
   }
 } */
 
-.diagonal-stripes {
-  width: 100%;
+.striped-square {
+  width: 200px;
   height: 200px;
   background: repeating-linear-gradient(
     45deg,
-    #e17055 0 15px,
-    /* Red stripe from 0px to 15px */ #fab1a0 15px 30px
-      /* Pink stripe from 15px to 30px */
+    #3498db,
+    #3498db 20px,
+    #2980b9 20px,
+    #2980b9 40px
   );
 }

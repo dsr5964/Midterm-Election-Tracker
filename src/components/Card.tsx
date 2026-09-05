@@ -92,6 +92,7 @@ function Card({ stateData, toggleIncumbents }: CardProps) {
           display: "flex",
           justifyContent: "center",
           padding: "8px",
+          marginTop: "10px",
         }}
       >
         <CCardBody>

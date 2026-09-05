@@ -27,6 +27,11 @@ import {
   LEAN_D,
   TILT_D,
   TOSSUP,
+  SAFE_I,
+  LIKELY_I,
+  LEAN_I,
+  TILT_I,
+  colorByRating,
 } from "../constants";
 import "../App.css";
 import Key from "./Key";
@@ -84,7 +89,7 @@ function getCandidates(candidateData: Candidate[]): Candidate[] {
     return {
       name: candidate.name,
       party: candidate.party,
-      isIncumbent: candidate.status === "incumbent" ? true : false, // TODO: Check if candidate is incumbent
+      isIncumbent: candidate.status === "incumbent" ? true : false,
       status: candidate.status,
     };
   });
@@ -137,32 +142,31 @@ function getRating(ratings: string[]): string {
 function getRatingColor(rating: string): string {
   switch (rating) {
     case SAFE_R:
-      return "#D22532";
-
+      return colorByRating[SAFE_R];
     case SAFE_D:
-      return "#244999";
-
+      return colorByRating[SAFE_D];
     case LIKELY_R:
-      return "#FF5865";
-
+      return colorByRating[LIKELY_R];
     case LIKELY_D:
-      return "#577CCC";
-
+      return colorByRating[LIKELY_D];
     case LEAN_R:
-      return "#FF8B98";
-
+      return colorByRating[LEAN_R];
     case LEAN_D:
-      return "#8AAFFF";
-
+      return colorByRating[LEAN_D];
     case TILT_R:
-      return "#CF8980";
-
+      return colorByRating[TILT_R];
     case TILT_D:
-      return "#949BB3";
-
+      return colorByRating[TILT_D];
     case TOSSUP:
-      return "#C9C09B";
-
+      return colorByRating[TOSSUP];
+    case SAFE_I:
+      return colorByRating[SAFE_I];
+    case LIKELY_I:
+      return colorByRating[LIKELY_I];
+    case LEAN_I:
+      return colorByRating[LEAN_I];
+    case TILT_I:
+      return colorByRating[TILT_I];
     default:
       return "#000000";
   }
@@ -239,15 +243,18 @@ const buttonNames: string[] = ["senate", "governor", "house"];
 // TODO: is it better to use the actual rating for flips or just use either the same red or blue regardless
 // of projected rating
 const stripeConfigs = {
-  [SAFE_D]: { line: "#052fd6", background: "#244999" },
-  [LIKELY_D]: { line: "#052fd6", background: "#577CCC" },
-  [LEAN_D]: { line: "#052fd6", background: "#8AAFFF" },
-  [TILT_D]: { line: "#052fd6", background: "#949BB3" },
-  [SAFE_R]: { line: "#d60819", background: "#D22532" },
-  [LIKELY_R]: { line: "#d60819", background: "#FF5865" },
-  [LEAN_R]: { line: "#d60819", background: "#FF8B98" },
-  [TILT_R]: { line: "#d60819", background: "#CF8980" },
-  independent: { line: "#a95ff4", background: "#6C3BAA" },
+  [SAFE_D]: { line: "#052fd6", background: colorByRating[SAFE_D] },
+  [LIKELY_D]: { line: "#052fd6", background: colorByRating[LIKELY_D] },
+  [LEAN_D]: { line: "#052fd6", background: colorByRating[LEAN_D] },
+  [TILT_D]: { line: "#052fd6", background: colorByRating[TILT_D] },
+  [SAFE_R]: { line: "#d60819", background: colorByRating[SAFE_R] },
+  [LIKELY_R]: { line: "#d60819", background: colorByRating[LIKELY_R] },
+  [LEAN_R]: { line: "#d60819", background: colorByRating[LEAN_R] },
+  [TILT_R]: { line: "#d60819", background: colorByRating[TILT_R] },
+  [SAFE_I]: { line: "#a95ff4", background: colorByRating[SAFE_I] },
+  [LIKELY_I]: { line: "#a95ff4", background: colorByRating[LIKELY_I] },
+  [LEAN_I]: { line: "#a95ff4", background: colorByRating[LEAN_I] },
+  [TILT_I]: { line: "#a95ff4", background: colorByRating[TILT_I] },
 };
 
 export default function ElectionMap({ data, title }) {
