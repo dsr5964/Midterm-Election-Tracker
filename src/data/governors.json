@@ -67,7 +67,7 @@
         "mustWatch": false,
         "ratings": [
           "likely-r",
-          "likely-r",
+          "lean-r",
           "tossup",
           "tossup",
           "tossup",
@@ -116,7 +116,7 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "tossup",
+          "tilt-d",
           "lean-d",
           "lean-d",
           "lean-d",
@@ -471,7 +471,7 @@
           "tossup",
           "lean-d",
           "likely-d",
-          "tossup"
+          "lean-d"
         ],
         "pvi": "R+6",
         "primaryDate": "2026-06-02",
@@ -883,7 +883,7 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "lean-r",
+          "tilt-r",
           "lean-r",
           "tossup",
           "tossup",

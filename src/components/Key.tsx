@@ -1,5 +1,9 @@
 import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
-import { colorByRating, colorFlipByParty, nameByRating } from "../constants";
+import { ratingByParty, tossupConfig } from "../constants";
+import {
+  firstCharStringUppercase,
+  parsePartyRatingString,
+} from "../utils/parseString";
 
 function Key() {
   return (
@@ -16,7 +20,7 @@ function Key() {
         border: "1px solid white",
       }}
     >
-      <CCardBody style={{ padding: "10px" }}>
+      <CCardBody>
         <CCardTitle
           style={{
             margin: 0,
@@ -26,47 +30,48 @@ function Key() {
           Key
         </CCardTitle>
         <CCardBody>
-          <div>
-            {Object.entries(colorByRating).map(([rating, color]) => (
-              <CCardText>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            {Object.entries(ratingByParty).map(([party, ratingsConfig]) => (
+              <div style={{}}>
+                {party}
                 <div
                   style={{
                     display: "flex",
-                    justifyContent: "space-between",
-                    margin: "10px",
+                    justifyContent: "space-around",
+                    alignContent: "space-between",
+                    width: "24rem",
                   }}
                 >
-                  <p>{nameByRating[rating]}</p>
-                  <div
-                    style={{
-                      width: "20px",
-                      aspectRatio: 1,
-                      backgroundColor: color,
-                    }}
-                  ></div>
+                  {ratingsConfig.map((ratingConfig) => (
+                    <div>
+                      {parsePartyRatingString(ratingConfig.rating)}
+                      <div
+                        style={{
+                          width: "40px",
+                          aspectRatio: 1,
+                          backgroundColor: ratingConfig.color,
+                        }}
+                      ></div>
+                    </div>
+                  ))}
                 </div>
-              </CCardText>
+              </div>
             ))}
-            {Object.entries(colorFlipByParty).map(([party, flipColor]) => (
-              <CCardText>
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    margin: "10px",
-                  }}
-                >
-                  <p>Flip to {party}s</p>
-                  <div
-                    style={{
-                      width: "20px",
-                      height: "20px",
-                      background: `linear-gradient(45deg, ${flipColor} 25%, white 25%, ${flipColor} 50%, white 25%, ${flipColor} 75%, white 75%, ${flipColor} 100%)`,
-                    }}
-                  ></div>
-                </div>
-              </CCardText>
-            ))}
+            {firstCharStringUppercase(tossupConfig.rating)}
+            <div
+              style={{
+                width: "40px",
+                aspectRatio: 1,
+                backgroundColor: tossupConfig.color,
+              }}
+            ></div>
           </div>
         </CCardBody>
       </CCardBody>

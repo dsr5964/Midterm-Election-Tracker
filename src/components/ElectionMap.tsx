@@ -380,13 +380,14 @@ export default function ElectionMap({ data, title }) {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
           flexGrow: 0,
-          justifyContent: "space-around",
-          alignItems: "flex-start",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        <Key />
         <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
+        <Key />
       </div>
     </div>
   );
