@@ -10,7 +10,7 @@ function Key() {
     <CCard
       style={{
         width: "20rem",
-        height: "24rem",
+        height: "20rem",
         color: "white",
         borderRadius: "10px",
         display: "flex",
@@ -39,7 +39,7 @@ function Key() {
             }}
           >
             {Object.entries(ratingByParty).map(([party, ratingsConfig]) => (
-              <div style={{}}>
+              <div>
                 {party}
                 <div
                   style={{
@@ -72,6 +72,54 @@ function Key() {
                 backgroundColor: tossupConfig.color,
               }}
             ></div>
+            <div>
+              Pickups
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-around",
+                  alignItems: "center",
+                  width: "200px",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  Democrat
+                  <div
+                    style={{
+                      width: "40px",
+                      aspectRatio: 1,
+                      background:
+                        "repeating-linear-gradient(45deg, #052fd6, #052fd6 10px, white 10px, white 20px)",
+                    }}
+                  ></div>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  Republican
+                  <div
+                    style={{
+                      width: "40px",
+                      aspectRatio: 1,
+                      background:
+                        "repeating-linear-gradient(45deg, #d60819, #d60819 10px, white 10px, white 20px)",
+                    }}
+                  ></div>
+                </div>
+              </div>
+            </div>
           </div>
         </CCardBody>
       </CCardBody>

@@ -387,7 +387,7 @@ export default function ElectionMap({ data, title }) {
         }}
       >
         <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
-        <Key />
+        {!toggleIncumbents && <Key />}
       </div>
     </div>
   );
