@@ -3,7 +3,12 @@ export default function HomePage() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+        }}
+      >
         <button onClick={() => navigate("/senate")}>Senate</button>
         <button onClick={() => navigate("/governor")}>Governor</button>
         <button onClick={() => navigate("/house")}>House</button>

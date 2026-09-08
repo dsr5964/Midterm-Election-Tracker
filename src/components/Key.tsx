@@ -4,13 +4,12 @@ import {
   firstCharStringUppercase,
   parsePartyRatingString,
 } from "../utils/parseString";
+import "../App.css";
 
 function Key() {
   return (
     <CCard
       style={{
-        width: "20rem",
-        height: "20rem",
         color: "white",
         borderRadius: "10px",
         display: "flex",
@@ -91,14 +90,7 @@ function Key() {
                   }}
                 >
                   Democrat
-                  <div
-                    style={{
-                      width: "40px",
-                      aspectRatio: 1,
-                      background:
-                        "repeating-linear-gradient(45deg, #052fd6, #052fd6 10px, white 10px, white 20px)",
-                    }}
-                  ></div>
+                  <div className="democrat-striped-square"></div>
                 </div>
                 <div
                   style={{
@@ -109,14 +101,7 @@ function Key() {
                   }}
                 >
                   Republican
-                  <div
-                    style={{
-                      width: "40px",
-                      aspectRatio: 1,
-                      background:
-                        "repeating-linear-gradient(45deg, #d60819, #d60819 10px, white 10px, white 20px)",
-                    }}
-                  ></div>
+                  <div className="republican-striped-square"></div>
                 </div>
               </div>
             </div>

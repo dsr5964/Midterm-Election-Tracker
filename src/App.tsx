@@ -24,7 +24,7 @@ function App() {
             />
             <Route
               path="/house"
-              element={<UnimplementedPage data={houseData} title="House" />}
+              element={<ElectionMap data={houseData} title="House" />}
             />
           </Routes>
         </Router>

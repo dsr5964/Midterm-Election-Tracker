@@ -238,7 +238,7 @@ const initState: State = {
   incumbent: undefined,
   flip: false,
 };
-const buttonNames: string[] = ["senate", "governor", "house"];
+const buttonNames: string[] = ["Senate", "Governor", "House"];
 
 // TODO: is it better to use the actual rating for flips or just use either the same red or blue regardless
 // of projected rating
@@ -300,10 +300,9 @@ export default function ElectionMap({ data, title }) {
                 <line
                   x1="0"
                   y1="0"
-                  x2="0"
                   y2="10"
                   stroke={config.line}
-                  strokeWidth="6"
+                  strokeWidth={8}
                 />
               </pattern>
             ))}
