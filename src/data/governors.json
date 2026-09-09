@@ -799,9 +799,7 @@
             "party": "D",
             "status": "nominee"
           },
-          { "name": "Kelly Ayotte", "party": "R", "status": "primary-tbd" },
-          { "name": "Shaun Fife", "party": "R", "status": "primary-tbd" },
-          { "name": "Bob Wayne McClory", "party": "R", "status": "primary-tbd" }
+          { "name": "Kelly Ayotte", "party": "R", "status": "nominee" }
         ],
         "note": "Ayotte running for re-election. Rated Likely R despite D+2 PVI — Ayotte is a popular moderate Republican in a swing state. NH Governor elections are every two years."
       }

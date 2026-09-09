@@ -874,25 +874,13 @@
           {
             "name": "Chris Pappas",
             "party": "D",
-            "status": "primary-tbd",
-            "note": "U.S. Representative; leads in early polls"
-          },
-          {
-            "name": "Karishma Manzur",
-            "party": "D",
-            "status": "primary-tbd",
-            "note": "Member of New Hampshire Democratic Party Rules Committee. Progressive challenger."
-          },
-          {
-            "name": "Scott Brown",
-            "party": "R",
-            "status": "primary-tbd",
-            "note": "Former U.S. Senator of Massachusetts. Former U.S. Ambassador to New Zealand and Samoa."
+            "status": "nominee",
+            "note": "U.S. Representative from NH-1"
           },
           {
             "name": "John Sununu",
             "party": "R",
-            "status": "primary-tbd",
+            "status": "nominee",
             "note": "Former U.S. Senator for this seat and brother of former Governor Chris Sununu. Trump endorsed."
           }
         ]
