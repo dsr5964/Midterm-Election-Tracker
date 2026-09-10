@@ -1145,14 +1145,8 @@
           "firstElected": 1996
         },
         "candidates": [
-          { "name": "Jack Reed", "party": "D", "status": "primary-tbd" },
-          { "name": "Connor Burbridge", "party": "D", "status": "primary-tbd" },
-          {
-            "name": "Luis Daniel Munoz",
-            "party": "D",
-            "status": "primary-tbd"
-          },
-          { "name": "Raymond McKay", "party": "R", "status": "primary-tbd" }
+          { "name": "Jack Reed", "party": "D", "status": "nominee" },
+          { "name": "Raymond McKay", "party": "R", "status": "nominee" }
         ]
       }
     },
