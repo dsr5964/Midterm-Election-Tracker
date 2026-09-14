@@ -66,14 +66,14 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "likely-r",
           "lean-r",
           "lean-r",
+          "lean-r",
           "tossup",
           "tossup",
           "tossup",
           "tossup",
-          "tossup"
+          "likely-d"
         ],
         "pvi": "R+6",
         "primaryDate": "2026-08-18",
@@ -465,12 +465,12 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "tilt-d",
           "lean-d",
+          "tilt-d",
           "lean-d",
           "tossup",
           "lean-d",
-          "likely-d",
+          "lean-d",
           "lean-d"
         ],
         "pvi": "R+6",
@@ -634,13 +634,13 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
+          "lean-d",
           "tilt-d",
-          "lean-d",
           "likely-d",
           "lean-d",
           "lean-d",
-          "likely-d",
-          "lean-d"
+          "lean-d",
+          "likely-d"
         ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-04",
@@ -952,12 +952,11 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "likely-d",
           "lean-d",
           "likely-d",
+          "lean-d",
           "lean-d",
           "safe-d",
-          "likely-d",
           "likely-d",
           "likely-d"
         ],
@@ -993,7 +992,7 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "likely-d"
+          "safe-d"
         ],
         "pvi": "R+1",
         "primaryDate": "2026-05-19",
@@ -1039,18 +1038,16 @@
         "incumbent": {
           "name": "Dan McKee",
           "party": "D",
-          "note": "Receiving a primary challenge; very unpopular. Became governor after Gina Raimondo resigned to become Secretary of Commerce in 2021.",
+          "note": "Became governor after Gina Raimondo resigned to become Secretary of Commerce in 2021. Lost renomination to democrat challenger Helena Foulkes",
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Dan McKee", "party": "D", "status": "primary-tbd" },
           {
             "name": "Helena Foulkes",
             "party": "D",
-            "status": "primary-tbd",
-            "note": "Former CVS executive"
+            "status": "nominee",
+            "note": "Former CVS executive. Beat incumbent governor Dan McKee."
           },
-          { "name": "Robert Raimondo", "party": "R", "status": "primary-tbd" },
           { "name": "Elaine Pelino", "party": "R", "status": "primary-tbd" },
           { "name": "Aaron Guckian", "party": "R", "status": "primary-tbd" },
           { "name": "Ken Block", "party": "I", "status": "nominee" }

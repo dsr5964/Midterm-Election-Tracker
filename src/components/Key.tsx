@@ -6,7 +6,142 @@ import {
 } from "../utils/parseString";
 import "../App.css";
 
-function Key() {
+type KeyProps = {
+  toggleIncumbents: boolean;
+};
+
+function renderMatchupKey() {
+  return (
+    <>
+      {Object.entries(ratingByParty).map(([party, ratingsConfig]) => (
+        <div>
+          {party}
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-around",
+              alignContent: "space-between",
+              width: "24rem",
+            }}
+          >
+            {ratingsConfig.map((ratingConfig) => (
+              <div>
+                {parsePartyRatingString(ratingConfig.rating)}
+                <div
+                  style={{
+                    width: "40px",
+                    aspectRatio: 1,
+                    backgroundColor: ratingConfig.color,
+                  }}
+                ></div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+      {firstCharStringUppercase(tossupConfig.rating)}
+      <div
+        style={{
+          width: "40px",
+          aspectRatio: 1,
+          backgroundColor: tossupConfig.color,
+        }}
+      ></div>
+      <div>
+        Pickups
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+            width: "200px",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            Democrat
+            <div className="democrat-striped-square"></div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            Republican
+            <div className="republican-striped-square"></div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function renderIncumbentKey() {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "18rem",
+      }}
+    >
+      <div>Democratic Incumbent</div>
+      <div
+        style={{
+          width: "40px",
+          aspectRatio: 1,
+          backgroundColor: "#92c5de",
+        }}
+      ></div>
+      Democratic incumbent retiring
+      <div
+        style={{
+          width: "40px",
+          aspectRatio: 1,
+          backgroundColor: "rgb(6, 113, 176)",
+        }}
+      ></div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        Republican Incumbent
+        <div
+          style={{
+            width: "40px",
+            aspectRatio: 1,
+            backgroundColor: "rgb(244, 136, 130)",
+          }}
+        ></div>
+        Republican Incumbent retiring
+        <div
+          style={{
+            width: "40px",
+            aspectRatio: 1,
+            backgroundColor: "rgb(202, 0, 32)",
+          }}
+        ></div>
+      </div>
+    </div>
+  );
+}
+
+function Key({ toggleIncumbents }: KeyProps) {
   return (
     <CCard
       style={{
@@ -37,74 +172,7 @@ function Key() {
               alignItems: "center",
             }}
           >
-            {Object.entries(ratingByParty).map(([party, ratingsConfig]) => (
-              <div>
-                {party}
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-around",
-                    alignContent: "space-between",
-                    width: "24rem",
-                  }}
-                >
-                  {ratingsConfig.map((ratingConfig) => (
-                    <div>
-                      {parsePartyRatingString(ratingConfig.rating)}
-                      <div
-                        style={{
-                          width: "40px",
-                          aspectRatio: 1,
-                          backgroundColor: ratingConfig.color,
-                        }}
-                      ></div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-            {firstCharStringUppercase(tossupConfig.rating)}
-            <div
-              style={{
-                width: "40px",
-                aspectRatio: 1,
-                backgroundColor: tossupConfig.color,
-              }}
-            ></div>
-            <div>
-              Pickups
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-around",
-                  alignItems: "center",
-                  width: "200px",
-                }}
-              >
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  Democrat
-                  <div className="democrat-striped-square"></div>
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  Republican
-                  <div className="republican-striped-square"></div>
-                </div>
-              </div>
-            </div>
+            {toggleIncumbents ? renderIncumbentKey() : renderMatchupKey()}
           </div>
         </CCardBody>
       </CCardBody>
