@@ -8,6 +8,7 @@ import "../App.css";
 
 type KeyProps = {
   toggleIncumbents: boolean;
+  mapTitle: string;
 };
 
 function renderMatchupKey() {
@@ -85,7 +86,7 @@ function renderMatchupKey() {
   );
 }
 
-function renderIncumbentKey() {
+function renderIncumbentKey(mapTitle: string) {
   return (
     <div
       style={{
@@ -128,7 +129,8 @@ function renderIncumbentKey() {
             backgroundColor: "rgb(244, 136, 130)",
           }}
         ></div>
-        Republican Incumbent retiring
+        Republican Incumbent retiring{" "}
+        {mapTitle === "Governor" ? "or lost renomination" : ""}
         <div
           style={{
             width: "40px",
@@ -141,7 +143,7 @@ function renderIncumbentKey() {
   );
 }
 
-function Key({ toggleIncumbents }: KeyProps) {
+function Key({ toggleIncumbents, mapTitle }: KeyProps) {
   return (
     <CCard
       style={{
@@ -172,7 +174,9 @@ function Key({ toggleIncumbents }: KeyProps) {
               alignItems: "center",
             }}
           >
-            {toggleIncumbents ? renderIncumbentKey() : renderMatchupKey()}
+            {toggleIncumbents
+              ? renderIncumbentKey(mapTitle)
+              : renderMatchupKey()}
           </div>
         </CCardBody>
       </CCardBody>
