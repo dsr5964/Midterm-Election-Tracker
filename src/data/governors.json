@@ -1048,8 +1048,7 @@
             "status": "nominee",
             "note": "Former CVS executive. Beat incumbent governor Dan McKee."
           },
-          { "name": "Elaine Pelino", "party": "R", "status": "primary-tbd" },
-          { "name": "Aaron Guckian", "party": "R", "status": "primary-tbd" },
+          { "name": "Aaron Guckian", "party": "R", "status": "nominee" },
           { "name": "Ken Block", "party": "I", "status": "nominee" }
         ],
         "note": "Open seat — McKee not seeking re-election. Reliably blue state."
