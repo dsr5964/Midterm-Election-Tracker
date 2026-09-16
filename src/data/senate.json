@@ -218,11 +218,9 @@
           "firstElected": 2010
         },
         "candidates": [
-          { "name": "Chris Coons", "party": "D", "status": "primary-tbd" },
-          { "name": "Michael Katz", "party": "R", "status": "primary-tbd" },
-          { "name": "John Shulli", "party": "R", "status": "primary-tbd" }
-        ],
-        "note": "Reliably Democratic state."
+          { "name": "Chris Coons", "party": "D", "status": "nominee" },
+          { "name": "Michael Katz", "party": "R", "status": "nominee" }
+        ]
       }
     },
 
