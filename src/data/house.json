@@ -21,15 +21,6 @@
       "name": "Alaska",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "likely-r",
-          "likely-r",
-          "likely-r",
-          "likely-r",
-          "likely-r",
-          "lean-r",
-          "safe-r"
-        ],
         "primaryDate": "2026-08-18",
         "districts": [
           {
@@ -39,7 +30,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": "likely-r",
+              "ratings": [
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -74,7 +76,6 @@
       "name": "Alabama",
       "race": {
         "mustWatch": false,
-        "ratings": "likely-r",
         "primaryDate": "2026-05-19",
         "specialPrimaryDate": "2026-08-11",
         "districts": [
@@ -114,10 +115,14 @@
               "ratings": [
                 "likely-r",
                 "likely-r",
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
                 "likely-r",
                 "tossup",
+                "likely-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -371,7 +376,6 @@
       "name": "Arizona",
       "race": {
         "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-07-21",
         "districts": [
           {
@@ -384,11 +388,13 @@
                 "note": "Retiring to run for governor."
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "likely-d",
+                "likely-d",
                 "lean-d",
-                "tossup",
-                "tossup",
-                "tossup",
-                "tossup",
                 "likely-d",
                 "lean-d",
                 "lean-d"
@@ -418,8 +424,11 @@
                 "likely-r",
                 "likely-r",
                 "likely-r",
-                "likely-r",
                 "lean-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -500,12 +509,15 @@
                 "note": "Retiring to run for governor."
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "lean-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -529,11 +541,14 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "lean-d",
                 "tossup",
                 "tossup",
                 "tossup",
                 "tilt-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
                 "lean-d",
                 "lean-d"
               ],
@@ -579,13 +594,16 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
+                "safe-r",
                 "likely-r",
                 "likely-r",
-                "safe-r"
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -630,7 +648,6 @@
       "name": "California",
       "race": {
         "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-06-02",
         "districts": [
           {
@@ -644,8 +661,11 @@
                 "safe-d",
                 "safe-d",
                 "safe-d",
-                "safe-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "safe-d",
                 "safe-d"
               ],
@@ -759,9 +779,12 @@
               "ratings": [
                 "safe-d",
                 "lean-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
                 "safe-d",
-                "likely-d",
-                "likely-d",
+                "safe-d",
                 "safe-d",
                 "safe-d"
               ],
@@ -917,12 +940,16 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "likely-d",
+                "lean-d",
                 "tilt-d",
                 "lean-d",
                 "lean-d",
-                "lean-d",
-                "likely-d"
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d"
               ],
               "mustWatch": false,
               "candidates": [
@@ -1095,9 +1122,13 @@
               },
               "ratings": [
                 "likely-d",
-                "likely-d",
                 "safe-d",
                 "likely-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
                 "likely-d",
                 "safe-d"
               ],
@@ -1123,12 +1154,16 @@
                 "note": "David Valadao was first elected in 2012 lost in 2018 but got reelected in 2020."
               },
               "ratings": [
-                "lean-d",
-                "tilt-r",
                 "tossup",
+                "tilt-r",
                 "lean-d",
                 "lean-d",
-                "lean-d"
+                "likely-d",
+                "lean-d",
+                "lean-d",
+                "likely-d",
+                "tossup",
+                "likely-d"
               ],
               "mustWatch": true,
               "candidates": [
@@ -1193,12 +1228,15 @@
                 "firstElected": 2012
               },
               "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "likely-d",
                 "safe-d",
                 "safe-d",
-                "safe-d",
-                "safe-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
                 "safe-d"
               ],
               "mustWatch": false,
@@ -1626,10 +1664,14 @@
               "ratings": [
                 "likely-d",
                 "lean-d",
-                "likely-d",
                 "lean-d",
                 "likely-d",
-                "likely-d"
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "lean-d",
+                "safe-d"
               ],
               "mustWatch": false,
               "candidates": [
@@ -1696,11 +1738,15 @@
                 "note": "Darrell Isssa was first elected in 2000 and retired in 2018 but got reelected in 2020."
               },
               "ratings": [
+                "lean-d",
+                "tilt-d",
+                "lean-d",
+                "tilt-d",
                 "likely-d",
-                "tilt-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
                 "lean-d",
-                "lean-d",
-                "tilt-d",
                 "likely-d"
               ],
               "mustWatch": false,
@@ -1724,14 +1770,7 @@
                 "party": "D",
                 "firstElected": 2018
               },
-              "ratings": [
-                "likely-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d"
-              ],
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -1871,12 +1910,16 @@
                 "firstElected": 2024
               },
               "ratings": [
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "lean-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
-                "lean-r"
+                "lean-r",
+                "lean-r",
+                "tossup",
+                "lean-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -1899,11 +1942,15 @@
                 "firstElected": 2020
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "lean-r",
+                "tilt-r",
+                "tossup",
+                "tossup",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -1928,11 +1975,15 @@
               },
               "ratings": [
                 "likely-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
+                "tilt-r",
+                "lean-r",
                 "lean-r",
                 "likely-r",
-                "tilt-r",
-                "likely-r"
+                "tossup",
+                "likely-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -1997,12 +2048,16 @@
                 "firstElected": 2024
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
                 "lean-d",
-                "tossup",
-                "tossup",
-                "tossup",
-                "tossup",
-                "tossup"
+                "lean-d",
+                "lean-d",
+                "likely-d",
+                "lean-d",
+                "likely-d"
               ],
               "mustWatch": true,
               "candidates": [
@@ -2026,7 +2081,6 @@
       "name": "Connecticut",
       "race": {
         "mustWatch": false,
-        "ratings": "likely-d",
         "primaryDate": "2026-08-11",
         "districts": [
           {
@@ -2121,11 +2175,15 @@
                 "firstElected": 2018
               },
               "ratings": [
-                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "safe-d",
                 "safe-d",
                 "safe-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
                 "safe-d"
               ],
               "mustWatch": false,
@@ -2149,7 +2207,6 @@
     "DE": {
       "name": "Delaware",
       "race": {
-        "mustWatch": false,
         "ratings": ["safe-d"],
         "primaryDate": "2026-09-15",
         "districts": [
@@ -2183,7 +2240,6 @@
       "name": "Florida",
       "race": {
         "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-08-18",
         "districts": [
           {
@@ -2216,11 +2272,15 @@
                 "retiring": true
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
+                "lean-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -2243,14 +2303,7 @@
                 "party": "R",
                 "firstElected": 2020
               },
-              "ratings": [
-                "likely-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r"
-              ],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -2272,11 +2325,15 @@
                 "firstElected": 2022
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -2299,7 +2356,18 @@
                 "party": "R",
                 "firstElected": 2016
               },
-              "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -2343,12 +2411,16 @@
                 "note": "Incumbent lost renomination. This is due to personal sexual assault scandal."
               },
               "ratings": [
-                "lean-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
                 "tilt-r",
-                "likely-d"
+                "lean-d",
+                "lean-r",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "tossup"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2371,11 +2443,14 @@
                 "firstElected": 2024
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
                 "safe-r",
                 "likely-r"
               ],
@@ -2400,11 +2475,15 @@
                 "firstElected": 2016
               },
               "ratings": [
-                "lean-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
                 "tossup",
+                "tossup",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
                 "tossup"
               ],
               "mustWatch": true,
@@ -2445,12 +2524,16 @@
                 "retiring": true
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
                 "lean-r",
-                "lean-r"
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2473,11 +2556,15 @@
                 "firstElected": 2006
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
                 "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -2500,7 +2587,18 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["likely-r"],
+              "ratings": [
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
+                "lean-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -2522,12 +2620,16 @@
                 "firstElected": 2006
               },
               "ratings": [
-                "lean-d",
                 "tossup",
+                "tilt-r",
+                "tossup",
+                "lean-d",
+                "likely-d",
+                "lean-d",
+                "lean-d",
+                "lean-d",
                 "lean-r",
-                "tossup",
-                "lean-d",
-                "safe-d"
+                "likely-d"
               ],
               "mustWatch": true,
               "candidates": [
@@ -2550,12 +2652,16 @@
                 "firstElected": 2022
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r"
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2578,12 +2684,16 @@
                 "firstElected": 2006
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
                 "tilt-r",
-                "lean-r"
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2627,10 +2737,14 @@
                 "firstElected": 2020
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
+                "likely-r",
+                "lean-r",
                 "likely-r",
                 "likely-r"
               ],
@@ -2700,12 +2814,16 @@
                 "firstElected": 2016
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
-                "likely-r",
-                "likely-r"
+                "safe-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2730,13 +2848,17 @@
               },
               "ratings": [
                 "lean-r",
-                "lean-r",
                 "tilt-r",
                 "lean-r",
                 "tossup",
-                "tossup"
+                "tossup",
+                "lean-r",
+                "lean-r",
+                "tossup",
+                "lean-r",
+                "lean-d"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Pia Dandiya",
@@ -2806,8 +2928,12 @@
                 "tossup",
                 "tossup",
                 "tossup",
-                "tilt-d",
-                "lean-d"
+                "lean-d",
+                "lean-d",
+                "tossup",
+                "lean-d",
+                "tossup",
+                "likely-d"
               ],
               "mustWatch": true,
               "candidates": [
@@ -2830,12 +2956,16 @@
                 "firstElected": 2002
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r"
+                "safe-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2863,7 +2993,11 @@
                 "likely-r",
                 "likely-r",
                 "likely-r",
-                "safe-r"
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2885,14 +3019,7 @@
                 "party": "R",
                 "firstElected": 2020
               },
-              "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
-                "safe-r"
-              ],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -2924,10 +3051,20 @@
                 "name": "Buddy Carter",
                 "party": "R",
                 "firstElected": 2014,
-                "retiring": true,
-                "note": "Retiring to run for US Senate."
+                "retiring": true
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -3162,7 +3299,18 @@
                 "party": "R",
                 "firstElected": 2014
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -3206,7 +3354,18 @@
                 "party": "R",
                 "firstElected": 2026
               },
-              "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -3228,7 +3387,6 @@
     "HI": {
       "name": "Hawaii",
       "race": {
-        "mustWatch": false,
         "ratings": ["safe-d"],
         "primaryDate": "2026-08-08",
         "districts": [
@@ -3282,7 +3440,6 @@
     "ID": {
       "name": "Idaho",
       "race": {
-        "mustWatch": false,
         "ratings": ["safe-r"],
         "primaryDate": "2026-05-19",
         "districts": [
@@ -3336,8 +3493,6 @@
     "IL": {
       "name": "Illinois",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-r"],
         "primaryDate": "2026-03-17",
         "districts": [
           {
@@ -3456,7 +3611,18 @@
                 "party": "D",
                 "firstElected": 2018
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+              "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -3502,7 +3668,7 @@
                 "retiring": true,
                 "note": "Retiring to run for US Senate."
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "note": "Raja Krishnamoorthi is current incumbent.",
               "candidates": [
@@ -3631,7 +3797,18 @@
                 "party": "D",
                 "firstElected": 2018
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+              "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -3694,7 +3871,18 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "likely-d"],
+              "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -3717,7 +3905,6 @@
       "name": "Indiana",
       "race": {
         "mustWatch": false,
-        "ratings": "likely-d",
         "primaryDate": "2026-05-05",
         "districts": [
           {
@@ -3732,6 +3919,10 @@
                 "likely-d",
                 "likely-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "likely-d",
                 "safe-d"
               ],
@@ -3819,10 +4010,14 @@
                 "firstElected": 2020
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
                 "safe-r",
                 "likely-r"
               ],
@@ -3931,8 +4126,6 @@
     "IA": {
       "name": "Iowa",
       "race": {
-        "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-06-02",
         "districts": [
           {
@@ -3943,10 +4136,14 @@
                 "firstElected": 2020
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "likely-d",
                 "lean-d",
-                "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
+                "lean-d",
                 "tossup",
                 "lean-d"
               ],
@@ -3981,11 +4178,15 @@
                 "lean-r",
                 "lean-r",
                 "tossup",
+                "tossup",
+                "lean-d",
+                "tossup",
                 "lean-r",
+                "tossup",
                 "lean-r",
                 "tossup"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "note": "Ashley Hinson is current incumbent running for Senate.",
               "candidates": [
                 {
@@ -4007,11 +4208,14 @@
                 "firstElected": 2022
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
                 "lean-d",
+                "lean-d",
+                "lean-d",
+                "likely-d",
                 "tossup",
-                "tossup",
-                "tossup",
-                "tilt-d",
                 "likely-d"
               ],
               "mustWatch": true,
@@ -4059,8 +4263,6 @@
     "KS": {
       "name": "Kansas",
       "race": {
-        "mustWatch": false,
-        "ratings": "likely-d",
         "primaryDate": "2026-08-04",
         "districts": [
           {
@@ -4091,7 +4293,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -4112,7 +4325,18 @@
                 "party": "D",
                 "firstElected": 2018
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "likely-d"],
+              "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -4155,8 +4379,6 @@
     "KY": {
       "name": "Kentucky",
       "race": {
-        "mustWatch": false,
-        "ratings": "likely-r",
         "primaryDate": "2026-05-19",
         "districts": [
           {
@@ -4278,8 +4500,13 @@
                 "likely-r",
                 "likely-r",
                 "likely-r",
+                "tilt-r",
+                "lean-r",
+                "lean-r",
                 "likely-r",
-                "lean-r"
+                "likely-r",
+                "likely-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "note": "Andy Barr is current incumbent running for Senate.",
@@ -4554,8 +4781,12 @@
                 "safe-d",
                 "safe-d",
                 "safe-d",
-                "safe-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "safe-d"
               ],
               "mustWatch": false,
@@ -4580,10 +4811,14 @@
                 "retiring": true
               },
               "ratings": [
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "tilt-r",
+                "tossup",
+                "tossup",
                 "lean-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
+                "tossup",
                 "lean-r",
                 "lean-r"
               ],
@@ -4608,8 +4843,6 @@
     "MD": {
       "name": "Maryland",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-d"],
         "primaryDate": "2026-06-23",
         "districts": [
           {
@@ -4619,7 +4852,7 @@
                 "party": "R",
                 "firstElected": 2010
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -4725,7 +4958,18 @@
                 "party": "D",
                 "firstElected": 2024
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "likely-d"],
+              "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -4998,9 +5242,12 @@
                 "safe-r",
                 "safe-r",
                 "safe-r",
+                "likely-r",
+                "likely-r",
                 "safe-r",
-                "likely-r",
-                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -5046,8 +5293,10 @@
               },
               "ratings": [
                 "safe-d",
-                "safe-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "safe-d",
                 "safe-d",
                 "safe-d",
@@ -5077,14 +5326,17 @@
               "ratings": [
                 "lean-r",
                 "lean-r",
-                "lean-r",
-                "lean-r",
+                "tossup",
+                "tossup",
+                "tossup",
                 "tossup",
                 "lean-r",
                 "lean-r",
+                "lean-d",
+                "lean-r",
                 "tossup"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Sean McCann",
@@ -5147,12 +5399,15 @@
                 "firstElected": 2022
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
                 "lean-d",
+                "likely-d",
                 "tossup",
-                "tossup",
-                "tossup",
-                "tossup",
-                "lean-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -5177,12 +5432,15 @@
               },
               "ratings": [
                 "likely-d",
+                "safe-d",
+                "likely-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
                 "likely-d",
                 "safe-d",
                 "likely-d",
-                "lean-d",
-                "safe-d",
-                "likely-d"
+                "safe-d"
               ],
               "mustWatch": false,
               "candidates": [
@@ -5229,15 +5487,17 @@
               },
               "ratings": [
                 "tossup",
-                "tossup",
                 "tilt-r",
                 "tossup",
                 "tossup",
-                "likely-d",
-                "tilt-d",
+                "lean-d",
+                "lean-d",
+                "tossup",
+                "lean-d",
+                "tossup",
                 "lean-d"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Christina Hines",
@@ -5324,7 +5584,6 @@
     "MN": {
       "name": "Minnesota",
       "race": {
-        "mustWatch": false,
         "primaryDate": "2026-08-11",
         "districts": [
           {
@@ -5337,9 +5596,14 @@
               "ratings": [
                 "likely-r",
                 "likely-r",
+                "likely-r",
+                "lean-r",
+                "lean-r",
                 "safe-r",
                 "likely-r",
-                "likely-r"
+                "likely-r",
+                "likely-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -5363,7 +5627,18 @@
                 "retiring": true,
                 "note": "Retiring to run for US Senate."
               },
-              "ratings": ["likely-d"],
+              "ratings": [
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5447,7 +5722,7 @@
                 "party": "R",
                 "firstElected": 2014
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5489,7 +5764,18 @@
                 "party": "R",
                 "firstElected": 2018
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5511,8 +5797,6 @@
     "MS": {
       "name": "Mississippi",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-r"],
         "primaryDate": "2026-03-10",
         "runoffPrimary": "2026-04-07",
         "districts": [
@@ -5608,8 +5892,6 @@
     "MO": {
       "name": "Missouri",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-r"],
         "primaryDate": "2026-08-04",
         "districts": [
           {
@@ -5640,8 +5922,19 @@
                 "party": "R",
                 "firstElected": 2012
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
-              "mustWatch": false,
+              "ratings": [
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "lean-r",
+                "tossup",
+                "lean-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
+                "likely-r"
+              ],
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Fred Wellman",
@@ -5661,7 +5954,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5682,7 +5986,7 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "tilt-r"],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5703,7 +6007,7 @@
                 "party": "D",
                 "firstElected": 2004
               },
-              "ratings": ["safe-r"],
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5789,8 +6093,6 @@
     "MT": {
       "name": "Montana",
       "race": {
-        "mustWatch": false,
-        "ratings": "likely-r",
         "primaryDate": "2026-06-02",
         "districts": [
           {
@@ -5802,13 +6104,18 @@
                 "retiring": true
               },
               "ratings": [
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "tilt-r",
+                "tossup",
                 "lean-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
-                "tilt-r"
+                "lean-r",
+                "lean-r",
+                "lean-r",
+                "lean-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Sam Forstag",
@@ -5860,7 +6167,18 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5882,7 +6200,17 @@
                 "firstElected": 2016,
                 "retiring": true
               },
-              "ratings": ["likely-d", "lean-d", "tilt-d", "lean-d", "lean-d"],
+              "ratings": [
+                "lean-d",
+                "lean-d",
+                "tilt-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "lean-d",
+                "safe-d"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -5925,15 +6253,6 @@
     "NV": {
       "name": "Nevada",
       "race": {
-        "mustWatch": false,
-        "ratings": [
-          "likely-d",
-          "likely-d",
-          "lean-d",
-          "likely-d",
-          "lean-d",
-          "likely-d"
-        ],
         "primaryDate": "2026-06-09",
         "districts": [
           {
@@ -5944,7 +6263,18 @@
                 "firstElected": 2008,
                 "note": "First elected in 2008, lost in 2010, and got reelected in 2012."
               },
-              "ratings": "likely-d",
+              "ratings": [
+                "likely-d",
+                "lean-d",
+                "likely-d",
+                "lean-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -5967,11 +6297,15 @@
                 "retiring": true
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "likely-r",
-                "safe-r",
                 "likely-r",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "lean-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -5999,8 +6333,12 @@
                 "lean-d",
                 "lean-d",
                 "lean-d",
-                "lean-d",
-                "safe-d"
+                "safe-d",
+                "likely-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "likely-d"
               ],
               "mustWatch": false,
               "candidates": [
@@ -6028,6 +6366,10 @@
                 "likely-d",
                 "likely-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
                 "likely-d",
                 "safe-d"
               ],
@@ -6067,10 +6409,15 @@
               },
               "ratings": [
                 "likely-d",
+                "lean-d",
+                "lean-d",
+                "lean-d",
+                "lean-d",
+                "safe-d",
                 "likely-d",
-                "lean-d",
-                "lean-d",
-                "likely-d"
+                "safe-d",
+                "likely-d",
+                "safe-d"
               ],
               "mustWatch": false,
               "note": "Chris Pappas running for Senate.",
@@ -6094,10 +6441,15 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "likely-d",
                 "safe-d",
                 "likely-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
                 "safe-d"
               ],
               "mustWatch": false,
@@ -6121,8 +6473,6 @@
     "NJ": {
       "name": "New Jersey",
       "race": {
-        "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-06-02",
         "districts": [
           {
@@ -6154,10 +6504,14 @@
                 "firstElected": 2018
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
                 "likely-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "likely-r"
               ],
@@ -6223,14 +6577,7 @@
                 "party": "D",
                 "firstElected": 2016
               },
-              "ratings": [
-                "likely-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d"
-              ],
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6273,11 +6620,15 @@
                 "firstElected": 2022
               },
               "ratings": [
+                "tossup",
+                "tilt-d",
                 "lean-d",
-                "tossup",
-                "tilt-d",
-                "tossup",
-                "tilt-d",
+                "lean-d",
+                "lean-d",
+                "lean-d",
+                "lean-d",
+                "likely-d",
+                "lean-d",
                 "likely-d"
               ],
               "mustWatch": true,
@@ -6319,13 +6670,17 @@
               "incumbent": {
                 "name": "Nellie Pou",
                 "party": "D",
-                "firstElected": 2026
+                "firstElected": 2024
               },
               "ratings": [
                 "likely-d",
                 "likely-d",
                 "likely-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
                 "likely-d",
                 "safe-d"
               ],
@@ -6415,8 +6770,6 @@
     "NM": {
       "name": "New Mexico",
       "race": {
-        "mustWatch": false,
-        "ratings": "lean-d",
         "primaryDate": "2026-06-02",
         "districts": [
           {
@@ -6447,7 +6800,18 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": ["likely-d", "lean-d", "tilt-d", "lean-d", "likely-d"],
+              "ratings": [
+                "lean-d",
+                "tilt-d",
+                "lean-d",
+                "lean-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6468,7 +6832,18 @@
                 "party": "D",
                 "firstElected": 2020
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "likely-d"],
+              "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6490,8 +6865,6 @@
     "NY": {
       "name": "New York",
       "race": {
-        "mustWatch": true,
-        "ratings": "tilt-r",
         "primaryDate": "2026-06-23",
         "districts": [
           {
@@ -6501,7 +6874,18 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["lean-r", "safe-r", "safe-r", "likely-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6522,7 +6906,18 @@
                 "party": "R",
                 "firstElected": 2020
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6543,7 +6938,18 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": ["likely-d", "lean-d", "lean-d", "lean-d", "lean-d"],
+              "ratings": [
+                "lean-d",
+                "lean-d",
+                "lean-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "lean-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6564,7 +6970,18 @@
                 "party": "D",
                 "firstElected": 2024
               },
-              "ratings": ["likely-d", "lean-d", "tilt-d", "lean-d", "lean-d"],
+              "ratings": [
+                "lean-d",
+                "tilt-d",
+                "lean-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6841,7 +7258,18 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["tossup"],
+              "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-d",
+                "lean-d",
+                "tossup",
+                "likely-d",
+                "lean-d",
+                "lean-d"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -6885,10 +7313,15 @@
               },
               "ratings": [
                 "likely-d",
-                "likely-d",
                 "lean-d",
                 "likely-d",
-                "likely-d"
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d"
               ],
               "mustWatch": false,
               "candidates": [
@@ -6932,7 +7365,18 @@
                 "firstElected": 2014,
                 "retiring": true
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "tossup"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "tilt-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6953,7 +7397,7 @@
                 "party": "D",
                 "firstElected": 2024
               },
-              "ratings": ["likely-d", "safe-d", "safe-d", "safe-d", "safe-d"],
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6974,7 +7418,7 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7060,8 +7504,6 @@
     "NC": {
       "name": "North Carolina",
       "race": {
-        "mustWatch": false,
-        "ratings": ["tossup", "lean-r", "lean-r", "tossup", "tossup"],
         "primaryDate": "2026-03-03",
         "runoffPrimary": "2026-05-12",
         "districts": [
@@ -7072,8 +7514,19 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": "lean-r",
-              "mustWatch": false,
+              "ratings": [
+                "lean-r",
+                "lean-r",
+                "tossup",
+                "tilt-d",
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-d",
+                "tossup",
+                "lean-d"
+              ],
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Don Davis",
@@ -7114,7 +7567,18 @@
                 "party": "R",
                 "firstElected": 2019
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7156,7 +7620,17 @@
                 "party": "R",
                 "firstElected": 2004
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7177,7 +7651,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "lean-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7198,7 +7683,18 @@
                 "party": "R",
                 "firstElected": 2014
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7219,7 +7715,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7240,7 +7747,18 @@
                 "party": "R",
                 "firstElected": 2012
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "lean-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7261,7 +7779,17 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7283,7 +7811,18 @@
                 "firstElected": 2022,
                 "note": "Chuck Edwards dropped his reelection campaign due to scandal."
               },
-              "ratings": ["lean-r", "lean-r", "lean-r", "tossup", "tossup"],
+              "ratings": [
+                "lean-r",
+                "lean-r",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-r",
+                "tossup",
+                "tossup",
+                "tossup"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -7326,7 +7865,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7347,7 +7897,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7402,8 +7963,6 @@
     "OH": {
       "name": "Ohio",
       "race": {
-        "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-05-05",
         "districts": [
           {
@@ -7413,7 +7972,18 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": ["lean-d", "lean-d", "tilt-d", "lean-d", "likely-d"],
+              "ratings": [
+                "lean-d",
+                "tilt-d",
+                "lean-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "lean-d",
+                "likely-d",
+                "lean-d",
+                "likely-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7540,7 +8110,18 @@
                 "firstElected": 2020,
                 "note": "Max Miller is under scrutiny due to personal scandal, with some Republicans calling on him to resign."
               },
-              "ratings": ["tossup", "tossup", "tossup", "tilt-d", "tossup"],
+              "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-d",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -7561,7 +8142,18 @@
                 "party": "R",
                 "firstElected": 2016
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7582,7 +8174,18 @@
                 "party": "D",
                 "firstElected": 1982
               },
-              "ratings": ["lean-d", "tossup", "tilt-r", "tossup", "lean-d"],
+              "ratings": [
+                "tossup",
+                "tilt-r",
+                "tossup",
+                "tilt-d",
+                "lean-d",
+                "likely-d",
+                "lean-d",
+                "lean-d",
+                "tossup",
+                "lean-d"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -7605,9 +8208,14 @@
               },
               "ratings": [
                 "likely-r",
+                "safe-r",
                 "likely-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -7674,10 +8282,14 @@
               },
               "ratings": [
                 "likely-d",
+                "safe-d",
+                "likely-d",
                 "likely-d",
                 "safe-d",
                 "likely-d",
-                "likely-d"
+                "safe-d",
+                "likely-d",
+                "safe-d"
               ],
               "mustWatch": false,
               "candidates": [
@@ -7722,11 +8334,15 @@
               },
               "ratings": [
                 "likely-r",
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "lean-r"
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -7749,8 +8365,6 @@
     "OK": {
       "name": "Oklahoma",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-r"],
         "primaryDate": "2026-06-16",
         "districts": [
           {
@@ -7762,7 +8376,18 @@
                 "retiring": true,
                 "note": "Retiring to run for US Senate."
               },
-              "ratings": ["safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7846,7 +8471,18 @@
                 "party": "R",
                 "firstElected": 2020
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7868,8 +8504,6 @@
     "OR": {
       "name": "Oregon",
       "race": {
-        "mustWatch": false,
-        "ratings": "likely-d",
         "primaryDate": "2026-05-19",
         "districts": [
           {
@@ -7942,7 +8576,7 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": "likely-d",
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -7963,7 +8597,18 @@
                 "party": "D",
                 "firstElected": 2024
               },
-              "ratings": ["safe-d", "safe-d", "safe-d", "likely-d", "safe-d"],
+              "ratings": [
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8006,8 +8651,6 @@
     "PA": {
       "name": "Pennsylvania",
       "race": {
-        "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-05-19",
         "districts": [
           {
@@ -8018,11 +8661,16 @@
                 "firstElected": 2016
               },
               "ratings": [
-                "lean-r",
                 "likely-r",
                 "lean-r",
                 "lean-r",
                 "tossup",
+                "tossup",
+                "tossup",
+                "lean-r",
+                "likely-d",
+                ,
+                "lean-r",
                 "tossup"
               ],
               "mustWatch": true,
@@ -8153,10 +8801,14 @@
                 "firstElected": 2024
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
                 "lean-d",
-                "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
+                "likely-d",
                 "tossup",
                 "lean-d"
               ],
@@ -8185,6 +8837,10 @@
                 "tossup",
                 "tossup",
                 "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-d",
                 "tossup",
                 "lean-d"
               ],
@@ -8230,10 +8886,14 @@
                 "firstElected": 2012
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "likely-d",
+                "likely-d",
                 "lean-d",
-                "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
                 "tossup",
                 "likely-d"
               ],
@@ -8362,14 +9022,7 @@
                 "party": "R",
                 "firstElected": 2010
               },
-              "ratings": [
-                "likely-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
-                "safe-r"
-              ],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8391,9 +9044,12 @@
                 "firstElected": 2022
               },
               "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "likely-d",
-                "safe-d",
-                "safe-d",
                 "safe-d",
                 "safe-d",
                 "safe-d"
@@ -8419,8 +9075,6 @@
     "RI": {
       "name": "Rhode Island",
       "race": {
-        "mustWatch": false,
-        "ratings": "likely-d",
         "primaryDate": "2026-09-09",
         "districts": [
           {
@@ -8451,14 +9105,7 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": [
-                "safe-d",
-                "likely-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d"
-              ],
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8497,8 +9144,13 @@
                 "likely-r",
                 "likely-r",
                 "likely-r",
+                "tilt-r",
+                "tossup",
+                "lean-r",
                 "likely-r",
-                "tilt-r"
+                "likely-r",
+                "likely-r",
+                "likely-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -8520,7 +9172,18 @@
                 "party": "R",
                 "firstElected": 2001
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8585,7 +9248,18 @@
                 "retiring": true,
                 "note": "Retiring to run for governor."
               },
-              "ratings": ["safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8649,8 +9323,6 @@
     "SD": {
       "name": "South Dakota",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-r"],
         "primaryDate": "2026-06-02",
         "districts": [
           {
@@ -8685,8 +9357,6 @@
     "TN": {
       "name": "Tennessee",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-r"],
         "primaryDate": "2026-08-06",
         "districts": [
           {
@@ -8781,7 +9451,18 @@
                 "firstElected": 2022,
                 "note": "Incumbent lost renomination."
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "lean-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8825,7 +9506,18 @@
                 "party": "R",
                 "firstElected": 2025
               },
-              "ratings": ["safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8869,7 +9561,18 @@
                 "retiring": true,
                 "note": "Retiring after redistricting."
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -8891,8 +9594,6 @@
     "TX": {
       "name": "Texas",
       "race": {
-        "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-03-03",
         "districts": [
           {
@@ -8927,8 +9628,12 @@
                 "safe-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
                 "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -9082,11 +9787,15 @@
                 "note": "Al Green was redistricted from the 9th district and lost renomination."
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -9112,11 +9821,15 @@
                 "retiring": true
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -9226,9 +9939,13 @@
               },
               "ratings": [
                 "lean-r",
-                "lean-r",
                 "tilt-r",
                 "tossup",
+                "lean-r",
+                "lean-r",
+                "tossup",
+                "lean-r",
+                "lean-r",
                 "lean-r",
                 "lean-r"
               ],
@@ -9363,6 +10080,10 @@
                 "note": "Retiring to run for Texas attorney general."
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
                 "safe-r",
@@ -9395,8 +10116,13 @@
                 "safe-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
                 "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -9424,8 +10150,12 @@
                 "likely-r",
                 "likely-r",
                 "likely-r",
-                "likely-r",
                 "tossup",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "tossup"
               ],
               "mustWatch": true,
@@ -9449,11 +10179,15 @@
                 "firstElected": 2020
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
                 "likely-r",
                 "safe-r",
                 "safe-r",
-                "safe-r",
-                "likely-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -9519,7 +10253,18 @@
                 "party": "R",
                 "firstElected": 2018
               },
-              "ratings": ["safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -9541,10 +10286,14 @@
                 "firstElected": 2004
               },
               "ratings": [
-                "likely-d",
                 "lean-d",
                 "tilt-d",
                 "lean-d",
+                "lean-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
                 "lean-d",
                 "lean-d"
               ],
@@ -9611,14 +10360,7 @@
                 "party": "R",
                 "firstElected": 2002
               },
-              "ratings": [
-                "likely-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r"
-              ],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -9641,11 +10383,15 @@
                 "note": "Redistricted from 32nd distict to 33rd district.. Lost renomination."
               },
               "ratings": [
-                "likely-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -9692,10 +10438,14 @@
                 "firstElected": 2016
               },
               "ratings": [
+                "tossup",
+                "tossup",
                 "lean-d",
                 "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
+                "likely-d",
+                "lean-d",
+                "lean-d",
                 "tossup",
                 "lean-d"
               ],
@@ -9721,11 +10471,15 @@
                 "note": "Redistricted from the 35th to the 37th district."
               },
               "ratings": [
+                "likely-r",
                 "lean-r",
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "tilt-r",
+                "tossup",
+                "tossup",
                 "lean-r",
                 "tossup",
+                "lean-r",
                 "lean-r"
               ],
               "mustWatch": false,
@@ -9795,9 +10549,13 @@
                 "note": "Running for US Senate."
               },
               "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
                 "likely-r",
-                "safe-r",
-                "safe-r",
                 "safe-r",
                 "safe-r",
                 "safe-r"
@@ -9824,7 +10582,6 @@
     "UT": {
       "name": "Utah",
       "race": {
-        "mustWatch": false,
         "primaryDate": "2026-06-23",
         "districts": [
           {
@@ -9924,8 +10681,6 @@
     "VT": {
       "name": "Vermont",
       "race": {
-        "mustWatch": false,
-        "ratings": ["safe-d"],
         "primaryDate": "2026-08-11",
         "districts": [
           {
@@ -9958,8 +10713,6 @@
     "VA": {
       "name": "Virginia",
       "race": {
-        "mustWatch": true,
-        "ratings": "tossup",
         "primaryDate": "2026-08-04",
         "districts": [
           {
@@ -9969,7 +10722,18 @@
                 "party": "R",
                 "firstElected": 2007
               },
-              "ratings": ["likely-r", "lean-r", "lean-r", "lean-r", "tossup"],
+              "ratings": [
+                "lean-r",
+                "lean-r",
+                "lean-r",
+                "tossup",
+                "tossup",
+                "tossup",
+                "likely-r",
+                "lean-d",
+                "tossup",
+                "tossup"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -9990,7 +10754,18 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["lean-d", "tossup", "tossup", "tossup", "tilt-d"],
+              "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-d",
+                "lean-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "tossup",
+                "likely-d"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -10053,7 +10828,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "likely-r", "lean-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "lean-r",
+                "likely-r",
+                "lean-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10074,7 +10860,7 @@
                 "party": "R",
                 "firstElected": 2018
               },
-              "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "likely-r"],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10095,7 +10881,18 @@
                 "party": "D",
                 "firstElected": 2024
               },
-              "ratings": ["likely-d"],
+              "ratings": [
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "safe-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10158,7 +10955,7 @@
                 "party": "D",
                 "firstElected": 2024
               },
-              "ratings": "likely-d",
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10201,7 +10998,6 @@
     "WA": {
       "name": "Washington",
       "race": {
-        "mustWatch": false,
         "primaryDate": "2026-08-04",
         "districts": [
           {
@@ -10254,10 +11050,14 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "likely-d",
                 "tossup",
                 "tossup",
                 "lean-d",
+                "lean-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
                 "lean-d",
                 "likely-d"
               ],
@@ -10282,7 +11082,18 @@
                 "firstElected": 2014,
                 "retiring": true
               },
-              "ratings": ["safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10303,7 +11114,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10367,9 +11189,13 @@
                 "firstElected": 2018
               },
               "ratings": [
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "likely-d",
-                "safe-d",
-                "safe-d",
                 "safe-d",
                 "safe-d",
                 "safe-d"
@@ -10437,7 +11263,6 @@
     "WV": {
       "name": "West Virginia",
       "race": {
-        "mustWatch": false,
         "primaryDate": "2026-05-12",
         "districts": [
           {
@@ -10490,7 +11315,6 @@
     "WI": {
       "name": "Wisconsin",
       "race": {
-        "mustWatch": true,
         "primaryDate": "2026-08-11",
         "districts": [
           {
@@ -10500,7 +11324,18 @@
                 "party": "R",
                 "firstElected": 2018
               },
-              "ratings": ["lean-r", "likely-r", "safe-r", "likely-r", "lean-r"],
+              "ratings": [
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "lean-r",
+                "tossup",
+                "likely-r",
+                "lean-r",
+                "tossup",
+                "likely-r",
+                "lean-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10537,7 +11372,18 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["lean-d", "tossup", "tossup", "tossup", "tossup"],
+              "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-d",
+                "tossup",
+                "lean-d",
+                "lean-d",
+                "tossup",
+                "lean-d"
+              ],
               "mustWatch": true,
               "candidates": [
                 {
@@ -10601,7 +11447,18 @@
                 "party": "R",
                 "firstElected": 2014
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10624,7 +11481,18 @@
                 "retiring": true,
                 "note": "Retiring to run for governor."
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10645,7 +11513,18 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -10667,7 +11546,6 @@
     "WY": {
       "name": "Wyoming",
       "race": {
-        "mustWatch": false,
         "primaryDate": "2026-08-18",
         "districts": [
           {
