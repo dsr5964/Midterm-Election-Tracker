@@ -29,7 +29,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "likely-r",
+          "lean-r",
           "safe-r",
           "safe-r",
           "likely-r",
@@ -64,16 +64,16 @@
     "AK": {
       "name": "Alaska",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
+          "tossup",
           "lean-r",
+          "tossup",
+          "tilt-d",
+          "tossup",
           "lean-r",
-          "lean-r",
-          "tossup",
-          "tossup",
-          "tossup",
-          "tossup",
-          "likely-d"
+          "lean-d",
+          "tossup"
         ],
         "pvi": "R+6",
         "primaryDate": "2026-08-18",
@@ -118,7 +118,7 @@
           "lean-d",
           "tilt-d",
           "lean-d",
-          "lean-d",
+          "likely-d",
           "lean-d",
           "lean-d",
           "likely-d",
@@ -152,7 +152,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -181,16 +181,7 @@
       "name": "California",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d"
-        ],
+        "ratings": ["safe-d"],
         "pvi": "D+12",
         "primaryDate": "2026-06-02",
         "incumbent": {
@@ -291,10 +282,10 @@
         "mustWatch": false,
         "ratings": [
           "likely-r",
-          "safe-r",
-          "likely-r",
           "lean-r",
           "likely-r",
+          "tilt-r",
+          "lean-r",
           "safe-r",
           "likely-r",
           "lean-r"
@@ -371,16 +362,7 @@
       "name": "Hawaii",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d"
-        ],
+        "ratings": ["safe-d"],
         "pvi": "D+13",
         "primaryDate": "2026-08-08",
         "incumbent": {
@@ -400,16 +382,7 @@
       "name": "Idaho",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "pvi": "R+18",
         "primaryDate": "2026-05-19",
         "incumbent": {
@@ -465,12 +438,12 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "lean-d",
           "tilt-d",
+          "lean-d",
           "lean-d",
           "tossup",
           "lean-d",
-          "lean-d",
+          "likely-d",
           "lean-d"
         ],
         "pvi": "R+6",
@@ -503,7 +476,7 @@
           "tilt-r",
           "lean-r",
           "tilt-r",
-          "lean-r",
+          "tossup",
           "lean-r",
           "tossup",
           "lean-r"
@@ -542,7 +515,7 @@
           "safe-d",
           "likely-d",
           "likely-d",
-          "likely-d",
+          "lean-d",
           "likely-d",
           "safe-d",
           "safe-d",
@@ -574,16 +547,7 @@
       "name": "Maryland",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d"
-        ],
+        "ratings": ["safe-d"],
         "pvi": "D+15",
         "primaryDate": "2026-06-23",
         "incumbent": {
@@ -603,16 +567,7 @@
       "name": "Massachusetts",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d"
-        ],
+        "ratings": ["safe-d"],
         "pvi": "D+14",
         "primaryDate": "2026-09-01",
         "incumbent": {
@@ -634,13 +589,13 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "lean-d",
           "tilt-d",
+          "lean-d",
+          "lean-d",
+          "lean-d",
+          "lean-d",
           "likely-d",
-          "lean-d",
-          "lean-d",
-          "lean-d",
-          "likely-d"
+          "lean-d"
         ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-04",
@@ -676,7 +631,7 @@
           "safe-d",
           "likely-d",
           "safe-d",
-          "safe-d",
+          "likely-d",
           "safe-d",
           "likely-d",
           "safe-d",
@@ -717,11 +672,11 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
           "likely-r",
-          "safe-r"
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "likely-r"
         ],
         "pvi": "R+10",
         "primaryDate": "2026-05-12",
@@ -751,7 +706,7 @@
           "tossup",
           "tilt-r",
           "lean-r",
-          "lean-r",
+          "tossup",
           "tossup",
           "tossup",
           "lean-r",
@@ -813,7 +768,7 @@
           "safe-d",
           "likely-d",
           "safe-d",
-          "likely-d",
+          "lean-d",
           "likely-d",
           "safe-d",
           "likely-d",
@@ -848,7 +803,7 @@
           "safe-d",
           "likely-d",
           "safe-d",
-          "likely-d",
+          "safe-d",
           "safe-d",
           "safe-d",
           "safe-d",
@@ -923,7 +878,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -950,13 +905,14 @@
     "OR": {
       "name": "Oregon",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "lean-d",
+          "lean-d",
           "likely-d",
-          "lean-d",
-          "lean-d",
+          "tossup",
           "safe-d",
+          "likely-d",
           "likely-d",
           "likely-d"
         ],
@@ -992,7 +948,7 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d"
+          "likely-d"
         ],
         "pvi": "R+1",
         "primaryDate": "2026-05-19",
@@ -1063,7 +1019,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "likely-r",
           "safe-r",
           "safe-r",
@@ -1140,7 +1096,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r"
+          "likely-r"
         ],
         "pvi": "R+14",
         "primaryDate": "2026-08-06",
@@ -1165,13 +1121,13 @@
     "TX": {
       "name": "Texas",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "likely-r",
           "likely-r",
           "likely-r",
-          "lean-r",
-          "likely-r",
+          "tilt-r",
+          "tossup",
           "likely-r",
           "likely-r",
           "likely-r"
@@ -1204,7 +1160,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "likely-r",
@@ -1264,16 +1220,7 @@
       "name": "Wyoming",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "pvi": "R+23",
         "primaryDate": "2026-08-18",
         "incumbent": {

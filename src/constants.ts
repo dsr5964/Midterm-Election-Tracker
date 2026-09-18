@@ -23,12 +23,12 @@ export const LIKELY_R_COLOR = "#FF5865";
 export const LEAN_D_COLOR = "#8AAFFF";
 export const LEAN_R_COLOR = "#FF8B98";
 export const TILT_D_COLOR = "#949BB3";
-export const TILT_R_COLOR = "#FF8B98";
+export const TILT_R_COLOR = "#CF8980";
 export const TOSSUP_COLOR = "#C9C09B";
-const SAFE_I_COLOR = "#9932CC";
-const LIKELY_I_COLOR = "#B86FDC";
-const LEAN_I_COLOR = "#D6ADEB";
-const TILT_I_COLOR = "#E8D8F2";
+// const SAFE_I_COLOR = "#9932CC";
+// const LIKELY_I_COLOR = "#B86FDC";
+// const LEAN_I_COLOR = "#D6ADEB";
+// const TILT_I_COLOR = "#E8D8F2";
 
 export const colorByRating: Record<string, string> = {
   [SAFE_D]: SAFE_D_COLOR,
