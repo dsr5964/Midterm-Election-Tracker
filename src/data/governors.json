@@ -32,7 +32,7 @@
           "lean-r",
           "safe-r",
           "safe-r",
-          "likely-r",
+          "safe-r",
           "safe-r"
         ],
         "pvi": "R+15",
@@ -279,7 +279,7 @@
     "FL": {
       "name": "Florida",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "likely-r",
           "lean-r",
@@ -513,7 +513,7 @@
         "mustWatch": false,
         "ratings": [
           "safe-d",
-          "likely-d",
+          "safe-d",
           "likely-d",
           "lean-d",
           "likely-d",
@@ -701,7 +701,7 @@
     "NV": {
       "name": "Nevada",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "tossup",
           "tilt-r",

@@ -11,6 +11,7 @@ import Card from "./Card";
 import { BackButton } from "./BackButton";
 import type {
   Candidate,
+  District,
   HouseState,
   Incumbent,
   PoliticalParty,
@@ -87,7 +88,42 @@ function getSenateGovernorState(data, stateId: string): State | undefined {
   }
 }
 
-//function getHouseState(data, stateId: string): HouseState | undefined {}
+function getStateDistricts(stateData): string[] {
+  const districts: string[] = stateData.race.districts.map((district) =>
+    Object.keys(district),
+  );
+  return districts;
+}
+function getHouseState(data, stateId: string): HouseState | undefined {
+  const individualState = allStateAbbrevs.find(
+    (state) => state.val === stateId,
+  );
+
+  if (individualState) {
+    const stateKey = individualState.id as keyof typeof data.states;
+
+    if (stateKey in data.states) {
+      const stateData = data.states[stateKey];
+      const stateName = data.states[stateKey].name;
+      const stateDistricts: string[] = getStateDistricts(stateData);
+      const districts: District[] = stateDistricts.map((districtName) => ({
+        district: districtName,
+        rating: "tossup",
+        mustWatch: false,
+        incumbent: null,
+        candidates: [],
+        flip: false,
+      }));
+      return {
+        id: stateKey,
+        abbrev: individualState.id as StateAbbr,
+        name: stateName,
+        districts: districts,
+        statePartyControl: "",
+      } as HouseState;
+    }
+  }
+}
 
 function getState(
   data,
@@ -261,6 +297,15 @@ const initState: State = {
   incumbent: undefined,
   flip: false,
 };
+
+const initHouseState: HouseState = {
+  id: "",
+  name: "",
+  abbrev: undefined,
+  districts: [],
+  statePartyControl: "",
+};
+
 const buttonNames: string[] = ["Senate", "Governor", "House"];
 
 // TODO: is it better to use the actual rating for flips or just use either the same red or blue regardless
@@ -287,7 +332,9 @@ type ElectionMapArgs = {
 
 export default function ElectionMap({ data, title }: ElectionMapArgs) {
   const navigate = useNavigate();
-  const [stateData, setStateData] = useState<State | HouseState>(initState);
+  const [stateData, setStateData] = useState<State | HouseState>(
+    initHouseState,
+  );
   const [toggleIncumbents, setToggleIncumbents] = useState<boolean>(false);
 
   const lowerTitle = title.toLowerCase();
@@ -417,7 +464,11 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
           alignItems: "center",
         }}
       >
-        <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
+        <Card
+          stateData={stateData}
+          toggleIncumbents={toggleIncumbents}
+          raceType={title.toLowerCase() as RaceType}
+        />
         {<Key toggleIncumbents={toggleIncumbents} mapTitle={title} />}
       </div>
     </div>

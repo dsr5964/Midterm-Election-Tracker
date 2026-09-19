@@ -2,12 +2,28 @@ import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
 import type { ReactNode } from "react";
 import {
   type Candidate,
+  type District,
   type HouseState,
   type Incumbent,
   type PartyGroup,
+  type RaceType,
   type State,
 } from "../types/types";
 import { PARTY_LABELS } from "../constants";
+
+function displayCongressionalDistrictsByState(houseData: HouseState) {
+  console.log(houseData);
+  const congressionalDistricts: string[] = houseData.districts.map(
+    (district: District) => district.district,
+  );
+  return (
+    <>
+      {congressionalDistricts.map((district) => (
+        <CCardText>{district}</CCardText>
+      ))}
+    </>
+  );
+}
 
 function groupCandidatesByParty(candidates: Candidate[]): PartyGroup[] {
   const partyMap = new Map<string, Candidate[]>();
@@ -72,11 +88,12 @@ function displayIncumbentData(incumbentData: Incumbent | undefined): ReactNode {
 interface CardProps {
   stateData: State | HouseState;
   toggleIncumbents: boolean;
+  raceType: RaceType;
 }
 
 // TODO: Add a badge for flips
 // TODO: Add a badge for the rating
-function Card({ stateData, toggleIncumbents }: CardProps) {
+function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
   const incumbent: Incumbent | undefined =
     "incumbent" in stateData ? stateData.incumbent! : undefined;
   const candidates: Candidate[] | undefined =
@@ -108,6 +125,11 @@ function Card({ stateData, toggleIncumbents }: CardProps) {
           >
             {stateData.name}
           </CCardTitle>
+          {raceType === "house" ? (
+            displayCongressionalDistrictsByState(stateData as HouseState)
+          ) : (
+            <></>
+          )}
           {toggleIncumbents
             ? displayIncumbentData(incumbent)
             : displayCandidateData(candidates)}

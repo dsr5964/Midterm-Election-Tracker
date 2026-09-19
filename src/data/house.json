@@ -24,7 +24,7 @@
         "primaryDate": "2026-08-18",
         "districts": [
           {
-            "AK-AL": {
+            "AK-1": {
               "incumbent": {
                 "name": "Nick Begich",
                 "party": "R",
@@ -409,7 +409,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-2": {
               "incumbent": {
                 "name": "Eli Crane",
@@ -441,7 +443,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-3": {
               "incumbent": {
                 "name": "Yassamin Ansari",
@@ -467,7 +471,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-4": {
               "incumbent": {
                 "name": "Greg Stanton",
@@ -496,7 +502,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-5": {
               "incumbent": {
                 "name": "Andy Biggs",
@@ -530,7 +538,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-6": {
               "incumbent": {
                 "name": "Juan Ciscomani",
@@ -562,7 +572,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-7": {
               "incumbent": {
                 "name": "Adelita Grijalva",
@@ -583,7 +595,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-8": {
               "incumbent": {
                 "name": "Abraham Hamadeh",
@@ -615,7 +629,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "AZ-9": {
               "incumbent": {
                 "name": "Paul Gosar",
@@ -680,7 +696,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-2": {
               "incumbent": {
                 "name": "Jared Huffman",
@@ -701,7 +719,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-3": {
               "incumbent": {
                 "name": "Ami Bera",
@@ -723,7 +743,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-4": {
               "incumbent": {
                 "name": "Mike Thompson",
@@ -744,7 +766,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-5": {
               "incumbent": {
                 "name": "Tom McClintock",
@@ -765,7 +789,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-6": {
               "incumbent": {
                 "name": "Kevin Kiley",
@@ -799,7 +825,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-7": {
               "incumbent": {
                 "name": "Doris Matsui",
@@ -821,7 +849,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-8": {
               "incumbent": {
                 "name": "John Garamendi",
@@ -842,7 +872,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-9": {
               "incumbent": {
                 "name": "Josh Harder",
@@ -863,7 +895,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-10": {
               "incumbent": {
                 "name": "Mark DeSaulnier",
@@ -884,7 +918,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-11": {
               "incumbent": {
                 "name": "Nancy Pelosi",
@@ -907,7 +943,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-12": {
               "incumbent": {
                 "name": "Lateefah Simon",
@@ -929,7 +967,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-13": {
               "incumbent": {
                 "name": "Adam Gray",
@@ -961,7 +1001,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-14": {
               "incumbent": {
                 "name": "Aisha Wahab",
@@ -984,7 +1026,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-15": {
               "incumbent": {
                 "name": "Kevin Mullin",
@@ -1005,7 +1049,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-16": {
               "incumbent": {
                 "name": "Sam Liccardo",
@@ -1026,7 +1072,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-17": {
               "incumbent": {
                 "name": "Ro Khanna",
@@ -1047,7 +1095,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-18": {
               "incumbent": {
                 "name": "Zoe Lofgren",
@@ -1068,7 +1118,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-19": {
               "incumbent": {
                 "name": "Jimmy Panetta",
@@ -1089,7 +1141,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-20": {
               "incumbent": {
                 "name": "Vince Fong",
@@ -1110,7 +1164,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-21": {
               "incumbent": {
                 "name": "Jim Costa",
@@ -1142,7 +1198,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-22": {
               "incumbent": {
                 "name": "David Valadao",
@@ -1175,7 +1233,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-23": {
               "incumbent": {
                 "name": "Jay Obernolte",
@@ -1196,7 +1256,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-24": {
               "incumbent": {
                 "name": "Salud Carbajal",
@@ -1217,7 +1279,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-25": {
               "incumbent": {
                 "name": "Raul Ruiz",
@@ -1249,7 +1313,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-26": {
               "incumbent": {
                 "name": "Julia Brownley",
@@ -1272,7 +1338,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-27": {
               "incumbent": {
                 "name": "George Whitesides",
@@ -1293,7 +1361,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-28": {
               "incumbent": {
                 "name": "Judy Chu",
@@ -1314,7 +1384,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-29": {
               "incumbent": {
                 "name": "Luz Rivas",
@@ -1335,7 +1407,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-30": {
               "incumbent": {
                 "name": "Laura Friedman",
@@ -1356,7 +1430,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-31": {
               "incumbent": {
                 "name": "Gil Cisneros",
@@ -1378,7 +1454,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-32": {
               "incumbent": {
                 "name": "Brad Sherman",
@@ -1399,7 +1477,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-33": {
               "incumbent": {
                 "name": "Pete Aguilar",
@@ -1420,7 +1500,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-34": {
               "incumbent": {
                 "name": "Jimmy Gomez",
@@ -1442,7 +1524,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-35": {
               "incumbent": {
                 "name": "Norma Torres",
@@ -1463,7 +1547,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-36": {
               "incumbent": {
                 "name": "Ted Lieu",
@@ -1484,7 +1570,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-37": {
               "incumbent": {
                 "name": "Sydney Kamlager-Dove",
@@ -1505,7 +1593,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-38": {
               "incumbent": null,
               "ratings": ["safe-d"],
@@ -1523,7 +1613,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-39": {
               "incumbent": {
                 "name": "Mark Takano",
@@ -1544,7 +1636,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-40": {
               "incumbent": {
                 "name": "Young Kim",
@@ -1566,7 +1660,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-41": {
               "incumbent": {
                 "name": "Linda Sanchez",
@@ -1588,7 +1684,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-42": {
               "incumbent": {
                 "name": "Robert Garcia",
@@ -1609,7 +1707,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-43": {
               "incumbent": {
                 "name": "Maxine Waters",
@@ -1630,7 +1730,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-44": {
               "incumbent": {
                 "name": "Nanette Barragan",
@@ -1651,7 +1753,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-45": {
               "incumbent": {
                 "name": "Derek Tran",
@@ -1683,7 +1787,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-46": {
               "incumbent": {
                 "name": "Lou Correa",
@@ -1704,7 +1810,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-47": {
               "incumbent": {
                 "name": "Dave Min",
@@ -1725,7 +1833,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-48": {
               "incumbent": {
                 "name": "Darrell Issa",
@@ -1760,7 +1870,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-49": {
               "incumbent": {
                 "name": "Mike Levin",
@@ -1781,7 +1893,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-50": {
               "incumbent": {
                 "name": "Scott Peters",
@@ -1802,7 +1916,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-51": {
               "incumbent": {
                 "name": "Sara Jacobs",
@@ -1823,7 +1939,9 @@
                   "status": "nominee"
                 }
               ]
-            },
+            }
+          },
+          {
             "CA-52": {
               "incumbent": {
                 "name": "Juan Vargas",
@@ -2208,7 +2326,7 @@
         "primaryDate": "2026-09-15",
         "districts": [
           {
-            "DE-AL": {
+            "DE-1": {
               "incumbent": {
                 "name": "Sarah McBride",
                 "party": "D",
@@ -7932,7 +8050,7 @@
         "primaryDate": "2026-06-09",
         "districts": [
           {
-            "ND-AL": {
+            "ND-1": {
               "incumbent": {
                 "name": "Julie Fedorchak",
                 "party": "R",
@@ -9322,7 +9440,7 @@
         "primaryDate": "2026-06-02",
         "districts": [
           {
-            "SD-AL": {
+            "SD-1": {
               "incumbent": {
                 "name": "Dusty Johnson",
                 "party": "R",
@@ -10680,7 +10798,7 @@
         "primaryDate": "2026-08-11",
         "districts": [
           {
-            "VT-AL": {
+            "VT-1": {
               "incumbent": {
                 "name": "Becca Balint",
                 "party": "D",
@@ -11545,7 +11663,7 @@
         "primaryDate": "2026-08-18",
         "districts": [
           {
-            "WY-AL": {
+            "WY-1": {
               "incumbent": {
                 "name": "Harriet Hageman",
                 "party": "R",
