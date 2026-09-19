@@ -1,3 +1,24 @@
+import type {
+  SAFE_D,
+  SAFE_R,
+  LIKELY_D,
+  LIKELY_R,
+  LEAN_D,
+  LEAN_R,
+  TILT_D,
+  TILT_R,
+  TOSSUP,
+  SAFE_D_COLOR,
+  SAFE_R_COLOR,
+  LIKELY_D_COLOR,
+  LIKELY_R_COLOR,
+  LEAN_D_COLOR,
+  LEAN_R_COLOR,
+  TILT_D_COLOR,
+  TILT_R_COLOR,
+  TOSSUP_COLOR,
+} from "../constants";
+
 export type StateAbbr =
   | "AL"
   | "AK"
@@ -94,4 +115,27 @@ export const PARTY_LABELS: Record<string, string> = {
   D: "Democrat",
   R: "Republican",
   I: "Independent",
+};
+
+export type Rating = {
+  rating:
+    | typeof SAFE_D
+    | typeof SAFE_R
+    | typeof LIKELY_D
+    | typeof LIKELY_R
+    | typeof LEAN_D
+    | typeof LEAN_R
+    | typeof TILT_D
+    | typeof TILT_R
+    | typeof TOSSUP;
+  color:
+    | typeof SAFE_D_COLOR
+    | typeof SAFE_R_COLOR
+    | typeof LIKELY_D_COLOR
+    | typeof LIKELY_R_COLOR
+    | typeof LEAN_D_COLOR
+    | typeof LEAN_R_COLOR
+    | typeof TILT_D_COLOR
+    | typeof TILT_R_COLOR
+    | typeof TOSSUP_COLOR;
 };
