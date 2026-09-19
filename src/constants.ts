@@ -1,3 +1,5 @@
+import type { RatingConfig } from "./types/types";
+
 export const SAFE_R = "safe-r";
 export const SAFE_D = "safe-d";
 export const LIKELY_R = "likely-r";
@@ -47,30 +49,7 @@ export const colorFlipByParty: Record<string, string> = {
   [REPUBLICAN]: "#d60819",
 };
 
-type Rating = {
-  rating:
-    | typeof SAFE_D
-    | typeof SAFE_R
-    | typeof LIKELY_D
-    | typeof LIKELY_R
-    | typeof LEAN_D
-    | typeof LEAN_R
-    | typeof TILT_D
-    | typeof TILT_R
-    | typeof TOSSUP;
-  color:
-    | typeof SAFE_D_COLOR
-    | typeof SAFE_R_COLOR
-    | typeof LIKELY_D_COLOR
-    | typeof LIKELY_R_COLOR
-    | typeof LEAN_D_COLOR
-    | typeof LEAN_R_COLOR
-    | typeof TILT_D_COLOR
-    | typeof TILT_R_COLOR
-    | typeof TOSSUP_COLOR;
-};
-
-export const ratingByParty: Record<string, Rating[]> = {
+export const ratingByParty: Record<string, RatingConfig[]> = {
   Democrat: [
     {
       rating: SAFE_D,
@@ -110,3 +89,9 @@ export const ratingByParty: Record<string, Rating[]> = {
 };
 
 export const tossupConfig = { rating: TOSSUP, color: TOSSUP_COLOR };
+
+export const PARTY_LABELS: Record<string, string> = {
+  D: "Democrat",
+  R: "Republican",
+  I: "Independent",
+};

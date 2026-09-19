@@ -11,8 +11,11 @@ import Card from "./Card";
 import { BackButton } from "./BackButton";
 import type {
   Candidate,
+  HouseState,
   Incumbent,
   PoliticalParty,
+  RaceType,
+  Rating,
   State,
   StateAbbr,
 } from "../types/types";
@@ -48,7 +51,7 @@ const ratingToValueMap: Record<string, number> = {
   [TOSSUP]: 0,
 };
 
-function getState(data, stateId: string): State | undefined {
+function getSenateGovernorState(data, stateId: string): State | undefined {
   const individualState = allStateAbbrevs.find(
     (state) => state.val === stateId,
   );
@@ -84,6 +87,26 @@ function getState(data, stateId: string): State | undefined {
   }
 }
 
+//function getHouseState(data, stateId: string): HouseState | undefined {}
+
+function getState(
+  data,
+  stateId: string,
+  layer: RaceType,
+): State | HouseState | undefined {
+  if (layer === "senate" || layer === "governor") {
+    const state = getSenateGovernorState(data, stateId);
+    if (!state) return;
+
+    return state;
+  } else {
+    const houseState = getHouseState(data, stateId);
+    if (!houseState) return;
+
+    return houseState;
+  }
+}
+
 function getCandidates(candidateData: Candidate[]): Candidate[] {
   const candidates: Candidate[] = candidateData.map((candidate: Candidate) => {
     return {
@@ -115,7 +138,7 @@ function calculateAverageRating(ratings: string[]): number {
   return ratingValue / ratings.length;
 }
 
-function getRating(ratings: string[]): string {
+function getRating(ratings: string[]): Rating {
   const ratingValue = calculateAverageRating(ratings);
   switch (true) {
     case ratingValue >= 2.5:
@@ -232,7 +255,7 @@ function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
 const initState: State = {
   id: "",
   name: "",
-  rating: "",
+  rating: undefined,
   abbrev: undefined,
   candidates: [],
   incumbent: undefined,
@@ -257,9 +280,14 @@ const stripeConfigs = {
   [TILT_I]: { line: "#a95ff4", background: colorByRating[TILT_I] },
 };
 
-export default function ElectionMap({ data, title }) {
+type ElectionMapArgs = {
+  data: unknown[];
+  title: string;
+};
+
+export default function ElectionMap({ data, title }: ElectionMapArgs) {
   const navigate = useNavigate();
-  const [stateData, setStateData] = useState<State>(initState);
+  const [stateData, setStateData] = useState<State | HouseState>(initState);
   const [toggleIncumbents, setToggleIncumbents] = useState<boolean>(false);
 
   const lowerTitle = title.toLowerCase();
@@ -310,7 +338,8 @@ export default function ElectionMap({ data, title }) {
           <Geographies geography={geoData}>
             {({ geographies }) => {
               return geographies.map((geo) => {
-                const state = getState(data, geo.id);
+                const raceType = title.toLowerCase() as RaceType;
+                const state = getState(data, geo.id, raceType);
                 if (!state) {
                   return (
                     <Geography
@@ -336,11 +365,16 @@ export default function ElectionMap({ data, title }) {
                   );
                 }
 
+                const stateIncumbent: Incumbent | null =
+                  "incumbent" in state ? state.incumbent! : null;
+                const rating: Rating | null =
+                  "rating" in state ? state.rating! : null;
+                const flip: boolean = "flip" in state ? state.flip : false;
                 const stateColor: string = toggleIncumbents
-                  ? getStateColorFromIncumbent(state.incumbent!)
-                  : getRatingColor(state!.rating);
+                  ? getStateColorFromIncumbent(stateIncumbent!)
+                  : getRatingColor(rating!);
 
-                const patternFill = `url(#diagonal-stripe-${state.rating})`;
+                const patternFill = `url(#diagonal-stripe-${rating})`;
                 return (
                   <Geography
                     key={geo.rsmKey}
@@ -351,9 +385,7 @@ export default function ElectionMap({ data, title }) {
                     style={{
                       default: {
                         fill:
-                          state.flip && !toggleIncumbents
-                            ? patternFill
-                            : stateColor,
+                          flip && !toggleIncumbents ? patternFill : stateColor,
                         outline: "black",
                         cursor: "pointer",
                       },
@@ -386,7 +418,7 @@ export default function ElectionMap({ data, title }) {
         }}
       >
         <Card stateData={stateData} toggleIncumbents={toggleIncumbents} />
-        {!toggleIncumbents && <Key />}
+        {<Key toggleIncumbents={toggleIncumbents} mapTitle={title} />}
       </div>
     </div>
   );

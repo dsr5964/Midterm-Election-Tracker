@@ -75,10 +75,29 @@ export type State = {
   id: string;
   abbrev: StateAbbr | undefined;
   name: string;
-  rating: string;
+  rating: Rating | undefined;
   candidates: Candidate[];
-  incumbent: Incumbent | undefined;
+  incumbent: Incumbent | undefined; // maybe change to null instead of undefined
   flip: boolean;
+};
+
+export type District = {
+  district: `${StateAbbr}-${number}`; // Ex: CA-1
+  rating: Rating;
+  mustWatch: boolean;
+  incumbent: Incumbent | null;
+  candidates: Candidate[];
+  flip: boolean;
+  note?: string;
+  primaryDate?: string;
+};
+
+export type HouseState = {
+  id: string;
+  abbrev: StateAbbr | undefined;
+  name: string;
+  district: District[];
+  statePartyControl: "D" | "R" | ""; // This is to display which party has the most house seats
 };
 
 export type PoliticalParty = "D" | "R" | "I";
@@ -111,31 +130,30 @@ export type Incumbent = {
   vacant: boolean;
 };
 
-export const PARTY_LABELS: Record<string, string> = {
-  D: "Democrat",
-  R: "Republican",
-  I: "Independent",
+export type Rating =
+  | typeof SAFE_D
+  | typeof SAFE_R
+  | typeof LIKELY_D
+  | typeof LIKELY_R
+  | typeof LEAN_D
+  | typeof LEAN_R
+  | typeof TILT_D
+  | typeof TILT_R
+  | typeof TOSSUP;
+export type RatingColor =
+  | typeof SAFE_D_COLOR
+  | typeof SAFE_R_COLOR
+  | typeof LIKELY_D_COLOR
+  | typeof LIKELY_R_COLOR
+  | typeof LEAN_D_COLOR
+  | typeof LEAN_R_COLOR
+  | typeof TILT_D_COLOR
+  | typeof TILT_R_COLOR
+  | typeof TOSSUP_COLOR;
+
+export type RatingConfig = {
+  rating: Rating;
+  color: RatingColor;
 };
 
-export type Rating = {
-  rating:
-    | typeof SAFE_D
-    | typeof SAFE_R
-    | typeof LIKELY_D
-    | typeof LIKELY_R
-    | typeof LEAN_D
-    | typeof LEAN_R
-    | typeof TILT_D
-    | typeof TILT_R
-    | typeof TOSSUP;
-  color:
-    | typeof SAFE_D_COLOR
-    | typeof SAFE_R_COLOR
-    | typeof LIKELY_D_COLOR
-    | typeof LIKELY_R_COLOR
-    | typeof LEAN_D_COLOR
-    | typeof LEAN_R_COLOR
-    | typeof TILT_D_COLOR
-    | typeof TILT_R_COLOR
-    | typeof TOSSUP_COLOR;
-};
+export type RaceType = "senate" | "governor" | "house";

@@ -1,13 +1,13 @@
 import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
 import type { ReactNode } from "react";
 import {
-  PARTY_LABELS,
   type Candidate,
+  type HouseState,
   type Incumbent,
   type PartyGroup,
-  type PoliticalParty,
   type State,
 } from "../types/types";
+import { PARTY_LABELS } from "../constants";
 
 function groupCandidatesByParty(candidates: Candidate[]): PartyGroup[] {
   const partyMap = new Map<string, Candidate[]>();
@@ -27,7 +27,7 @@ function groupCandidatesByParty(candidates: Candidate[]): PartyGroup[] {
 }
 
 function displayCandidateData(
-  candidateData: Candidate[],
+  candidateData: Candidate[] | undefined,
   primaryDate?: string,
 ): ReactNode {
   if (!candidateData || candidateData.length === 0) {
@@ -56,7 +56,7 @@ function displayCandidateData(
   );
 }
 
-function displayIncumbentData(incumbentData: Incumbent): ReactNode {
+function displayIncumbentData(incumbentData: Incumbent | undefined): ReactNode {
   if (!incumbentData) {
     return <CCardText>Vacant seat - no incumbent</CCardText>;
   }
@@ -70,13 +70,17 @@ function displayIncumbentData(incumbentData: Incumbent): ReactNode {
 }
 
 interface CardProps {
-  stateData: State;
+  stateData: State | HouseState;
   toggleIncumbents: boolean;
 }
 
 // TODO: Add a badge for flips
 // TODO: Add a badge for the rating
 function Card({ stateData, toggleIncumbents }: CardProps) {
+  const incumbent: Incumbent | undefined =
+    "incumbent" in stateData ? stateData.incumbent! : undefined;
+  const candidates: Candidate[] | undefined =
+    "candidates" in stateData ? stateData.candidates : undefined;
   return (
     <CRow
       style={{
@@ -105,8 +109,8 @@ function Card({ stateData, toggleIncumbents }: CardProps) {
             {stateData.name}
           </CCardTitle>
           {toggleIncumbents
-            ? displayIncumbentData(stateData.incumbent!)
-            : displayCandidateData(stateData.candidates)}
+            ? displayIncumbentData(incumbent)
+            : displayCandidateData(candidates)}
         </CCardBody>
       </CCard>
     </CRow>
