@@ -126,7 +126,6 @@
                 "likely-r"
               ],
               "mustWatch": false,
-              "note": "Primary elections were moved to August 11 due to redistricting. Likely flip for Republicans.",
               "candidates": [
                 {
                   "name": "Shomari Figures",
@@ -219,7 +218,6 @@
               },
               "ratings": ["safe-r"],
               "mustWatch": false,
-              "note": "Primary elections were moved to August 11 due to redistricting.",
               "candidates": [
                 {
                   "name": "Maurice Mercer",
@@ -243,7 +241,6 @@
               },
               "ratings": ["safe-d"],
               "mustWatch": false,
-              "note": "Primary elections were moved to August 11 due to redistricting.",
               "candidates": [
                 {
                   "name": "Terri Sewell",
@@ -8669,7 +8666,6 @@
                 "tossup",
                 "lean-r",
                 "likely-d",
-                ,
                 "lean-r",
                 "tossup"
               ],

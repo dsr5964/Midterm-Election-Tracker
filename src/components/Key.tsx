@@ -1,4 +1,4 @@
-import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
+import { CCard, CCardBody, CCardTitle } from "@coreui/react";
 import { ratingByParty, tossupConfig } from "../constants";
 import {
   firstCharStringUppercase,
