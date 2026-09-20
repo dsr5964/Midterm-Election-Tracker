@@ -81,9 +81,9 @@ export type State = {
   flip: boolean;
 };
 
-export type District = {
-  // district: `${StateAbbr}-${number}`; // Ex: CA-1
-  district: string;
+export type District = Record<string, DistrictData>;
+export type DistrictName = { district: `${StateAbbr}-${number}` };
+export type DistrictData = {
   rating: Rating;
   mustWatch: boolean;
   incumbent: Incumbent | null;
@@ -98,7 +98,7 @@ export type HouseState = {
   abbrev: StateAbbr | undefined;
   name: string;
   districts: District[];
-  statePartyControl: "D" | "R" | ""; // This is to display which party has the most house seats
+  statePartyControl: "D" | "R" | "I" | ""; // This is to display which party has the most house seats
 };
 
 export type PoliticalParty = "D" | "R" | "I";

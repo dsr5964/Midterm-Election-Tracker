@@ -12,6 +12,8 @@ import { BackButton } from "./BackButton";
 import type {
   Candidate,
   District,
+  DistrictData,
+  DistrictName,
   HouseState,
   Incumbent,
   PoliticalParty,
@@ -88,12 +90,40 @@ function getSenateGovernorState(data, stateId: string): State | undefined {
   }
 }
 
-function getStateDistricts(stateData): string[] {
-  const districts: string[] = stateData.race.districts.map((district) =>
-    Object.keys(district),
-  );
-  return districts;
+function getStatePartyControl(districtData: District[]) {
+  let democratSeatCount: number = 0;
+  let republicanSeatCount: number = 0;
+  let independentSeatCount: number = 0;
+  const partyControl = "";
+
+  const values = districtData.flatMap((district) => Object.values(district));
+  values.forEach((value) => {
+    const incumbentParty = value.incumbent ? value.incumbent.party : "";
+    switch (incumbentParty) {
+      case "D": {
+        democratSeatCount += 1;
+        return;
+      }
+      case "R": {
+        republicanSeatCount += 1;
+        return;
+      }
+      case "I": {
+        independentSeatCount += 1;
+        return;
+      }
+      default: {
+        return;
+      }
+    }
+  });
+  if (democratSeatCount > republicanSeatCount) return "D";
+  if (republicanSeatCount > democratSeatCount) return "R";
+  if (independentSeatCount > democratSeatCount + republicanSeatCount)
+    return "I";
+  return partyControl;
 }
+
 function getHouseState(data, stateId: string): HouseState | undefined {
   const individualState = allStateAbbrevs.find(
     (state) => state.val === stateId,
@@ -105,22 +135,25 @@ function getHouseState(data, stateId: string): HouseState | undefined {
     if (stateKey in data.states) {
       const stateData = data.states[stateKey];
       const stateName = data.states[stateKey].name;
-      const stateDistricts: string[] = getStateDistricts(stateData);
-      const districts: District[] = stateDistricts.map((districtName) => ({
-        district: districtName,
-        rating: "tossup",
-        mustWatch: false,
-        incumbent: null,
-        candidates: [],
-        flip: false,
-      }));
-      return {
+
+      const houseDistrictsArray: District[] = [];
+
+      for (const dataRecord of stateData.race.districts) {
+        houseDistrictsArray.push(dataRecord);
+      }
+
+      const partyControl = getStatePartyControl(houseDistrictsArray);
+      console.log(`Party control for ${stateName}: ${partyControl}`);
+
+      const houseState: HouseState = {
         id: stateKey,
         abbrev: individualState.id as StateAbbr,
         name: stateName,
-        districts: districts,
-        statePartyControl: "",
+        districts: houseDistrictsArray,
+        statePartyControl: partyControl,
       } as HouseState;
+
+      return houseState;
     }
   }
 }
@@ -262,6 +295,27 @@ function getStateColorFromIncumbent(incumbent: Incumbent): string {
   }
 }
 
+function getStateColorFromPartyControl(partyControl: "D" | "R" | "I" | "") {
+  console.log(partyControl);
+  switch (partyControl) {
+    case "D": {
+      return "#0044C9";
+    }
+    case "R": {
+      return "#E81B23";
+    }
+    case "I": {
+      return "#DCDCDC";
+    }
+    case "": {
+      return "#9932CC";
+    }
+    default: {
+      return "#000000";
+    }
+  }
+}
+
 function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
   switch (incumbentParty) {
     case "R": {
@@ -288,15 +342,15 @@ function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
   return false;
 }
 
-const initState: State = {
-  id: "",
-  name: "",
-  rating: undefined,
-  abbrev: undefined,
-  candidates: [],
-  incumbent: undefined,
-  flip: false,
-};
+// const initState: State = {
+//   id: "",
+//   name: "",
+//   rating: undefined,
+//   abbrev: undefined,
+//   candidates: [],
+//   incumbent: undefined,
+//   flip: false,
+// };
 
 const initHouseState: HouseState = {
   id: "",
@@ -336,6 +390,26 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
     initHouseState,
   );
   const [toggleIncumbents, setToggleIncumbents] = useState<boolean>(false);
+
+  function getStateColorBasedOnRace(stateData: HouseState | State) {
+    if ("districts" in stateData) {
+      return getStateColorFromPartyControl(stateData.statePartyControl);
+    } else {
+      const stateIncumbent: Incumbent | null =
+        "incumbent" in stateData ? stateData.incumbent! : null;
+      const rating: Rating | null | undefined =
+        "rating" in stateData ? stateData.rating : undefined;
+
+      // TODO cleaner way of guaranteeing rating and incumbent exist to get state color
+      if (stateIncumbent && rating) {
+        const stateColor = toggleIncumbents
+          ? getStateColorFromIncumbent(stateData.incumbent!)
+          : getRatingColor(rating!);
+        return stateColor;
+      }
+      return "";
+    }
+  }
 
   const lowerTitle = title.toLowerCase();
   return (
@@ -412,14 +486,10 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
                   );
                 }
 
-                const stateIncumbent: Incumbent | null =
-                  "incumbent" in state ? state.incumbent! : null;
                 const rating: Rating | null =
                   "rating" in state ? state.rating! : null;
                 const flip: boolean = "flip" in state ? state.flip : false;
-                const stateColor: string = toggleIncumbents
-                  ? getStateColorFromIncumbent(stateIncumbent!)
-                  : getRatingColor(rating!);
+                const stateColor: string = getStateColorBasedOnRace(state);
 
                 const patternFill = `url(#diagonal-stripe-${rating})`;
                 return (
@@ -467,7 +537,7 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
         <Card
           stateData={stateData}
           toggleIncumbents={toggleIncumbents}
-          raceType={title.toLowerCase() as RaceType}
+          raceType={lowerTitle as RaceType}
         />
         {<Key toggleIncumbents={toggleIncumbents} mapTitle={title} />}
       </div>

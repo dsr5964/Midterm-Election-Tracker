@@ -12,9 +12,8 @@ import {
 import { PARTY_LABELS } from "../constants";
 
 function displayCongressionalDistrictsByState(houseData: HouseState) {
-  console.log(houseData);
-  const congressionalDistricts: string[] = houseData.districts.map(
-    (district: District) => district.district,
+  const congressionalDistricts: string[] = houseData.districts.flatMap(
+    (district) => Object.keys(district),
   );
   return (
     <>

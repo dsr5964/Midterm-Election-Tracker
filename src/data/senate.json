@@ -555,12 +555,12 @@
           "lean-d",
           "lean-d",
           "lean-d",
-          "lean-d",
           "tossup",
           "tossup",
           "lean-d",
           "tossup",
           "tossup",
+          "likely-d",
           "lean-d"
         ],
         "seat": "Class 2",
@@ -678,7 +678,7 @@
           "likely-r",
           "safe-r",
           "safe-r",
-          "tossup",
+          "lean-r",
           "likely-r",
           "safe-r",
           "safe-r",
@@ -1013,7 +1013,7 @@
     "SC": {
       "name": "South Carolina",
       "race": {
-        "mustWatch": true,
+        "mustWatch": false,
         "ratings": [
           "safe-r",
           "lean-r",
