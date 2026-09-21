@@ -12,8 +12,6 @@ import { BackButton } from "./BackButton";
 import type {
   Candidate,
   District,
-  DistrictData,
-  DistrictName,
   HouseState,
   Incumbent,
   PoliticalParty,
@@ -90,11 +88,10 @@ function getSenateGovernorState(data, stateId: string): State | undefined {
   }
 }
 
-function getStatePartyControl(districtData: District[]) {
+function getRepresentativeSeatCountByParty(districtData: District[]) {
   let democratSeatCount: number = 0;
   let republicanSeatCount: number = 0;
   let independentSeatCount: number = 0;
-  const partyControl = "";
 
   const values = districtData.flatMap((district) => Object.values(district));
   values.forEach((value) => {
@@ -117,11 +114,12 @@ function getStatePartyControl(districtData: District[]) {
       }
     }
   });
-  if (democratSeatCount > republicanSeatCount) return "D";
-  if (republicanSeatCount > democratSeatCount) return "R";
-  if (independentSeatCount > democratSeatCount + republicanSeatCount)
-    return "I";
-  return partyControl;
+
+  return {
+    democrat: democratSeatCount,
+    republican: republicanSeatCount,
+    independent: independentSeatCount,
+  };
 }
 
 function getHouseState(data, stateId: string): HouseState | undefined {
@@ -142,8 +140,8 @@ function getHouseState(data, stateId: string): HouseState | undefined {
         houseDistrictsArray.push(dataRecord);
       }
 
-      const partyControl = getStatePartyControl(houseDistrictsArray);
-      console.log(`Party control for ${stateName}: ${partyControl}`);
+      const partyControl =
+        getRepresentativeSeatCountByParty(houseDistrictsArray);
 
       const houseState: HouseState = {
         id: stateKey,
@@ -295,25 +293,19 @@ function getStateColorFromIncumbent(incumbent: Incumbent): string {
   }
 }
 
-function getStateColorFromPartyControl(partyControl: "D" | "R" | "I" | "") {
-  console.log(partyControl);
-  switch (partyControl) {
-    case "D": {
-      return "#0044C9";
-    }
-    case "R": {
-      return "#E81B23";
-    }
-    case "I": {
-      return "#DCDCDC";
-    }
-    case "": {
-      return "#9932CC";
-    }
-    default: {
-      return "#000000";
-    }
+function getStateColorFromPartyControl(partyControl: {
+  democrat: number;
+  republican: number;
+  independent: number;
+}) {
+  if (partyControl.democrat > partyControl.republican) {
+    return "#0044C9";
   }
+  if (partyControl.republican > partyControl.democrat) {
+    return "#E81B23";
+  }
+
+  return "#9932CC";
 }
 
 function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
@@ -357,7 +349,7 @@ const initHouseState: HouseState = {
   name: "",
   abbrev: undefined,
   districts: [],
-  statePartyControl: "",
+  statePartyControl: { democrat: 0, republican: 0, independent: 0 },
 };
 
 const buttonNames: string[] = ["Senate", "Governor", "House"];

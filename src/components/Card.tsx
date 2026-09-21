@@ -15,8 +15,22 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
   const congressionalDistricts: string[] = houseData.districts.flatMap(
     (district) => Object.keys(district),
   );
+
+  const numDemocratMembers =
+    houseData.statePartyControl.democrat !== 0
+      ? `Democrats: ${houseData.statePartyControl.democrat}`
+      : "";
+  const numRepublicanMembers =
+    houseData.statePartyControl.republican !== 0
+      ? `Republicans: ${houseData.statePartyControl.republican}`
+      : "";
+  const numIndependentMembers =
+    houseData.statePartyControl.independent !== 0
+      ? `Independents: ${houseData.statePartyControl.independent}`
+      : "";
   return (
     <>
+      {numDemocratMembers} {numRepublicanMembers} {numIndependentMembers}
       {congressionalDistricts.map((district) => (
         <CCardText>{district}</CCardText>
       ))}

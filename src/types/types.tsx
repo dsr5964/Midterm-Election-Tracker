@@ -98,7 +98,11 @@ export type HouseState = {
   abbrev: StateAbbr | undefined;
   name: string;
   districts: District[];
-  statePartyControl: "D" | "R" | "I" | ""; // This is to display which party has the most house seats
+  statePartyControl: {
+    democrat: number;
+    republican: number;
+    independent: number;
+  };
 };
 
 export type PoliticalParty = "D" | "R" | "I";
