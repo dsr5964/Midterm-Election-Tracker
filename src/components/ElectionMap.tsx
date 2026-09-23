@@ -141,12 +141,14 @@ function getHouseState(data, stateId: string): HouseState | undefined {
         const congressionalDistrict = Object.keys(dataRecord)[0];
         const recordValues = Object.values(dataRecord)[0];
         const rating = getRating(recordValues.ratings);
+        const incumbentParty: PoliticalParty = recordValues.incumbent.party;
+        const isFlip = checkIsFlip(incumbentParty, rating);
         const districtData: DistrictData = {
           rating: rating,
           mustWatch: recordValues.mustWatch,
           incumbent: recordValues.incumbent,
           candidates: recordValues.candidates,
-          flip: false,
+          flip: isFlip,
         };
 
         const district: District = { [congressionalDistrict]: districtData };

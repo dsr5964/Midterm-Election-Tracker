@@ -195,6 +195,63 @@
   );
 }
 
+.democrat-safe-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #052fd6,
+    #052fd6 10px,
+    white 10px,
+    white 20px
+  );
+}
+.safe-d-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #052fd6,
+    #052fd6 10px,
+    #244999 10px,
+    #244999 20px
+  );
+}
+.likely-d-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #052fd6,
+    #052fd6 10px,
+    #577ccc 10px,
+    #577ccc 20px
+  );
+}
+.lean-d-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #052fd6,
+    #052fd6 10px,
+    #8aafff 10px,
+    #8aafff 20px
+  );
+}
+
+.tilt-d-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #052fd6,
+    #052fd6 10px,
+    #949bb3 10px,
+    #949bb3 20px
+  );
+}
+
 .republican-striped-square {
   width: 40px;
   aspect-ratio: 1;
@@ -202,7 +259,55 @@
     45deg,
     #d60819,
     #d60819 10px,
-    white 10px,
-    white 20px
+    #d22532 10px,
+    #d22532 20px
+  );
+}
+
+.safe-r-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #d60819,
+    #d60819 10px,
+    #ff5865 10px,
+    #ff5865 20px
+  );
+}
+
+.likely-r-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #d60819,
+    #d60819 10px,
+    #ff5865 10px,
+    #ff5865 20px
+  );
+}
+
+.lean-r-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #d60819,
+    #d60819 10px,
+    #ff8b98 10px,
+    #ff8b98 20px
+  );
+}
+
+.tilt-r-striped-square {
+  width: 40px;
+  aspect-ratio: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    #d60819,
+    #d60819 10px,
+    #cf8980 10px,
+    #cf8980 20px
   );
 }

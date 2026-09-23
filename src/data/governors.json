@@ -25,16 +25,7 @@
       "name": "Alabama",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "lean-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "pvi": "R+15",
         "primaryDate": "2026-05-19",
         "incumbent": {
@@ -69,9 +60,8 @@
           "tossup",
           "lean-r",
           "tossup",
-          "tilt-d",
           "tossup",
-          "lean-r",
+          "tossup",
           "safe-d",
           "tossup"
         ],
@@ -118,7 +108,6 @@
           "lean-d",
           "tilt-d",
           "lean-d",
-          "likely-d",
           "lean-d",
           "lean-d",
           "likely-d",
@@ -148,16 +137,7 @@
       "name": "Arkansas",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "likely-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "pvi": "R+15",
         "primaryDate": "2026-03-03",
         "incumbent": {
@@ -216,7 +196,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "likely-d",
           "safe-d",
           "safe-d",
           "safe-d",
@@ -254,7 +233,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d",
           "likely-d"
         ],
         "pvi": "D+8",
@@ -283,8 +261,7 @@
         "ratings": [
           "likely-r",
           "lean-r",
-          "likely-r",
-          "tossup",
+          "lean-r",
           "lean-r",
           "safe-r",
           "lean-r",
@@ -321,7 +298,6 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "tossup",
           "tossup",
           "tossup",
           "tossup",
@@ -409,7 +385,6 @@
           "safe-d",
           "safe-d",
           "safe-d",
-          "safe-d",
           "likely-d"
         ],
         "pvi": "D+6",
@@ -439,7 +414,6 @@
         "ratings": [
           "lean-d",
           "tilt-d",
-          "lean-d",
           "lean-d",
           "tossup",
           "lean-d",
@@ -475,7 +449,6 @@
           "lean-r",
           "tilt-r",
           "lean-r",
-          "tilt-r",
           "tossup",
           "lean-r",
           "lean-r",
@@ -515,7 +488,6 @@
           "safe-d",
           "safe-d",
           "likely-d",
-          "lean-d",
           "likely-d",
           "safe-d",
           "safe-d",
@@ -593,7 +565,6 @@
           "lean-d",
           "lean-d",
           "lean-d",
-          "lean-d",
           "likely-d",
           "lean-d"
         ],
@@ -631,7 +602,6 @@
           "safe-d",
           "likely-d",
           "safe-d",
-          "likely-d",
           "safe-d",
           "likely-d",
           "safe-d",
@@ -672,7 +642,6 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "likely-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -705,7 +674,6 @@
         "ratings": [
           "tossup",
           "tilt-r",
-          "lean-r",
           "tossup",
           "tossup",
           "tossup",
@@ -734,7 +702,6 @@
         "ratings": [
           "likely-r",
           "safe-r",
-          "likely-r",
           "likely-r",
           "lean-r",
           "likely-r",
@@ -768,11 +735,10 @@
           "safe-d",
           "likely-d",
           "safe-d",
-          "lean-d",
           "likely-d",
           "safe-d",
-          "likely-d",
-          "safe-d"
+          "safe-d",
+          "likely-d"
         ],
         "pvi": "D+4",
         "primaryDate": "2026-06-02",
@@ -802,7 +768,6 @@
         "ratings": [
           "safe-d",
           "likely-d",
-          "safe-d",
           "safe-d",
           "safe-d",
           "safe-d",
@@ -837,7 +802,6 @@
         "ratings": [
           "tossup",
           "tilt-r",
-          "lean-r",
           "tossup",
           "tossup",
           "tossup",
@@ -874,16 +838,7 @@
       "name": "Oklahoma",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "likely-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "pvi": "R+17",
         "primaryDate": "2026-06-16",
         "isRunoff": true,
@@ -910,7 +865,6 @@
           "lean-d",
           "lean-d",
           "likely-d",
-          "tossup",
           "safe-d",
           "likely-d",
           "likely-d",
@@ -979,16 +933,7 @@
       "name": "Rhode Island",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "likely-d",
-          "safe-d",
-          "safe-d",
-          "safe-d",
-          "safe-d"
-        ],
+        "ratings": ["safe-d"],
         "pvi": "D+8",
         "primaryDate": "2026-09-09",
         "incumbent": {
@@ -1019,7 +964,6 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "likely-r",
           "likely-r",
           "safe-r",
           "safe-r",
@@ -1052,16 +996,7 @@
       "name": "South Dakota",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "likely-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "pvi": "R+15",
         "primaryDate": "2026-06-02",
         "isRunoff": true,
@@ -1089,7 +1024,6 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -1125,10 +1059,9 @@
         "ratings": [
           "likely-r",
           "likely-r",
-          "likely-r",
-          "tilt-r",
+          "lean-r",
           "tossup",
-          "likely-r",
+          "lean-r",
           "likely-r",
           "likely-r"
         ],
@@ -1160,7 +1093,6 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "likely-r",
           "safe-r",
           "safe-r",
           "likely-r",
@@ -1189,7 +1121,6 @@
           "tossup",
           "tossup",
           "lean-d",
-          "tossup",
           "tossup",
           "tossup",
           "lean-d",

@@ -34,6 +34,20 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
       {congressionalDistricts.map((district, index) => {
         const districtData = houseData.districts[index][district];
         const ratingColor = getRatingColor(districtData.rating);
+        const incumbentParty = districtData.incumbent
+          ? districtData.incumbent.party
+          : "";
+
+        const republicanFlip =
+          districtData.flip && incumbentParty === "D"
+            ? `${districtData.rating}-striped-square`
+            : "";
+
+        const democratFlip =
+          districtData.flip && incumbentParty === "R"
+            ? `${districtData.rating}-striped-square`
+            : "";
+
         return (
           <CCardText>
             <div
@@ -46,6 +60,7 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
             >
               {district}{" "}
               <div
+                className={`${democratFlip} ${republicanFlip}`}
                 style={{
                   width: "30px",
                   aspectRatio: 1,
