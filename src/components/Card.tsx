@@ -2,7 +2,6 @@ import { CCard, CCardBody, CCardText, CCardTitle, CRow } from "@coreui/react";
 import type { ReactNode } from "react";
 import {
   type Candidate,
-  type District,
   type HouseState,
   type Incumbent,
   type PartyGroup,
@@ -10,6 +9,7 @@ import {
   type State,
 } from "../types/types";
 import { PARTY_LABELS } from "../constants";
+import { getRatingColor } from "./ElectionMap";
 
 function displayCongressionalDistrictsByState(houseData: HouseState) {
   const congressionalDistricts: string[] = houseData.districts.flatMap(
@@ -31,9 +31,31 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
   return (
     <>
       {numDemocratMembers} {numRepublicanMembers} {numIndependentMembers}
-      {congressionalDistricts.map((district) => (
-        <CCardText>{district}</CCardText>
-      ))}
+      {congressionalDistricts.map((district, index) => {
+        const districtData = houseData.districts[index][district];
+        const ratingColor = getRatingColor(districtData.rating);
+        return (
+          <CCardText>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                alignItems: "center",
+                margin: "20px",
+              }}
+            >
+              {district}{" "}
+              <div
+                style={{
+                  width: "30px",
+                  aspectRatio: 1,
+                  backgroundColor: ratingColor,
+                }}
+              ></div>
+            </div>
+          </CCardText>
+        );
+      })}
     </>
   );
 }

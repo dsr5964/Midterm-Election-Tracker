@@ -12,6 +12,7 @@ import { BackButton } from "./BackButton";
 import type {
   Candidate,
   District,
+  DistrictData,
   HouseState,
   Incumbent,
   PoliticalParty,
@@ -137,7 +138,20 @@ function getHouseState(data, stateId: string): HouseState | undefined {
       const houseDistrictsArray: District[] = [];
 
       for (const dataRecord of stateData.race.districts) {
-        houseDistrictsArray.push(dataRecord);
+        const congressionalDistrict = Object.keys(dataRecord)[0];
+        const recordValues = Object.values(dataRecord)[0];
+        const rating = getRating(recordValues.ratings);
+        const districtData: DistrictData = {
+          rating: rating,
+          mustWatch: recordValues.mustWatch,
+          incumbent: recordValues.incumbent,
+          candidates: recordValues.candidates,
+          flip: false,
+        };
+
+        const district: District = { [congressionalDistrict]: districtData };
+
+        houseDistrictsArray.push(district);
       }
 
       const partyControl =
@@ -157,7 +171,7 @@ function getHouseState(data, stateId: string): HouseState | undefined {
 }
 
 function getState(
-  data,
+  data: unknown,
   stateId: string,
   layer: RaceType,
 ): State | HouseState | undefined {
@@ -229,7 +243,7 @@ function getRating(ratings: string[]): Rating {
   }
 }
 
-function getRatingColor(rating: string): string {
+export function getRatingColor(rating: string): string {
   switch (rating) {
     case SAFE_R:
       return colorByRating[SAFE_R];
