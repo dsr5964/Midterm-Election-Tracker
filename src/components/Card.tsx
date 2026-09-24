@@ -30,7 +30,15 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
       : "";
   return (
     <>
-      {numDemocratMembers} {numRepublicanMembers} {numIndependentMembers}
+      <span style={{ color: "#052fd6", fontWeight: "bold" }}>
+        {numDemocratMembers}
+      </span>{" "}
+      <span style={{ color: "#d60819", fontWeight: "bold" }}>
+        {numRepublicanMembers}
+      </span>{" "}
+      <span style={{ color: "#9932CC", fontWeight: "bold" }}>
+        {numIndependentMembers}
+      </span>
       {congressionalDistricts.map((district, index) => {
         const districtData = houseData.districts[index][district];
         const ratingColor = getRatingColor(districtData.rating);
@@ -39,12 +47,14 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
           : "";
 
         const republicanFlip =
-          districtData.flip && incumbentParty === "D"
+          districtData.flip &&
+          (incumbentParty === "D" || incumbentParty === "I")
             ? `${districtData.rating}-striped-square`
             : "";
 
         const democratFlip =
-          districtData.flip && incumbentParty === "R"
+          districtData.flip &&
+          (incumbentParty === "R" || incumbentParty === "I")
             ? `${districtData.rating}-striped-square`
             : "";
 

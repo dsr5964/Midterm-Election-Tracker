@@ -211,8 +211,8 @@
   aspect-ratio: 1;
   background: repeating-linear-gradient(
     45deg,
-    #052fd6,
-    #052fd6 10px,
+    #577ccc,
+    #577ccc 10px,
     #244999 10px,
     #244999 20px
   );
@@ -259,8 +259,8 @@
     45deg,
     #d60819,
     #d60819 10px,
-    #d22532 10px,
-    #d22532 20px
+    white 10px,
+    white 20px
   );
 }
 
