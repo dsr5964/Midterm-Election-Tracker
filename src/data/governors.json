@@ -60,7 +60,7 @@
           "tossup",
           "lean-r",
           "tossup",
-          "tossup",
+          "lean-d",
           "tossup",
           "safe-d",
           "tossup"
@@ -262,10 +262,10 @@
           "likely-r",
           "lean-r",
           "lean-r",
-          "lean-r",
+          "tossup",
           "safe-r",
           "lean-r",
-          "lean-r"
+          "tossup"
         ],
         "pvi": "R+5",
         "primaryDate": "2026-08-18",
@@ -602,7 +602,7 @@
           "safe-d",
           "likely-d",
           "safe-d",
-          "safe-d",
+          "likely-d",
           "likely-d",
           "safe-d",
           "likely-d"
@@ -705,7 +705,7 @@
           "likely-r",
           "lean-r",
           "likely-r",
-          "likely-r",
+          "safe-r",
           "lean-r"
         ],
         "pvi": "D+2",
@@ -805,7 +805,7 @@
           "tossup",
           "tossup",
           "tossup",
-          "tossup",
+          "lean-d",
           "tossup"
         ],
         "pvi": "R+5",
@@ -865,7 +865,7 @@
           "lean-d",
           "lean-d",
           "likely-d",
-          "safe-d",
+          "likely-d",
           "likely-d",
           "likely-d",
           "likely-d"
@@ -1063,7 +1063,7 @@
           "tossup",
           "lean-r",
           "likely-r",
-          "likely-r"
+          "lean-r"
         ],
         "pvi": "R+6",
         "primaryDate": "2026-03-03",
@@ -1121,7 +1121,7 @@
           "tossup",
           "tossup",
           "lean-d",
-          "tossup",
+          "lean-d",
           "tossup",
           "lean-d",
           "lean-d"

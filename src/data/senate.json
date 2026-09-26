@@ -69,7 +69,7 @@
           "tossup",
           "tossup",
           "tossup",
-          "tossup"
+          "lean-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -349,7 +349,7 @@
           "tilt-r",
           "tossup",
           "tossup",
-          "tossup",
+          "lean-d",
           "tossup"
         ],
         "seat": "Class 2",
@@ -678,7 +678,6 @@
           "likely-r",
           "safe-r",
           "safe-r",
-          "lean-r",
           "likely-r",
           "safe-r",
           "safe-r",
@@ -723,10 +722,10 @@
           "likely-r",
           "likely-r",
           "likely-r",
-          "lean-r",
+          "tossup",
           "likely-r",
           "likely-r",
-          "likely-r"
+          "lean-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -761,7 +760,7 @@
           "likely-d",
           "lean-d",
           "tossup",
-          "tossup",
+          "lean-d",
           "lean-d",
           "likely-d",
           "likely-d"
@@ -901,7 +900,7 @@
           "tossup",
           "tossup",
           "lean-d",
-          "lean-d"
+          "tossup"
         ],
         "seat": "Class 3",
         "isSpecial": true,
