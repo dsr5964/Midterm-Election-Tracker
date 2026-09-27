@@ -32,25 +32,30 @@ import {
   LEAN_D,
   TILT_D,
   TOSSUP,
-  SAFE_I,
-  LIKELY_I,
-  LEAN_I,
-  TILT_I,
-  colorByRating,
+  ratingToValueMap,
+  stripeConfigs,
+  buttonNames,
 } from "../constants";
 import "../App.css";
 import Key from "./Key";
+import { getRatingColor } from "../utils/stateUtils";
 
-const ratingToValueMap: Record<string, number> = {
-  [SAFE_D]: 3,
-  [SAFE_R]: -3,
-  [LIKELY_D]: 2,
-  [LIKELY_R]: -2,
-  [LEAN_D]: 1,
-  [LEAN_R]: -1,
-  [TILT_D]: 0.5,
-  [TILT_R]: -0.5,
-  [TOSSUP]: 0,
+// const initState: State = {
+//   id: "",
+//   name: "",
+//   rating: undefined,
+//   abbrev: undefined,
+//   candidates: [],
+//   incumbent: undefined,
+//   flip: false,
+// };
+
+const initHouseState: HouseState = {
+  id: "",
+  name: "",
+  abbrev: undefined,
+  districts: [],
+  statePartyControl: { democrat: 0, republican: 0, independent: 0 },
 };
 
 function getSenateGovernorState(data, stateId: string): State | undefined {
@@ -245,39 +250,6 @@ function getRating(ratings: string[]): Rating {
   }
 }
 
-export function getRatingColor(rating: string): string {
-  switch (rating) {
-    case SAFE_R:
-      return colorByRating[SAFE_R];
-    case SAFE_D:
-      return colorByRating[SAFE_D];
-    case LIKELY_R:
-      return colorByRating[LIKELY_R];
-    case LIKELY_D:
-      return colorByRating[LIKELY_D];
-    case LEAN_R:
-      return colorByRating[LEAN_R];
-    case LEAN_D:
-      return colorByRating[LEAN_D];
-    case TILT_R:
-      return colorByRating[TILT_R];
-    case TILT_D:
-      return colorByRating[TILT_D];
-    case TOSSUP:
-      return colorByRating[TOSSUP];
-    case SAFE_I:
-      return colorByRating[SAFE_I];
-    case LIKELY_I:
-      return colorByRating[LIKELY_I];
-    case LEAN_I:
-      return colorByRating[LEAN_I];
-    case TILT_I:
-      return colorByRating[TILT_I];
-    default:
-      return "#000000";
-  }
-}
-
 function getStateColorFromIncumbent(incumbent: Incumbent): string {
   const termLimited = incumbent.note === "Term-limited"; // This is for gubernatorial races
   switch (incumbent.party) {
@@ -350,45 +322,8 @@ function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
   return false;
 }
 
-// const initState: State = {
-//   id: "",
-//   name: "",
-//   rating: undefined,
-//   abbrev: undefined,
-//   candidates: [],
-//   incumbent: undefined,
-//   flip: false,
-// };
-
-const initHouseState: HouseState = {
-  id: "",
-  name: "",
-  abbrev: undefined,
-  districts: [],
-  statePartyControl: { democrat: 0, republican: 0, independent: 0 },
-};
-
-const buttonNames: string[] = ["Senate", "Governor", "House"];
-
-// TODO: is it better to use the actual rating for flips or just use either the same red or blue regardless
-// of projected rating
-const stripeConfigs = {
-  [SAFE_D]: { line: "#052fd6", background: colorByRating[SAFE_D] },
-  [LIKELY_D]: { line: "#052fd6", background: colorByRating[LIKELY_D] },
-  [LEAN_D]: { line: "#052fd6", background: colorByRating[LEAN_D] },
-  [TILT_D]: { line: "#052fd6", background: colorByRating[TILT_D] },
-  [SAFE_R]: { line: "#d60819", background: colorByRating[SAFE_R] },
-  [LIKELY_R]: { line: "#d60819", background: colorByRating[LIKELY_R] },
-  [LEAN_R]: { line: "#d60819", background: colorByRating[LEAN_R] },
-  [TILT_R]: { line: "#d60819", background: colorByRating[TILT_R] },
-  [SAFE_I]: { line: "#a95ff4", background: colorByRating[SAFE_I] },
-  [LIKELY_I]: { line: "#a95ff4", background: colorByRating[LIKELY_I] },
-  [LEAN_I]: { line: "#a95ff4", background: colorByRating[LEAN_I] },
-  [TILT_I]: { line: "#a95ff4", background: colorByRating[TILT_I] },
-};
-
 type ElectionMapArgs = {
-  data: unknown[];
+  data: unknown;
   title: string;
 };
 
@@ -431,9 +366,11 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
         <BackButton />
       </div>
       <h1>{title} Map 2026</h1>
-      <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
-        {toggleIncumbents ? `Midterm Election Matchups` : `Incumbents`}
-      </button>
+      {lowerTitle !== "house" && (
+        <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
+          {toggleIncumbents ? `Midterm Election Matchups` : `Incumbents`}
+        </button>
+      )}
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
           projection="geoAlbersUsa"
@@ -515,12 +452,10 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
                         cursor: "pointer",
                       },
                       hover: {
-                        // fill: stateColor,
                         outline: "none",
                         cursor: "pointer",
                       },
                       pressed: {
-                        // fill: stateColor,
                         outline: "none",
                         cursor: "pointer",
                       },
@@ -547,7 +482,7 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
           toggleIncumbents={toggleIncumbents}
           raceType={lowerTitle as RaceType}
         />
-        {<Key toggleIncumbents={toggleIncumbents} mapTitle={title} />}
+        {<Key toggleIncumbents={toggleIncumbents} electionType={title} />}
       </div>
     </div>
   );

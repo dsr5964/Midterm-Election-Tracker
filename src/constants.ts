@@ -32,6 +32,8 @@ export const TOSSUP_COLOR = "#C9C09B";
 // const LEAN_I_COLOR = "#D6ADEB";
 // const TILT_I_COLOR = "#E8D8F2";
 
+export const buttonNames: string[] = ["Senate", "Governor", "House"];
+
 export const colorByRating: Record<string, string> = {
   [SAFE_D]: SAFE_D_COLOR,
   [LIKELY_D]: LIKELY_D_COLOR,
@@ -94,4 +96,33 @@ export const PARTY_LABELS: Record<string, string> = {
   D: "Democrat",
   R: "Republican",
   I: "Independent",
+};
+
+export const ratingToValueMap: Record<string, number> = {
+  [SAFE_D]: 3,
+  [SAFE_R]: -3,
+  [LIKELY_D]: 2,
+  [LIKELY_R]: -2,
+  [LEAN_D]: 1,
+  [LEAN_R]: -1,
+  [TILT_D]: 0.5,
+  [TILT_R]: -0.5,
+  [TOSSUP]: 0,
+};
+
+// TODO: is it better to use the actual rating for flips or just use either the same red or blue regardless
+// of projected rating
+export const stripeConfigs = {
+  [SAFE_D]: { line: "#052fd6", background: colorByRating[SAFE_D] },
+  [LIKELY_D]: { line: "#052fd6", background: colorByRating[LIKELY_D] },
+  [LEAN_D]: { line: "#052fd6", background: colorByRating[LEAN_D] },
+  [TILT_D]: { line: "#052fd6", background: colorByRating[TILT_D] },
+  [SAFE_R]: { line: "#d60819", background: colorByRating[SAFE_R] },
+  [LIKELY_R]: { line: "#d60819", background: colorByRating[LIKELY_R] },
+  [LEAN_R]: { line: "#d60819", background: colorByRating[LEAN_R] },
+  [TILT_R]: { line: "#d60819", background: colorByRating[TILT_R] },
+  [SAFE_I]: { line: "#a95ff4", background: colorByRating[SAFE_I] },
+  [LIKELY_I]: { line: "#a95ff4", background: colorByRating[LIKELY_I] },
+  [LEAN_I]: { line: "#a95ff4", background: colorByRating[LEAN_I] },
+  [TILT_I]: { line: "#a95ff4", background: colorByRating[TILT_I] },
 };

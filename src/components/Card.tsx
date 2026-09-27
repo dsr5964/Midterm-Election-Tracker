@@ -9,7 +9,7 @@ import {
   type State,
 } from "../types/types";
 import { PARTY_LABELS } from "../constants";
-import { getRatingColor } from "./ElectionMap";
+import { getRatingColor } from "../utils/stateUtils";
 
 function displayCongressionalDistrictsByState(houseData: HouseState) {
   const congressionalDistricts: string[] = houseData.districts.flatMap(
@@ -30,15 +30,9 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
       : "";
   return (
     <>
-      <span style={{ color: "#052fd6", fontWeight: "bold" }}>
-        {numDemocratMembers}
-      </span>{" "}
-      <span style={{ color: "#d60819", fontWeight: "bold" }}>
-        {numRepublicanMembers}
-      </span>{" "}
-      <span style={{ color: "#9932CC", fontWeight: "bold" }}>
-        {numIndependentMembers}
-      </span>
+      <span className="Democrat-text">{numDemocratMembers}</span>{" "}
+      <span className="Republican-text">{numRepublicanMembers}</span>{" "}
+      <span className="Independent-text">{numIndependentMembers}</span>
       {congressionalDistricts.map((district, index) => {
         const districtData = houseData.districts[index][district];
         const ratingColor = getRatingColor(districtData.rating);
@@ -68,7 +62,7 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
                 margin: "20px",
               }}
             >
-              {district}{" "}
+              <strong>{district}</strong>
               <div
                 className={`${democratFlip} ${republicanFlip}`}
                 style={{
@@ -121,9 +115,13 @@ function displayCandidateData(
           </strong>
           {group.candidates.map((candidate, index) => (
             <CCardText key={index}>
-              {group.isPrimary
-                ? `${candidate.name}`
-                : `${candidate.name} (${candidate.party})`}
+              {group.isPrimary ? (
+                `${candidate.name}`
+              ) : (
+                <span
+                  className={`${PARTY_LABELS[candidate.party]}-text`}
+                >{`${candidate.name} (${candidate.party})`}</span>
+              )}
             </CCardText>
           ))}
         </>

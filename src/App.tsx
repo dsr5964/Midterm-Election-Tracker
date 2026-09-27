@@ -4,7 +4,6 @@ import senateData from "./data/senate.json" with { type: "json" };
 import houseData from "./data/house.json" with { type: "json" };
 import governorData from "./data/governors.json" with { type: "json" };
 import HomePage from "./components/HomePage";
-import UnimplementedPage from "./components/UnimplementedPage";
 
 function App() {
   return (

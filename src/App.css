@@ -311,3 +311,18 @@
     #cf8980 20px
   );
 }
+
+.Democrat-text {
+  color: #052fd6;
+  font-weight: bold;
+}
+
+.Republican-text {
+  color: #d60819;
+  font-weight: bold;
+}
+
+.Independent-text {
+  color: #9932cc;
+  font-weight: bold;
+}
