@@ -1041,13 +1041,13 @@
           "firstElected": 2018
         },
         "candidates": [
+          { "name": "Jerri Green", "party": "D", "status": "nominee" },
           {
             "name": "Marsha Blackburn",
             "party": "R",
             "status": "nominee",
             "note": "Incumbent US Senator"
-          },
-          { "name": "Jerri Green", "party": "D", "status": "nominee" }
+          }
         ]
       }
     },

@@ -58,28 +58,32 @@ const initHouseState: HouseState = {
   statePartyControl: { democrat: 0, republican: 0, independent: 0 },
 };
 
-function displayCurrentPartyComposition(data, raceType: RaceType) {
+function renderCurrentPartyComposition(data, raceType: RaceType) {
   const currentComposition = data.currentComposition[raceType];
   const partyKeys = Object.keys(currentComposition);
   return (
-    <>
-      {partyKeys.map((key) => {
-        const partyColor = key === "Democrat" ? "#052fd6" : "#d60819";
-        return (
-          <span
-            style={{
-              backgroundColor: partyColor,
-              fontWeight: "bold",
-              color: "white",
-              padding: "10px",
-              borderRadius: "10px",
-            }}
-          >
-            {key}s {currentComposition[key]}
-          </span>
-        );
-      })}
-    </>
+    <div>
+      Current Composition
+      <div style={{ display: "flex" }}>
+        {partyKeys.map((key) => {
+          const partyColor = key === "Democrat" ? "#052fd6" : "#d60819";
+          return (
+            <span
+              style={{
+                backgroundColor: partyColor,
+                fontWeight: "bold",
+                color: "white",
+                padding: "10px",
+                borderRadius: "10px",
+                margin: "10px",
+              }}
+            >
+              {key}s {currentComposition[key]}
+            </span>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 
@@ -393,13 +397,11 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
       <h1>{title} Map 2026</h1>
       <div
         style={{
-          padding: "20px",
           display: "flex",
           justifyContent: "center",
-          gap: "20px",
         }}
       >
-        {displayCurrentPartyComposition(data, raceType as RaceType)}
+        <div>{renderCurrentPartyComposition(data, raceType as RaceType)}</div>
       </div>
       {raceType !== "house" && (
         <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
