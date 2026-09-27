@@ -62,20 +62,25 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
             <div
               style={{
                 display: "flex",
+                flexDirection: "column",
                 justifyContent: "space-evenly",
                 alignItems: "center",
                 margin: "20px",
               }}
             >
-              <strong>{district}</strong>
-              <div
-                className={`${democratFlip} ${republicanFlip}`}
-                style={{
-                  width: "30px",
-                  aspectRatio: 1,
-                  backgroundColor: ratingColor,
-                }}
-              ></div>
+              <div style={{ display: "flex", gap: "20px" }}>
+                <strong>{district}</strong>
+                <div
+                  className={`${democratFlip} ${republicanFlip}`}
+                  style={{
+                    width: "30px",
+                    aspectRatio: 1,
+                    backgroundColor: ratingColor,
+                  }}
+                ></div>
+              </div>
+
+              <div>{displayCandidateData(districtData.candidates)}</div>
             </div>
           );
         }
@@ -194,9 +199,10 @@ function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
           ) : (
             <></>
           )}
-          {toggleIncumbents
-            ? displayIncumbentData(incumbent)
-            : displayCandidateData(candidates)}
+          {raceType !== "house" &&
+            (toggleIncumbents
+              ? displayIncumbentData(incumbent)
+              : displayCandidateData(candidates))}
         </CCardBody>
       </CCard>
     </CRow>

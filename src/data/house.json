@@ -2258,6 +2258,7 @@
                 },
                 {
                   "name": "Chris Lancia",
+                  "party": "R",
                   "status": "nominee"
                 }
               ]
@@ -3064,7 +3065,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Te Brown",
+                  "name": "Mayonna Te Brown",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6099,7 +6100,7 @@
               "candidates": [
                 {
                   "name": "Trina Swanson",
-                  "party": "DFL",
+                  "party": "D",
                   "status": "nominee"
                 },
                 {
