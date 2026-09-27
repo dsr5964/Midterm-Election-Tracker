@@ -53,26 +53,24 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
             : "";
 
         return (
-          <CCardText>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+              alignItems: "center",
+              margin: "20px",
+            }}
+          >
+            <strong>{district}</strong>
             <div
+              className={`${democratFlip} ${republicanFlip}`}
               style={{
-                display: "flex",
-                justifyContent: "space-evenly",
-                alignItems: "center",
-                margin: "20px",
+                width: "30px",
+                aspectRatio: 1,
+                backgroundColor: ratingColor,
               }}
-            >
-              <strong>{district}</strong>
-              <div
-                className={`${democratFlip} ${republicanFlip}`}
-                style={{
-                  width: "30px",
-                  aspectRatio: 1,
-                  backgroundColor: ratingColor,
-                }}
-              ></div>
-            </div>
-          </CCardText>
+            ></div>
+          </div>
         );
       })}
     </>
@@ -114,14 +112,13 @@ function displayCandidateData(
             {group.isPrimary ? `${PARTY_LABELS[group.party]} Primary` : ""}
           </strong>
           {group.candidates.map((candidate, index) => (
-            <CCardText key={index}>
-              {group.isPrimary ? (
-                `${candidate.name}`
-              ) : (
-                <span
-                  className={`${PARTY_LABELS[candidate.party]}-text`}
-                >{`${candidate.name} (${candidate.party})`}</span>
-              )}
+            <CCardText
+              className={`${PARTY_LABELS[candidate.party]}-text`}
+              key={index}
+            >
+              {group.isPrimary
+                ? `${candidate.name}`
+                : `${candidate.name} (${candidate.party})`}
             </CCardText>
           ))}
         </>
