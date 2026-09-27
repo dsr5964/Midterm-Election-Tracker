@@ -1169,9 +1169,10 @@
     }
   },
 
-  "summary": {
-    "totalRaces": 36,
-    "mustWatch": 4,
-    "byRating": {}
+  "currentComposition": {
+    "governor": {
+      "Republican": 26,
+      "Democrat": 24
+    }
   }
 }

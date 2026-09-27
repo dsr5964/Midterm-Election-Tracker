@@ -12217,5 +12217,12 @@
         ]
       }
     }
+  },
+
+  "currentComposition": {
+    "house": {
+      "Republican": 220,
+      "Democrat": 215
+    }
   }
 }

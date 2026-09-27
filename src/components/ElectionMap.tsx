@@ -58,6 +58,31 @@ const initHouseState: HouseState = {
   statePartyControl: { democrat: 0, republican: 0, independent: 0 },
 };
 
+function displayCurrentPartyComposition(data, raceType: RaceType) {
+  const currentComposition = data.currentComposition[raceType];
+  const partyKeys = Object.keys(currentComposition);
+  return (
+    <>
+      {partyKeys.map((key) => {
+        const partyColor = key === "Democrat" ? "#052fd6" : "#d60819";
+        return (
+          <span
+            style={{
+              backgroundColor: partyColor,
+              fontWeight: "bold",
+              color: "white",
+              padding: "10px",
+              borderRadius: "10px",
+            }}
+          >
+            {key}s {currentComposition[key]}
+          </span>
+        );
+      })}
+    </>
+  );
+}
+
 function getSenateGovernorState(data, stateId: string): State | undefined {
   const individualState = allStateAbbrevs.find(
     (state) => state.val === stateId,
@@ -354,19 +379,29 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
     }
   }
 
-  const lowerTitle = title.toLowerCase();
+  const raceType = title.toLowerCase();
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         {buttonNames.map((name) => {
-          if (name !== lowerTitle) {
+          if (name !== raceType) {
             return <button onClick={() => navigate(`/${name}`)}>{name}</button>;
           }
         })}
         <BackButton />
       </div>
       <h1>{title} Map 2026</h1>
-      {lowerTitle !== "house" && (
+      <div
+        style={{
+          padding: "20px",
+          display: "flex",
+          justifyContent: "center",
+          gap: "20px",
+        }}
+      >
+        {displayCurrentPartyComposition(data, raceType as RaceType)}
+      </div>
+      {raceType !== "house" && (
         <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
           {toggleIncumbents ? `Midterm Election Matchups` : `Incumbents`}
         </button>
@@ -480,7 +515,7 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
         <Card
           stateData={stateData}
           toggleIncumbents={toggleIncumbents}
-          raceType={lowerTitle as RaceType}
+          raceType={raceType as RaceType}
         />
         {<Key toggleIncumbents={toggleIncumbents} electionType={title} />}
       </div>

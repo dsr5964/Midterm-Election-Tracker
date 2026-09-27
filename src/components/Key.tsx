@@ -11,9 +11,73 @@ type KeyProps = {
   electionType: string;
 };
 
-function renderMatchupKey() {
+function renderHouseStateLevelKey() {
+  return (
+    <div>
+      <strong>State party majority</strong>
+      <div
+        style={{
+          display: "flex",
+          gap: "24px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
+          <span>Democratic</span>
+          <div
+            style={{
+              width: "40px",
+              aspectRatio: 1,
+              backgroundColor: "rgb(0, 68, 201)",
+            }}
+          ></div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <span>Republican</span>
+          <div
+            style={{
+              width: "40px",
+              aspectRatio: 1,
+              backgroundColor: "rgb(232, 27, 35)",
+            }}
+          ></div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
+          <span>Even</span>
+          <div
+            style={{
+              width: "40px",
+              aspectRatio: 1,
+              backgroundColor: "rgb(153, 50, 204)",
+            }}
+          ></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function renderMatchupKey(electionType: string) {
   return (
     <>
+      {electionType === "House" ? <strong>District Ratings</strong> : ""}
       {Object.entries(ratingByParty).map(([party, ratingsConfig]) => (
         <div>
           {party}
@@ -174,9 +238,10 @@ function Key({ toggleIncumbents, electionType }: KeyProps) {
               alignItems: "center",
             }}
           >
+            {electionType === "House" ? renderHouseStateLevelKey() : <></>}
             {toggleIncumbents
               ? renderIncumbentKey(electionType)
-              : renderMatchupKey()}
+              : renderMatchupKey(electionType)}
           </div>
         </CCardBody>
       </CCardBody>

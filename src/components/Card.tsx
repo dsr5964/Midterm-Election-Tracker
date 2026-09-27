@@ -5,6 +5,7 @@ import {
   type HouseState,
   type Incumbent,
   type PartyGroup,
+  type PoliticalParty,
   type RaceType,
   type State,
 } from "../types/types";
@@ -13,7 +14,9 @@ import { getRatingColor } from "../utils/stateUtils";
 
 function displayCongressionalDistrictsByState(houseData: HouseState) {
   const congressionalDistricts: string[] = houseData.districts.flatMap(
-    (district) => Object.keys(district),
+    (district) => {
+      return Object.keys(district);
+    },
   );
 
   const numDemocratMembers =
@@ -33,45 +36,49 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
       <span className="Democrat-text">{numDemocratMembers}</span>{" "}
       <span className="Republican-text">{numRepublicanMembers}</span>{" "}
       <span className="Independent-text">{numIndependentMembers}</span>
-      {congressionalDistricts.map((district, index) => {
-        const districtData = houseData.districts[index][district];
-        const ratingColor = getRatingColor(districtData.rating);
-        const incumbentParty = districtData.incumbent
-          ? districtData.incumbent.party
-          : "";
-
-        const republicanFlip =
-          districtData.flip &&
-          (incumbentParty === "D" || incumbentParty === "I")
-            ? `${districtData.rating}-striped-square`
+      {congressionalDistricts.map((district) => {
+        const districtData = houseData.districts.find(
+          (d) => Object.keys(d)[0] === district,
+        )?.[district];
+        if (districtData) {
+          const ratingColor = getRatingColor(districtData.rating);
+          const incumbentParty = districtData.incumbent
+            ? districtData.incumbent.party
             : "";
 
-        const democratFlip =
-          districtData.flip &&
-          (incumbentParty === "R" || incumbentParty === "I")
-            ? `${districtData.rating}-striped-square`
-            : "";
+          const republicanFlip =
+            districtData.flip &&
+            (incumbentParty === "D" || incumbentParty === "I")
+              ? `${districtData.rating}-striped-square`
+              : "";
 
-        return (
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-evenly",
-              alignItems: "center",
-              margin: "20px",
-            }}
-          >
-            <strong>{district}</strong>
+          const democratFlip =
+            districtData.flip &&
+            (incumbentParty === "R" || incumbentParty === "I")
+              ? `${districtData.rating}-striped-square`
+              : "";
+
+          return (
             <div
-              className={`${democratFlip} ${republicanFlip}`}
               style={{
-                width: "30px",
-                aspectRatio: 1,
-                backgroundColor: ratingColor,
+                display: "flex",
+                justifyContent: "space-evenly",
+                alignItems: "center",
+                margin: "20px",
               }}
-            ></div>
-          </div>
-        );
+            >
+              <strong>{district}</strong>
+              <div
+                className={`${democratFlip} ${republicanFlip}`}
+                style={{
+                  width: "30px",
+                  aspectRatio: 1,
+                  backgroundColor: ratingColor,
+                }}
+              ></div>
+            </div>
+          );
+        }
       })}
     </>
   );
@@ -109,7 +116,9 @@ function displayCandidateData(
       {groups.map((group) => (
         <>
           <strong>
-            {group.isPrimary ? `${PARTY_LABELS[group.party]} Primary` : ""}
+            {group.isPrimary
+              ? `${PARTY_LABELS[group.party as PoliticalParty]} Primary`
+              : ""}
           </strong>
           {group.candidates.map((candidate, index) => (
             <CCardText

@@ -1222,12 +1222,10 @@
     }
   },
 
-  "currentControl": {
-    "senate": { "party": "R", "seats": 53, "opposing": 47 },
-    "house": { "party": "R", "seats": 218, "opposing": 213 },
+  "currentComposition": {
+    "senate": { "Republican": 53, "Democrat": 47 },
     "seatsNeededForFlip": {
-      "senate": 4,
-      "house": 3
+      "senate": 4
     }
   }
 }

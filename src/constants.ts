@@ -1,4 +1,4 @@
-import type { RatingConfig } from "./types/types";
+import type { PoliticalParty, RatingConfig } from "./types/types";
 
 export const SAFE_R = "safe-r";
 export const SAFE_D = "safe-d";
@@ -92,7 +92,7 @@ export const ratingByParty: Record<string, RatingConfig[]> = {
 
 export const tossupConfig = { rating: TOSSUP, color: TOSSUP_COLOR };
 
-export const PARTY_LABELS: Record<string, string> = {
+export const PARTY_LABELS: Record<PoliticalParty, string> = {
   D: "Democrat",
   R: "Republican",
   I: "Independent",
