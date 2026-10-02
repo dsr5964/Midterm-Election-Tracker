@@ -58,7 +58,7 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "lean-r",
+          "tossup",
           "tossup",
           "lean-d",
           "tossup",
@@ -259,7 +259,7 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "likely-r",
+          "lean-r",
           "lean-r",
           "lean-r",
           "tossup",
@@ -641,7 +641,7 @@
         "ratings": [
           "safe-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -801,7 +801,7 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "tilt-r",
+          "tossup",
           "tossup",
           "tossup",
           "tossup",
@@ -838,7 +838,15 @@
       "name": "Oklahoma",
       "race": {
         "mustWatch": false,
-        "ratings": ["safe-r"],
+        "ratings": [
+          "safe-r",
+          "likely-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r",
+          "safe-r"
+        ],
         "pvi": "R+17",
         "primaryDate": "2026-06-16",
         "isRunoff": true,
@@ -1057,7 +1065,7 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "likely-r",
+          "lean-r",
           "likely-r",
           "lean-r",
           "tossup",
@@ -1092,8 +1100,8 @@
         "ratings": [
           "safe-r",
           "safe-r",
-          "safe-r",
-          "safe-r",
+          "likely-r",
+          "lean-r",
           "safe-r",
           "likely-r",
           "safe-r"
