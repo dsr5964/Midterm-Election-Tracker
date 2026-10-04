@@ -519,7 +519,7 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
           toggleIncumbents={toggleIncumbents}
           raceType={raceType as RaceType}
         />
-        {<Key toggleIncumbents={toggleIncumbents} electionType={title} />}
+        {<Key toggleIncumbents={toggleIncumbents} electionType={raceType} />}
       </div>
     </div>
   );

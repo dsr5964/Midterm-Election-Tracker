@@ -13,6 +13,9 @@ import { PARTY_LABELS } from "../constants";
 import { getRatingColor } from "../utils/stateUtils";
 
 function displayCongressionalDistrictsByState(houseData: HouseState) {
+  if (houseData.districts.length === 0) {
+    return <CCardText>Please select a state</CCardText>;
+  }
   const congressionalDistricts: string[] = houseData.districts.flatMap(
     (district) => {
       return Object.keys(district);
@@ -80,7 +83,12 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
                 ></div>
               </div>
 
-              <div>{displayCandidateData(districtData.candidates)}</div>
+              <div>
+                {displayCandidateData(
+                  districtData.candidates,
+                  districtData.incumbent,
+                )}
+              </div>
             </div>
           );
         }
@@ -108,6 +116,7 @@ function groupCandidatesByParty(candidates: Candidate[]): PartyGroup[] {
 
 function displayCandidateData(
   candidateData: Candidate[] | undefined,
+  incumbent: Incumbent | null,
   primaryDate?: string,
 ): ReactNode {
   if (!candidateData || candidateData.length === 0) {
@@ -132,7 +141,7 @@ function displayCandidateData(
             >
               {group.isPrimary
                 ? `${candidate.name}`
-                : `${candidate.name} (${candidate.party})`}
+                : `${candidate.name} (${candidate.party}) ${incumbent && candidate.name === incumbent.name ? "*" : ""}`}
             </CCardText>
           ))}
         </>
@@ -202,7 +211,7 @@ function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
           {raceType !== "house" &&
             (toggleIncumbents
               ? displayIncumbentData(incumbent)
-              : displayCandidateData(candidates))}
+              : displayCandidateData(candidates, incumbent || null))}
         </CCardBody>
       </CCard>
     </CRow>

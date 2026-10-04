@@ -61,14 +61,14 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
+          "tossup",
+          "tossup",
           "lean-d",
           "tossup",
+          "tossup",
+          "tossup",
+          "tossup",
           "lean-d",
-          "tossup",
-          "tossup",
-          "tossup",
-          "tossup",
-          "tossup",
           "lean-d"
         ],
         "seat": "Class 2",
@@ -349,7 +349,7 @@
           "tilt-r",
           "tossup",
           "tossup",
-          "lean-d",
+          "tossup",
           "tossup"
         ],
         "seat": "Class 2",
@@ -386,7 +386,7 @@
           "lean-r",
           "likely-r",
           "tossup",
-          "lean-r",
+          "tossup",
           "lean-r",
           "likely-r",
           "tossup",
@@ -491,7 +491,7 @@
           "tossup",
           "tossup",
           "lean-d",
-          "lean-d"
+          "tossup"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -1018,7 +1018,7 @@
           "lean-r",
           "safe-r",
           "likely-r",
-          "likely-r"
+          "lean-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
