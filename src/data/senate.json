@@ -61,13 +61,13 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "tossup",
+          "lean-d",
           "tossup",
           "lean-d",
           "tossup",
           "tossup",
           "tossup",
-          "tossup",
+          "lean-d",
           "lean-d",
           "lean-d"
         ],
@@ -193,7 +193,7 @@
         "ratings": [
           "safe-r",
           "likely-r",
-          "lean-r",
+          "likely-r",
           "likely-r",
           "safe-r",
           "safe-r",
@@ -242,8 +242,8 @@
           "lean-d",
           "lean-d",
           "likely-d",
-          "likely-d",
-          "likely-d"
+          "safe-d",
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -277,18 +277,7 @@
       "name": "Idaho",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "likely-r",
-          "likely-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-05-19",
@@ -349,7 +338,7 @@
           "tilt-r",
           "tossup",
           "tossup",
-          "tossup",
+          "lean-d",
           "tossup"
         ],
         "seat": "Class 2",
@@ -383,15 +372,15 @@
       "race": {
         "mustWatch": true,
         "ratings": [
+          "tossup",
           "lean-r",
-          "likely-r",
           "tossup",
           "tossup",
           "lean-r",
           "likely-r",
           "tossup",
           "lean-r",
-          "lean-r",
+          "tossup",
           "lean-r"
         ],
         "seat": "Class 2",
@@ -491,7 +480,7 @@
           "tossup",
           "tossup",
           "lean-d",
-          "tossup"
+          "lean-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -724,7 +713,7 @@
           "lean-r",
           "tossup",
           "likely-r",
-          "likely-r",
+          "lean-r",
           "lean-r"
         ],
         "seat": "Class 2",
@@ -754,7 +743,7 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "tossup",
+          "lean-d",
           "likely-d",
           "likely-d",
           "likely-d",
@@ -849,16 +838,16 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "lean-d",
           "likely-d",
           "likely-d",
           "likely-d",
-          "lean-d",
-          "lean-d",
-          "lean-d",
+          "likely-d",
+          "likely-d",
           "lean-d",
           "likely-d",
-          "likely-d"
+          "lean-d",
+          "safe-d",
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -1013,12 +1002,12 @@
           "lean-r",
           "lean-r",
           "lean-r",
-          "safe-r",
+          "likely-r",
           "likely-r",
           "lean-r",
-          "safe-r",
           "likely-r",
-          "lean-r"
+          "likely-r",
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -1056,7 +1045,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r"
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
