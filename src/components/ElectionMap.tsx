@@ -403,11 +403,11 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
       >
         <div>{renderCurrentPartyComposition(data, raceType as RaceType)}</div>
       </div>
-      {raceType !== "house" && (
+      {
         <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
           {toggleIncumbents ? `Midterm Election Matchups` : `Incumbents`}
         </button>
-      )}
+      }
       <div style={{ width: "800px", maxWidth: "960px", margin: "0 auto" }}>
         <ComposableMap
           projection="geoAlbersUsa"

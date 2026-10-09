@@ -12,7 +12,10 @@ import {
 import { PARTY_LABELS } from "../constants";
 import { getRatingColor } from "../utils/stateUtils";
 
-function displayCongressionalDistrictsByState(houseData: HouseState) {
+function displayCongressionalDistrictsByState(
+  houseData: HouseState,
+  toggleIncumbents: boolean,
+) {
   if (houseData.districts.length === 0) {
     return <CCardText>Please select a state</CCardText>;
   }
@@ -73,21 +76,27 @@ function displayCongressionalDistrictsByState(houseData: HouseState) {
             >
               <div style={{ display: "flex", gap: "20px" }}>
                 <strong>{district}</strong>
-                <div
-                  className={`${democratFlip} ${republicanFlip}`}
-                  style={{
-                    width: "30px",
-                    aspectRatio: 1,
-                    backgroundColor: ratingColor,
-                  }}
-                ></div>
+                {toggleIncumbents ? (
+                  <></>
+                ) : (
+                  <div
+                    className={`${democratFlip} ${republicanFlip}`}
+                    style={{
+                      width: "30px",
+                      aspectRatio: 1,
+                      backgroundColor: ratingColor,
+                    }}
+                  ></div>
+                )}
               </div>
 
               <div>
-                {displayCandidateData(
-                  districtData.candidates,
-                  districtData.incumbent,
-                )}
+                {toggleIncumbents
+                  ? displayIncumbentData(districtData.incumbent)
+                  : displayCandidateData(
+                      districtData.candidates,
+                      districtData.incumbent,
+                    )}
               </div>
             </div>
           );
@@ -150,7 +159,7 @@ function displayCandidateData(
   );
 }
 
-function displayIncumbentData(incumbentData: Incumbent | undefined): ReactNode {
+function displayIncumbentData(incumbentData: Incumbent | null): ReactNode {
   if (!incumbentData) {
     return <CCardText>Vacant seat - no incumbent</CCardText>;
   }
@@ -172,8 +181,8 @@ interface CardProps {
 // TODO: Add a badge for flips
 // TODO: Add a badge for the rating
 function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
-  const incumbent: Incumbent | undefined =
-    "incumbent" in stateData ? stateData.incumbent! : undefined;
+  const incumbent: Incumbent | null =
+    "incumbent" in stateData ? stateData.incumbent! : null;
   const candidates: Candidate[] | undefined =
     "candidates" in stateData ? stateData.candidates : undefined;
   return (
@@ -204,7 +213,10 @@ function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
             {stateData.name}
           </CCardTitle>
           {raceType === "house" ? (
-            displayCongressionalDistrictsByState(stateData as HouseState)
+            displayCongressionalDistrictsByState(
+              stateData as HouseState,
+              toggleIncumbents,
+            )
           ) : (
             <></>
           )}
