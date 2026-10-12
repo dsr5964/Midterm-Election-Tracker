@@ -40,15 +40,15 @@ import "../App.css";
 import Key from "./Key";
 import { getRatingColor } from "../utils/stateUtils";
 
-// const initState: State = {
-//   id: "",
-//   name: "",
-//   rating: undefined,
-//   abbrev: undefined,
-//   candidates: [],
-//   incumbent: undefined,
-//   flip: false,
-// };
+const initState: State = {
+  id: "",
+  name: "",
+  rating: undefined,
+  abbrev: undefined,
+  candidates: [],
+  incumbent: undefined,
+  flip: false,
+};
 
 const initHouseState: HouseState = {
   id: "",
@@ -358,9 +358,14 @@ type ElectionMapArgs = {
 
 export default function ElectionMap({ data, title }: ElectionMapArgs) {
   const navigate = useNavigate();
-  const [stateData, setStateData] = useState<State | HouseState>(
-    initHouseState,
-  );
+  const raceType = title.toLowerCase();
+  const [stateData, setStateData] = useState<State | HouseState>(() => {
+    if (raceType === "house") {
+      return initHouseState;
+    } else {
+      return initState;
+    }
+  });
   const [toggleIncumbents, setToggleIncumbents] = useState<boolean>(false);
 
   function getStateColorBasedOnRace(stateData: HouseState | State) {
@@ -383,7 +388,6 @@ export default function ElectionMap({ data, title }: ElectionMapArgs) {
     }
   }
 
-  const raceType = title.toLowerCase();
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>

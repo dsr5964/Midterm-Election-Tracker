@@ -160,7 +160,7 @@ function displayCandidateData(
 }
 
 function displayIncumbentData(incumbentData: Incumbent | null): ReactNode {
-  if (!incumbentData) {
+  if (incumbentData === null) {
     return <CCardText>Vacant seat - no incumbent</CCardText>;
   }
   return (
@@ -212,14 +212,11 @@ function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
           >
             {stateData.name}
           </CCardTitle>
-          {raceType === "house" ? (
+          {raceType === "house" &&
             displayCongressionalDistrictsByState(
               stateData as HouseState,
               toggleIncumbents,
-            )
-          ) : (
-            <></>
-          )}
+            )}
           {raceType !== "house" &&
             (toggleIncumbents
               ? displayIncumbentData(incumbent)

@@ -32,7 +32,7 @@ export const TOSSUP_COLOR = "#C9C09B";
 // const LEAN_I_COLOR = "#D6ADEB";
 // const TILT_I_COLOR = "#E8D8F2";
 
-export const buttonNames: string[] = ["Senate", "Governor", "House"];
+export const buttonNames: string[] = ["senate", "governor", "house"];
 
 export const colorByRating: Record<string, string> = {
   [SAFE_D]: SAFE_D_COLOR,

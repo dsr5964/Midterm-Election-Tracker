@@ -214,6 +214,7 @@
         "incumbent": {
           "name": "Jared Polis",
           "party": "D",
+          "firstElected": 2018,
           "note": "Term-limited",
           "retiring": true
         },
@@ -458,7 +459,7 @@
           "lean-r",
           "lean-r",
           "tossup",
-          "lean-r",
+          "tilt-r",
           "lean-r",
           "lean-r"
         ],
@@ -809,7 +810,7 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "tossup",
+          "lean-d",
           "tossup",
           "tossup",
           "tossup",
@@ -971,7 +972,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "likely-r",
+          "lean-r",
           "safe-r",
           "safe-r",
           "likely-r"
@@ -1098,7 +1099,7 @@
         "mustWatch": false,
         "ratings": [
           "safe-r",
-          "safe-r",
+          "likely-r",
           "likely-r",
           "safe-r",
           "lean-r",
