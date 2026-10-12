@@ -15,15 +15,15 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route
               path="/senate"
-              element={<ElectionMap data={senateData} title="Senate" />}
+              element={<ElectionMap data={senateData} raceType="senate" />}
             />
             <Route
               path="/governor"
-              element={<ElectionMap data={governorData} title="Governor" />}
+              element={<ElectionMap data={governorData} raceType="governor" />}
             />
             <Route
               path="/house"
-              element={<ElectionMap data={houseData} title="House" />}
+              element={<ElectionMap data={houseData} raceType="house" />}
             />
           </Routes>
         </Router>
