@@ -352,6 +352,24 @@ import { firstCharStringUppercase } from "../utils/parseString";
 //   return false;
 // }
 
+const initialState: State = {
+  id: "",
+  name: "",
+  rating: undefined,
+  abbrev: undefined,
+  candidates: [],
+  incumbent: null,
+  flip: false,
+};
+
+const initialHouseState: HouseState = {
+  id: "",
+  name: "",
+  abbrev: undefined,
+  districts: [],
+  statePartyControl: { democrat: 0, republican: 0, independent: 0 },
+};
+
 type ElectionMapArgs = {
   data: unknown;
   raceType: RaceType;
@@ -360,7 +378,14 @@ type ElectionMapArgs = {
 export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
   const navigate = useNavigate();
   const [activeRace, setActiveRace] = useState<RaceType>(raceType);
-  console.log(activeRace);
+  const [selectedState, setSelectedState] = useState<string | null>(null);
+  const [stateData, setStateData] = useState<State | HouseState>(() => {
+    if (raceType === "house") {
+      return initialHouseState;
+    } else {
+      return initialState;
+    }
+  });
 
   const handleButtonClick = (name: string) => {
     navigate(`/${name}`);
@@ -386,6 +411,60 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
         </h1>
       </div>
       <BackButton />
+      <div>
+        <ComposableMap
+          projection="geoAlbersUsa"
+          projectionConfig={{ scale: 1000 }}
+          // This prevents the square outline when you press the state
+          onMouseDown={(e) => e.preventDefault()}
+        >
+          <Geographies geography={geoData}>
+            {({ geographies }) => {
+              return geographies.map((state) => {
+                return (
+                  <Geography
+                    key={state.rsmKey}
+                    geography={state}
+                    fill={"white"}
+                    strokeWidth={1}
+                    style={{
+                      default: {
+                        fill: "white",
+                        outline: "black",
+                        cursor: "pointer",
+                      },
+                      hover: {
+                        outline: "none",
+                        cursor: "pointer",
+                      },
+                      pressed: {
+                        outline: "none",
+                        cursor: "pointer",
+                      },
+                    }}
+                  ></Geography>
+                );
+              });
+            }}
+          </Geographies>
+        </ComposableMap>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          flexGrow: 0,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Card
+          stateData={initialHouseState}
+          toggleIncumbents={false}
+          raceType={activeRace}
+        />
+        <Key toggleIncumbents={false} electionType={activeRace} />
+      </div>
     </div>
   );
   // const navigate = useNavigate();

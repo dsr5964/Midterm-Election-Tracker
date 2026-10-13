@@ -77,7 +77,7 @@ export type State = {
   name: string;
   rating: Rating | undefined;
   candidates: Candidate[];
-  incumbent: Incumbent | undefined; // maybe change to null instead of undefined
+  incumbent: Incumbent | null; // maybe change to null instead of undefined
   flip: boolean;
 };
 

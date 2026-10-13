@@ -129,7 +129,7 @@ function displayCandidateData(
   primaryDate?: string,
 ): ReactNode {
   if (!candidateData || candidateData.length === 0) {
-    return <CCardText>No candidates yet</CCardText>;
+    return <CCardText>Please select a state</CCardText>;
   }
 
   const groups = groupCandidatesByParty(candidateData);
