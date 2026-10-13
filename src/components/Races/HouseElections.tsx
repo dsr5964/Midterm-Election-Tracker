@@ -1,6 +1,10 @@
 import { CCardText } from "@coreui/react";
 import type { HouseState } from "../../types/types";
 import { getRatingColor } from "../../utils/stateUtils";
+import {
+  displayIncumbentData,
+  displayCandidateData,
+} from "./shared/Candidates";
 
 export function displayCongressionalDistrictsByState(
   houseData: HouseState,
