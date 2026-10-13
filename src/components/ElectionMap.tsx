@@ -326,7 +326,6 @@ function getStateColorBasedOnRace(
         : getRatingColor(rating!);
       return stateColor;
     }
-    return "";
   }
 }
 
@@ -423,6 +422,9 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           {renderCurrentPartyComposition(data, activeRace)}
         </div>
       </div>
+      <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
+        {toggleIncumbents ? `Midterm Election Matchups` : `Incumbents`}
+      </button>
       <div>
         <ComposableMap
           projection="geoAlbersUsa"
