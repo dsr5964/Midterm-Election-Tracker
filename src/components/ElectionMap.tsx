@@ -383,7 +383,7 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
   const navigate = useNavigate();
   const [activeRace, setActiveRace] = useState<RaceType>(raceType);
   const [selectedState, setSelectedState] = useState<string | null>(null);
-  const [stateData, setStateData] = useState<State | HouseState>(() => {
+  const [stateData, setStateData] = useState<State | HouseState | null>(() => {
     if (raceType === "house") {
       return initialHouseState;
     } else {
@@ -395,7 +395,16 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
   const handleButtonClick = (name: string) => {
     navigate(`/${name}`);
     setActiveRace(name as RaceType);
+    setSelectedState(null);
+    setStateData(null);
   };
+
+  const handleSelectState = (state: State | HouseState) => {
+    setSelectedState(state.name);
+    setStateData(state);
+  };
+
+  console.log(selectedState);
 
   return (
     <div>
@@ -473,6 +482,7 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
                         cursor: "pointer",
                       },
                     }}
+                    onClick={() => handleSelectState(state)}
                   ></Geography>
                 );
               });
@@ -490,11 +500,11 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
         }}
       >
         <Card
-          stateData={initialState}
-          toggleIncumbents={false}
+          stateData={stateData}
+          toggleIncumbents={toggleIncumbents}
           raceType={activeRace}
         />
-        <Key toggleIncumbents={false} electionType={activeRace} />
+        <Key toggleIncumbents={toggleIncumbents} electionType={activeRace} />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { CCard, CCardBody, CCardTitle, CRow } from "@coreui/react";
+import { CCard, CCardBody, CCardTitle, CCardText, CRow } from "@coreui/react";
 import {
   type Candidate,
   type HouseState,
@@ -13,7 +13,7 @@ import {
 } from "./Races/shared/Candidates";
 
 interface CardProps {
-  stateData: State | HouseState;
+  stateData: State | HouseState | null;
   toggleIncumbents: boolean;
   raceType: RaceType;
 }
@@ -21,6 +21,9 @@ interface CardProps {
 // TODO: Add a badge for flips
 // TODO: Add a badge for the rating
 function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
+  if (stateData === null) {
+    return <CCardText>Select a state</CCardText>;
+  }
   const incumbent: Incumbent | null =
     "incumbent" in stateData ? stateData.incumbent! : null;
   const candidates: Candidate[] | undefined =
