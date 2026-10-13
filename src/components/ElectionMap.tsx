@@ -41,34 +41,34 @@ import Key from "./Key";
 import { getRatingColor } from "../utils/stateUtils";
 import { firstCharStringUppercase } from "../utils/parseString";
 
-// function renderCurrentPartyComposition(data, raceType: RaceType) {
-//   const currentComposition = data.currentComposition[raceType];
-//   const partyKeys = Object.keys(currentComposition);
-//   return (
-//     <div>
-//       Current Composition
-//       <div style={{ display: "flex" }}>
-//         {partyKeys.map((key) => {
-//           const partyColor = key === "Democrat" ? "#052fd6" : "#d60819";
-//           return (
-//             <span
-//               style={{
-//                 backgroundColor: partyColor,
-//                 fontWeight: "bold",
-//                 color: "white",
-//                 padding: "10px",
-//                 borderRadius: "10px",
-//                 margin: "10px",
-//               }}
-//             >
-//               {key}s {currentComposition[key]}
-//             </span>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// }
+function renderCurrentPartyComposition(data, raceType: RaceType) {
+  const currentComposition = data.currentComposition[raceType];
+  const partyKeys = Object.keys(currentComposition);
+  return (
+    <div>
+      Current Composition
+      <div style={{ display: "flex" }}>
+        {partyKeys.map((key) => {
+          const partyColor = key === "Democrat" ? "#052fd6" : "#d60819";
+          return (
+            <span
+              style={{
+                backgroundColor: partyColor,
+                fontWeight: "bold",
+                color: "white",
+                padding: "10px",
+                borderRadius: "10px",
+                margin: "10px",
+              }}
+            >
+              {key}s {currentComposition[key]}
+            </span>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 function getRepresentativeSeatCountByParty(districtData: District[]) {
   let democratSeatCount: number = 0;
@@ -312,22 +312,22 @@ function getStateColorBasedOnRace(
   stateData: HouseState | State,
   toggleIncumbents: boolean,
 ) {
-  // if ("districts" in stateData) {
-  //   return getStateColorFromPartyControl(stateData.statePartyControl);
-  // } else {
-  const stateIncumbent: Incumbent | null =
-    "incumbent" in stateData ? stateData.incumbent! : null;
-  const rating: Rating | null | undefined =
-    "rating" in stateData ? stateData.rating : undefined;
-  // TODO cleaner way of guaranteeing rating and incumbent exist to get state color
-  if (stateIncumbent && rating) {
-    const stateColor = toggleIncumbents
-      ? getStateColorFromIncumbent(stateData.incumbent!)
-      : getRatingColor(rating!);
-    return stateColor;
+  if ("districts" in stateData) {
+    return getStateColorFromPartyControl(stateData.statePartyControl);
+  } else {
+    const stateIncumbent: Incumbent | null =
+      "incumbent" in stateData ? stateData.incumbent! : null;
+    const rating: Rating | null | undefined =
+      "rating" in stateData ? stateData.rating : undefined;
+    // TODO cleaner way of guaranteeing rating and incumbent exist to get state color
+    if (stateIncumbent && rating) {
+      const stateColor = toggleIncumbents
+        ? getStateColorFromIncumbent(stateData.incumbent!)
+        : getRatingColor(rating!);
+      return stateColor;
+    }
+    return "";
   }
-  return "";
-  //}
 }
 
 function checkIsFlip(incumbentParty: PoliticalParty, rating: string) {
@@ -382,7 +382,6 @@ type ElectionMapArgs = {
 export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
   const navigate = useNavigate();
   const [activeRace, setActiveRace] = useState<RaceType>(raceType);
-  const [selectedState, setSelectedState] = useState<string | null>(null);
   const [stateData, setStateData] = useState<State | HouseState | null>(() => {
     if (raceType === "house") {
       return initialHouseState;
@@ -395,16 +394,12 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
   const handleButtonClick = (name: string) => {
     navigate(`/${name}`);
     setActiveRace(name as RaceType);
-    setSelectedState(null);
     setStateData(null);
   };
 
   const handleSelectState = (state: State | HouseState) => {
-    setSelectedState(state.name);
     setStateData(state);
   };
-
-  console.log(selectedState);
 
   return (
     <div>
@@ -419,12 +414,15 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
               );
             }
           })}
+          <BackButton />
         </div>
         <h1>
           <strong>{firstCharStringUppercase(activeRace)} Map 2026</strong>
         </h1>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          {renderCurrentPartyComposition(data, activeRace)}
+        </div>
       </div>
-      <BackButton />
       <div>
         <ComposableMap
           projection="geoAlbersUsa"
@@ -432,12 +430,31 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           // This prevents the square outline when you press the state
           onMouseDown={(e) => e.preventDefault()}
         >
+          <defs>
+            {Object.entries(stripeConfigs).map(([partyKey, config]) => (
+              <pattern
+                key={partyKey}
+                id={`diagonal-stripe-${partyKey}`}
+                patternUnits="userSpaceOnUse"
+                width="10"
+                height="10"
+                patternTransform={"rotate(-45)"}
+              >
+                <rect width="10" height="10" fill={config.background} />
+                <line
+                  x1="0"
+                  y1="0"
+                  y2="10"
+                  stroke={config.line}
+                  strokeWidth={8}
+                />
+              </pattern>
+            ))}
+          </defs>
           <Geographies geography={geoData}>
             {({ geographies }) => {
               return geographies.map((geo) => {
                 const state = getState(data, geo.id, activeRace);
-
-                console.log(state);
                 if (!state) {
                   return (
                     <Geography
@@ -461,15 +478,24 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
                     />
                   );
                 }
+                const rating = "rating" in state ? state.rating : undefined;
+                const flip: boolean = "flip" in state ? state.flip : false;
+                const stateColor = getStateColorBasedOnRace(
+                  state,
+                  toggleIncumbents,
+                );
+                const patternFill = `url(#diagonal-stripe-${rating})`;
                 return (
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    fill={"white"}
+                    fill={stateColor}
+                    stroke="white"
                     strokeWidth={1}
                     style={{
                       default: {
-                        fill: "white",
+                        fill:
+                          flip && !toggleIncumbents ? patternFill : stateColor,
                         outline: "black",
                         cursor: "pointer",
                       },
