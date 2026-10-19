@@ -42,13 +42,15 @@ import { getRatingColor } from "../utils/stateUtils";
 import { firstCharStringUppercase } from "../utils/parseString";
 
 // TODOS:
-// Clean up console errors
 // Move helper/util functions to separate file
 // Figure out how to get around any type for data argument
 //
-
 function renderCurrentPartyComposition(data, raceType: RaceType) {
+  if (!data) return null;
+  if (!data.currentComposition) return null;
   const currentComposition = data.currentComposition[raceType];
+
+  if (!currentComposition) return null;
   const partyKeys = Object.keys(currentComposition);
   return (
     <div>
@@ -121,8 +123,10 @@ function getSenateGovernorState(data, stateId: string): State | undefined {
     if (stateKey in data.states) {
       const stateName = data.states[stateKey].name;
       const ratings: string[] = data.states[stateKey].race.ratings;
+      if (!Array.isArray(ratings) || ratings.length === 0) return;
       const rating = getRating(ratings);
-
+      const candidateArray = data.states[stateKey].race.candidates;
+      if (!Array.isArray(candidateArray) || candidateArray.length === 0) return;
       const candidates: Candidate[] = getCandidates(
         data.states[stateKey].race.candidates,
       );
@@ -160,6 +164,7 @@ function getHouseState(data, stateId: string): HouseState | undefined {
 
       const houseDistrictsArray: District[] = [];
 
+      if (!stateData.race.districts) return undefined;
       for (const dataRecord of stateData.race.districts) {
         const congressionalDistrict = Object.keys(dataRecord)[0];
         const recordValues = Object.values(dataRecord)[0];
@@ -329,7 +334,7 @@ function getStateColorBasedOnRace(
     if (stateIncumbent && rating) {
       const stateColor = toggleIncumbents
         ? getStateColorFromIncumbent(stateData.incumbent!)
-        : getRatingColor(rating!);
+        : getRatingColor(rating);
       return stateColor;
     }
   }
@@ -413,7 +418,10 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           {buttonNames.map((buttonName) => {
             if (buttonName !== activeRace) {
               return (
-                <button onClick={() => handleButtonClick(buttonName)}>
+                <button
+                  key={buttonName}
+                  onClick={() => handleButtonClick(buttonName)}
+                >
                   {firstCharStringUppercase(buttonName)}
                 </button>
               );

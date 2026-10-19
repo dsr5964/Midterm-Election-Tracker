@@ -114,12 +114,12 @@
               },
               "ratings": [
                 "likely-r",
-                "likely-r",
+                "lean-r",
                 "lean-r",
                 "likely-r",
                 "tossup",
                 "likely-r",
-                "lean-r",
+                "tossup",
                 "likely-r",
                 "likely-r",
                 "lean-r"
@@ -297,13 +297,13 @@
               },
               "ratings": [
                 "likely-r",
-                "safe-r",
+                "likely-r",
                 "likely-r",
                 "lean-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
-                "safe-r",
+                "likely-r",
                 "likely-r",
                 "lean-r"
               ],
@@ -388,7 +388,7 @@
               },
               "ratings": [
                 "lean-d",
-                "tossup",
+                "tilt-d",
                 "tossup",
                 "likely-d",
                 "likely-d",
@@ -2765,7 +2765,7 @@
                 "lean-r",
                 "likely-r",
                 "likely-r",
-                "tossup",
+                "lean-r",
                 "lean-r",
                 "lean-r",
                 "tossup"
@@ -3040,8 +3040,8 @@
                 "tilt-r",
                 "tossup",
                 "tossup",
-                "lean-r",
-                "lean-r",
+                "tossup",
+                "tossup",
                 "lean-d",
                 "tossup",
                 "lean-d",
@@ -4400,7 +4400,7 @@
                 "likely-d",
                 "likely-d",
                 "likely-d",
-                "tossup",
+                "lean-d",
                 "lean-d",
                 "lean-d"
               ],
@@ -4434,8 +4434,8 @@
                 "note": "Retiring to run for US Senate."
               },
               "ratings": [
-                "lean-r",
-                "tilt-r",
+                "tossup",
+                "tossup",
                 "tossup",
                 "lean-d",
                 "lean-d",
@@ -4476,7 +4476,7 @@
                 "likely-d",
                 "lean-d",
                 "likely-d",
-                "tossup",
+                "lean-d",
                 "likely-d",
                 "lean-d"
               ],
@@ -4778,13 +4778,13 @@
               },
               "ratings": [
                 "lean-r",
+                "tilt-r",
                 "lean-r",
+                "tossup",
+                "tossup",
                 "lean-r",
                 "tossup",
                 "lean-r",
-                "likely-r",
-                "lean-r",
-                "likely-r",
                 "likely-r",
                 "lean-r"
               ],
@@ -5104,11 +5104,11 @@
               },
               "ratings": [
                 "lean-r",
-                "likely-r",
+                "lean-r",
                 "lean-r",
                 "tossup",
                 "lean-r",
-                "lean-r",
+                "tossup",
                 "lean-d",
                 "tossup",
                 "lean-r",
@@ -5736,7 +5736,7 @@
                 "tossup",
                 "tossup",
                 "lean-d",
-                "lean-d",
+                "likely-d",
                 "likely-d",
                 "tossup",
                 "lean-d",
@@ -5938,13 +5938,13 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
-                "likely-r",
                 "lean-r",
                 "likely-r",
                 "likely-r",
                 "lean-r",
+                "likely-r",
+                "lean-r",
+                "tossup",
                 "likely-r",
                 "lean-r",
                 "lean-r"
@@ -6296,9 +6296,9 @@
                 "lean-r",
                 "likely-r",
                 "tossup",
+                "lean-r",
                 "likely-r",
-                "likely-r",
-                "lean-r"
+                "tossup"
               ],
               "mustWatch": true,
               "candidates": [
@@ -6482,14 +6482,14 @@
                 "retiring": true
               },
               "ratings": [
-                "lean-r",
-                "lean-r",
+                "tossup",
+                "tilt-r",
                 "lean-r",
                 "tossup",
                 "lean-r",
                 "lean-r",
                 "tossup",
-                "lean-r",
+                "tossup",
                 "lean-r",
                 "tossup"
               ],
@@ -7813,14 +7813,14 @@
                 "retiring": true
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
                 "likely-r",
                 "lean-r",
-                "safe-r",
                 "likely-r",
                 "likely-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "likely-r"
               ],
@@ -7973,7 +7973,7 @@
               },
               "ratings": [
                 "tossup",
-                "tilt-r",
+                "tossup",
                 "tossup",
                 "tossup",
                 "lean-d",
@@ -8291,7 +8291,7 @@
               },
               "ratings": [
                 "tossup",
-                "lean-r",
+                "tossup",
                 "tossup",
                 "tossup",
                 "lean-d",
@@ -9199,7 +9199,7 @@
                 "tossup",
                 "lean-r",
                 "likely-d",
-                "lean-r",
+                "tossup",
                 "tossup",
                 "tossup"
               ],
@@ -9344,13 +9344,13 @@
               },
               "ratings": [
                 "lean-d",
-                "tossup",
+                "tilt-d",
                 "lean-d",
                 "lean-d",
                 "likely-d",
-                "lean-d",
                 "likely-d",
-                "tossup",
+                "likely-d",
+                "lean-d",
                 "lean-d",
                 "lean-d"
               ],
@@ -9378,7 +9378,7 @@
               },
               "ratings": [
                 "tossup",
-                "tossup",
+                "tilt-d",
                 "tossup",
                 "tossup",
                 "lean-d",
@@ -9441,7 +9441,7 @@
                 "likely-d",
                 "lean-d",
                 "likely-d",
-                "tossup",
+                "lean-d",
                 "likely-d",
                 "lean-d"
               ],
@@ -9716,8 +9716,8 @@
                 "note": "Retiring to run for governor."
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
                 "likely-r",
                 "tossup",
                 "lean-r",
@@ -10582,13 +10582,13 @@
               },
               "ratings": [
                 "tossup",
-                "tilt-r",
+                "tossup",
                 "tossup",
                 "tossup",
                 "lean-d",
                 "tossup",
                 "lean-r",
-                "lean-r",
+                "tossup",
                 "lean-r",
                 "lean-d"
               ],
@@ -11536,7 +11536,7 @@
                 "lean-r",
                 "likely-r",
                 "likely-r",
-                "likely-r",
+                "lean-r",
                 "lean-r",
                 "lean-r",
                 "lean-r",
@@ -12066,7 +12066,7 @@
                 "lean-r",
                 "lean-r",
                 "lean-d",
-                "likely-r",
+                "lean-r",
                 "lean-r",
                 "tossup"
               ],
@@ -12305,7 +12305,18 @@
                 "retiring": true,
                 "note": "Retiring to run for US Senate."
               },
-              "ratings": ["safe-r"],
+              "ratings": [
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
