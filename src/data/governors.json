@@ -65,7 +65,7 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "tossup",
+          "lean-d",
           "tossup",
           "tossup",
           "tossup",
@@ -129,7 +129,7 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Katie Hobbs", "party": "D", "status": "incumbent" },
+          { "name": "Katie Hobbs", "party": "D", "status": "nominee" },
           {
             "name": "Andy Biggs",
             "party": "R",
@@ -158,7 +158,7 @@
           {
             "name": "Sarah Huckabee Sanders",
             "party": "R",
-            "status": "incumbent"
+            "status": "nominee"
           }
         ],
         "note": "Sanders running for re-election in a deep red state."
@@ -182,13 +182,13 @@
           {
             "name": "Xavier Becerra",
             "party": "D",
-            "status": "confirmed-general",
+            "status": "nominee",
             "note": "Former U.S. Attorney General; confirmed top-two finisher"
           },
           {
             "name": "Steve Hilton",
             "party": "R",
-            "status": "confirmed-general",
+            "status": "nominee",
             "note": "Former Fox News host; in runoff for second general spot"
           }
         ],
@@ -252,7 +252,7 @@
           "firstElected": 2018
         },
         "candidates": [
-          { "name": "Ned Lamont", "party": "D", "status": "incumbent" },
+          { "name": "Ned Lamont", "party": "D", "status": "nominee" },
           {
             "name": "Ryan Fazio",
             "party": "R",
@@ -297,8 +297,7 @@
             "status": "nominee",
             "note": "Current US Representative from FL-19"
           }
-        ],
-        "note": "Open seat — DeSantis term-limited. Republican-leaning state."
+        ]
       }
     },
 
@@ -356,10 +355,9 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Josh Green", "party": "D", "status": "incumbent" },
+          { "name": "Josh Green", "party": "D", "status": "nominee" },
           { "name": "Gary Coredery", "party": "R", "status": "nominee" }
-        ],
-        "note": "Reliably Democratic state."
+        ]
       }
     },
 
@@ -377,9 +375,8 @@
         },
         "candidates": [
           { "name": "Terri Pickens", "party": "D", "status": "nominee" },
-          { "name": "Brad Little", "party": "R", "status": "incumbent" }
-        ],
-        "note": "Deep red state. Little running for re-election."
+          { "name": "Brad Little", "party": "R", "status": "nominee" }
+        ]
       }
     },
 
@@ -404,7 +401,7 @@
           "firstElected": 2018
         },
         "candidates": [
-          { "name": "JB Pritzker", "party": "D", "status": "incumbent" },
+          { "name": "JB Pritzker", "party": "D", "status": "nominee" },
           {
             "name": "Darren Bailey",
             "party": "R",
@@ -427,7 +424,7 @@
           "tilt-d",
           "lean-d",
           "lean-d",
-          "safe-d"
+          "likely-d"
         ],
         "pvi": "R+6",
         "primaryDate": "2026-06-02",
@@ -537,7 +534,7 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Wes Moore", "party": "D", "status": "incumbent" },
+          { "name": "Wes Moore", "party": "D", "status": "nominee" },
           { "name": "Dan Cox", "party": "R", "status": "nominee" }
         ],
         "note": "Moore running for re-election in a reliably blue state. This is a rematch from 2022."
@@ -570,12 +567,12 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
+          "likely-d",
+          "lean-d",
           "tilt-d",
           "lean-d",
           "lean-d",
-          "lean-d",
-          "likely-d",
-          "lean-d"
+          "likely-d"
         ],
         "pvi": "EVEN",
         "primaryDate": "2026-08-04",
@@ -610,11 +607,11 @@
         "ratings": [
           "safe-d",
           "likely-d",
-          "safe-d",
           "likely-d",
           "likely-d",
+          "likely-d",
           "safe-d",
-          "likely-d"
+          "safe-d"
         ],
         "pvi": "D+3",
         "primaryDate": "2026-08-11",
@@ -639,7 +636,7 @@
             "note": "Speaker of Minnesota House of Representatives"
           }
         ],
-        "note": "Open seat — Walz dropped his re-election campaign. Klobuchar is running for governor while still serving in the Senate; she would resign her Senate seat upon election."
+        "note": "Open seat — Walz dropped his re-election campaign due to the state's fraud controversies. Klobuchar is running for governor while still serving in the Senate; she would resign her Senate seat upon election."
       }
     },
 
@@ -648,10 +645,10 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
-          "safe-r",
+          "likely-r",
           "likely-r",
           "safe-r",
+          "likely-r",
           "safe-r",
           "likely-r",
           "likely-r"
@@ -670,9 +667,8 @@
             "status": "nominee",
             "note": "State Senator"
           },
-          { "name": "Jim Pillen", "party": "R", "status": "incumbent" }
-        ],
-        "note": "Pillen running for re-election in a Republican-leaning state."
+          { "name": "Jim Pillen", "party": "R", "status": "nominee" }
+        ]
       }
     },
 
@@ -698,9 +694,8 @@
         },
         "candidates": [
           { "name": "Aaron Ford", "party": "D", "status": "nominee" },
-          { "name": "Joe Lombardo", "party": "R", "status": "incumbent" }
-        ],
-        "note": "Lombardo running for re-election in a purple state. Democratic nominee TBD."
+          { "name": "Joe Lombardo", "party": "R", "status": "nominee" }
+        ]
       }
     },
 
@@ -715,7 +710,7 @@
           "safe-r",
           "lean-r",
           "likely-r",
-          "likely-r"
+          "safe-r"
         ],
         "pvi": "D+2",
         "primaryDate": "2026-09-08",
@@ -765,8 +760,7 @@
             "note": "Former U.S. Secretary of the Interior; first Native American Cabinet secretary"
           },
           { "name": "Gregg Hull", "party": "R", "status": "nominee" }
-        ],
-        "note": "Open seat — Lujan Grisham term-limited. Haaland is a high-profile Democratic nominee in a blue-leaning state."
+        ]
       }
     },
 
@@ -792,15 +786,14 @@
           "note": "First became governor in 2021 after Andrew Cuomo resigned due to sexual assault allegations."
         },
         "candidates": [
-          { "name": "Kathy Hochul", "party": "D", "status": "incumbent" },
+          { "name": "Kathy Hochul", "party": "D", "status": "nominee" },
           {
             "name": "Bruce Blakeman",
             "party": "R",
             "status": "nominee",
             "note": "Nassau County Executive"
           }
-        ],
-        "note": "Hochul running for re-election in a reliably blue state."
+        ]
       }
     },
 
@@ -810,12 +803,12 @@
         "mustWatch": true,
         "ratings": [
           "tossup",
-          "lean-d",
           "tossup",
           "tossup",
           "tossup",
           "tossup",
-          "likely-d"
+          "tossup",
+          "lean-d"
         ],
         "pvi": "R+5",
         "primaryDate": "2026-05-05",
@@ -848,10 +841,10 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "likely-r",
           "safe-r",
           "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "likely-r"
@@ -869,8 +862,7 @@
         "candidates": [
           { "name": "Cyndi Munson", "party": "D", "status": "nominee" },
           { "name": "Mike Mazzei", "party": "R", "status": "nominee" }
-        ],
-        "note": "Open seat — Stitt term-limited. Deep red state."
+        ]
       }
     },
 
@@ -880,10 +872,10 @@
         "mustWatch": true,
         "ratings": [
           "lean-d",
-          "lean-d",
           "likely-d",
           "lean-d",
           "lean-d",
+          "tossup",
           "lean-d",
           "likely-d"
         ],
@@ -895,15 +887,14 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Tina Kotek", "party": "D", "status": "incumbent" },
+          { "name": "Tina Kotek", "party": "D", "status": "nominee" },
           {
             "name": "Christine Drazan",
             "party": "R",
-            "status": "nominee",
-            "note": "Lost to Kotek by ~2pts in 2022; running again"
+            "status": "nominee"
           }
         ],
-        "note": "Kotek vs Drazan rematch from 2022. Kotek won narrowly last time in a three-way race; this is a cleaner matchup."
+        "note": "Kotek vs Drazan rematch from 2022. Kotek is facing a more competitive race due to her unpopularity despite Oregon being a reliable blue state."
       }
     },
 
@@ -923,7 +914,7 @@
           {
             "name": "Josh Shapiro",
             "party": "D",
-            "status": "incumbent",
+            "status": "nominee",
             "note": "Won 2022 by 14pts despite R+1 PVI; among most popular governors in the country"
           },
           {
@@ -995,8 +986,7 @@
             "status": "nominee",
             "note": "Attorney general of the state"
           }
-        ],
-        "note": "Open seat — McMaster term-limited. Republican-leaning state."
+        ]
       }
     },
 
@@ -1020,7 +1010,7 @@
           {
             "name": "Larry Rhoden",
             "party": "R",
-            "status": "incumbent"
+            "status": "nominee"
           }
         ],
         "note": "Republican primary is in a runoff between incumbent Rhoden and Toby Doeden — too close to call. Deep red state regardless of nominee."
@@ -1068,7 +1058,7 @@
           "lean-r",
           "lean-r",
           "lean-r",
-          "likely-r",
+          "lean-r",
           "tossup",
           "lean-r",
           "lean-r"
@@ -1087,9 +1077,9 @@
             "status": "nominee",
             "note": "State Representative"
           },
-          { "name": "Greg Abbott", "party": "R", "status": "incumbent" }
+          { "name": "Greg Abbott", "party": "R", "status": "nominee" }
         ],
-        "note": "Abbott running for a fourth term. Republican-leaning state but Texas has been trending competitive."
+        "note": "Abbott running for a fourth term. Republican-leaning state but Abbott is facing a competitive race due to his unpopular policy decisions and incumbent fatigue."
       }
     },
 
@@ -1098,13 +1088,13 @@
       "race": {
         "mustWatch": false,
         "ratings": [
-          "safe-r",
           "likely-r",
           "likely-r",
-          "safe-r",
+          "likely-r",
+          "likely-r",
           "lean-r",
           "likely-r",
-          "likely-r"
+          "lean-r"
         ],
         "pvi": "D+17",
         "primaryDate": "2026-08-11",
@@ -1115,9 +1105,9 @@
         },
         "candidates": [
           { "name": "Amanda Janoo", "party": "D", "status": "nominee" },
-          { "name": "Phil Scott", "party": "R", "status": "incumbent" }
+          { "name": "Phil Scott", "party": "R", "status": "nominee" }
         ],
-        "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Rated Safe R based on his personal popularity rather than partisan lean. Vermont governor elections are every two years."
+        "note": "Scott is an extremely popular moderate Republican who consistently wins 60-70% of the vote despite Vermont's D+17 PVI. Vermont governor elections are every two years. However, Scott is facing a surprisingly competitive reelection due to the unpopularity of the Republican party."
       }
     },
 

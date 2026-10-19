@@ -41,6 +41,12 @@ import Key from "./Key";
 import { getRatingColor } from "../utils/stateUtils";
 import { firstCharStringUppercase } from "../utils/parseString";
 
+// TODOS:
+// Clean up console errors
+// Move helper/util functions to separate file
+// Figure out how to get around any type for data argument
+//
+
 function renderCurrentPartyComposition(data, raceType: RaceType) {
   const currentComposition = data.currentComposition[raceType];
   const partyKeys = Object.keys(currentComposition);

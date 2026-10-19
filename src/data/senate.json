@@ -86,7 +86,7 @@
             "status": "nominee",
             "note": "Former at-large House rep; first Alaska Native in Congress. Presumptive democrat nominee."
           },
-          { "name": "Dan S. Sullivan", "party": "R", "status": "incumbent" },
+          { "name": "Dan S. Sullivan", "party": "R", "status": "nominee" },
           {
             "name": "Dan J. Sullivan Jr.",
             "party": "R",
@@ -130,7 +130,7 @@
         },
         "candidates": [
           { "name": "Hallie Shoffner", "party": "D", "status": "nominee" },
-          { "name": "Tom Cotton", "party": "R", "status": "incumbent" }
+          { "name": "Tom Cotton", "party": "R", "status": "nominee" }
         ],
         "note": "Deep red state. Cotton running for re-election."
       }
@@ -153,8 +153,7 @@
           {
             "name": "John Hickenlooper",
             "party": "D",
-            "status": "nominee",
-            "note": "Incumbent senator."
+            "status": "nominee"
           },
           {
             "name": "Mark Baisley",
@@ -196,7 +195,7 @@
           "likely-r",
           "likely-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "lean-r",
           "safe-r",
           "likely-r",
@@ -221,7 +220,7 @@
           {
             "name": "Ashley Moody",
             "party": "R",
-            "status": "incumbent",
+            "status": "nominee",
             "note": "Appointed Senator; former Florida AG"
           }
         ],
@@ -259,7 +258,7 @@
           {
             "name": "Jon Ossoff",
             "party": "D",
-            "status": "incumbent",
+            "status": "nominee",
             "note": "Won 2020 runoff by ~1pt; youngest sitting U.S. Senator"
           },
           {
@@ -277,18 +276,7 @@
       "name": "Idaho",
       "race": {
         "mustWatch": false,
-        "ratings": [
-          "safe-r",
-          "safe-r",
-          "likely-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r",
-          "safe-r"
-        ],
+        "ratings": ["safe-r"],
         "seat": "Class 2",
         "isSpecial": false,
         "primaryDate": "2026-05-19",
@@ -298,7 +286,7 @@
           "firstElected": 2008
         },
         "candidates": [
-          { "name": "Jim Risch", "party": "R", "status": "incumbent" },
+          { "name": "Jim Risch", "party": "R", "status": "nominee" },
           { "name": "Todd Achilles", "party": "I", "status": "nominee" }
         ],
         "note": "Deep red state. Risch seeking another term. Democrat Dave Roth dropped out."
@@ -344,7 +332,7 @@
           "tossup",
           "tossup",
           "tossup",
-          "tossup",
+          "lean-r",
           "tossup",
           "tilt-r",
           "tossup",
@@ -388,11 +376,11 @@
           "tossup",
           "tossup",
           "lean-r",
-          "likely-r",
+          "tilt-r",
           "tossup",
-          "lean-r",
           "tossup",
-          "lean-r"
+          "tossup",
+          "tossup"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -404,7 +392,7 @@
         },
         "candidates": [
           { "name": "Adam Hamilton", "party": "D", "status": "nominee" },
-          { "name": "Roger Marshall", "party": "R", "status": "incumbent" }
+          { "name": "Roger Marshall", "party": "R", "status": "nominee" }
         ],
         "note": "Deep red state. Marshall running for re-election."
       }
@@ -449,7 +437,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "likely-r",
+          "safe-r",
           "safe-r"
         ],
         "seat": "Class 2",
@@ -510,7 +498,7 @@
           {
             "name": "Susan Collins",
             "party": "R",
-            "status": "incumbent",
+            "status": "nominee",
             "note": "Seeking 6th term; Senate Appropriations Committee chair"
           }
         ],
@@ -601,12 +589,12 @@
           "likely-d",
           "lean-d",
           "likely-d",
-          "likely-d",
-          "tilt-d",
+          "lean-d",
+          "lean-d",
           "tossup",
           "lean-d",
           "likely-d",
-          "lean-d"
+          "likely-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -643,11 +631,11 @@
           "safe-r",
           "likely-r",
           "likely-r",
+          "likely-r",
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r",
           "safe-r"
         ],
@@ -661,7 +649,7 @@
         },
         "candidates": [
           { "name": "Scott Colom", "party": "D", "status": "nominee" },
-          { "name": "Cindy Hyde-Smith", "party": "R", "status": "incumbent" }
+          { "name": "Cindy Hyde-Smith", "party": "R", "status": "nominee" }
         ],
         "note": "Deep red state. Hyde-Smith running for re-election."
       }
@@ -722,8 +710,8 @@
           "likely-r",
           "likely-r",
           "lean-r",
-          "tossup",
-          "likely-r",
+          "lean-r",
+          "lean-r",
           "lean-r",
           "lean-r"
         ],
@@ -737,7 +725,7 @@
           "note": "Elected in a special election after being appointed to fill the vacant seat left after Ben Sasse's resignation."
         },
         "candidates": [
-          { "name": "Pete Ricketts", "party": "R", "status": "incumbent" },
+          { "name": "Pete Ricketts", "party": "R", "status": "nominee" },
           {
             "name": "Dan Osborn",
             "party": "I",
@@ -759,9 +747,9 @@
           "likely-d",
           "likely-d",
           "lean-d",
-          "tossup",
+          "tilt-d",
           "lean-d",
-          "lean-d",
+          "likely-d",
           "likely-d",
           "likely-d"
         ],
@@ -805,7 +793,7 @@
           "firstElected": 2013
         },
         "candidates": [
-          { "name": "Cory Booker", "party": "D", "status": "incumbent" },
+          { "name": "Cory Booker", "party": "D", "status": "nominee" },
           { "name": "Justin Murphy", "party": "R", "status": "nominee" }
         ],
         "note": "Booker running for re-election in a blue-leaning state."
@@ -837,10 +825,9 @@
           "firstElected": 2020
         },
         "candidates": [
-          { "name": "Ben Ray Luján", "party": "D", "status": "incumbent" },
+          { "name": "Ben Ray Luján", "party": "D", "status": "nominee" },
           { "name": "Larry Marker", "party": "R", "status": "nominee" }
-        ],
-        "note": "Luján running for re-election in a blue-leaning state."
+        ]
       }
     },
 
@@ -858,7 +845,7 @@
           "likely-d",
           "lean-d",
           "safe-d",
-          "safe-d"
+          "likely-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -921,7 +908,7 @@
           {
             "name": "Jon Husted",
             "party": "R",
-            "status": "incumbent",
+            "status": "nominee",
             "note": "Appointed Senator; former Lieutenant Governor"
           }
         ],
@@ -953,8 +940,7 @@
             "status": "nominee"
           },
           { "name": "Kevin Hern", "party": "R", "status": "nominee" }
-        ],
-        "note": "Deep red state. Armstrong is the incumbent."
+        ]
       }
     },
 
@@ -972,15 +958,14 @@
           "firstElected": 2008
         },
         "candidates": [
-          { "name": "Jeff Merkley", "party": "D", "status": "incumbent" },
+          { "name": "Jeff Merkley", "party": "D", "status": "nominee" },
           {
             "name": "David Brock Smith",
             "party": "R",
             "status": "nominee",
             "note": "State Senator"
           }
-        ],
-        "note": "Merkley running for re-election in a reliably blue state."
+        ]
       }
     },
 
@@ -1007,7 +992,7 @@
     "SC": {
       "name": "South Carolina",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "likely-r",
           "lean-r",
@@ -1049,7 +1034,7 @@
         "ratings": [
           "safe-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "likely-r",
           "safe-r",
           "safe-r",
@@ -1067,7 +1052,7 @@
           "firstElected": 2014
         },
         "candidates": [
-          { "name": "Mike Rounds", "party": "R", "status": "incumbent" },
+          { "name": "Mike Rounds", "party": "R", "status": "nominee" },
           { "name": "Brian Bengs", "party": "I", "status": "nominee" }
         ],
         "note": "Deep red state. Rounds running for re-election. The Democrat nominee dropped out."
@@ -1093,7 +1078,7 @@
             "party": "D",
             "status": "nominee"
           },
-          { "name": "Bill Hagerty", "party": "R", "status": "incumbent" }
+          { "name": "Bill Hagerty", "party": "R", "status": "nominee" }
         ],
         "note": "Deep red state. Hagerty running for re-election."
       }
@@ -1107,9 +1092,9 @@
           "tossup",
           "tossup",
           "tossup",
-          "lean-d",
           "tossup",
-          "tilt-r",
+          "tossup",
+          "tossup",
           "tossup",
           "tossup",
           "lean-d",
@@ -1158,7 +1143,7 @@
           "firstElected": 2008
         },
         "candidates": [
-          { "name": "Mark Warner", "party": "D", "status": "incumbent" },
+          { "name": "Mark Warner", "party": "D", "status": "nominee" },
           { "name": "Bert Mizusawa", "party": "R", "status": "nominee" }
         ],
         "note": "Warner running for re-election in a blue-leaning state."
@@ -1187,7 +1172,7 @@
           {
             "name": "Shelley Moore Capito",
             "party": "R",
-            "status": "incumbent"
+            "status": "nominee"
           }
         ],
         "note": "Deep red state. Capito running for re-election."
