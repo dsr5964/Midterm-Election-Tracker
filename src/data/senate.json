@@ -67,6 +67,7 @@
           "tossup",
           "tossup",
           "tossup",
+          "tossup",
           "lean-d",
           "lean-d",
           "lean-d"
@@ -338,6 +339,7 @@
           "tossup",
           "tossup",
           "tossup",
+          "lean-d",
           "tossup"
         ],
         "seat": "Class 2",
@@ -380,7 +382,8 @@
           "tossup",
           "tossup",
           "tossup",
-          "tossup"
+          "tossup",
+          "lean-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -437,7 +440,7 @@
           "safe-r",
           "safe-r",
           "safe-r",
-          "safe-r",
+          "likely-r",
           "safe-r"
         ],
         "seat": "Class 2",
@@ -476,6 +479,7 @@
           "lean-d",
           "tossup",
           "tossup",
+          "lean-d",
           "tossup",
           "tossup",
           "lean-d",
@@ -548,6 +552,7 @@
           "lean-d",
           "tossup",
           "tilt-d",
+          "lean-d",
           "tossup",
           "lean-d",
           "likely-d",
@@ -585,12 +590,13 @@
       "race": {
         "mustWatch": true,
         "ratings": [
-          "likely-d",
-          "likely-d",
           "lean-d",
           "likely-d",
           "lean-d",
+          "likely-d",
           "lean-d",
+          "lean-d",
+          "likely-d",
           "tossup",
           "lean-d",
           "likely-d",
@@ -628,9 +634,10 @@
       "race": {
         "mustWatch": false,
         "ratings": [
+          "likely-r",
+          "likely-r",
+          "likely-r",
           "safe-r",
-          "likely-r",
-          "likely-r",
           "likely-r",
           "safe-r",
           "safe-r",
@@ -662,14 +669,14 @@
         "ratings": [
           "safe-r",
           "likely-r",
-          "safe-r",
+          "likely-r",
           "likely-r",
           "safe-r",
           "safe-r",
           "likely-r",
+          "likely-r",
           "safe-r",
-          "safe-r",
-          "safe-r"
+          "likely-r"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -710,6 +717,7 @@
           "likely-r",
           "likely-r",
           "lean-r",
+          "likely-r",
           "lean-r",
           "lean-r",
           "lean-r",
@@ -748,6 +756,7 @@
           "likely-d",
           "lean-d",
           "tilt-d",
+          "lean-d",
           "lean-d",
           "likely-d",
           "likely-d",
@@ -843,9 +852,10 @@
           "likely-d",
           "lean-d",
           "likely-d",
+          "likely-d",
           "lean-d",
           "safe-d",
-          "likely-d"
+          "safe-d"
         ],
         "seat": "Class 2",
         "isSpecial": false,
@@ -880,8 +890,9 @@
         "ratings": [
           "tossup",
           "tossup",
+          "tossup",
           "lean-d",
-          "lean-d",
+          "tossup",
           "tossup",
           "tossup",
           "tossup",
@@ -994,15 +1005,16 @@
       "race": {
         "mustWatch": true,
         "ratings": [
+          "lean-r",
+          "lean-r",
+          "lean-r",
+          "lean-r",
           "likely-r",
           "lean-r",
           "lean-r",
           "lean-r",
           "likely-r",
-          "likely-r",
           "lean-r",
-          "likely-r",
-          "likely-r",
           "likely-r"
         ],
         "seat": "Class 2",
@@ -1035,7 +1047,7 @@
           "safe-r",
           "safe-r",
           "likely-r",
-          "likely-r",
+          "safe-r",
           "safe-r",
           "safe-r",
           "safe-r",
@@ -1089,6 +1101,7 @@
       "race": {
         "mustWatch": true,
         "ratings": [
+          "tossup",
           "tossup",
           "tossup",
           "tossup",
