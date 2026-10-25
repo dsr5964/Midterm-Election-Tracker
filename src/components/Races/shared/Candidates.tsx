@@ -7,6 +7,7 @@ import type {
   PoliticalParty,
   PartyGroup,
 } from "../../../types/types";
+import CandidateAvatar from "./CandidateAvatar";
 
 function groupCandidatesByParty(candidates: Candidate[]): PartyGroup[] {
   const partyMap = new Map<string, Candidate[]>();
@@ -45,14 +46,23 @@ export function displayCandidateData(
               : ""}
           </strong>
           {group.candidates.map((candidate, index) => (
-            <CCardText
-              className={`${PARTY_LABELS[candidate.party]}-text`}
-              key={index}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                flexDirection: "column",
+              }}
             >
-              {group.isPrimary
-                ? `${candidate.name}`
-                : `${candidate.name} (${candidate.party}) ${incumbent && candidate.name === incumbent.name ? "*" : ""}`}
-            </CCardText>
+              <CandidateAvatar name={candidate.name} party={candidate.party} />
+              <CCardText
+                className={`${PARTY_LABELS[candidate.party]}-text`}
+                key={index}
+              >
+                {group.isPrimary
+                  ? `${candidate.name}`
+                  : `${candidate.name} (${candidate.party}) ${incumbent && candidate.name === incumbent.name ? "*" : ""}`}
+              </CCardText>
+            </div>
           ))}
         </>
       ))}
