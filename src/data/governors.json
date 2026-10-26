@@ -45,7 +45,7 @@
         },
         "candidates": [
           {
-            "name": "Doug Jones",
+            "name": "Doug Jones (politician)",
             "party": "D",
             "status": "nominee",
             "note": "Former U.S. Senator"
@@ -78,14 +78,14 @@
         "pvi": "R+6",
         "primaryDate": "2026-08-18",
         "incumbent": {
-          "name": "Mike Dunleavy",
+          "name": "Mike Dunleavy (politician)",
           "party": "R",
           "firstElected": 2018,
           "note": "Term-limited"
         },
         "candidates": [
           {
-            "name": "Johnathan Kreiss-Tomkins",
+            "name": "Jonathan Kreiss-Tomkins",
             "party": "D",
             "status": "nominee",
             "note": "Tom Begich dropped out after coming in second in the primary and endorsed JKT."
@@ -157,7 +157,7 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Frederick Love", "party": "D", "status": "nominee" },
+          { "name": "Fredrick Love", "party": "D", "status": "nominee" },
           {
             "name": "Sarah Huckabee Sanders",
             "party": "R",
@@ -339,7 +339,7 @@
             "note": "Former Mayor of Atlanta"
           },
           {
-            "name": "Rick Jackson",
+            "name": "Rick Jackson (businessman)",
             "party": "R",
             "status": "nominee",
             "note": "Republican primary went to runoff"
@@ -357,13 +357,17 @@
         "pvi": "D+13",
         "primaryDate": "2026-08-08",
         "incumbent": {
-          "name": "Josh Green",
+          "name": "Josh Green (politician)",
           "party": "D",
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Josh Green", "party": "D", "status": "nominee" },
-          { "name": "Gary Coredery", "party": "R", "status": "nominee" }
+          {
+            "name": "Josh Green (politician)",
+            "party": "D",
+            "status": "nominee"
+          },
+          { "name": "Gary Cordery", "party": "R", "status": "nominee" }
         ]
       }
     },
@@ -525,8 +529,12 @@
             "status": "nominee",
             "note": "Former Speaker of Maine House of Representatives and daughter of US Representative Chellie Pingree"
           },
-          { "name": "Bobby Charles", "party": "R", "status": "nominee" },
-          { "name": "Rick Bennett", "party": "I", "status": "nominee" }
+          { "name": "Robert B. Charles", "party": "R", "status": "nominee" },
+          {
+            "name": "Rick Bennett (Maine politician)",
+            "party": "I",
+            "status": "nominee"
+          }
         ],
         "note": "Open seat — Mills term-limited. Blue-leaning state. Maine uses ranked-choice voting."
       }
@@ -708,7 +716,11 @@
           "firstElected": 2022
         },
         "candidates": [
-          { "name": "Aaron Ford", "party": "D", "status": "nominee" },
+          {
+            "name": "Aaron Ford (Nevada politician)",
+            "party": "D",
+            "status": "nominee"
+          },
           { "name": "Joe Lombardo", "party": "R", "status": "nominee" }
         ]
       }
@@ -970,7 +982,11 @@
             "note": "Former CVS executive. Beat incumbent governor Dan McKee."
           },
           { "name": "Aaron Guckian", "party": "R", "status": "nominee" },
-          { "name": "Ken Block", "party": "I", "status": "nominee" }
+          {
+            "name": "Ken Block (politician)",
+            "party": "I",
+            "status": "nominee"
+          }
         ],
         "note": "Open seat — McKee not seeking re-election. Reliably blue state."
       }
@@ -1003,7 +1019,7 @@
         "candidates": [
           { "name": "Jermaine Johnson", "party": "D", "status": "nominee" },
           {
-            "name": "Alan Wilson",
+            "name": "Alan Wilson (politician)",
             "party": "R",
             "status": "nominee",
             "note": "Attorney general of the state"
@@ -1056,7 +1072,7 @@
         "pvi": "R+14",
         "primaryDate": "2026-08-06",
         "incumbent": {
-          "name": "Bill Lee",
+          "name": "Bill Lee (Tennessee politician)",
           "party": "R",
           "note": "Term-limited",
           "firstElected": 2018
@@ -1159,7 +1175,11 @@
           "firstElected": 2018
         },
         "candidates": [
-          { "name": "David Crowley", "party": "D", "status": "nominee" },
+          {
+            "name": "David Crowley (Wisconsin politician)",
+            "party": "D",
+            "status": "nominee"
+          },
           {
             "name": "Tom Tiffany",
             "party": "R",
@@ -1185,7 +1205,7 @@
           "firstElected": 2018
         },
         "candidates": [
-          { "name": "Ken Casner", "party": "D", "status": "nominee" },
+          { "name": "Kenneth Cassner", "party": "D", "status": "nominee" },
           { "name": "Eric Barlow", "party": "R", "status": "nominee" }
         ],
         "note": "Open seat — Gordon term-limited. Deep red state."

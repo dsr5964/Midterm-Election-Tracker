@@ -394,7 +394,11 @@
           "firstElected": 2020
         },
         "candidates": [
-          { "name": "Adam Hamilton", "party": "D", "status": "nominee" },
+          {
+            "name": "Adam Hamilton (pastor)",
+            "party": "D",
+            "status": "nominee"
+          },
           { "name": "Roger Marshall", "party": "R", "status": "nominee" }
         ],
         "note": "Deep red state. Marshall running for re-election."
@@ -416,7 +420,11 @@
           "firstElected": 1984
         },
         "candidates": [
-          { "name": "Charles Booker", "party": "D", "status": "nominee" },
+          {
+            "name": "Charles Booker (American politician)",
+            "party": "D",
+            "status": "nominee"
+          },
           {
             "name": "Andy Barr",
             "party": "R",
@@ -613,7 +621,7 @@
         },
         "candidates": [
           {
-            "name": "Penny Flanagan",
+            "name": "Peggy Flanagan",
             "party": "D",
             "status": "nominee",
             "note": "Lt. governor of MN and former state representative"
