@@ -26,7 +26,7 @@
           {
             "AK-1": {
               "incumbent": {
-                "name": "Nick Begich",
+                "name": "Nick Begich III",
                 "party": "R",
                 "firstElected": 2024
               },
@@ -51,7 +51,7 @@
                   "note": "Democrat Matt Schultz withdrew his candidacy and endorsed Bill Hill after coming in a decent third in the primary."
                 },
                 {
-                  "name": "Nick Begich",
+                  "name": "Nick Begich III",
                   "party": "R",
                   "status": "nominee"
                 },
@@ -82,7 +82,7 @@
           {
             "AL-1": {
               "incumbent": {
-                "name": "Barry Moore",
+                "name": "Barry Moore (American politician)",
                 "party": "R",
                 "firstElected": 2020,
                 "retiring": true,
@@ -142,7 +142,7 @@
           {
             "AL-3": {
               "incumbent": {
-                "name": "Mike Rogers",
+                "name": "Mike Rogers (Alabama politician)",
                 "party": "R",
                 "firstElected": 2002
               },
@@ -155,7 +155,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mike Rogers",
+                  "name": "Mike Rogers (Alabama politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -268,7 +268,7 @@
           {
             "AR-1": {
               "incumbent": {
-                "name": "Rick Crawford",
+                "name": "Rick Crawford (politician)",
                 "party": "R",
                 "firstElected": 2010
               },
@@ -281,7 +281,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Rick Crawford",
+                  "name": "Rick Crawford (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -291,7 +291,7 @@
           {
             "AR-2": {
               "incumbent": {
-                "name": "French Hill",
+                "name": "French Hill (politician)",
                 "party": "R",
                 "firstElected": 2014
               },
@@ -315,7 +315,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "French Hill",
+                  "name": "French Hill (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -659,7 +659,7 @@
           {
             "CA-1": {
               "incumbent": {
-                "name": "James Gallagher",
+                "name": "James Gallagher (California politician)",
                 "party": "R",
                 "firstElected": 2026
               },
@@ -684,7 +684,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "James Gallagher",
+                  "name": "James Gallagher (California politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -798,7 +798,7 @@
           {
             "CA-6": {
               "incumbent": {
-                "name": "Kevin Kiley",
+                "name": "Kevin Kiley (politician)",
                 "party": "I",
                 "firstElected": 2022,
                 "note": "Kevin Kiley is now running in the 6th district after being redistricted from the 3rd district."
@@ -824,7 +824,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Kevin Kiley",
+                  "name": "Kevin Kiley (politician)",
                   "party": "I",
                   "status": "nominee"
                 }
@@ -1288,7 +1288,7 @@
           {
             "CA-25": {
               "incumbent": {
-                "name": "Raul Ruiz",
+                "name": "Raul Ruiz (politician)",
                 "party": "D",
                 "firstElected": 2012
               },
@@ -1307,7 +1307,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Raul Ruiz",
+                  "name": "Raul Ruiz (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -1347,7 +1347,7 @@
           {
             "CA-27": {
               "incumbent": {
-                "name": "George Whitesides",
+                "name": "George T. Whitesides",
                 "party": "D",
                 "firstElected": 2024
               },
@@ -1355,7 +1355,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "George Whitesides",
+                  "name": "George T. Whitesides",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -1697,7 +1697,7 @@
           {
             "CA-42": {
               "incumbent": {
-                "name": "Robert Garcia",
+                "name": "Robert Garcia (California congressman)",
                 "party": "D",
                 "firstElected": 2022
               },
@@ -1705,7 +1705,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Robert Garcia",
+                  "name": "Robert Garcia (California congressman)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -1906,7 +1906,7 @@
           {
             "CA-50": {
               "incumbent": {
-                "name": "Scott Peters",
+                "name": "Scott Peters (politician)",
                 "party": "D",
                 "firstElected": 2012
               },
@@ -1914,7 +1914,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Scott Peters",
+                  "name": "Scott Peters (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -2247,7 +2247,7 @@
           {
             "CT-2": {
               "incumbent": {
-                "name": "Joe Courtney",
+                "name": "Joe Courtney (politician)",
                 "party": "D",
                 "firstElected": 2006
               },
@@ -2255,7 +2255,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Joe Courtney",
+                  "name": "Joe Courtney (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -2507,7 +2507,7 @@
           {
             "FL-5": {
               "incumbent": {
-                "name": "John Rutherford",
+                "name": "John Rutherford (Florida politician)",
                 "party": "R",
                 "firstElected": 2016
               },
@@ -2531,7 +2531,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "John Rutherford",
+                  "name": "John Rutherford (Florida politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -2685,7 +2685,7 @@
           {
             "FL-11": {
               "incumbent": {
-                "name": "Daniel Webster",
+                "name": "Daniel Webster (Florida politician)",
                 "party": "R",
                 "firstElected": 2010,
                 "retiring": true
@@ -2913,7 +2913,7 @@
           {
             "FL-18": {
               "incumbent": {
-                "name": "Scott Franklin",
+                "name": "Scott Franklin (politician)",
                 "party": "R",
                 "firstElected": 2020
               },
@@ -2937,7 +2937,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Scott Franklin",
+                  "name": "Scott Franklin (poltician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3216,7 +3216,7 @@
           {
             "FL-28": {
               "incumbent": {
-                "name": "Carlos Gimenez",
+                "name": "Carlos A. Gimenez",
                 "party": "R",
                 "firstElected": 2020
               },
@@ -3229,7 +3229,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Carlos Gimenez",
+                  "name": "Carlos A. Gimenez",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3468,7 +3468,7 @@
           {
             "GA-10": {
               "incumbent": {
-                "name": "Mike Collins",
+                "name": "Mike Collins (politician)",
                 "party": "R",
                 "firstElected": 2022,
                 "retiring": true,
@@ -3518,7 +3518,7 @@
           {
             "GA-12": {
               "incumbent": {
-                "name": "Rick Allen",
+                "name": "Rick Allen (politician)",
                 "party": "R",
                 "firstElected": 2014
               },
@@ -3542,7 +3542,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Rick Allen",
+                  "name": "Rick Allen (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3729,7 +3729,7 @@
           {
             "IL-1": {
               "incumbent": {
-                "name": "Johnathan Jackson",
+                "name": "Jonathan Jackson (Illinois politician)",
                 "party": "D",
                 "firstElected": 2022
               },
@@ -3737,7 +3737,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Johnathan Jackson",
+                  "name": "Jonathan Jackson (Illinois politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -3871,7 +3871,7 @@
           {
             "IL-7": {
               "incumbent": {
-                "name": "Danny Davis",
+                "name": "Danny Davis (Illinois politician)",
                 "party": "D",
                 "firstElected": 1996,
                 "retiring": true
@@ -3970,7 +3970,7 @@
           {
             "IL-11": {
               "incumbent": {
-                "name": "Bill Foster",
+                "name": "Bill Foster (politician)",
                 "party": "D",
                 "firstElected": 2008
               },
@@ -3978,7 +3978,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Bill Foster",
+                  "name": "Bill Foster (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -4062,7 +4062,7 @@
           {
             "IL-15": {
               "incumbent": {
-                "name": "Mary Miller",
+                "name": "Mary Miller (politician)",
                 "party": "R",
                 "firstElected": 2020
               },
@@ -4075,7 +4075,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mary Miller",
+                  "name": "Mary Miller (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -4108,7 +4108,7 @@
           {
             "IL-17": {
               "incumbent": {
-                "name": "Eric Sorensen",
+                "name": "Eric Sorensen (politician)",
                 "party": "D",
                 "firstElected": 2022
               },
@@ -4127,7 +4127,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Eric Sorensen",
+                  "name": "Eric Sorensen (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -4231,7 +4231,7 @@
           {
             "IN-4": {
               "incumbent": {
-                "name": "Jim Baird",
+                "name": "Jim Baird (politician)",
                 "party": "R",
                 "firstElected": 2018
               },
@@ -4846,7 +4846,7 @@
           {
             "LA-2": {
               "incumbent": {
-                "name": "Troy Carter",
+                "name": "Troy Carter (politician)",
                 "party": "D",
                 "firstElected": 2021
               },
@@ -4854,7 +4854,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Troy Carter",
+                  "name": "Troy Carter (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -5140,7 +5140,7 @@
           {
             "MD-1": {
               "incumbent": {
-                "name": "Andy Harris",
+                "name": "Andy Harris (politician)",
                 "party": "R",
                 "firstElected": 2010
               },
@@ -5163,7 +5163,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Andy Harris",
+                  "name": "Andy Harris (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -5368,7 +5368,7 @@
           {
             "MA-2": {
               "incumbent": {
-                "name": "Jim McGovern",
+                "name": "Jim McGovern (American politician)",
                 "party": "D",
                 "firstElected": 1996
               },
@@ -5376,7 +5376,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Jim McGovern",
+                  "name": "Jim McGovern (American politician)",
                   "party": "D",
                   "status": "nominee",
                   "note": "Running unopposed for reelection"
@@ -5499,7 +5499,7 @@
           {
             "MA-8": {
               "incumbent": {
-                "name": "Stephen Lynch",
+                "name": "Stephen Lynch (politician)",
                 "party": "D",
                 "firstElected": 2001
               },
@@ -5507,7 +5507,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Stephen Lynch",
+                  "name": "Stephen Lynch (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -5726,7 +5726,7 @@
           {
             "MI-7": {
               "incumbent": {
-                "name": "Tom Barrett",
+                "name": "Tom Barrett (Michigan politician)",
                 "party": "R",
                 "firstElected": 2022
               },
@@ -5745,12 +5745,12 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "William Lawrence",
+                  "name": "William Lawrence (activist)",
                   "party": "D",
                   "status": "nominee"
                 },
                 {
-                  "name": "Tom Barrett",
+                  "name": "Tom Barrett (Michigan politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -5817,7 +5817,7 @@
           {
             "MI-10": {
               "incumbent": {
-                "name": "John James",
+                "name": "John James (Michigan politician)",
                 "party": "R",
                 "firstElected": 2022,
                 "retiring": true,
@@ -5952,7 +5952,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Jake Johnson",
+                  "name": "Jake Johnson (Minnesota)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6016,7 +6016,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Tyler Bass",
+                  "name": "Tyler Bass (Minnesota)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6207,7 +6207,7 @@
           {
             "MS-3": {
               "incumbent": {
-                "name": "Michael Guest",
+                "name": "Michael Guest (politician)",
                 "party": "R",
                 "firstElected": 2018
               },
@@ -6220,7 +6220,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Michael Guest",
+                  "name": "Michael Guest (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6445,7 +6445,7 @@
           {
             "MO-8": {
               "incumbent": {
-                "name": "Jason Smith",
+                "name": "Jason Smith (American politician)",
                 "party": "R",
                 "firstElected": 2012
               },
@@ -6458,7 +6458,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Jason Smith",
+                  "name": "Jason Smith (American politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6543,7 +6543,7 @@
           {
             "NE-1": {
               "incumbent": {
-                "name": "Mike Flood",
+                "name": "Mike Flood (politician)",
                 "party": "R",
                 "firstElected": 2022
               },
@@ -6567,7 +6567,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mike Flood",
+                  "name": "Mike Flood (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6612,7 +6612,7 @@
           {
             "NE-3": {
               "incumbent": {
-                "name": "Adrian Smith",
+                "name": "Adrian Smith (politician)",
                 "party": "R",
                 "firstElected": 2006
               },
@@ -6625,7 +6625,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Adrian Smith",
+                  "name": "Adrian Smith (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6791,7 +6791,7 @@
           {
             "NH-1": {
               "incumbent": {
-                "name": "Chris Pappas",
+                "name": "Chris Pappas (American politician)",
                 "party": "D",
                 "firstElected": 2018,
                 "retiring": true,
@@ -6893,7 +6893,7 @@
           {
             "NJ-2": {
               "incumbent": {
-                "name": "Jeff VanDrew",
+                "name": "Jeff Van Drew",
                 "party": "R",
                 "firstElected": 2018
               },
@@ -6917,7 +6917,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Jeff VanDrew",
+                  "name": "Jeff Van Drew",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6950,7 +6950,7 @@
           {
             "NJ-4": {
               "incumbent": {
-                "name": "Chris Smith",
+                "name": "Chris Smith (New Jersey politician)",
                 "party": "R",
                 "firstElected": 1980
               },
@@ -6963,7 +6963,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Chris Smith",
+                  "name": "Chris Smith (New Jersey politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -7019,7 +7019,7 @@
           {
             "NJ-7": {
               "incumbent": {
-                "name": "Thomas Kean",
+                "name": "Thomas Kean Jr.",
                 "party": "R",
                 "firstElected": 2022
               },
@@ -7043,7 +7043,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Thomas Kean",
+                  "name": "Thomas Kean Jr.",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -7670,7 +7670,7 @@
           {
             "NY-16": {
               "incumbent": {
-                "name": "George Latimer",
+                "name": "George Latimer (New York politician)",
                 "party": "D",
                 "firstElected": 2024
               },
@@ -7678,7 +7678,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "George Latimer",
+                  "name": "George Latimer (New York politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7727,7 +7727,7 @@
           {
             "NY-18": {
               "incumbent": {
-                "name": "Pat Ryan",
+                "name": "Pat Ryan (politician)",
                 "party": "D",
                 "firstElected": 2022
               },
@@ -7735,7 +7735,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Pat Ryan",
+                  "name": "Pat Ryan (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7842,7 +7842,7 @@
           {
             "NY-22": {
               "incumbent": {
-                "name": "John Mannion",
+                "name": "John Mannion (American politician)",
                 "party": "D",
                 "firstElected": 2024
               },
@@ -7850,7 +7850,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "John Mannion",
+                  "name": "John Mannion (American politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7935,7 +7935,7 @@
           {
             "NY-26": {
               "incumbent": {
-                "name": "Tim Kennedy",
+                "name": "Tim Kennedy (politician)",
                 "party": "D",
                 "firstElected": 2024
               },
@@ -7943,7 +7943,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Tim Kennedy",
+                  "name": "Tim Kennedy (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7967,7 +7967,7 @@
           {
             "NC-1": {
               "incumbent": {
-                "name": "Don Davis",
+                "name": "Don Davis (North Carolina politician)",
                 "party": "D",
                 "firstElected": 2022
               },
@@ -7986,7 +7986,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Don Davis",
+                  "name": "Don Davis (North Carolina politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8001,7 +8001,7 @@
           {
             "NC-2": {
               "incumbent": {
-                "name": "Deborah Ross",
+                "name": "Deborah Ross (politician)",
                 "party": "D",
                 "firstElected": 2016
               },
@@ -8009,7 +8009,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Deborah Ross",
+                  "name": "Deborah Ross (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8024,7 +8024,7 @@
           {
             "NC-3": {
               "incumbent": {
-                "name": "Greg Murphy",
+                "name": "Greg Murphy (politician)",
                 "party": "R",
                 "firstElected": 2019
               },
@@ -8048,7 +8048,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Greg Murphy",
+                  "name": "Greg Murphy (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8183,7 +8183,7 @@
           {
             "NC-8": {
               "incumbent": {
-                "name": "Mark Harris",
+                "name": "Mark Harris (North Carolina politician)",
                 "party": "R",
                 "firstElected": 2024
               },
@@ -8207,7 +8207,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mark Harris",
+                  "name": "Mark Harris (North Carolina politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8217,7 +8217,7 @@
           {
             "NC-9": {
               "incumbent": {
-                "name": "Richard Hudson",
+                "name": "Richard Hudson (American politician)",
                 "party": "R",
                 "firstElected": 2012
               },
@@ -8241,7 +8241,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Richard Hudson",
+                  "name": "Richard Hudson (American politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8377,7 +8377,7 @@
           {
             "NC-14": {
               "incumbent": {
-                "name": "Tim Moore",
+                "name": "Tim Moore (North Carolina politician)",
                 "party": "R",
                 "firstElected": 2024
               },
@@ -8401,7 +8401,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Tim Moore",
+                  "name": "Tim Moore (North Carolina politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8486,7 +8486,7 @@
           {
             "OH-2": {
               "incumbent": {
-                "name": "David Taylor",
+                "name": "David Taylor (Ohio politician)",
                 "party": "R",
                 "firstElected": 2024
               },
@@ -8499,7 +8499,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "David Taylor",
+                  "name": "David Taylor (Ohio politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8601,7 +8601,7 @@
           {
             "OH-7": {
               "incumbent": {
-                "name": "Max Miller",
+                "name": "Max Miller (politician)",
                 "party": "R",
                 "firstElected": 2020,
                 "note": "Max Miller is under scrutiny due to personal scandal, with some Republicans calling on him to resign."
@@ -8626,7 +8626,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Max Miller",
+                  "name": "Max Miller (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8818,7 +8818,7 @@
           {
             "OH-14": {
               "incumbent": {
-                "name": "David Joyce",
+                "name": "David Joyce (politician)",
                 "party": "R",
                 "firstElected": 2012
               },
@@ -8831,7 +8831,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "David Joyce",
+                  "name": "David Joyce (poltician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8841,7 +8841,7 @@
           {
             "OH-15": {
               "incumbent": {
-                "name": "Mike Carey",
+                "name": "Mike Carey (politician)",
                 "party": "R",
                 "firstElected": 2020
               },
@@ -8865,7 +8865,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mike Carey",
+                  "name": "Mike Carey (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8942,7 +8942,7 @@
           {
             "OK-3": {
               "incumbent": {
-                "name": "Frank Lucas",
+                "name": "Frank Lucas (Oklahoma politician)",
                 "party": "R",
                 "firstElected": 1994
               },
@@ -8955,7 +8955,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Frank Lucas",
+                  "name": "Frank Lucas (Oklahoma politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -9187,7 +9187,7 @@
           {
             "PA-1": {
               "incumbent": {
-                "name": "Brian Fitzpatrick",
+                "name": "Brian Fitzpatrick (American politician)",
                 "party": "R",
                 "firstElected": 2016
               },
@@ -9211,7 +9211,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Brian Fitzpatrick",
+                  "name": "Brian Fitzpatrick (American politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -9244,7 +9244,7 @@
           {
             "PA-3": {
               "incumbent": {
-                "name": "Dwight Evans",
+                "name": "Dwight Evans (politician)",
                 "party": "D",
                 "firstElected": 2016,
                 "retiring": true
@@ -9520,7 +9520,7 @@
           {
             "PA-13": {
               "incumbent": {
-                "name": "John Joyce",
+                "name": "John Joyce (American politician)",
                 "party": "R",
                 "firstElected": 2018
               },
@@ -9533,7 +9533,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "John Joyce",
+                  "name": "John Joyce (American politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -9566,7 +9566,7 @@
           {
             "PA-15": {
               "incumbent": {
-                "name": "Glenn Thompson",
+                "name": "Glenn Thompson (politician)",
                 "party": "R",
                 "firstElected": 2008
               },
@@ -9579,7 +9579,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Glenn Thompson",
+                  "name": "Glenn Thompson (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -9589,7 +9589,7 @@
           {
             "PA-16": {
               "incumbent": {
-                "name": "Mike Kelly",
+                "name": "Mike Kelly (Pennsylvania politician)",
                 "party": "R",
                 "firstElected": 2010
               },
@@ -9602,7 +9602,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mike Kelly",
+                  "name": "Mike Kelly (Pennsylvania politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -10076,7 +10076,7 @@
           {
             "TN-6": {
               "incumbent": {
-                "name": "John Rose",
+                "name": "John Rose (Tennessee politician)",
                 "party": "R",
                 "firstElected": 2018,
                 "retiring": true,
@@ -10101,7 +10101,7 @@
           {
             "TN-7": {
               "incumbent": {
-                "name": "Matt VanEpps",
+                "name": "Matt Van Epps",
                 "party": "R",
                 "firstElected": 2025
               },
@@ -10125,7 +10125,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Matt VanEpps",
+                  "name": "Matt Van Epps",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -10158,7 +10158,7 @@
           {
             "TN-9": {
               "incumbent": {
-                "name": "Steve Cohen",
+                "name": "Steve Cohen (politician)",
                 "party": "D",
                 "firstElected": 2006,
                 "retiring": true,
@@ -10411,7 +10411,7 @@
           {
             "TX-9": {
               "incumbent": {
-                "name": "Al Green",
+                "name": "Al Green (politician)",
                 "party": "D",
                 "firstElected": 2004,
                 "note": "Al Green was redistricted from the 9th district and lost renomination."
@@ -10799,10 +10799,10 @@
           {
             "TX-23": {
               "incumbent": {
-                "name": "Tony Gonzalez",
+                "name": "Tony Gonzales",
                 "party": "R",
                 "firstElected": 2020,
-                "note": "Vacant seat. Tony Gonzalez resigned his seat after personal scandal."
+                "note": "Vacant seat. Tony Gonzales resigned his seat after personal scandal."
               },
               "ratings": [
                 "likely-r",
@@ -10868,7 +10868,7 @@
           {
             "TX-25": {
               "incumbent": {
-                "name": "Roger Williams",
+                "name": "Roger Williams (Texas politician)",
                 "party": "R",
                 "firstElected": 2012,
                 "note": "Marc Veasey redistricted from the 33rd district."
@@ -10882,7 +10882,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Roger Williams",
+                  "name": "Roger Williams (Texas politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11030,7 +11030,7 @@
           {
             "TX-31": {
               "incumbent": {
-                "name": "John Carter",
+                "name": "John Carter (Texas politician)",
                 "party": "R",
                 "firstElected": 2002
               },
@@ -11043,7 +11043,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "John Carter",
+                  "name": "John Carter (Texas politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11053,7 +11053,7 @@
           {
             "TX-32": {
               "incumbent": {
-                "name": "Julie Johnson",
+                "name": "Julie Johnson (politician)",
                 "party": "D",
                 "firstElected": 2022,
                 "note": "Redistricted from 32nd distict to 33rd district.. Lost renomination."
@@ -11113,7 +11113,7 @@
           {
             "TX-34": {
               "incumbent": {
-                "name": "Vicente Gonzalez",
+                "name": "Vicente Gonzalez (American politician)",
                 "party": "D",
                 "firstElected": 2016
               },
@@ -11480,7 +11480,7 @@
           {
             "VA-3": {
               "incumbent": {
-                "name": "Bobby Scott",
+                "name": "Bobby Scott (politician)",
                 "party": "D",
                 "firstElected": 1992
               },
@@ -11488,7 +11488,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Bobby Scott",
+                  "name": "Bobby Scott (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -11526,7 +11526,7 @@
           {
             "VA-5": {
               "incumbent": {
-                "name": "John McGuire",
+                "name": "John McGuire (Virginia politician)",
                 "party": "R",
                 "firstElected": 2024
               },
@@ -11550,7 +11550,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "John McGuire",
+                  "name": "John McGuire (Virginia politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11946,7 +11946,7 @@
           {
             "WA-9": {
               "incumbent": {
-                "name": "Adam Smith",
+                "name": "Adam Smith (Washington politician)",
                 "party": "D",
                 "firstElected": 1996
               },
@@ -11954,7 +11954,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Adam Smith",
+                  "name": "Adam Smith (Washington politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -12000,7 +12000,7 @@
           {
             "WV-1": {
               "incumbent": {
-                "name": "Carol Miller",
+                "name": "Carol Miller (politician)",
                 "party": "R",
                 "firstElected": 2018
               },
@@ -12013,7 +12013,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Carol Miller",
+                  "name": "Carol Miller (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -12164,7 +12164,7 @@
           {
             "WI-5": {
               "incumbent": {
-                "name": "Scott Fitzgerald",
+                "name": "Scott Fitzgerald (politician)",
                 "party": "R",
                 "firstElected": 2020
               },
@@ -12177,7 +12177,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Scott Fitzgerald",
+                  "name": "Scott Fitzgerald (politician)",
                   "party": "R",
                   "status": "nominee"
                 }

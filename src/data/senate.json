@@ -46,7 +46,7 @@
             "note": "Attorney and perennial candidate"
           },
           {
-            "name": "Barry Moore",
+            "name": "Barry Moore (American politician)",
             "party": "R",
             "status": "nominee",
             "note": "Representative from AL-1"
@@ -263,7 +263,7 @@
             "note": "Won 2020 runoff by ~1pt; youngest sitting U.S. Senator"
           },
           {
-            "name": "Mike Collins",
+            "name": "Mike Collins (politician)",
             "party": "R",
             "status": "nominee",
             "note": "U.S. Representative"
@@ -575,7 +575,7 @@
             "note": "Wayne County health director and candidate for governor in 2018"
           },
           {
-            "name": "Mike Rogers",
+            "name": "Mike Rogers (Michigan politician)",
             "party": "R",
             "status": "nominee",
             "note": "Former U.S. Representative; narrowly lost to Elissa Slotkin in 2024"
@@ -773,13 +773,13 @@
         },
         "candidates": [
           {
-            "name": "Chris Pappas",
+            "name": "Chris Pappas (American politician)",
             "party": "D",
             "status": "nominee",
             "note": "U.S. Representative from NH-1"
           },
           {
-            "name": "John Sununu",
+            "name": "John E. Sununu",
             "party": "R",
             "status": "nominee",
             "note": "Former U.S. Senator for this seat and brother of former Governor Chris Sununu. Trump endorsed."
@@ -989,12 +989,16 @@
         "isSpecial": false,
         "primaryDate": "2026-09-09",
         "incumbent": {
-          "name": "Jack Reed",
+          "name": "Jack Reed (Rhode Island politician)",
           "party": "D",
           "firstElected": 1996
         },
         "candidates": [
-          { "name": "Jack Reed", "party": "D", "status": "nominee" },
+          {
+            "name": "Jack Reed (Rhode Island politician)",
+            "party": "D",
+            "status": "nominee"
+          },
           { "name": "Raymond McKay", "party": "R", "status": "nominee" }
         ]
       }
@@ -1029,7 +1033,11 @@
           "note": "After winning the primary Lindsay Graham unexpectedly passed away. The governor appointed his sister to finish his term."
         },
         "candidates": [
-          { "name": "Annie Andrews", "party": "D", "status": "nominee" },
+          {
+            "name": "Annie Andrews (pediatrician)",
+            "party": "D",
+            "status": "nominee"
+          },
           {
             "name": "Darline Graham",
             "party": "R",

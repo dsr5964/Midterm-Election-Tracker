@@ -8,6 +8,7 @@ import type {
   PartyGroup,
 } from "../../../types/types";
 import CandidateAvatar from "./CandidateAvatar";
+import { cleanName } from "../../../utils/parseString";
 
 function groupCandidatesByParty(candidates: Candidate[]): PartyGroup[] {
   const partyMap = new Map<string, Candidate[]>();
@@ -45,25 +46,34 @@ export function displayCandidateData(
               ? `${PARTY_LABELS[group.party as PoliticalParty]} Primary`
               : ""}
           </strong>
-          {group.candidates.map((candidate, index) => (
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                flexDirection: "column",
-              }}
-            >
-              <CandidateAvatar name={candidate.name} party={candidate.party} />
-              <CCardText
-                className={`${PARTY_LABELS[candidate.party]}-text`}
-                key={index}
+          {group.candidates.map((candidate, index) => {
+            const candidateName = candidate.name.includes(" (")
+              ? cleanName(candidate.name)
+              : candidate.name;
+            // for now do this for some politicians and use the name from the json directly for fetching the img
+            return (
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  flexDirection: "column",
+                }}
               >
-                {group.isPrimary
-                  ? `${candidate.name}`
-                  : `${candidate.name} (${candidate.party}) ${incumbent && candidate.name === incumbent.name ? "*" : ""}`}
-              </CCardText>
-            </div>
-          ))}
+                <CandidateAvatar
+                  name={candidate.name}
+                  party={candidate.party}
+                />
+                <CCardText
+                  className={`${PARTY_LABELS[candidate.party]}-text`}
+                  key={index}
+                >
+                  {group.isPrimary
+                    ? `${candidateName}`
+                    : `${candidateName} (${candidate.party}) ${incumbent && candidate.name === incumbent.name ? "*" : ""}`}
+                </CCardText>
+              </div>
+            );
+          })}
         </>
       ))}
     </>
@@ -76,9 +86,13 @@ export function displayIncumbentData(
   if (incumbentData === null) {
     return <CCardText>Vacant seat - no incumbent</CCardText>;
   }
+  const incumbentName = incumbentData.name.includes(" (")
+    ? cleanName(incumbentData.name)
+    : incumbentData.name;
   return (
     <>
-      <CCardText>Incumbent: {incumbentData.name}</CCardText>
+      <CandidateAvatar name={incumbentData.name} party={incumbentData.party} />
+      <CCardText>Incumbent: {incumbentName}</CCardText>
       <CCardText>Political Party: {incumbentData.party}</CCardText>
       <CCardText>First elected: {incumbentData.firstElected}</CCardText>
     </>

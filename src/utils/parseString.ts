@@ -17,3 +17,7 @@ export function parsePartyRatingString(rating: Rating) {
     return firstCharStringUppercase(parsedRatingDemocrat);
   }
 }
+
+export function cleanName(name: string) {
+  return name.split(" (")[0];
+}
