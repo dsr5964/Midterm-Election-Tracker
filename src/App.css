@@ -327,6 +327,16 @@
   font-weight: bold;
 }
 
+.Libertarian-text {
+  color: #fed000;
+  font-weight: bold;
+}
+
+.Green-text {
+  color: #17aa5c;
+  font-weight: bold;
+}
+
 button {
   padding: 10px 20px;
   border: none;

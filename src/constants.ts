@@ -96,6 +96,9 @@ export const PARTY_LABELS: Record<PoliticalParty, string> = {
   D: "Democrat",
   R: "Republican",
   I: "Independent",
+  L: "Libertarian",
+  G: "Green",
+  NL: "No Labels",
 };
 
 export const ratingToValueMap: Record<string, number> = {

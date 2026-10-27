@@ -13,11 +13,11 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
     let cancelled = false;
     const fetchImage = async () => {
       try {
+        setLoading(true);
         const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name)}`;
         const res = await fetch(url);
-        console.log(res.status);
+        setLoading(false);
         if (res.status === 404) {
-          console.log("entering if");
           setImgUrl(null);
           return;
         } else {
@@ -40,7 +40,7 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
     return () => {
       cancelled = true;
     };
-  }, [name]);
+  }, [name, imgUrl]);
   function renderAvatar() {
     const initials = name
       .split(" ")
@@ -54,7 +54,11 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
           ? "#d60819"
           : party === "I"
             ? "#9932cc"
-            : "black";
+            : party === "G"
+              ? "#17aa5c"
+              : party === "L"
+                ? "#fed000"
+                : "black";
     return (
       <div
         style={{
@@ -76,7 +80,7 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
   }
 
   function renderCandidateProfile() {
-    if (loading === true) {
+    if (loading) {
       return <div>Loading...</div>;
     }
     return (
@@ -95,8 +99,26 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
     );
   }
 
+  console.log(`Loading status: ${loading}`);
   if (loading) {
-    return <div>{renderCandidateProfile()}</div>;
+    console.log("loading...");
+    return (
+      <div
+        style={{
+          width: "100px",
+          height: "100px",
+          borderRadius: "50%",
+          backgroundColor: "#e0e0e0",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: 8,
+          color: "#888",
+        }}
+      >
+        Loading...
+      </div>
+    );
   }
 
   return <>{imgUrl ? renderCandidateProfile() : renderAvatar()}</>;

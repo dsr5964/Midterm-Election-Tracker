@@ -310,7 +310,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Chris Jones",
+                  "name": "Chris Jones (Arkansas politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -526,7 +526,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mark Lamb",
+                  "name": "Mark Lamb (sheriff)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -583,7 +583,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Daniel Butierez Sr.",
+                  "name": "Daniel Butierez",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -679,7 +679,7 @@
               "note": "Vacant seat \u2014 open race in redrawn district.",
               "candidates": [
                 {
-                  "name": "Mike McGuire",
+                  "name": "Mike McGuire (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -848,7 +848,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mai Veng",
+                  "name": "Mai Vang",
                   "party": "D",
                   "status": "nominee"
                 }
@@ -942,7 +942,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Connie Chan",
+                  "name": "Connie Chan (politician)",
                   "party": "D",
                   "status": "nominee"
                 }
@@ -1000,7 +1000,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Kevin Lincoln",
+                  "name": "Kevin Lincoln (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -1429,7 +1429,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Scott Meyers",
+                  "name": "Scott Meyers (attorney)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -1476,7 +1476,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Larry Thompson",
+                  "name": "Larry A. Thompson",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3098,7 +3098,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Oliver Gilbert III",
+                  "name": "Oliver Gilbert",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -3297,7 +3297,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Matt Day",
+                  "name": "Matt Day (businessman)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3366,7 +3366,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "John Oscar Salvesen",
+                  "name": "John Salvesen",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3508,7 +3508,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "John Cowan",
+                  "name": "John Cowan (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3596,7 +3596,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Shawn Harris",
+                  "name": "Shawn Harris (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -3690,6 +3690,11 @@
                 {
                   "name": "Russ Fulcher",
                   "party": "R",
+                  "status": "nominee"
+                },
+                {
+                  "name": "Sarah Zabel",
+                  "party": "I",
                   "status": "nominee"
                 }
               ]
@@ -3838,7 +3843,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Tommy Hanson",
+                  "name": "Tommy Hanson (candidate)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -4244,7 +4249,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Jim Baird",
+                  "name": "Jim Baird (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -4449,12 +4454,12 @@
               "note": "Ashley Hinson is current incumbent running for Senate.",
               "candidates": [
                 {
-                  "name": "Lindsay James",
+                  "name": "Lindsay James (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
                 {
-                  "name": "Joe Mitchell",
+                  "name": "Joe Mitchell (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -4509,7 +4514,7 @@
               "note": "Randy Feenstra is current incumbent.",
               "candidates": [
                 {
-                  "name": "Dave Dawson",
+                  "name": "David Dawson (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -4613,7 +4618,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Eric Jenkins",
+                  "name": "Eric Jenkins (councilman)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -4892,7 +4897,7 @@
                   "status": "primary-tbd"
                 },
                 {
-                  "name": "Caleb Walker",
+                  "name": "Caleb Walker (candidate)",
                   "party": "D",
                   "status": "primary-tbd"
                 },
@@ -4930,7 +4935,7 @@
                   "status": "primary-tbd"
                 },
                 {
-                  "name": "Mike Nichols",
+                  "name": "Mike Nichols (biologist)",
                   "party": "R",
                   "status": "primary-tbd"
                 }
@@ -5158,7 +5163,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Dan Schwartz",
+                  "name": "Dan Schwartz (Maryland politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -5232,7 +5237,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "George McDermott",
+                  "name": "George McDermott (entrepreneur)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -5358,7 +5363,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Nadie Milleron",
+                  "name": "Nadia Milleron",
                   "party": "I",
                   "status": "nominee"
                 }
@@ -6238,7 +6243,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Jeffrey Hulum",
+                  "name": "Jeffrey Hulum III",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6504,6 +6509,11 @@
                   "name": "Aaron Flint",
                   "party": "R",
                   "status": "nominee"
+                },
+                {
+                  "name": "Nick Sheedy",
+                  "party": "L",
+                  "status": "nominee"
                 }
               ]
             }
@@ -6526,6 +6536,11 @@
                 {
                   "name": "Troy Downing",
                   "party": "R",
+                  "status": "nominee"
+                },
+                {
+                  "name": "Michael Eisenhauer",
+                  "party": "I",
                   "status": "nominee"
                 }
               ]
@@ -6668,7 +6683,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Carrie Buck",
+                  "name": "Carrie Buck (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -6737,7 +6752,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Marty O'Donnell",
+                  "name": "Martin O'Donnell",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -7202,7 +7217,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Ndidiamaka Okpareke",
+                  "name": "Didi Okpareke",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -7236,7 +7251,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Greg Cunningham",
+                  "name": "Greg Cunningham (officer)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -7296,7 +7311,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Christopher Gallant",
+                  "name": "Chris Gallant",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7330,7 +7345,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Patrick Halpin",
+                  "name": "Patrick G. Halpin",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7832,7 +7847,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Anthony Constantino",
+                  "name": "Anthony Constantino (businessman)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8362,7 +8377,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Paul Barringer",
+                  "name": "Paul Barringer (attorney)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8751,7 +8766,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mike Kirchner",
+                  "name": "Mike Kirchner (candidate)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -9206,7 +9221,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Bob Harvie",
+                  "name": "Bob Harvie (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -9259,7 +9274,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Dennis Mahoney",
+                  "name": "Dennis Mahoney (candidate)",
                   "party": "I",
                   "status": "nominee"
                 }
@@ -9597,7 +9612,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Justin Wagner",
+                  "name": "Justin Wagner (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -10179,12 +10194,12 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Justin Pearson",
+                  "name": "Justin J. Pearson",
                   "party": "D",
                   "status": "nominee"
                 },
                 {
-                  "name": "Brent Taylor",
+                  "name": "Brent Taylor (Tennessee politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -10858,7 +10873,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Beth VanDuyne",
+                  "name": "Beth Van Duyne",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -10996,7 +11011,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Martha Fierro",
+                  "name": "Martha Fierro (director)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11020,7 +11035,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Everett Jackson",
+                  "name": "Everett Jackson (businessman)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11132,7 +11147,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Vicente Gonzalez",
+                  "name": "Vicente Gonzalez (American politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -11172,7 +11187,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Carlos De La Cruz",
+                  "name": "Carlos De La Cruz (gym owner)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11393,7 +11408,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Gerald Malloy",
+                  "name": "Gerald Malloy (candidate)",
                   "party": "R",
                   "status": "nominee",
                   "note": "Nominee for U.S. Senate in 2022 and 2024"
@@ -12125,7 +12140,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Rebecca Cooke",
+                  "name": "Rebecca Cooke (politician)",
                   "party": "D",
                   "status": "nominee",
                   "note": "Nominee for this district in 2024"
@@ -12242,7 +12257,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Fred Clark",
+                  "name": "Fred Clark (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -12325,7 +12340,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Chuck Gray",
+                  "name": "Chuck Gray (Wyoming politician)",
                   "party": "R",
                   "status": "nominee"
                 }

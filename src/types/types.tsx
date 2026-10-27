@@ -105,7 +105,7 @@ export type HouseState = {
   };
 };
 
-export type PoliticalParty = "D" | "R" | "I";
+export type PoliticalParty = "D" | "R" | "I" | "L" | "G" | "NL";
 
 export type NominationStatus =
   | "primary-tbd"
