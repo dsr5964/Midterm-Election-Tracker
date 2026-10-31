@@ -99,9 +99,7 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
     );
   }
 
-  console.log(`Loading status: ${loading}`);
   if (loading) {
-    console.log("loading...");
     return (
       <div
         style={{
@@ -112,7 +110,7 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontSize: 8,
+          fontSize: 16,
           color: "#888",
         }}
       >

@@ -436,7 +436,10 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           {renderCurrentPartyComposition(data, activeRace)}
         </div>
       </div>
-      <button onClick={() => setToggleIncumbents(!toggleIncumbents)}>
+      <button
+        style={{ margin: 0 }}
+        onClick={() => setToggleIncumbents(!toggleIncumbents)}
+      >
         {toggleIncumbents ? `Midterm Election Matchups` : `Incumbents`}
       </button>
       <div>
@@ -539,6 +542,7 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           flexGrow: 0,
           justifyContent: "center",
           alignItems: "center",
+          marginTop: "0",
         }}
       >
         <Card

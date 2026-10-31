@@ -11,6 +11,7 @@ import {
   displayIncumbentData,
   displayCandidateData,
 } from "./Races/shared/Candidates";
+import { useState } from "react";
 
 interface CardProps {
   stateData: State | HouseState | null;
@@ -21,6 +22,7 @@ interface CardProps {
 // TODO: Add a badge for flips
 // TODO: Add a badge for the rating
 function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
+  const [accordionState, setAccordionState] = useState<boolean[] | null>(null);
   if (stateData === null) {
     return <CCardText>Select a state</CCardText>;
   }

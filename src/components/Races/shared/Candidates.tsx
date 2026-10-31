@@ -92,9 +92,18 @@ export function displayIncumbentData(
   return (
     <>
       <CandidateAvatar name={incumbentData.name} party={incumbentData.party} />
-      <CCardText>Incumbent: {incumbentName}</CCardText>
-      <CCardText>Political Party: {incumbentData.party}</CCardText>
-      <CCardText>First elected: {incumbentData.firstElected}</CCardText>
+      <CCardText>
+        <strong>Incumbent: </strong>
+        {incumbentName}
+      </CCardText>
+      <CCardText>
+        <strong>Party: </strong>
+        {incumbentData.party}
+      </CCardText>
+      <CCardText>
+        <strong>First elected: </strong>
+        {incumbentData.firstElected}
+      </CCardText>
     </>
   );
 }
