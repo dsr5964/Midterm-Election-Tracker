@@ -31,16 +31,16 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
+                "lean-r",
                 "likely-r",
                 "lean-r",
                 "likely-r",
-                "safe-r",
-                "lean-r"
+                "likely-r",
+                "lean-r",
+                "lean-r",
+                "likely-r",
+                "likely-r",
+                "tossup"
               ],
               "mustWatch": false,
               "candidates": [
@@ -113,15 +113,15 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "likely-r",
                 "lean-r",
-                "lean-r",
-                "likely-r",
+                "tilt-r",
                 "tossup",
                 "likely-r",
                 "tossup",
+                "lean-r",
+                "lean-r",
                 "likely-r",
-                "likely-r",
+                "lean-r",
                 "lean-r"
               ],
               "mustWatch": true,
@@ -389,13 +389,13 @@
               "ratings": [
                 "lean-d",
                 "tilt-d",
-                "tossup",
+                "lean-d",
                 "likely-d",
-                "likely-d",
+                "safe-d",
                 "lean-d",
                 "likely-d",
                 "lean-d",
-                "lean-d",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -421,16 +421,16 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
-                "likely-r",
                 "lean-r",
+                "lean-r",
+                "lean-r",
+                "tossup",
                 "tossup",
                 "likely-r",
                 "lean-r",
                 "likely-r",
-                "likely-r",
-                "lean-r"
+                "lean-r",
+                "tossup"
               ],
               "mustWatch": false,
               "candidates": [
@@ -511,7 +511,7 @@
                 "safe-r",
                 "safe-r",
                 "safe-r",
-                "lean-r",
+                "likely-r",
                 "safe-r",
                 "likely-r",
                 "safe-r",
@@ -541,15 +541,15 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
+                "tilt-d",
+                "lean-d",
                 "likely-d",
                 "safe-d",
                 "likely-d",
                 "likely-d",
                 "lean-d",
-                "lean-d",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -606,7 +606,7 @@
                 "likely-r",
                 "likely-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -805,7 +805,7 @@
               },
               "ratings": [
                 "safe-d",
-                "lean-d",
+                "likely-d",
                 "likely-d",
                 "safe-d",
                 "safe-d",
@@ -981,14 +981,14 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "lean-d",
+                "likely-d",
                 "tilt-d",
-                "lean-d",
+                "likely-d",
                 "safe-d",
                 "safe-d",
                 "likely-d",
                 "safe-d",
-                "lean-d",
+                "likely-d",
                 "safe-d",
                 "likely-d"
               ],
@@ -1178,12 +1178,12 @@
                 "firstElected": 2004
               },
               "ratings": [
-                "likely-d",
-                "safe-d",
-                "likely-d",
                 "safe-d",
                 "safe-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
+                "safe-d",
                 "safe-d",
                 "likely-d",
                 "safe-d",
@@ -1216,12 +1216,12 @@
                 "tossup",
                 "tossup",
                 "lean-d",
-                "likely-d",
+                "safe-d",
                 "lean-d",
                 "likely-d",
                 "likely-d",
                 "tossup",
-                "likely-d",
+                "safe-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -1772,7 +1772,7 @@
               },
               "ratings": [
                 "likely-d",
-                "likely-d",
+                "safe-d",
                 "likely-d",
                 "safe-d",
                 "safe-d",
@@ -1855,14 +1855,14 @@
               "ratings": [
                 "lean-d",
                 "tilt-d",
-                "lean-d",
+                "likely-d",
                 "likely-d",
                 "safe-d",
                 "likely-d",
                 "safe-d",
-                "lean-d",
                 "likely-d",
-                "lean-d"
+                "safe-d",
+                "likely-d"
               ],
               "mustWatch": false,
               "note": "Darrell Issa is current incumbent in redrawn district.",
@@ -2042,10 +2042,10 @@
                 "likely-r",
                 "lean-r",
                 "lean-r",
-                "lean-r",
+                "tossup",
                 "tossup",
                 "lean-r",
-                "likely-r",
+                "lean-r",
                 "tossup"
               ],
               "mustWatch": true,
@@ -2071,10 +2071,10 @@
                 "firstElected": 2020
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
+                "lean-r",
                 "likely-r",
-                "tossup",
+                "lean-r",
+                "lean-r",
                 "tossup",
                 "likely-r",
                 "likely-r",
@@ -2105,16 +2105,16 @@
                 "firstElected": 2024
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-r",
+                "lean-r",
                 "likely-r",
-                "tilt-r",
+                "tossup",
                 "lean-r",
-                "lean-r",
-                "lean-r",
-                "likely-r",
-                "lean-d",
-                "lean-r",
-                "lean-r",
-                "lean-r"
+                "tossup",
+                "tossup"
               ],
               "mustWatch": true,
               "candidates": [
@@ -2185,9 +2185,9 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
+                "tilt-d",
+                "lean-d",
                 "lean-d",
                 "lean-d",
                 "likely-d",
@@ -2483,7 +2483,7 @@
                 "safe-r",
                 "likely-r",
                 "likely-r",
-                "likely-r",
+                "lean-r",
                 "likely-r",
                 "safe-r",
                 "likely-r",
@@ -2570,15 +2570,15 @@
                 "note": "Incumbent lost renomination. This is due to personal sexual assault scandal."
               },
               "ratings": [
+                "lean-r",
                 "likely-r",
                 "likely-r",
-                "likely-r",
-                "likely-d",
-                "lean-r",
-                "lean-r",
-                "lean-r",
-                "lean-r",
                 "tossup",
+                "tossup",
+                "lean-r",
+                "lean-r",
+                "lean-r",
+                "lean-r",
                 "lean-r"
               ],
               "mustWatch": true,
@@ -2638,15 +2638,15 @@
                 "firstElected": 2016
               },
               "ratings": [
-                "likely-r",
+                "lean-r",
                 "likely-r",
                 "likely-r",
                 "tossup",
                 "lean-r",
-                "lean-r",
+                "tossup",
                 "likely-r",
                 "lean-r",
-                "tossup",
+                "lean-r",
                 "tossup"
               ],
               "mustWatch": true,
@@ -2695,7 +2695,7 @@
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "likely-r",
+                "safe-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
@@ -2761,14 +2761,14 @@
               "ratings": [
                 "lean-r",
                 "lean-r",
-                "likely-r",
-                "lean-r",
-                "likely-r",
-                "likely-r",
                 "lean-r",
                 "lean-r",
                 "lean-r",
-                "tossup"
+                "lean-r",
+                "lean-r",
+                "lean-r",
+                "lean-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -2794,12 +2794,12 @@
               },
               "ratings": [
                 "tossup",
+                "tilt-d",
                 "tossup",
-                "tossup",
-                "likely-d",
                 "lean-d",
                 "lean-d",
-                "likely-d",
+                "lean-d",
+                "lean-d",
                 "tossup",
                 "likely-d",
                 "lean-d"
@@ -2861,7 +2861,7 @@
                 "firstElected": 2006
               },
               "ratings": [
-                "safe-r",
+                "likely-r",
                 "likely-r",
                 "likely-r",
                 "lean-r",
@@ -3037,12 +3037,12 @@
               },
               "ratings": [
                 "tossup",
-                "tilt-r",
                 "tossup",
                 "tossup",
                 "tossup",
                 "tossup",
-                "lean-d",
+                "tossup",
+                "tossup",
                 "tossup",
                 "lean-d",
                 "tossup"
@@ -3119,13 +3119,13 @@
                 "note": "Debbie Waserman Schultz was redistricted from the 25th district."
               },
               "ratings": [
-                "tossup",
-                "tossup",
                 "lean-d",
-                "lean-d",
+                "tilt-d",
                 "lean-d",
                 "lean-d",
                 "likely-d",
+                "lean-d",
+                "lean-d",
                 "lean-d",
                 "likely-d",
                 "lean-d"
@@ -3193,10 +3193,10 @@
                 "likely-r",
                 "likely-r",
                 "likely-r",
-                "lean-r",
-                "lean-r",
                 "likely-r",
-                "tossup"
+                "lean-r",
+                "lean-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -3263,7 +3263,7 @@
                 "likely-r",
                 "likely-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -3403,7 +3403,18 @@
                 "party": "R",
                 "firstElected": 2022
               },
-              "ratings": ["likely-r", "safe-r", "safe-r", "safe-r", "safe-r"],
+              "ratings": [
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
+                "safe-r",
+                "safe-r"
+              ],
               "mustWatch": false,
               "candidates": [
                 {
@@ -3581,18 +3592,7 @@
                 "party": "R",
                 "firstElected": 2026
               },
-              "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r"
-              ],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -4117,18 +4117,7 @@
                 "party": "D",
                 "firstElected": 2022
               },
-              "ratings": [
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "likely-d",
-                "safe-d",
-                "safe-d",
-                "safe-d",
-                "safe-d"
-              ],
+              "ratings": ["safe-d"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -4264,16 +4253,16 @@
                 "firstElected": 2020
               },
               "ratings": [
-                "likely-r",
-                "safe-r",
-                "safe-r",
+                "lean-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
+                "lean-r",
                 "likely-r",
-                "safe-r",
                 "likely-r",
-                "likely-r"
+                "likely-r",
+                "likely-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -4406,7 +4395,7 @@
                 "likely-d",
                 "likely-d",
                 "lean-d",
-                "lean-d",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -4441,13 +4430,13 @@
               "ratings": [
                 "tossup",
                 "tossup",
-                "tossup",
                 "lean-d",
                 "lean-d",
+                "lean-d",
                 "tossup",
                 "lean-d",
                 "tossup",
-                "tossup",
+                "lean-d",
                 "tossup"
               ],
               "mustWatch": true,
@@ -4476,7 +4465,7 @@
               "ratings": [
                 "lean-d",
                 "tilt-d",
-                "tossup",
+                "lean-d",
                 "likely-d",
                 "likely-d",
                 "lean-d",
@@ -4565,15 +4554,15 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "safe-r",
                 "likely-r",
+                "likely-r",
                 "safe-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -4782,18 +4771,18 @@
                 "note": "Running for U.S. Senate in Kentucky."
               },
               "ratings": [
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
                 "lean-r",
-                "tilt-r",
                 "lean-r",
                 "tossup",
                 "tossup",
-                "lean-r",
-                "tossup",
-                "lean-r",
-                "likely-r",
-                "lean-r"
+                "tossup"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "note": "Andy Barr is current incumbent running for Senate.",
               "candidates": [
                 {
@@ -5112,11 +5101,11 @@
                 "lean-r",
                 "lean-r",
                 "tossup",
-                "lean-r",
+                "tossup",
+                "tossup",
                 "tossup",
                 "lean-d",
                 "tossup",
-                "lean-r",
                 "tossup"
               ],
               "mustWatch": true,
@@ -5152,11 +5141,11 @@
               "ratings": [
                 "safe-r",
                 "safe-r",
-                "safe-r",
+                "likely-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "safe-r",
+                "likely-r",
                 "safe-r",
                 "safe-r"
               ],
@@ -5657,15 +5646,15 @@
               },
               "ratings": [
                 "tossup",
-                "tilt-r",
                 "tossup",
                 "tossup",
                 "tossup",
-                "lean-r",
+                "tossup",
+                "tossup",
                 "lean-d",
                 "tossup",
-                "tossup",
-                "tossup"
+                "lean-d",
+                "lean-d"
               ],
               "mustWatch": true,
               "candidates": [
@@ -5739,12 +5728,12 @@
                 "tossup",
                 "tossup",
                 "tossup",
-                "tossup",
+                "lean-d",
                 "lean-d",
                 "likely-d",
                 "likely-d",
-                "tossup",
                 "lean-d",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -5834,8 +5823,8 @@
                 "tossup",
                 "lean-d",
                 "lean-d",
-                "tossup",
-                "likely-d",
+                "lean-d",
+                "lean-d",
                 "tossup",
                 "lean-d",
                 "lean-d"
@@ -5944,15 +5933,15 @@
               },
               "ratings": [
                 "lean-r",
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
                 "lean-r",
                 "likely-r",
+                "lean-r",
+                "lean-r",
                 "lean-r",
                 "tossup",
-                "likely-r",
-                "lean-r",
-                "lean-r"
+                "tossup"
               ],
               "mustWatch": false,
               "candidates": [
@@ -5984,9 +5973,9 @@
                 "likely-d",
                 "safe-d",
                 "safe-d",
-                "likely-d",
                 "safe-d",
-                "likely-d",
+                "safe-d",
+                "safe-d",
                 "safe-d",
                 "likely-d"
               ],
@@ -6136,7 +6125,7 @@
                 "likely-r",
                 "likely-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -6296,13 +6285,13 @@
               "ratings": [
                 "likely-r",
                 "safe-r",
+                "tossup",
+                "tossup",
+                "lean-r",
                 "lean-r",
                 "tossup",
                 "lean-r",
-                "likely-r",
                 "tossup",
-                "lean-r",
-                "likely-r",
                 "tossup"
               ],
               "mustWatch": true,
@@ -6327,18 +6316,7 @@
                 "party": "R",
                 "firstElected": 2024
               },
-              "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
-                "safe-r",
-                "safe-r",
-                "safe-r"
-              ],
+              "ratings": ["safe-r"],
               "mustWatch": false,
               "candidates": [
                 {
@@ -6488,14 +6466,14 @@
               },
               "ratings": [
                 "tossup",
-                "tilt-r",
-                "lean-r",
-                "tossup",
-                "lean-r",
-                "lean-r",
                 "tossup",
                 "tossup",
-                "lean-r",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
+                "lean-d",
                 "tossup"
               ],
               "mustWatch": true,
@@ -6563,9 +6541,9 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
@@ -6599,13 +6577,13 @@
               },
               "ratings": [
                 "likely-d",
-                "tilt-d",
-                "likely-d",
-                "likely-d",
-                "safe-d",
-                "likely-d",
-                "safe-d",
                 "lean-d",
+                "likely-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
+                "safe-d",
+                "likely-d",
                 "safe-d",
                 "likely-d"
               ],
@@ -6667,7 +6645,7 @@
                 "likely-d",
                 "lean-d",
                 "likely-d",
-                "safe-d",
+                "likely-d",
                 "safe-d",
                 "likely-d",
                 "safe-d",
@@ -6699,16 +6677,16 @@
                 "retiring": true
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "tilt-r",
+                "lean-r",
                 "lean-r",
                 "likely-r",
+                "lean-r",
+                "lean-r",
                 "likely-r",
                 "lean-r",
-                "safe-r",
-                "likely-r",
-                "lean-r"
+                "tossup"
               ],
               "mustWatch": false,
               "candidates": [
@@ -6735,13 +6713,13 @@
               "ratings": [
                 "likely-d",
                 "lean-d",
-                "lean-d",
+                "likely-d",
                 "safe-d",
+                "safe-d",
+                "likely-d",
                 "safe-d",
                 "likely-d",
                 "safe-d",
-                "likely-d",
-                "likely-d",
                 "likely-d"
               ],
               "mustWatch": false,
@@ -6770,7 +6748,7 @@
               "ratings": [
                 "likely-d",
                 "likely-d",
-                "likely-d",
+                "safe-d",
                 "safe-d",
                 "likely-d",
                 "safe-d",
@@ -6815,13 +6793,13 @@
               "ratings": [
                 "likely-d",
                 "lean-d",
-                "lean-d",
-                "lean-d",
+                "likely-d",
+                "likely-d",
                 "likely-d",
                 "likely-d",
                 "safe-d",
                 "likely-d",
-                "safe-d",
+                "likely-d",
                 "likely-d"
               ],
               "mustWatch": false,
@@ -6849,7 +6827,7 @@
               },
               "ratings": [
                 "safe-d",
-                "likely-d",
+                "safe-d",
                 "likely-d",
                 "safe-d",
                 "safe-d",
@@ -6913,18 +6891,18 @@
                 "firstElected": 2018
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
+                "likely-d",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "safe-r",
                 "lean-r",
-                "safe-r",
-                "likely-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
                 "tossup"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Zack Mullock",
@@ -7043,12 +7021,12 @@
                 "tilt-d",
                 "lean-d",
                 "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
                 "lean-d",
                 "likely-d",
-                "likely-d",
-                "lean-d",
-                "likely-d",
-                "lean-d"
+                "likely-d"
               ],
               "mustWatch": true,
               "candidates": [
@@ -7097,7 +7075,7 @@
               },
               "ratings": [
                 "likely-d",
-                "likely-d",
+                "safe-d",
                 "likely-d",
                 "safe-d",
                 "safe-d",
@@ -7301,11 +7279,11 @@
                 "safe-r",
                 "likely-r",
                 "lean-r",
-                "likely-r",
                 "lean-r",
                 "lean-r",
+                "lean-r",
                 "likely-r",
-                "likely-r",
+                "lean-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -7372,7 +7350,7 @@
                 "safe-d",
                 "likely-d",
                 "safe-d",
-                "lean-d",
+                "likely-d",
                 "safe-d",
                 "likely-d"
               ],
@@ -7401,7 +7379,7 @@
               "ratings": [
                 "likely-d",
                 "tilt-d",
-                "lean-d",
+                "likely-d",
                 "safe-d",
                 "safe-d",
                 "likely-d",
@@ -7718,10 +7696,10 @@
                 "tossup",
                 "lean-d",
                 "lean-d",
-                "tossup",
+                "lean-d",
                 "likely-d",
                 "lean-d",
-                "lean-d",
+                "likely-d",
                 "tossup"
               ],
               "mustWatch": true,
@@ -7771,13 +7749,13 @@
               },
               "ratings": [
                 "likely-d",
-                "likely-d",
-                "likely-d",
-                "safe-d",
                 "safe-d",
                 "likely-d",
                 "safe-d",
+                "safe-d",
                 "likely-d",
+                "safe-d",
+                "safe-d",
                 "safe-d",
                 "safe-d"
               ],
@@ -7830,14 +7808,14 @@
               "ratings": [
                 "lean-r",
                 "lean-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
                 "lean-r",
                 "likely-r",
                 "likely-r",
                 "likely-r",
-                "likely-r",
-                "likely-r",
-                "likely-r"
+                "lean-r",
+                "lean-r"
               ],
               "mustWatch": true,
               "candidates": [
@@ -7988,14 +7966,14 @@
               },
               "ratings": [
                 "tossup",
-                "tossup",
-                "tossup",
-                "tossup",
+                "tilt-d",
                 "lean-d",
                 "tossup",
                 "lean-d",
-                "tossup",
                 "lean-d",
+                "lean-d",
+                "lean-d",
+                "likely-d",
                 "tossup"
               ],
               "mustWatch": true,
@@ -8044,16 +8022,16 @@
                 "firstElected": 2019
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "likely-r",
                 "safe-r",
-                "likely-r",
+                "lean-r",
                 "likely-r",
                 "safe-r",
                 "likely-r",
-                "likely-r"
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -8101,7 +8079,7 @@
                 "firstElected": 2004
               },
               "ratings": [
-                "safe-r",
+                "likely-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
@@ -8173,10 +8151,10 @@
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
                 "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "likely-r"
               ],
@@ -8237,16 +8215,16 @@
                 "firstElected": 2012
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
-                "likely-r",
                 "likely-r",
                 "likely-r",
                 "safe-r",
                 "likely-r",
-                "likely-r"
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "likely-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -8305,16 +8283,16 @@
                 "note": "Chuck Edwards dropped his reelection campaign due to scandal."
               },
               "ratings": [
-                "tossup",
-                "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
+                "tilt-d",
+                "lean-d",
+                "likely-d",
                 "lean-d",
                 "tossup",
-                "tossup",
-                "tossup",
-                "tossup",
-                "tossup"
+                "lean-d",
+                "lean-d",
+                "likely-d",
+                "lean-d"
               ],
               "mustWatch": true,
               "candidates": [
@@ -8363,16 +8341,16 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
-                "likely-r",
                 "likely-r",
                 "likely-r",
                 "safe-r",
                 "likely-r",
-                "likely-r"
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -8405,7 +8383,7 @@
                 "likely-r",
                 "likely-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "safe-r"
               ],
               "mustWatch": false,
@@ -8472,14 +8450,14 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "lean-d",
-                "tilt-d",
+                "likely-d",
                 "lean-d",
                 "likely-d",
-                "safe-d",
                 "likely-d",
-                "safe-d",
-                "lean-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
+                "likely-d",
                 "likely-d",
                 "likely-d"
               ],
@@ -8623,14 +8601,14 @@
               },
               "ratings": [
                 "tossup",
-                "tossup",
+                "tilt-d",
                 "tossup",
                 "tossup",
                 "lean-d",
                 "tossup",
-                "lean-d",
                 "tossup",
                 "tossup",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -8690,8 +8668,8 @@
                 "firstElected": 1982
               },
               "ratings": [
-                "tossup",
-                "tilt-r",
+                "lean-d",
+                "tilt-d",
                 "tossup",
                 "lean-d",
                 "likely-d",
@@ -8724,16 +8702,16 @@
                 "firstElected": 2002
               },
               "ratings": [
-                "likely-r",
-                "safe-r",
-                "likely-r",
-                "likely-r",
-                "safe-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
                 "lean-r",
                 "likely-r",
                 "likely-r",
-                "likely-r"
+                "likely-r",
+                "tossup",
+                "likely-r",
+                "lean-r",
+                "lean-r"
               ],
               "mustWatch": false,
               "candidates": [
@@ -8861,16 +8839,16 @@
                 "firstElected": 2020
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
+                "lean-r",
                 "likely-r",
                 "lean-r",
                 "likely-r",
-                "likely-r",
                 "tossup",
-                "likely-r",
-                "likely-r",
-                "lean-r"
+                "lean-r",
+                "lean-r",
+                "tossup"
               ],
               "mustWatch": false,
               "candidates": [
@@ -8908,7 +8886,7 @@
                 "safe-r",
                 "safe-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "safe-r",
                 "likely-r",
                 "safe-r",
@@ -9015,7 +8993,7 @@
                 "safe-r",
                 "likely-r",
                 "likely-r",
-                "safe-r",
+                "likely-r",
                 "safe-r",
                 "safe-r"
               ],
@@ -9207,15 +9185,15 @@
                 "firstElected": 2016
               },
               "ratings": [
-                "lean-r",
-                "lean-r",
-                "lean-r",
                 "tossup",
                 "tossup",
-                "lean-r",
+                "tossup",
+                "tossup",
+                "tossup",
+                "tossup",
                 "likely-d",
                 "tossup",
-                "tossup",
+                "lean-d",
                 "tossup"
               ],
               "mustWatch": true,
@@ -9366,7 +9344,7 @@
                 "likely-d",
                 "likely-d",
                 "lean-d",
-                "lean-d",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -9392,15 +9370,15 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "tossup",
+                "lean-d",
                 "tilt-d",
+                "lean-d",
                 "tossup",
+                "lean-d",
                 "tossup",
                 "lean-d",
                 "tossup",
                 "likely-d",
-                "tossup",
-                "lean-d",
                 "tossup"
               ],
               "mustWatch": true,
@@ -9450,15 +9428,15 @@
               },
               "ratings": [
                 "lean-d",
-                "tossup",
-                "tossup",
-                "likely-d",
-                "likely-d",
+                "tilt-d",
+                "lean-d",
+                "lean-d",
+                "lean-d",
                 "lean-d",
                 "likely-d",
                 "lean-d",
                 "likely-d",
-                "lean-d"
+                "tossup"
               ],
               "mustWatch": true,
               "candidates": [
@@ -9731,16 +9709,16 @@
                 "note": "Retiring to run for governor."
               },
               "ratings": [
+                "tossup",
+                "tilt-r",
                 "lean-r",
-                "lean-r",
-                "likely-r",
                 "tossup",
                 "lean-r",
                 "lean-r",
                 "lean-r",
-                "likely-r",
-                "likely-r",
-                "lean-r"
+                "lean-r",
+                "lean-r",
+                "tossup"
               ],
               "mustWatch": true,
               "candidates": [
@@ -9768,7 +9746,7 @@
                 "safe-r",
                 "safe-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "safe-r",
                 "likely-r",
                 "likely-r",
@@ -10070,7 +10048,7 @@
                 "safe-r",
                 "safe-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -10181,14 +10159,14 @@
               },
               "ratings": [
                 "safe-r",
-                "safe-r",
-                "safe-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
                 "likely-r",
                 "safe-r",
                 "likely-r",
+                "safe-r",
+                "likely-r",
+                "likely-r",
+                "safe-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -10249,7 +10227,7 @@
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "likely-r",
+                "safe-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
@@ -10433,14 +10411,14 @@
               },
               "ratings": [
                 "likely-r",
-                "likely-r",
-                "likely-r",
-                "likely-r",
-                "safe-r",
+                "lean-r",
                 "likely-r",
                 "likely-r",
                 "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -10597,14 +10575,14 @@
               },
               "ratings": [
                 "tossup",
-                "tossup",
-                "tossup",
+                "tilt-d",
+                "lean-d",
                 "tossup",
                 "lean-d",
                 "tossup",
                 "lean-r",
                 "tossup",
-                "lean-r",
+                "lean-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -10820,14 +10798,14 @@
                 "note": "Vacant seat. Tony Gonzales resigned his seat after personal scandal."
               },
               "ratings": [
-                "likely-r",
-                "likely-r",
+                "lean-r",
                 "likely-r",
                 "lean-r",
+                "lean-r",
                 "tossup",
-                "likely-r",
-                "likely-r",
-                "likely-r",
+                "lean-r",
+                "lean-r",
+                "lean-r",
                 "tossup",
                 "tossup"
               ],
@@ -10969,16 +10947,16 @@
                 "firstElected": 2004
               },
               "ratings": [
+                "likely-d",
                 "lean-d",
-                "tilt-d",
                 "lean-d",
                 "likely-d",
                 "safe-d",
                 "likely-d",
                 "likely-d",
                 "lean-d",
-                "lean-d",
-                "lean-d"
+                "likely-d",
+                "likely-d"
               ],
               "mustWatch": false,
               "candidates": [
@@ -11078,11 +11056,11 @@
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "likely-r",
+                "safe-r",
                 "likely-r",
                 "likely-r",
                 "safe-r",
-                "likely-r",
+                "safe-r",
                 "likely-r"
               ],
               "mustWatch": false,
@@ -11133,15 +11111,15 @@
                 "firstElected": 2016
               },
               "ratings": [
-                "tossup",
+                "lean-d",
                 "tossup",
                 "lean-d",
                 "lean-d",
                 "likely-d",
+                "likely-d",
                 "lean-d",
                 "lean-d",
-                "lean-d",
-                "lean-d",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -11168,15 +11146,15 @@
                 "note": "Redistricted from the 35th to the 37th district."
               },
               "ratings": [
-                "lean-r",
-                "lean-r",
-                "lean-r",
                 "tossup",
+                "tossup",
+                "tossup",
+                "lean-r",
                 "lean-d",
                 "tossup",
                 "tossup",
-                "lean-r",
-                "lean-r",
+                "tossup",
+                "tossup",
                 "tossup"
               ],
               "mustWatch": true,
@@ -11433,12 +11411,12 @@
               },
               "ratings": [
                 "tossup",
-                "lean-r",
+                "tilt-r",
                 "tossup",
                 "tossup",
                 "tossup",
                 "lean-r",
-                "likely-d",
+                "lean-d",
                 "tossup",
                 "tossup",
                 "tossup"
@@ -11466,8 +11444,8 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "tossup",
-                "tossup",
+                "lean-d",
+                "tilt-d",
                 "lean-d",
                 "lean-d",
                 "likely-d",
@@ -11547,17 +11525,17 @@
               },
               "ratings": [
                 "likely-r",
+                "lean-r",
+                "tossup",
+                "likely-r",
                 "likely-r",
                 "lean-r",
+                "lean-r",
+                "lean-r",
                 "likely-r",
-                "likely-r",
-                "lean-r",
-                "lean-r",
-                "lean-r",
-                "lean-r",
                 "lean-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Tom Perriello",
@@ -11604,8 +11582,8 @@
               },
               "ratings": [
                 "likely-d",
-                "likely-d",
-                "likely-d",
+                "safe-d",
+                "safe-d",
                 "safe-d",
                 "safe-d",
                 "likely-d",
@@ -11786,7 +11764,7 @@
                 "lean-d",
                 "tossup",
                 "lean-d",
-                "likely-d",
+                "lean-d",
                 "likely-d",
                 "likely-d",
                 "likely-d",
@@ -11852,14 +11830,14 @@
                 "firstElected": 2024
               },
               "ratings": [
-                "safe-r",
-                "safe-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
+                "likely-r",
                 "safe-r",
                 "safe-r",
                 "likely-r",
-                "lean-r",
-                "safe-r",
+                "likely-r",
+                "likely-r",
                 "likely-r",
                 "lean-r"
               ],
@@ -12075,14 +12053,14 @@
               },
               "ratings": [
                 "lean-r",
-                "likely-r",
                 "lean-r",
-                "tossup",
+                "lean-r",
+                "lean-r",
                 "lean-r",
                 "lean-r",
                 "lean-d",
-                "lean-r",
-                "lean-r",
+                "tossup",
+                "tossup",
                 "tossup"
               ],
               "mustWatch": true,
@@ -12126,15 +12104,15 @@
                 "firstElected": 2022
               },
               "ratings": [
-                "tossup",
-                "tossup",
-                "tossup",
+                "lean-d",
+                "tilt-d",
+                "lean-d",
                 "lean-d",
                 "lean-d",
                 "likely-d",
                 "likely-d",
                 "tossup",
-                "lean-d",
+                "likely-d",
                 "lean-d"
               ],
               "mustWatch": true,
@@ -12248,7 +12226,7 @@
                 "safe-r",
                 "likely-r",
                 "safe-r",
-                "safe-r",
+                "likely-r",
                 "safe-r",
                 "safe-r",
                 "safe-r",
