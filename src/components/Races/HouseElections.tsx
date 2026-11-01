@@ -1,10 +1,10 @@
+import { Typography } from "@mui/material";
 import type { HouseState } from "../../types/types";
 import { getRatingColor } from "../../utils/stateUtils";
 import {
   displayIncumbentData,
   displayCandidateData,
 } from "./shared/Candidates";
-import { Typography } from "@mui/material";
 
 export function displayCongressionalDistrictsByState(
   houseData: HouseState,
@@ -69,14 +69,21 @@ export function displayCongressionalDistrictsByState(
               }}
             >
               <div style={{ display: "flex", gap: "20px" }}>
-                <strong>{district}</strong>
+                <Typography
+                  sx={{
+                    fontWeight: "bold",
+                    fontSize: "28px",
+                  }}
+                >
+                  {district}
+                </Typography>
                 {toggleIncumbents ? (
                   <></>
                 ) : (
                   <div
                     className={`${democratFlip} ${republicanFlip}`}
                     style={{
-                      width: "30px",
+                      width: "40px",
                       aspectRatio: 1,
                       backgroundColor: ratingColor,
                     }}

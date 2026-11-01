@@ -57,6 +57,7 @@ export function displayCandidateData(
                   display: "flex",
                   alignItems: "center",
                   flexDirection: "column",
+                  padding: "20px",
                 }}
               >
                 <CandidateAvatar
@@ -68,6 +69,7 @@ export function displayCandidateData(
                   key={index}
                   sx={{
                     fontWeight: "bold",
+                    paddingTop: "10px",
                   }}
                 >
                   {group.isPrimary

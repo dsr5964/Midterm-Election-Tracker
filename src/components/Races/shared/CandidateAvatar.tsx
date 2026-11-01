@@ -63,8 +63,8 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
       <div
         style={{
           borderRadius: "50%",
-          height: "100px",
-          width: "100px",
+          height: "150px",
+          width: "150px",
           backgroundColor: color,
           display: "flex",
           alignItems: "center",
@@ -89,7 +89,7 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
           src={imgUrl!}
           loading="lazy"
           alt={name}
-          width="100px"
+          width="150px"
           style={{
             borderRadius: "75%",
           }}
@@ -103,8 +103,8 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
     return (
       <div
         style={{
-          width: "100px",
-          height: "100px",
+          width: "150px",
+          height: "150px",
           borderRadius: "50%",
           backgroundColor: "#e0e0e0",
           display: "flex",

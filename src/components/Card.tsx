@@ -33,7 +33,7 @@ export default function ElectionCard({
   toggleIncumbents,
   raceType,
 }: CardProps) {
-  // const [accordionState, setAccordionState] = useState<boolean[] | null>(null);
+  const [accordionState, setAccordionState] = useState<boolean[] | null>(null);
 
   if (stateData === null) {
     return <span>Select a state</span>;
@@ -46,14 +46,12 @@ export default function ElectionCard({
     <Card
       sx={{
         display: "flex",
-        width: "20rem",
+        width: "28rem",
         backgroundColor: "#1f2028",
         border: "1px solid #2e303a",
         color: "white",
         borderRadius: "10px",
         justifyContent: "center",
-        padding: "8px",
-        marginTop: "10px",
       }}
     >
       <CardContent>
@@ -72,38 +70,6 @@ export default function ElectionCard({
             ? displayIncumbentData(incumbent)
             : displayCandidateData(candidates, incumbent || null))}
       </CardContent>
-      {/* <CCard
-        style={{
-          width: "20rem",
-          backgroundColor: "#ffffff",
-          color: "black",
-          borderRadius: "10px",
-          display: "flex",
-          justifyContent: "center",
-          padding: "8px",
-          marginTop: "10px",
-        }}
-      > */}
-      {/* <CCardBody>
-          <CCardTitle
-            style={{
-              fontSize: "24px",
-              margin: "10px 0",
-            }}
-          >
-            {stateData.name}
-          </CCardTitle>
-          {raceType === "house" &&
-            displayCongressionalDistrictsByState(
-              stateData as HouseState,
-              toggleIncumbents,
-            )}
-          {raceType !== "house" &&
-            (toggleIncumbents
-              ? displayIncumbentData(incumbent)
-              : displayCandidateData(candidates, incumbent || null))}
-        </CCardBody> */}
-      {/* </CCard> */}
     </Card>
   );
 }
