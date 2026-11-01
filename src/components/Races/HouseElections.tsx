@@ -1,43 +1,81 @@
-import { Typography } from "@mui/material";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Box,
+  Typography,
+} from "@mui/material";
 import type { HouseState } from "../../types/types";
 import { getRatingColor } from "../../utils/stateUtils";
 import {
   displayIncumbentData,
   displayCandidateData,
 } from "./shared/Candidates";
+import { useState } from "react";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export function displayCongressionalDistrictsByState(
-  houseData: HouseState,
-  toggleIncumbents: boolean,
-) {
-  if (houseData.districts.length === 0) {
+type HouseDistrictsProps = {
+  data: HouseState;
+  toggleIncumbents: boolean;
+};
+
+export default function HouseDistricts({
+  data,
+  toggleIncumbents,
+}: HouseDistrictsProps) {
+  if (data.districts.length === 0) {
     return <span>Please select a state</span>;
   }
-  const congressionalDistricts: string[] = houseData.districts.flatMap(
+  const congressionalDistricts: string[] = data.districts.flatMap(
     (district) => {
       return Object.keys(district);
     },
   );
 
   const numDemocratMembers =
-    houseData.statePartyControl.democrat !== 0
-      ? `Democrats: ${houseData.statePartyControl.democrat}`
-      : "";
+    data.statePartyControl.democrat !== 0
+      ? `Democrats: ${data.statePartyControl.democrat}`
+      : null;
   const numRepublicanMembers =
-    houseData.statePartyControl.republican !== 0
-      ? `Republicans: ${houseData.statePartyControl.republican}`
-      : "";
+    data.statePartyControl.republican !== 0
+      ? `Republicans: ${data.statePartyControl.republican}`
+      : null;
   const numIndependentMembers =
-    houseData.statePartyControl.independent !== 0
-      ? `Independents: ${houseData.statePartyControl.independent}`
-      : "";
+    data.statePartyControl.independent !== 0
+      ? `Independents: ${data.statePartyControl.independent}`
+      : null;
   return (
     <>
-      <span className="Democrat-text">{numDemocratMembers}</span>{" "}
-      <span className="Republican-text">{numRepublicanMembers}</span>{" "}
-      <span className="Independent-text">{numIndependentMembers}</span>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-evenly",
+        }}
+      >
+        {numDemocratMembers !== null && (
+          <Typography
+            sx={{ fontWeight: "bold", paddingRight: "10px" }}
+            className="Democrat-text"
+          >
+            {numDemocratMembers}
+          </Typography>
+        )}
+        {numRepublicanMembers !== null && (
+          <Typography
+            sx={{ fontWeight: "bold", paddingRight: "10px" }}
+            className="Republican-text"
+          >
+            {numRepublicanMembers}
+          </Typography>
+        )}{" "}
+        {numIndependentMembers !== null && (
+          <Typography sx={{ fontWeight: "bold" }} className="Independent-text">
+            {numIndependentMembers}
+          </Typography>
+        )}
+      </Box>
       {congressionalDistricts.map((district) => {
-        const districtData = houseData.districts.find(
+        const districtData = data.districts.find(
           (d) => Object.keys(d)[0] === district,
         )?.[district];
         if (districtData) {
@@ -69,35 +107,43 @@ export function displayCongressionalDistrictsByState(
               }}
             >
               <div style={{ display: "flex", gap: "20px" }}>
-                <Typography
-                  sx={{
-                    fontWeight: "bold",
-                    fontSize: "28px",
-                  }}
-                >
-                  {district}
-                </Typography>
-                {toggleIncumbents ? (
-                  <></>
-                ) : (
-                  <div
-                    className={`${democratFlip} ${republicanFlip}`}
-                    style={{
-                      width: "40px",
-                      aspectRatio: 1,
-                      backgroundColor: ratingColor,
-                    }}
-                  ></div>
-                )}
-              </div>
-
-              <div>
-                {toggleIncumbents
-                  ? displayIncumbentData(districtData.incumbent)
-                  : displayCandidateData(
-                      districtData.candidates,
-                      districtData.incumbent,
+                <Accordion>
+                  <AccordionSummary
+                    sx={{ width: "100%" }}
+                    expandIcon={<ExpandMoreIcon />}
+                  >
+                    <Typography
+                      sx={{
+                        fontWeight: "bold",
+                        fontSize: "28px",
+                      }}
+                    >
+                      {district}
+                    </Typography>
+                    {toggleIncumbents ? (
+                      <></>
+                    ) : (
+                      <div
+                        className={`${democratFlip} ${republicanFlip}`}
+                        style={{
+                          width: "40px",
+                          aspectRatio: 1,
+                          backgroundColor: ratingColor,
+                        }}
+                      ></div>
                     )}
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <div>
+                      {toggleIncumbents
+                        ? displayIncumbentData(districtData.incumbent)
+                        : displayCandidateData(
+                            districtData.candidates,
+                            districtData.incumbent,
+                          )}
+                    </div>
+                  </AccordionDetails>
+                </Accordion>
               </div>
             </div>
           );

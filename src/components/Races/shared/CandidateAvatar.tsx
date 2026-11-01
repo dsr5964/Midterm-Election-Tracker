@@ -72,6 +72,7 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
           fontWeight: 600,
           flexShrink: 0,
           color: "white",
+          fontSize: "36px",
         }}
       >
         {initials}

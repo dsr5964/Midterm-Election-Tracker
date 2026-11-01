@@ -13,12 +13,11 @@ import {
   type RaceType,
   type State,
 } from "../types/types";
-import { displayCongressionalDistrictsByState } from "./Races/HouseElections";
+import HouseDistricts from "./Races/HouseElections";
 import {
   displayIncumbentData,
   displayCandidateData,
 } from "./Races/shared/Candidates";
-import { useState } from "react";
 
 interface CardProps {
   stateData: State | HouseState | null;
@@ -33,8 +32,6 @@ export default function ElectionCard({
   toggleIncumbents,
   raceType,
 }: CardProps) {
-  const [accordionState, setAccordionState] = useState<boolean[] | null>(null);
-
   if (stateData === null) {
     return <span>Select a state</span>;
   }
@@ -58,12 +55,18 @@ export default function ElectionCard({
         <Typography sx={{ fontWeight: "bold", fontSize: 28 }}>
           {stateData.name}
         </Typography>
+        {/* <Typography
+          sx={{ fontWeight: "bold", fontStyle: "italic", fontSize: "1rem" }}
+        >
+          * means the candidate is the incumbent
+        </Typography> */}
         <Typography>
-          {raceType === "house" &&
-            displayCongressionalDistrictsByState(
-              stateData as HouseState,
-              toggleIncumbents,
-            )}
+          {raceType === "house" && (
+            <HouseDistricts
+              data={stateData as HouseState}
+              toggleIncumbents={toggleIncumbents}
+            />
+          )}
         </Typography>
         {raceType !== "house" &&
           (toggleIncumbents
