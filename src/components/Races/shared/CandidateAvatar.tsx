@@ -46,7 +46,7 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
       .split(" ")
       .map((n) => n[0])
       .join("")
-      .slice(0, 3);
+      .slice(0, 2);
     const color =
       party === "D"
         ? "#052fd6"

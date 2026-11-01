@@ -7,7 +7,7 @@ import allStateAbbrevs from "../data/stateabbrevs.json";
 import geoData from "../data/states-10m.json";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Card from "./Card";
+import ElectionCard from "./Card";
 import { BackButton } from "./BackButton";
 import type {
   Candidate,
@@ -44,7 +44,6 @@ import { firstCharStringUppercase } from "../utils/parseString";
 // TODOS:
 // Move helper/util functions to separate file
 // Figure out how to get around any type for data argument
-//
 function renderCurrentPartyComposition(data, raceType: RaceType) {
   if (!data) return null;
   if (!data.currentComposition) return null;
@@ -301,6 +300,8 @@ function getStateColorFromIncumbent(incumbent: Incumbent): string {
       } else {
         return "#999699";
       }
+    default:
+      return "#000000";
   }
 }
 
@@ -331,9 +332,9 @@ function getStateColorBasedOnRace(
     const rating: Rating | null | undefined =
       "rating" in stateData ? stateData.rating : undefined;
     // TODO cleaner way of guaranteeing rating and incumbent exist to get state color
-    if (stateIncumbent && rating) {
+    if (stateIncumbent && rating && stateData.incumbent !== null) {
       const stateColor = toggleIncumbents
-        ? getStateColorFromIncumbent(stateData.incumbent!)
+        ? getStateColorFromIncumbent(stateData.incumbent)
         : getRatingColor(rating);
       return stateColor;
     }
@@ -545,7 +546,7 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           marginTop: "0",
         }}
       >
-        <Card
+        <ElectionCard
           stateData={stateData}
           toggleIncumbents={toggleIncumbents}
           raceType={activeRace}

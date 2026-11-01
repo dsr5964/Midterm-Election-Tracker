@@ -1,4 +1,3 @@
-import { CCardText } from "@coreui/react";
 import type { ReactNode } from "react";
 import { PARTY_LABELS } from "../../../constants";
 import type {
@@ -9,6 +8,7 @@ import type {
 } from "../../../types/types";
 import CandidateAvatar from "./CandidateAvatar";
 import { cleanName } from "../../../utils/parseString";
+import { Typography } from "@mui/material";
 
 function groupCandidatesByParty(candidates: Candidate[]): PartyGroup[] {
   const partyMap = new Map<string, Candidate[]>();
@@ -32,7 +32,7 @@ export function displayCandidateData(
   incumbent: Incumbent | null,
 ): ReactNode {
   if (!candidateData || candidateData.length === 0) {
-    return <CCardText>Please select a state</CCardText>;
+    return <Typography>Please select a state</Typography>;
   }
 
   const groups = groupCandidatesByParty(candidateData);
@@ -63,14 +63,17 @@ export function displayCandidateData(
                   name={candidate.name}
                   party={candidate.party}
                 />
-                <CCardText
+                <Typography
                   className={`${PARTY_LABELS[candidate.party]}-text`}
                   key={index}
+                  sx={{
+                    fontWeight: "bold",
+                  }}
                 >
                   {group.isPrimary
                     ? `${candidateName}`
                     : `${candidateName} (${candidate.party}) ${incumbent && candidate.name === incumbent.name ? "*" : ""}`}
-                </CCardText>
+                </Typography>
               </div>
             );
           })}
@@ -84,7 +87,7 @@ export function displayIncumbentData(
   incumbentData: Incumbent | null,
 ): ReactNode {
   if (incumbentData === null) {
-    return <CCardText>Vacant seat - no incumbent</CCardText>;
+    return <Typography>Vacant seat - no incumbent</Typography>;
   }
   const incumbentName = incumbentData.name.includes(" (")
     ? cleanName(incumbentData.name)
@@ -92,18 +95,18 @@ export function displayIncumbentData(
   return (
     <>
       <CandidateAvatar name={incumbentData.name} party={incumbentData.party} />
-      <CCardText>
+      <Typography>
         <strong>Incumbent: </strong>
         {incumbentName}
-      </CCardText>
-      <CCardText>
+      </Typography>
+      <Typography>
         <strong>Party: </strong>
         {incumbentData.party}
-      </CCardText>
-      <CCardText>
+      </Typography>
+      <Typography>
         <strong>First elected: </strong>
         {incumbentData.firstElected}
-      </CCardText>
+      </Typography>
     </>
   );
 }

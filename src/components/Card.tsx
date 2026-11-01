@@ -1,4 +1,11 @@
 import { CCard, CCardBody, CCardTitle, CCardText, CRow } from "@coreui/react";
+import Box from "@mui/material/Box";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+
 import {
   type Candidate,
   type HouseState,
@@ -21,22 +28,51 @@ interface CardProps {
 
 // TODO: Add a badge for flips
 // TODO: Add a badge for the rating
-function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
-  const [accordionState, setAccordionState] = useState<boolean[] | null>(null);
+export default function ElectionCard({
+  stateData,
+  toggleIncumbents,
+  raceType,
+}: CardProps) {
+  // const [accordionState, setAccordionState] = useState<boolean[] | null>(null);
+
   if (stateData === null) {
-    return <CCardText>Select a state</CCardText>;
+    return <span>Select a state</span>;
   }
   const incumbent: Incumbent | null =
     "incumbent" in stateData ? stateData.incumbent! : null;
   const candidates: Candidate[] | undefined =
     "candidates" in stateData ? stateData.candidates : undefined;
   return (
-    <CRow
-      style={{
+    <Card
+      sx={{
         display: "flex",
+        width: "20rem",
+        backgroundColor: "#1f2028",
+        border: "1px solid #2e303a",
+        color: "white",
+        borderRadius: "10px",
+        justifyContent: "center",
+        padding: "8px",
+        marginTop: "10px",
       }}
     >
-      <CCard
+      <CardContent>
+        <Typography sx={{ fontWeight: "bold", fontSize: 28 }}>
+          {stateData.name}
+        </Typography>
+        <Typography>
+          {raceType === "house" &&
+            displayCongressionalDistrictsByState(
+              stateData as HouseState,
+              toggleIncumbents,
+            )}
+        </Typography>
+        {raceType !== "house" &&
+          (toggleIncumbents
+            ? displayIncumbentData(incumbent)
+            : displayCandidateData(candidates, incumbent || null))}
+      </CardContent>
+      {/* <CCard
         style={{
           width: "20rem",
           backgroundColor: "#ffffff",
@@ -47,8 +83,8 @@ function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
           padding: "8px",
           marginTop: "10px",
         }}
-      >
-        <CCardBody>
+      > */}
+      {/* <CCardBody>
           <CCardTitle
             style={{
               fontSize: "24px",
@@ -66,10 +102,8 @@ function Card({ stateData, toggleIncumbents, raceType }: CardProps) {
             (toggleIncumbents
               ? displayIncumbentData(incumbent)
               : displayCandidateData(candidates, incumbent || null))}
-        </CCardBody>
-      </CCard>
-    </CRow>
+        </CCardBody> */}
+      {/* </CCard> */}
+    </Card>
   );
 }
-
-export default Card;

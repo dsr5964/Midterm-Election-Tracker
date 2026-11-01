@@ -1,17 +1,17 @@
-import { CCardText } from "@coreui/react";
 import type { HouseState } from "../../types/types";
 import { getRatingColor } from "../../utils/stateUtils";
 import {
   displayIncumbentData,
   displayCandidateData,
 } from "./shared/Candidates";
+import { Typography } from "@mui/material";
 
 export function displayCongressionalDistrictsByState(
   houseData: HouseState,
   toggleIncumbents: boolean,
 ) {
   if (houseData.districts.length === 0) {
-    return <CCardText>Please select a state</CCardText>;
+    return <span>Please select a state</span>;
   }
   const congressionalDistricts: string[] = houseData.districts.flatMap(
     (district) => {
