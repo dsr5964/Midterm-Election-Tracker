@@ -90,7 +90,7 @@
           { "name": "Dan S. Sullivan", "party": "R", "status": "nominee" },
           {
             "name": "Dan J. Sullivan Jr.",
-            "party": "R",
+            "party": "I",
             "status": "nominee",
             "note": "Another Dan Sullivan that isn't the incumbent senator is running as the Republican nominee despite legal challenges."
           },
@@ -189,7 +189,7 @@
     "FL": {
       "name": "Florida",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "likely-r",
           "likely-r",
@@ -643,7 +643,7 @@
     "MS": {
       "name": "Mississippi",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "likely-r",
           "likely-r",
@@ -676,7 +676,7 @@
     "MT": {
       "name": "Montana",
       "race": {
-        "mustWatch": false,
+        "mustWatch": true,
         "ratings": [
           "safe-r",
           "likely-r",

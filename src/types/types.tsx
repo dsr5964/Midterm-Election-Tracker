@@ -79,6 +79,7 @@ export type State = {
   candidates: Candidate[];
   incumbent: Incumbent | null; // maybe change to null instead of undefined
   flip: boolean;
+  mustWatch: boolean;
 };
 
 export type District = Record<string, DistrictData>;

@@ -134,6 +134,7 @@ function getSenateGovernorState(data, stateId: string): State | undefined {
       );
 
       const isFlip = checkIsFlip(incumbent.party, rating);
+      const mustWatch = data.states[stateKey].race.mustWatch;
 
       const state = {
         id: stateId,
@@ -143,6 +144,7 @@ function getSenateGovernorState(data, stateId: string): State | undefined {
         candidates: candidates,
         incumbent: incumbent,
         flip: isFlip,
+        mustWatch,
       };
       return state;
     }
@@ -544,6 +546,7 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           justifyContent: "center",
           alignItems: "center",
           marginTop: "0",
+          width: "100%",
         }}
       >
         <ElectionCard

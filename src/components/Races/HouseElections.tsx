@@ -11,7 +11,6 @@ import {
   displayIncumbentData,
   displayCandidateData,
 } from "./shared/Candidates";
-import { useState } from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 type HouseDistrictsProps = {
@@ -26,11 +25,6 @@ export default function HouseDistricts({
   if (data.districts.length === 0) {
     return <span>Please select a state</span>;
   }
-  const congressionalDistricts: string[] = data.districts.flatMap(
-    (district) => {
-      return Object.keys(district);
-    },
-  );
 
   const numDemocratMembers =
     data.statePartyControl.democrat !== 0
@@ -50,6 +44,8 @@ export default function HouseDistricts({
         sx={{
           display: "flex",
           justifyContent: "space-evenly",
+          p: 1,
+          width: "100%",
         }}
       >
         {numDemocratMembers !== null && (
@@ -74,80 +70,71 @@ export default function HouseDistricts({
           </Typography>
         )}
       </Box>
-      {congressionalDistricts.map((district) => {
-        const districtData = data.districts.find(
-          (d) => Object.keys(d)[0] === district,
-        )?.[district];
-        if (districtData) {
-          const ratingColor = getRatingColor(districtData.rating);
-          const incumbentParty = districtData.incumbent
-            ? districtData.incumbent.party
+      {data.districts.map((districtObj) => {
+        const [district, districtData] = Object.entries(districtObj)[0];
+        if (!districtData) return null;
+
+        const ratingColor = getRatingColor(districtData.rating);
+        const stripeClass =
+          districtData.flip && districtData.incumbent
+            ? `${districtData.rating}-striped-square`
             : "";
-
-          const republicanFlip =
-            districtData.flip &&
-            (incumbentParty === "D" || incumbentParty === "I")
-              ? `${districtData.rating}-striped-square`
-              : "";
-
-          const democratFlip =
-            districtData.flip &&
-            (incumbentParty === "R" || incumbentParty === "I")
-              ? `${districtData.rating}-striped-square`
-              : "";
-
-          return (
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-evenly",
-                alignItems: "center",
-                margin: "20px",
-              }}
-            >
-              <div style={{ display: "flex", gap: "20px" }}>
-                <Accordion>
-                  <AccordionSummary
-                    sx={{ width: "100%" }}
-                    expandIcon={<ExpandMoreIcon />}
-                  >
-                    <Typography
-                      sx={{
-                        fontWeight: "bold",
-                        fontSize: "28px",
-                      }}
-                    >
-                      {district}
-                    </Typography>
-                    {toggleIncumbents ? (
-                      <></>
-                    ) : (
-                      <div
-                        className={`${democratFlip} ${republicanFlip}`}
-                        style={{
-                          width: "40px",
-                          aspectRatio: 1,
-                          backgroundColor: ratingColor,
-                        }}
-                      ></div>
+        return (
+          <Accordion
+            key={district}
+            sx={{
+              width: "100%",
+              backgroundColor: "white",
+            }}
+          >
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-evenly",
+                  width: "100%",
+                  maxHeight: 420,
+                  overflowY: "auto",
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontWeight: "bold",
+                    fontSize: "28px",
+                    color: "black",
+                  }}
+                >
+                  {district}
+                  {districtData.mustWatch ? " ⭐️" : ""}
+                </Typography>
+                {!toggleIncumbents ? (
+                  <div
+                    className={stripeClass}
+                    style={{
+                      width: "40px",
+                      aspectRatio: 1,
+                      backgroundColor: ratingColor,
+                      flexShrink: 0,
+                    }}
+                  ></div>
+                ) : (
+                  <></>
+                )}
+              </Box>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                {toggleIncumbents
+                  ? displayIncumbentData(districtData.incumbent)
+                  : displayCandidateData(
+                      districtData.candidates,
+                      districtData.incumbent,
                     )}
-                  </AccordionSummary>
-                  <AccordionDetails>
-                    <div>
-                      {toggleIncumbents
-                        ? displayIncumbentData(districtData.incumbent)
-                        : displayCandidateData(
-                            districtData.candidates,
-                            districtData.incumbent,
-                          )}
-                    </div>
-                  </AccordionDetails>
-                </Accordion>
               </div>
-            </div>
-          );
-        }
+            </AccordionDetails>
+          </Accordion>
+        );
       })}
     </>
   );

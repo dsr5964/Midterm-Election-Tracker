@@ -2770,7 +2770,7 @@
                 "lean-r",
                 "lean-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Leela Gray",
@@ -3198,7 +3198,7 @@
                 "lean-r",
                 "lean-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Eliott Rodriguez",
@@ -4264,7 +4264,7 @@
                 "likely-r",
                 "lean-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "JD Ford",
@@ -4893,7 +4893,7 @@
                 {
                   "name": "Clay Higgins",
                   "party": "R",
-                  "status": "nominee"
+                  "status": "primary-tbd"
                 }
               ]
             }
@@ -5000,7 +5000,7 @@
                 "note": "Cleo Fields dropped his reelection campaign due to redistricting"
               },
               "ratings": ["safe-r", "safe-r", "safe-r", "safe-r", "likely-r"],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Pat Forbes",
@@ -5943,7 +5943,7 @@
                 "tossup",
                 "tossup"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Jake Johnson (Minnesota)",
@@ -6688,7 +6688,7 @@
                 "lean-r",
                 "tossup"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Teresa Benitez-Thompson",
@@ -8713,7 +8713,7 @@
                 "lean-r",
                 "lean-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Kristina Knickerbocker",
@@ -8850,7 +8850,7 @@
                 "lean-r",
                 "tossup"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Don Leonard",
@@ -10169,7 +10169,7 @@
                 "safe-r",
                 "likely-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Justin J. Pearson",
@@ -10421,7 +10421,7 @@
                 "likely-r",
                 "likely-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "note": "New district with no incumbent.",
               "candidates": [
                 {
@@ -11063,7 +11063,7 @@
                 "safe-r",
                 "likely-r"
               ],
-              "mustWatch": false,
+              "mustWatch": true,
               "candidates": [
                 {
                   "name": "Dan Barrios",
@@ -11273,7 +11273,7 @@
                 "firstElected": 2020
               },
               "ratings": ["safe-d"],
-              "mustWatch": false,
+              "mustWatch": true,
               "note": "Redrawn district now centered around Salt Lake City, creating a heavily Democratic-leaning seat despite Blake Moore being the current R incumbent.",
               "candidates": [
                 {

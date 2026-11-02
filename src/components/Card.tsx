@@ -43,7 +43,8 @@ export default function ElectionCard({
     <Card
       sx={{
         display: "flex",
-        width: "28rem",
+        width: "100%",
+        maxWidth: "36rem",
         backgroundColor: "#1f2028",
         border: "1px solid #2e303a",
         color: "white",
@@ -54,6 +55,7 @@ export default function ElectionCard({
       <CardContent>
         <Typography sx={{ fontWeight: "bold", fontSize: 28 }}>
           {stateData.name}
+          {"mustWatch" in stateData && stateData.mustWatch ? " ⭐️" : ""}
         </Typography>
         {/* <Typography
           sx={{ fontWeight: "bold", fontStyle: "italic", fontSize: "1rem" }}
