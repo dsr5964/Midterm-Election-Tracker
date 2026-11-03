@@ -1,9 +1,6 @@
-import { CCard, CCardBody, CCardTitle, CCardText, CRow } from "@coreui/react";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 import {
@@ -42,26 +39,19 @@ export default function ElectionCard({
   return (
     <Card
       sx={{
-        display: "flex",
         width: "100%",
         maxWidth: "36rem",
         backgroundColor: "#1f2028",
         border: "1px solid #2e303a",
         color: "white",
         borderRadius: "10px",
-        justifyContent: "center",
       }}
     >
-      <CardContent>
+      <CardContent sx={{ width: "100%" }}>
         <Typography sx={{ fontWeight: "bold", fontSize: 28 }}>
           {stateData.name}
           {"mustWatch" in stateData && stateData.mustWatch ? " ⭐️" : ""}
         </Typography>
-        {/* <Typography
-          sx={{ fontWeight: "bold", fontStyle: "italic", fontSize: "1rem" }}
-        >
-          * means the candidate is the incumbent
-        </Typography> */}
         <Typography>
           {raceType === "house" && (
             <HouseDistricts

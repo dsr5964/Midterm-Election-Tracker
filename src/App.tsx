@@ -4,8 +4,10 @@ import senateData from "./data/senate.json" with { type: "json" };
 import houseData from "./data/house.json" with { type: "json" };
 import governorData from "./data/governors.json" with { type: "json" };
 import HomePage from "./components/HomePage";
+import Footer from "./components/Footer";
 
 function App() {
+  const date = new Date();
   return (
     <>
       <section id="center">
@@ -28,6 +30,7 @@ function App() {
           </Routes>
         </Router>
       </section>
+      <Footer date={date.toISOString().split("T")[0]} />
     </>
   );
 }

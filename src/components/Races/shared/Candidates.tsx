@@ -74,8 +74,15 @@ export function displayCandidateData(
                 >
                   {group.isPrimary
                     ? `${candidateName}`
-                    : `${candidateName} (${candidate.party}) ${incumbent && candidate.name === incumbent.name ? "*" : ""}`}
+                    : `${candidateName} (${candidate.party})`}
                 </Typography>
+                {incumbent && candidate.name === incumbent.name ? (
+                  <Typography sx={{ fontWeight: "bold", color: "lightgray" }}>
+                    Incumbent
+                  </Typography>
+                ) : (
+                  ""
+                )}
               </div>
             );
           })}

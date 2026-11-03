@@ -3,6 +3,7 @@ import {
   AccordionDetails,
   AccordionSummary,
   Box,
+  Stack,
   Typography,
 } from "@mui/material";
 import type { HouseState } from "../../types/types";
@@ -70,72 +71,88 @@ export default function HouseDistricts({
           </Typography>
         )}
       </Box>
-      {data.districts.map((districtObj) => {
-        const [district, districtData] = Object.entries(districtObj)[0];
-        if (!districtData) return null;
+      <Box sx={{ width: "100%", maxHeight: 420, overflowY: "auto", mt: 1 }}>
+        {data.districts.map((districtObj) => {
+          const [district, districtData] = Object.entries(districtObj)[0];
+          if (!districtData) return null;
 
-        const ratingColor = getRatingColor(districtData.rating);
-        const stripeClass =
-          districtData.flip && districtData.incumbent
-            ? `${districtData.rating}-striped-square`
-            : "";
-        return (
-          <Accordion
-            key={district}
-            sx={{
-              width: "100%",
-              backgroundColor: "white",
-            }}
-          >
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-evenly",
-                  width: "100%",
-                  maxHeight: 420,
-                  overflowY: "auto",
-                }}
+          const ratingColor = getRatingColor(districtData.rating);
+          const stripeClass =
+            districtData.flip && districtData.incumbent
+              ? `${districtData.rating}-striped-square`
+              : "";
+
+          return (
+            <Accordion
+              key={district}
+              disableGutters
+              square
+              sx={{
+                width: "100%",
+                backgroundColor: "#262833",
+                color: "white",
+                border: "1px solid #2e303a",
+                "&:not(:last-child)": { borderBottom: 0 },
+                "&::before": { display: "none" },
+              }}
+            >
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
               >
-                <Typography
+                <Box
                   sx={{
-                    fontWeight: "bold",
-                    fontSize: "28px",
-                    color: "black",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    width: "100%",
+                    pr: 1,
                   }}
                 >
-                  {district}
-                  {districtData.mustWatch ? " ⭐️" : ""}
-                </Typography>
-                {!toggleIncumbents ? (
-                  <div
-                    className={stripeClass}
-                    style={{
-                      width: "40px",
-                      aspectRatio: 1,
-                      backgroundColor: ratingColor,
-                      flexShrink: 0,
+                  <Typography
+                    sx={{
+                      fontWeight: "bold",
+                      fontSize: "22px",
+                      color: "white",
                     }}
-                  ></div>
-                ) : (
-                  <></>
-                )}
-              </Box>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
+                  >
+                    {district}
+                    {districtData.mustWatch ? " ⭐️" : ""}
+                  </Typography>
+                  {!toggleIncumbents && (
+                    <Stack>
+                      <Typography>{districtData.rating}</Typography>
+                      <div
+                        className={stripeClass}
+                        style={{
+                          width: "32px",
+                          aspectRatio: 1,
+                          borderRadius: "4px",
+                          backgroundColor: ratingColor,
+                          flexShrink: 0,
+                        }}
+                      />
+                    </Stack>
+                  )}
+                </Box>
+              </AccordionSummary>
+
+              <AccordionDetails
+                sx={{
+                  backgroundColor: "#1a1b22",
+                  borderTop: "1px solid #2e303a",
+                }}
+              >
                 {toggleIncumbents
                   ? displayIncumbentData(districtData.incumbent)
                   : displayCandidateData(
                       districtData.candidates,
                       districtData.incumbent,
                     )}
-              </div>
-            </AccordionDetails>
-          </Accordion>
-        );
-      })}
+              </AccordionDetails>
+            </Accordion>
+          );
+        })}
+      </Box>
     </>
   );
 }
