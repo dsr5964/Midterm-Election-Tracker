@@ -676,7 +676,7 @@
     "MT": {
       "name": "Montana",
       "race": {
-        "mustWatch": true,
+        "mustWatch": false,
         "ratings": [
           "safe-r",
           "likely-r",
