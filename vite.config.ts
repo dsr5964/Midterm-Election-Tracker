@@ -9,6 +9,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ["react-simple-maps", "topojson-client"],
   },
+  base: "/Midterm-Election-Tracker",
   build: {
     sourcemap: true,
     commonjsOptions: {
