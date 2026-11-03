@@ -40,6 +40,7 @@ import "../App.css";
 import Key from "./Key";
 import { getRatingColor } from "../utils/stateUtils";
 import { firstCharStringUppercase } from "../utils/parseString";
+import { Box, Stack, Typography } from "@mui/material";
 
 // TODOS:
 // Move helper/util functions to separate file
@@ -54,7 +55,7 @@ function renderCurrentPartyComposition(data, raceType: RaceType) {
   return (
     <div>
       Current Composition
-      <div style={{ display: "flex" }}>
+      <Box sx={{ m: 3 }}>
         {partyKeys.map((key) => {
           const partyColor = key === "Democrat" ? "#052fd6" : "#d60819";
           return (
@@ -72,7 +73,21 @@ function renderCurrentPartyComposition(data, raceType: RaceType) {
             </span>
           );
         })}
-      </div>
+      </Box>
+      <Stack sx={{ m: 3 }}>
+        {raceType === "house" ? (
+          <Typography>
+            The opposition party needs 218 seats to take the majority.{" "}
+          </Typography>
+        ) : raceType === "senate" ? (
+          <Typography>
+            Democrats need 51 seats to take the majority.
+            <br /> Republicans need only 50 seats to hold the majority
+          </Typography>
+        ) : (
+          <></>
+        )}
+      </Stack>
     </div>
   );
 }
@@ -377,6 +392,7 @@ const initialState: State = {
   candidates: [],
   incumbent: null,
   flip: false,
+  mustWatch: false,
 };
 
 const initialHouseState: HouseState = {
