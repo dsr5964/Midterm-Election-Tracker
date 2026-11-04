@@ -1,10 +1,5 @@
 import ElectionMap from "./components/ElectionMap";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  BrowserRouter,
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import senateData from "./data/senate.json" with { type: "json" };
 import houseData from "./data/house.json" with { type: "json" };
 import governorData from "./data/governors.json" with { type: "json" };
