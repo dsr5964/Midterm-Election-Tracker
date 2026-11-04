@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dsr5964.github.io/Midterm-Election-Tracker/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
