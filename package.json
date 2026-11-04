@@ -6,7 +6,7 @@
   "homepage": "https://dsr5964.github.io/Midterm-Election-Tracker/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
