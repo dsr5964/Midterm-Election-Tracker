@@ -6,6 +6,7 @@ import babel from "@rolldown/plugin-babel";
 export default defineConfig({
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
   // assetsInclude: ["**/*.json"],
+  base: "/Midterm-Election-Tracker/",
   optimizeDeps: {
     include: ["react-simple-maps", "topojson-client"],
   },
