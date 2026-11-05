@@ -1,5 +1,5 @@
 import ElectionMap from "./components/ElectionMap";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import senateData from "./data/senate.json" with { type: "json" };
 import houseData from "./data/house.json" with { type: "json" };
 import governorData from "./data/governors.json" with { type: "json" };
@@ -12,8 +12,7 @@ function App() {
     <>
       <section id="center">
         <title>Midterm Elections</title>
-
-        <BrowserRouter basename="/Midterm-Election-Tracker">
+        <HashRouter basename="/">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route
@@ -29,7 +28,7 @@ function App() {
               element={<ElectionMap data={houseData} raceType="house" />}
             />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </section>
       <Footer date={date.toISOString().split("T")[0]} />
     </>
