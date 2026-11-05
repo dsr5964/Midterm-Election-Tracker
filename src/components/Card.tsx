@@ -22,7 +22,6 @@ interface CardProps {
 }
 
 // TODO: Add a badge for flips
-// TODO: Add a badge for the rating
 export default function ElectionCard({
   stateData,
   toggleIncumbents,
