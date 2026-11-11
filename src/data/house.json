@@ -555,7 +555,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "JoAnna Mendoza",
+                  "name": "JoAnna H. Mendoza",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -1523,7 +1523,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Angela Gonzalez-Torres",
+                  "name": "Angela Gonzales-Torres",
                   "party": "D",
                   "status": "nominee"
                 }
@@ -2439,7 +2439,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Austin Rogers",
+                  "name": "Austin James Rogers",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -2709,7 +2709,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Joe Strada",
+                  "name": "Joseph Horatio Strada Jr.",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3273,7 +3273,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Jim Kingston",
+                  "name": "Jim Kingston (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3518,7 +3518,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "John Cowan (politician)",
+                  "name": "John Cowan (Georgia politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -4810,17 +4810,17 @@
                 {
                   "name": "Lauren Jewett",
                   "party": "D",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Steve Scalise",
                   "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Randall Arrington",
                   "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 }
               ]
             }
@@ -4841,14 +4841,19 @@
                   "status": "nominee"
                 },
                 {
+                  "name": "Peter Williams",
+                  "party": "R",
+                  "status": "nominee"
+                },
+                {
                   "name": "Renada Collins",
                   "party": "D",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Lisa Ballay",
                   "party": "L",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 }
               ]
             }
@@ -4866,22 +4871,22 @@
                 {
                   "name": "John Day",
                   "party": "D",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Tia LeBrun",
                   "party": "D",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Caleb Walker (candidate)",
                   "party": "D",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Clay Higgins",
                   "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 }
               ]
             }
@@ -4899,22 +4904,22 @@
                 {
                   "name": "Conrad Cable",
                   "party": "D",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Matt Gromlich",
                   "party": "D",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Mike Johnson",
                   "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Mike Nichols (biologist)",
                   "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 }
               ]
             }
@@ -4932,49 +4937,14 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Dan McKay",
+                  "name": "Pat Moore (Louisiana politician)",
                   "party": "D",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Patricia Moore",
-                  "party": "D",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Antonio Wilson",
-                  "party": "D",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Oscar Dantzler",
-                  "party": "R",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Austin Magee",
-                  "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Gabe Girment",
                   "party": "R",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Michael Echols",
-                  "party": "R",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Mitsi Cordell",
-                  "party": "R",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Stewart Cathey Jr.",
-                  "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 }
               ]
             }
@@ -4991,44 +4961,14 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Pat Forbes",
-                  "party": "D",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Lindsay Garcia",
-                  "party": "D",
-                  "status": "primary-tbd"
-                },
-                {
                   "name": "Chauna Banks",
                   "party": "D",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Monique Appeaning",
-                  "party": "R",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Larry Davis",
-                  "party": "R",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Rich Edmonds",
-                  "party": "R",
-                  "status": "primary-tbd"
-                },
-                {
-                  "name": "Michael Mebruer",
-                  "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 },
                 {
                   "name": "Blake Miguez",
                   "party": "R",
-                  "status": "primary-tbd"
+                  "status": "nominee"
                 }
               ]
             }
@@ -5649,7 +5589,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Sean McCann",
+                  "name": "Sean Andrew McCann",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -5822,7 +5762,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Christina Hines",
+                  "name": "Christina Bertrand Hines",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -5936,7 +5876,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Jake Johnson (Minnesota)",
+                  "name": "Jake Johnson (Minnesota politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6287,7 +6227,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Fred Wellman",
+                  "name": "Frederick Paul Wellman",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6681,7 +6621,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Teresa Benitez-Thompson",
+                  "name": "Teresa Francisca Benitez-Thompson",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6896,7 +6836,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Zack Mullock",
+                  "name": "Zachary Mullock",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7816,7 +7756,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Anthony Constantino (businessman)",
+                  "name": "Anthony Thomas Constantino",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8084,7 +8024,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Chuck Hubbard",
+                  "name": "Charles Noble Hubbard",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8118,7 +8058,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Cyril Jefferson",
+                  "name": "Cyril Anthony Jefferson",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8288,7 +8228,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Jamie Ager",
+                  "name": "Jamie Petersen Ager",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8346,7 +8286,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Paul Barringer (attorney)",
+                  "name": "Paul Jehu Barringer III",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8380,7 +8320,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Lakesha Womack",
+                  "name": "LaKesha Shanese Womack",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8815,7 +8755,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "David Joyce (poltician)",
+                  "name": "David Joyce (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -9341,7 +9281,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Bob Brooks",
+                  "name": "Bob Brooks (Pennsylvania politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -10075,7 +10015,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Johnny Garrett",
+                  "name": "Johnny Garrett (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -10385,7 +10325,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Jessica Hart Steinmann",
+                  "name": "Jessica Steinmann",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11062,7 +11002,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Jace Yarbrough",
+                  "name": "Jace Randall Yarbrough",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11151,12 +11091,12 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Johnny Garcia",
+                  "name": "Johnny Garcia (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
                 {
-                  "name": "Carlos De La Cruz (gym owner)",
+                  "name": "Carlos De La Cruz (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -11415,7 +11355,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Shannon Taylor",
+                  "name": "Shannon Taylor (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -12057,7 +11997,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Mitchell Berman",
+                  "name": "Mitchell Berman (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -12231,7 +12171,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Michael Alfonso",
+                  "name": "Michael Alfonso (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
