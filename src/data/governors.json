@@ -386,7 +386,8 @@
         },
         "candidates": [
           { "name": "Terri Pickens", "party": "D", "status": "nominee" },
-          { "name": "Brad Little", "party": "R", "status": "nominee" }
+          { "name": "Brad Little", "party": "R", "status": "nominee" },
+          { "name": "John Stegner", "party": "I", "status": "nominee" }
         ]
       }
     },
@@ -1075,7 +1076,8 @@
             "party": "R",
             "status": "nominee",
             "note": "Incumbent US Senator"
-          }
+          },
+          { "name": "David Hatley", "party": "I", "status": "nominee" }
         ]
       }
     },
@@ -1196,8 +1198,9 @@
           "firstElected": 2018
         },
         "candidates": [
-          { "name": "Kenneth Cassner", "party": "D", "status": "nominee" },
-          { "name": "Eric Barlow", "party": "R", "status": "nominee" }
+          { "name": "Kenneth Casner", "party": "D", "status": "nominee" },
+          { "name": "Eric Barlow", "party": "R", "status": "nominee" },
+          { "name": "Rebecca Bextel", "party": "I", "status": "nominee" }
         ],
         "note": "Open seat — Gordon term-limited. Deep red state."
       }

@@ -238,7 +238,7 @@ function Key({ toggleIncumbents, electionType }: KeyProps) {
               alignItems: "center",
             }}
           >
-            {electionType === "House" ? renderHouseStateLevelKey() : <></>}
+            {electionType === "house" ? renderHouseStateLevelKey() : <></>}
             {toggleIncumbents
               ? renderIncumbentKey(electionType)
               : renderMatchupKey(electionType)}

@@ -181,7 +181,11 @@
         },
         "candidates": [
           { "name": "Chris Coons", "party": "D", "status": "nominee" },
-          { "name": "Michael Katz", "party": "R", "status": "nominee" }
+          {
+            "name": "Michael Katz (politician)",
+            "party": "R",
+            "status": "nominee"
+          }
         ]
       }
     },
@@ -475,7 +479,11 @@
           "firstElected": 2014
         },
         "candidates": [
-          { "name": "Jamie Davis", "party": "D", "status": "nominee" },
+          {
+            "name": "Jamie Davis (politician)",
+            "party": "D",
+            "status": "nominee"
+          },
           {
             "name": "Julia Letlow",
             "party": "R",
@@ -974,7 +982,7 @@
         },
         "candidates": [
           {
-            "name": "N'Kiyla Thomas",
+            "name": "N'Kiyla Jasmine Thomas",
             "party": "D",
             "status": "nominee"
           },
