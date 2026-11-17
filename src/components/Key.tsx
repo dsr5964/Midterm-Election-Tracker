@@ -113,7 +113,7 @@ function renderMatchupKey(electionType: string) {
         }}
       ></div>
       <div>
-        Pickups
+        <span style={{ fontWeight: "bold" }}>Pickups</span>
         <div
           style={{
             display: "flex",
@@ -218,6 +218,8 @@ function Key({ toggleIncumbents, electionType }: KeyProps) {
         margin: "10px",
         justifyContent: "center",
         border: "1px solid white",
+        backgroundColor: "#1f2028",
+        padding: "10px",
       }}
     >
       <CCardBody>
