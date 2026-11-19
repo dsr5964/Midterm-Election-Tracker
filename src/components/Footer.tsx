@@ -1,16 +1,10 @@
 import { Typography } from "@mui/material";
 
-type FooterProps = {
-  date: string;
-};
-export default function Footer({ date }: FooterProps) {
+export default function Footer() {
   return (
     <>
       <Typography>
-        Ratings and candidates as of {date}. Not live results.
-      </Typography>
-      <Typography>
-        Data sourced from{" "}
+        Data and pictures sourced from{" "}
         <span>
           <a
             href="https://ballotpedia.org/United_States_Congress_elections,_2026"

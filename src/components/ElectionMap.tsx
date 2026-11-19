@@ -54,7 +54,9 @@ function renderCurrentPartyComposition(data, raceType: RaceType) {
   const partyKeys = Object.keys(currentComposition);
   return (
     <div>
-      Current Composition
+      <Typography style={{ fontWeight: "bold", fontSize: "24px" }}>
+        Current Composition
+      </Typography>
       <Box sx={{ m: 3 }}>
         {partyKeys.map((key) => {
           const partyColor = key === "Democrat" ? "#052fd6" : "#d60819";
@@ -451,6 +453,9 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
         <h1>
           <strong>{firstCharStringUppercase(activeRace)} Map 2026</strong>
         </h1>
+        <Typography style={{ fontStyle: "italic" }}>
+          Ratings and candidates as of 11-04-2026. Not live results.
+        </Typography>
         <div style={{ display: "flex", justifyContent: "center" }}>
           {renderCurrentPartyComposition(data, activeRace)}
         </div>

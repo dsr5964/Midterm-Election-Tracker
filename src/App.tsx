@@ -7,7 +7,6 @@ import HomePage from "./components/HomePage";
 import Footer from "./components/Footer";
 
 function App() {
-  const date = new Date();
   return (
     <>
       <section id="center">
@@ -30,7 +29,7 @@ function App() {
           </Routes>
         </HashRouter>
       </section>
-      <Footer date={date.toISOString().split("T")[0]} />
+      <Footer />
     </>
   );
 }
