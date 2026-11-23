@@ -162,6 +162,11 @@
             "name": "Sarah Huckabee Sanders",
             "party": "R",
             "status": "nominee"
+          },
+          {
+            "name": "Colt Shelby",
+            "party": "L",
+            "status": "nominee"
           }
         ],
         "note": "Sanders running for re-election in a deep red state."
