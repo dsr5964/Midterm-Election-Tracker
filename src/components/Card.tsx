@@ -50,14 +50,12 @@ export default function ElectionCard({
           {stateData.name}
           {"mustWatch" in stateData && stateData.mustWatch ? " ⭐️" : ""}
         </Typography>
-        <Typography>
-          {raceType === "house" && (
-            <HouseDistricts
-              data={stateData as HouseState}
-              toggleIncumbents={toggleIncumbents}
-            />
-          )}
-        </Typography>
+        {raceType === "house" && (
+          <HouseDistricts
+            data={stateData as HouseState}
+            toggleIncumbents={toggleIncumbents}
+          />
+        )}
         {raceType !== "house" &&
           (toggleIncumbents
             ? displayIncumbentData(incumbent)

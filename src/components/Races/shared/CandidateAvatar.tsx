@@ -5,25 +5,55 @@ import { useEffect, useState } from "react";
 type CandidateAvatarProps = {
   name: string;
   party: PoliticalParty;
+  timeoutMs?: number;
 };
-export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
+export default function CandidateAvatar({
+  name,
+  party,
+  timeoutMs = 3000,
+}: CandidateAvatarProps) {
   const [imgUrl, setImgUrl] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
+    const controller = new AbortController();
     let cancelled = false;
+
+    const timeout = setTimeout(() => {
+      controller.abort();
+    }, timeoutMs);
+
     const fetchImage = async () => {
       try {
         setLoading(true);
         const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name)}`;
-        const res = await fetch(url);
+        const res = await fetch(url, { signal: controller.signal });
+        clearTimeout(timeout);
         setLoading(false);
+
+        if (!res.ok) throw new Error(`Network response failed`);
+        if (res.status === 302) {
+          setImgUrl(null);
+          controller.abort();
+          return;
+        }
         if (res.status === 404) {
           setImgUrl(null);
+          controller.abort();
           return;
         } else {
           const data = await res.json();
+          const imgUrl = data.thumbnail.source;
+
+          // This is to avoid an image being displayed that is not a portrait
+          // For some candidates the page would get redirected to another page which would display
+          // a picture for example the election result map. This is not preferred.
+          if (data.title !== name) {
+            setImgUrl(null);
+            setLoading(false);
+            return;
+          }
           if (!cancelled) {
-            setImgUrl(data.thumbnail?.source ?? null);
+            setImgUrl(imgUrl ?? null);
             setLoading(false);
           }
         }
@@ -39,8 +69,11 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
 
     return () => {
       cancelled = true;
+      clearTimeout(timeoutMs);
+      controller.abort();
     };
-  }, [name, imgUrl]);
+  }, [name, imgUrl, timeoutMs]);
+
   function renderAvatar() {
     const initials = name
       .split(" ")
@@ -94,7 +127,10 @@ export default function CandidateAvatar({ name, party }: CandidateAvatarProps) {
           style={{
             borderRadius: "75%",
           }}
-          onError={() => setImgUrl(null)}
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            setImgUrl(null);
+          }}
         />
       </div>
     );
