@@ -102,7 +102,14 @@ export function displayIncumbentData(
     ? cleanName(incumbentData.name)
     : incumbentData.name;
   return (
-    <>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        padding: "20px",
+      }}
+    >
       <CandidateAvatar name={incumbentData.name} party={incumbentData.party} />
       <Typography>
         <strong>Incumbent: </strong>
@@ -116,6 +123,6 @@ export function displayIncumbentData(
         <strong>First elected: </strong>
         {incumbentData.firstElected}
       </Typography>
-    </>
+    </div>
   );
 }
