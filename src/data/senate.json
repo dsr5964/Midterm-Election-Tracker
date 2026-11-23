@@ -76,7 +76,7 @@
         "isSpecial": false,
         "primaryDate": "2026-08-18",
         "incumbent": {
-          "name": "Dan S. Sullivan",
+          "name": "Dan Sullivan (U.S. senator)",
           "party": "R",
           "firstElected": 2014
         },
@@ -87,7 +87,11 @@
             "status": "nominee",
             "note": "Former at-large House rep; first Alaska Native in Congress."
           },
-          { "name": "Dan S. Sullivan", "party": "R", "status": "nominee" },
+          {
+            "name": "Dan Sullivan (U.S. senator)",
+            "party": "R",
+            "status": "nominee"
+          },
           {
             "name": "Dan J. Sullivan Jr.",
             "party": "I",
@@ -1071,7 +1075,7 @@
         },
         "candidates": [
           {
-            "name": "Annie Andrews (pediatrician)",
+            "name": "Annie Andrews",
             "party": "D",
             "status": "nominee"
           },
