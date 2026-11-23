@@ -47,7 +47,8 @@ export default function CandidateAvatar({
           // This is to avoid an image being displayed that is not a portrait
           // For some candidates the page would get redirected to another page which would display
           // a picture for example the election result map. This is not preferred.
-          if (data.title !== name) {
+          const title: string = data.title;
+          if (title !== name) {
             setImgUrl(null);
             setLoading(false);
             return;

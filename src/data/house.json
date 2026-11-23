@@ -2439,7 +2439,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Austin James Rogers",
+                  "name": "Austin Rogers (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3147,7 +3147,7 @@
           {
             "FL-26": {
               "incumbent": {
-                "name": "Mario Diaz-Balart",
+                "name": "Mario Díaz-Balart",
                 "party": "R",
                 "firstElected": 2002
               },
@@ -3171,7 +3171,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Mario Diaz-Balart",
+                  "name": "Mario Díaz-Balart",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3181,7 +3181,7 @@
           {
             "FL-27": {
               "incumbent": {
-                "name": "Maria Elvira Salazar",
+                "name": "María Elvira Salazar",
                 "party": "R",
                 "firstElected": 2020
               },
@@ -3205,7 +3205,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Maria Elvira Salazar",
+                  "name": "María Elvira Salazar",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -3804,7 +3804,7 @@
           {
             "IL-4": {
               "incumbent": {
-                "name": "Chuy Garcia",
+                "name": "Chuy García",
                 "party": "D",
                 "firstElected": 2018,
                 "retiring": true
@@ -3814,7 +3814,7 @@
               "note": "Chuy Garcia is current incumbent.",
               "candidates": [
                 {
-                  "name": "Patty Garcia",
+                  "name": "Patty García",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -4266,7 +4266,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "JD Ford",
+                  "name": "J. D. Ford",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -4304,7 +4304,7 @@
           {
             "IN-7": {
               "incumbent": {
-                "name": "Andre Carson",
+                "name": "André Carson",
                 "party": "D",
                 "firstElected": 2008
               },
@@ -4312,7 +4312,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Andre Carson",
+                  "name": "André Carson",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6409,7 +6409,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Samuel Kelley Forstag",
+                  "name": "Sam Forstag",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6621,7 +6621,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Teresa Francisca Benitez-Thompson",
+                  "name": "Teresa Benitez-Thompson",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -6836,7 +6836,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Zachary Mullock",
+                  "name": "Zack Mullock",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7170,7 +7170,7 @@
           {
             "NM-3": {
               "incumbent": {
-                "name": "Teresa Leger Fernandez",
+                "name": "Teresa Leger Fernández",
                 "party": "D",
                 "firstElected": 2020
               },
@@ -7178,7 +7178,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Teresa Leger Fernandez",
+                  "name": "Teresa Leger Fernández",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7756,7 +7756,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Anthony Thomas Constantino",
+                  "name": "Anthony Constantino (politician)",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -8228,7 +8228,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Jamie Petersen Ager",
+                  "name": "Jamie Ager",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8286,7 +8286,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Paul Barringer (attorney)",
+                  "name": "Paul Barringer (politician)",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -8320,7 +8320,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "LaKesha Shanese Womack",
+                  "name": "LaKesha Womack",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -11002,7 +11002,7 @@
                   "status": "nominee"
                 },
                 {
-                  "name": "Jace Randall Yarbrough",
+                  "name": "Jace Yarbrough",
                   "party": "R",
                   "status": "nominee"
                 }
@@ -12049,7 +12049,7 @@
               "mustWatch": true,
               "candidates": [
                 {
-                  "name": "Rebecca Cooke (politician)",
+                  "name": "Rebecca Cooke",
                   "party": "D",
                   "status": "nominee",
                   "note": "Nominee for this district in 2024"
