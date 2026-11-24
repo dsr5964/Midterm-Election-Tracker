@@ -1602,13 +1602,13 @@
           {
             "CA-38": {
               "incumbent": {
-                "name": "Linda Sanchez",
+                "name": "Linda Sánchez",
                 "party": "D",
                 "firstElected": 2002
               },
               "ratings": ["safe-d"],
               "mustWatch": false,
-              "note": "Linda Sanchez is current incumbent running in redrawn CA-41.",
+              "note": "Linda Sánchez is current incumbent running in redrawn CA-41.",
               "candidates": [
                 {
                   "name": "Hilda Solis",
@@ -1679,10 +1679,10 @@
               },
               "ratings": ["safe-d"],
               "mustWatch": false,
-              "note": "Ken Calvert is current incumbent; Linda Sanchez running in redrawn district.",
+              "note": "Ken Calvert is current incumbent; Linda Sánchez running in redrawn district.",
               "candidates": [
                 {
-                  "name": "Linda Sanchez",
+                  "name": "Linda Sánchez",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -1743,7 +1743,7 @@
           {
             "CA-44": {
               "incumbent": {
-                "name": "Nanette Barragan",
+                "name": "Nanette Barragán",
                 "party": "D",
                 "firstElected": 2016
               },
@@ -1751,7 +1751,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Nanette Barragan",
+                  "name": "Nanette Barragán",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -2223,7 +2223,7 @@
           {
             "CT-1": {
               "incumbent": {
-                "name": "John Larson",
+                "name": "John B. Larson",
                 "party": "D",
                 "firstElected": 1998,
                 "note": "Incumbent lost renomination."
@@ -4144,7 +4144,7 @@
           {
             "IN-1": {
               "incumbent": {
-                "name": "Frank Mrvan",
+                "name": "Frank J. Mrvan",
                 "party": "D",
                 "firstElected": 2020
               },
@@ -4163,7 +4163,7 @@
               "mustWatch": false,
               "candidates": [
                 {
-                  "name": "Frank Mrvan",
+                  "name": "Frank J. Mrvan",
                   "party": "D",
                   "status": "nominee"
                 },
@@ -7383,7 +7383,7 @@
           {
             "NY-7": {
               "incumbent": {
-                "name": "Nydia Velazquez",
+                "name": "Nydia Velázquez",
                 "party": "D",
                 "firstElected": 1992,
                 "retiring": true

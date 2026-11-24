@@ -194,7 +194,9 @@ function renderIncumbentKey(electionType: string) {
           }}
         ></div>
         Republican Incumbent retiring{" "}
-        {electionType === "Governor" ? "or lost renomination" : ""}
+        {electionType === "Governor" || electionType === "Senate"
+          ? "or lost renomination"
+          : ""}
         <div
           style={{
             width: "40px",
