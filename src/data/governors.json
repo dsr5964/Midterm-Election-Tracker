@@ -968,7 +968,8 @@
         "incumbent": {
           "name": "Dan McKee",
           "party": "D",
-          "note": "Became governor after Gina Raimondo resigned to become Secretary of Commerce in 2021. Lost renomination to democrat challenger Helena Foulkes",
+          "retiring": true,
+          "note": "Lost renomination.",
           "firstElected": 2022
         },
         "candidates": [
