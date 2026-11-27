@@ -56,11 +56,16 @@ html {
 
 button {
   background-color: rgb(107, 107, 107);
+  color: white;
 }
 
 body {
   margin: 0;
   background-color: "#16171d";
+}
+
+a {
+  color: rgb(208, 173, 240);
 }
 
 h1,
