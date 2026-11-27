@@ -421,6 +421,7 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
     }
   });
   const [toggleIncumbents, setToggleIncumbents] = useState<boolean>(false);
+  const [expandedAccordions, setExpandedAccordions] = useState<number[]>([]);
 
   const handleButtonClick = (name: string) => {
     navigate(`/${name}`);
@@ -428,8 +429,9 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
     setStateData(null);
   };
 
-  const handleSelectState = (state: State | HouseState) => {
+  const handleSelectState = (state: State | HouseState, raceType: RaceType) => {
     setStateData(state);
+    if (raceType === "house") setExpandedAccordions([]);
   };
 
   return (
@@ -551,7 +553,7 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
                         cursor: "pointer",
                       },
                     }}
-                    onClick={() => handleSelectState(state)}
+                    onClick={() => handleSelectState(state, raceType)}
                   ></Geography>
                 );
               });
@@ -574,6 +576,8 @@ export default function ElectionMap({ data, raceType }: ElectionMapArgs) {
           stateData={stateData}
           toggleIncumbents={toggleIncumbents}
           raceType={activeRace}
+          expandedAccordions={expandedAccordions}
+          setExpandedAccordions={setExpandedAccordions}
         />
         <Key toggleIncumbents={toggleIncumbents} electionType={activeRace} />
       </div>

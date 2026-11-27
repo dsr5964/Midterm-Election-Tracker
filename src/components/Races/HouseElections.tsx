@@ -3,6 +3,7 @@ import {
   AccordionDetails,
   AccordionSummary,
   Box,
+  Button,
   Stack,
   Typography,
 } from "@mui/material";
@@ -17,11 +18,15 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 type HouseDistrictsProps = {
   data: HouseState;
   toggleIncumbents: boolean;
+  expandedAccordions: number[];
+  setExpandedAccordions: React.Dispatch<React.SetStateAction<number[]>>;
 };
 
 export default function HouseDistricts({
   data,
   toggleIncumbents,
+  expandedAccordions,
+  setExpandedAccordions,
 }: HouseDistrictsProps) {
   if (data.districts.length === 0) {
     return <span>Please select a state</span>;
@@ -39,6 +44,25 @@ export default function HouseDistricts({
     data.statePartyControl.independent !== 0
       ? `Independents: ${data.statePartyControl.independent}`
       : null;
+
+  const handleAccordionClicked = (index: number) => {
+    if (expandedAccordions.includes(index)) {
+      setExpandedAccordions(expandedAccordions.filter((n) => n !== index));
+    } else {
+      setExpandedAccordions([...expandedAccordions, index]);
+    }
+  };
+
+  const expandAll = () => {
+    const expandArray: number[] = [];
+    data.districts.forEach((_, index) => expandArray.push(index));
+    setExpandedAccordions(expandArray);
+  };
+
+  const collapseAll = () => {
+    setExpandedAccordions([]);
+  };
+
   return (
     <>
       <Box
@@ -71,8 +95,32 @@ export default function HouseDistricts({
           </Typography>
         )}
       </Box>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          gap: 3,
+        }}
+      >
+        <Button
+          sx={{
+            border: "1px solid gray",
+          }}
+          onClick={expandAll}
+        >
+          Expand All
+        </Button>
+        <Button
+          sx={{
+            border: "1px solid gray",
+          }}
+          onClick={collapseAll}
+        >
+          Collapse All
+        </Button>
+      </Box>
       <Box sx={{ width: "100%", maxHeight: 420, overflowY: "auto", mt: 1 }}>
-        {data.districts.map((districtObj) => {
+        {data.districts.map((districtObj, index) => {
           const [district, districtData] = Object.entries(districtObj)[0];
           if (!districtData) return null;
 
@@ -84,9 +132,11 @@ export default function HouseDistricts({
 
           return (
             <Accordion
-              key={district}
+              key={index}
               disableGutters
               square
+              onChange={() => handleAccordionClicked(index)}
+              expanded={expandedAccordions.includes(index)}
               sx={{
                 width: "100%",
                 backgroundColor: "#262833",

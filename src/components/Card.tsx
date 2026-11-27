@@ -19,6 +19,8 @@ interface CardProps {
   stateData: State | HouseState | null;
   toggleIncumbents: boolean;
   raceType: RaceType;
+  expandedAccordions: number[];
+  setExpandedAccordions: React.Dispatch<React.SetStateAction<number[]>>;
 }
 
 // TODO: Add a badge for flips
@@ -26,6 +28,8 @@ export default function ElectionCard({
   stateData,
   toggleIncumbents,
   raceType,
+  expandedAccordions,
+  setExpandedAccordions,
 }: CardProps) {
   if (stateData === null) {
     return <span>Select a state</span>;
@@ -54,6 +58,8 @@ export default function ElectionCard({
           <HouseDistricts
             data={stateData as HouseState}
             toggleIncumbents={toggleIncumbents}
+            expandedAccordions={expandedAccordions}
+            setExpandedAccordions={setExpandedAccordions}
           />
         )}
         {raceType !== "house" &&
